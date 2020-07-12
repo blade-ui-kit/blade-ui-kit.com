@@ -1,11 +1,11 @@
 <main class="mt-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-                        <span class="inline-flex items-center px-3 py-1 rounded-full uppercase text-sm font-semibold leading-5 bg-yellow-100 text-yellow-800">
-                            Pre-release out now
-                        </span>
+            <span class="inline-flex items-center px-3 pb-1 pt-1.5 rounded-full uppercase text-sm font-hind font-semibold leading-5 bg-scarlet-100 text-scarlet-800">
+                Pre-release coming soon
+            </span>
 
-            <h2 class="mt-2 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
+            <h2 class="mt-2 sm:mt-4 text-4xl tracking-tight leading-7 font-hind font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
                 Blade UI Kit
             </h2>
 
@@ -13,19 +13,17 @@
                 A set of renderless components to utilise in your <strong>Laravel Blade</strong> views. Built for the <strong>TALL</strong> stack.
             </p>
 
-
             <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-                <div class="rounded-md shadow">
-                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                        <x-heroicon-s-book-open class="-ml-1 mr-3 h-5 w-5" />
-                        Get started
-                    </a>
-                </div>
-                <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                    <a href="{{ route('home') }}#features" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                <x-buttons.primary href="#">
+                    <x-heroicon-s-book-open class="-ml-1 mr-3 h-5 w-5" />
+                    Get started
+                </x-buttons.primary>
+
+                <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <x-buttons.secondary href="{{ route('home') }}#features">
                         <x-heroicon-s-collection class="-ml-1 mr-3 h-5 w-5" />
                         Features
-                    </a>
+                    </x-buttons.secondary>
                 </div>
             </div>
         </div>
@@ -43,7 +41,7 @@
                 <button type="button" class="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline">
                     <img class="w-full" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Woman making a sale" />
                     <div class="absolute inset-0 w-full h-full flex items-center justify-center">
-                        <svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
+                        <svg class="h-20 w-20 text-scarlet-500" fill="currentColor" viewBox="0 0 84 84">
                             <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
                             <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
                         </svg>

@@ -28,24 +28,24 @@
         </div>
     </div>
     <div class="hidden md:block text-right text-gray">
-        <a
+        <x-a
             href="https://twitter.com/bladeuikit"
-            class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+            class="font-medium transition duration-150 ease-in-out"
         >
             <x-icon-twitter class="h-6 w-6 inline"/>
-        </a>
-        <a
+        </x-a>
+        <x-a
             href="https://github.com/blade-ui-kit/blade-ui-kit"
-            class="ml-4 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+            class="ml-4 font-medium transition duration-150 ease-in-out"
         >
             <x-icon-github class="h-6 w-6 inline"/>
-        </a>
-        <a
+        </x-a>
+        <x-a
             href="https://discord.gg/Vev5CyE"
-            class="ml-4 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+            class="ml-4 font-medium transition duration-150 ease-in-out"
         >
             <x-icon-discord class="h-6 w-6 inline"/>
-        </a>
+        </x-a>
     </div>
 </nav>
 

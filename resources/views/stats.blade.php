@@ -19,7 +19,7 @@
                             <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500" id="item-1">
                                 Components
                             </dt>
-                            <dd class="order-1 text-5xl leading-none font-extrabold text-indigo-600" aria-describedby="item-1">
+                            <dd class="order-1 text-5xl leading-none font-extrabold text-scarlet-600" aria-describedby="item-1">
                                 {{ count(config('blade-ui-kit.components')) }}
                             </dd>
                         </div>
@@ -27,7 +27,7 @@
                             <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                                 Downloads
                             </dt>
-                            <dd class="order-1 text-5xl leading-none font-extrabold text-indigo-600">
+                            <dd class="order-1 text-5xl leading-none font-extrabold text-scarlet-600">
                                 50k
                             </dd>
                         </div>
@@ -35,7 +35,7 @@
                             <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                                 Contributors
                             </dt>
-                            <dd class="order-1 text-5xl leading-none font-extrabold text-indigo-600">
+                            <dd class="order-1 text-5xl leading-none font-extrabold text-scarlet-600">
                                 10
                             </dd>
                         </div>
@@ -45,12 +45,10 @@
         </div>
 
         <div class="mt-12 text-center">
-                <span class="inline-flex rounded-md shadow-sm">
-                    <a href="https://github.com/blade-ui-kit/blade-ui-kit" class="inline-flex items-center px-6 py-3 border border-transparent text-lg leading-7 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
-                        <x-heroicon-s-plus-circle class="-ml-0.5 mr-2 h-4 w-4" />
-                        Contribute your own
-                    </a>
-                </span>
+            <x-buttons.primary href="https://github.com/blade-ui-kit/blade-ui-kit">
+                <x-heroicon-s-plus-circle class="-ml-0.5 mr-2 h-4 w-4" />
+                Contribute your own
+            </x-buttons.primary>
         </div>
     </div>
 </div>

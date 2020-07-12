@@ -14,16 +14,16 @@
     </h3>
 
     <p class="mb-4">
-        Hi, I'm Dries one of the core team members of <a href="https://laravel.com" target="_blank">Laravel</a>, the popular PHP framework.
+        Hi, I'm Dries one of the core team members of <x-a href="https://laravel.com" target="_blank">Laravel</x-a>, the popular PHP framework.
     </p>
 
     <p class="mb-4">
-        I also organise the <a href="https://fullstackbelgium.be" target="_blank">Full Stack Antwerp and Full Stack Ghent</a> user groups and also co-organise the <a href="https://fullstackeurope.com" target="_blank">Full Stack Europe</a> conference.
+        I also organise the <x-a href="https://fullstackbelgium.be" target="_blank">Full Stack Antwerp and Full Stack Ghent</x-a> user groups and also co-organise the <a href="https://fullstackeurope.com" target="_blank">Full Stack Europe</a> conference.
     </p>
 
     <p>
-        <a href="https://twitter.com/driesvints">
+        <x-a href="https://twitter.com/driesvints">
             @driesvints
-        </a>
+        </x-a>
     </p>
 </div>
