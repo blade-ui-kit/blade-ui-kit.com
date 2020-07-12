@@ -8,6 +8,9 @@
 // Or a Markdown editor...
 <x-easy-mde name="about" />
 
+// Render Markdown...
+<x-markdown>{{ $markdown }}</x-markdown>
+
 // Render a map with markers...
 <x-mapbox :markers="[[13.4105300, 52.5243700]]" />
 ```
