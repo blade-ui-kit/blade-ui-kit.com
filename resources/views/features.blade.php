@@ -9,23 +9,23 @@
             <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
         </svg>
 
-        <div class="relative">
-            <h3 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                A vast library of components
-            </h3>
-            <p class="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
-                Having more than {{ count(config('blade-ui-kit.components')) }} different components, there's probably something in for you.
-            </p>
+        <div class="relative text-center">
+            <x-h3>
+                A component for everyone
+            </x-h3>
+            <x-p>
+                Including more than {{ count(config('blade-ui-kit.components')) }} different components, we probably have something for you.
+            </x-p>
         </div>
 
         <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div class="relative">
-                <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                <x-h4>
                     Transfer funds world-wide
-                </h4>
-                <p class="mt-3 text-lg leading-7 text-gray-500">
+                </x-h4>
+                <x-p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.
-                </p>
+                </x-p>
 
                 <ul class="mt-10">
                     <li>
@@ -39,9 +39,9 @@
                             </div>
                             <div class="ml-4">
                                 <h5 class="text-lg leading-6 font-medium text-gray-900">Competitive exchange rates</h5>
-                                <p class="mt-2 text-base leading-6 text-gray-500">
+                                <x-p-sm>
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                </p>
+                                </x-p-sm>
                             </div>
                         </div>
                     </li>
@@ -56,9 +56,9 @@
                             </div>
                             <div class="ml-4">
                                 <h5 class="text-lg leading-6 font-medium text-gray-900">No hidden fees</h5>
-                                <p class="mt-2 text-base leading-6 text-gray-500">
+                                <x-p-sm>
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                </p>
+                                </x-p-sm>
                             </div>
                         </div>
                     </li>
@@ -73,9 +73,9 @@
                             </div>
                             <div class="ml-4">
                                 <h5 class="text-lg leading-6 font-medium text-gray-900">Transfers are instant</h5>
-                                <p class="mt-2 text-base leading-6 text-gray-500">
+                                <x-p-sm>
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                </p>
+                                </x-p-sm>
                             </div>
                         </div>
                     </li>
@@ -107,12 +107,12 @@
         <div class="relative mt-12 sm:mt-16 lg:mt-24">
             <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div class="lg:col-start-2">
-                    <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                    <x-h4>
                         Always in the loop
-                    </h4>
-                    <p class="mt-3 text-lg leading-7 text-gray-500">
+                    </x-h4>
+                    <x-p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus eligendi delectus, cum deleniti sunt in labore nihil quod quibusdam expedita nemo.
-                    </p>
+                    </x-p>
 
                     <ul class="mt-10">
                         <li>
@@ -126,9 +126,9 @@
                                 </div>
                                 <div class="ml-4">
                                     <h5 class="text-lg leading-6 font-medium text-gray-900">Mobile notifications</h5>
-                                    <p class="mt-2 text-base leading-6 text-gray-500">
+                                    <x-p-sm>
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                    </p>
+                                    </x-p-sm>
                                 </div>
                             </div>
                         </li>
@@ -143,9 +143,9 @@
                                 </div>
                                 <div class="ml-4">
                                     <h5 class="text-lg leading-6 font-medium text-gray-900">Reminder emails</h5>
-                                    <p class="mt-2 text-base leading-6 text-gray-500">
+                                    <x-p-sm>
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                    </p>
+                                    </x-p-sm>
                                 </div>
                             </div>
                         </li>

@@ -1,17 +1,17 @@
 <main class="mt-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-            <span class="inline-flex items-center px-3 pb-1 pt-1.5 rounded-full uppercase text-sm font-hind font-semibold leading-5 bg-scarlet-100 text-scarlet-800">
-                Pre-release coming soon
-            </span>
+            <a href="https://github.com/blade-ui-kit/blade-ui-kit" class="inline-flex items-center px-3 pb-1 pt-1.5 rounded-full uppercase text-sm font-hind font-semibold leading-5 bg-scarlet-100 hover:bg-scarlet-200 text-scarlet-800">
+                Pre-release out now
+            </a>
 
-            <h2 class="mt-2 sm:mt-4 text-4xl tracking-tight leading-7 font-hind font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
+            <x-h2 class="mt-3 sm:mt-5">
                 Blade UI Kit
-            </h2>
+            </x-h2>
 
-            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+            <x-p>
                 A set of renderless components to utilise in your <strong>Laravel Blade</strong> views. Built for the <strong>TALL</strong> stack.
-            </p>
+            </x-p>
 
             <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
                 <x-buttons.primary href="#">

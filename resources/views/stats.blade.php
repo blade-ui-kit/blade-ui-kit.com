@@ -1,12 +1,12 @@
 <div class="bg-white pt-12 sm:pt-16">
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+            <x-h3>
                 A growing ecosystem
-            </h2>
-            <p class="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
+            </x-h3>
+            <x-p>
                 More components are joining Blade UI Kit regularly.
-            </p>
+            </x-p>
         </div>
     </div>
     <div class="mt-10 pb-12 bg-gray-50 sm:pb-16">

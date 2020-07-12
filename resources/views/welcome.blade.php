@@ -17,5 +17,5 @@
 
     @include('blade-icons')
 
-    @include('built-by')
+    @include('quote')
 @endsection
