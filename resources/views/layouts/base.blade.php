@@ -17,7 +17,7 @@
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="font-sans">
+<body class="font-sans border-t-8 border-scarlet-500">
     @yield('body')
 
     @include('layouts.footer')

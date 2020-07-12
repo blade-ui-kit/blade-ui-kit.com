@@ -106,7 +106,7 @@
                     </x-h4>
 
                     <x-p>
-                        Blade UI Kit aims at providing the best possible developer experience. We want you to be in control. Publish, extend and modify components at will.
+                        Blade UI Kit aims at providing the best possible developer experience. We want you to be in control. Publish, extend and modify all components at will.
                     </x-p>
 
                     <ul class="mt-10">
