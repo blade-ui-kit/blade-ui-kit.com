@@ -12,19 +12,17 @@
                     </x-h2>
 
                     <x-p>
-                        A package to easily make use of SVG icons in your <strong>Laravel Blade</strong> views. Choose from a wide selection of icon sets. <span class="hidden lg:inline">Like the Heroicons on the right.</span>
+                        A package to easily make use of SVG icons in your <strong>Laravel Blade</strong> views. Choose from a wide selection of icon sets. <span class="hidden lg:inline">Like the <x-a href="https://github.com/blade-ui-kit/blade-heroicons">Heroicons</x-a> on the right.</span>
                     </x-p>
 
                     <x-p>
                         <x-heroicon-s-heart class="inline-block pb-1 h-6 w-6 text-red-600" /> Makes using SVG icons as simple as...
                     </x-p>
 
-                    <div class="mt-3 sm:mt-6 sm:inline-block bg-gray-700 text-center sm:text-left text-gray-50 text-xs sm:text-sm font-medium rounded px-3 sm:px-4 py-3 sm:py-4">
-                        &lt;x-heroicon-s-heart class="h-6 w-6 text-red-600" />
-                    </div>
+                    <x-snippet name="blade-icons" />
 
                     <div class="mt-6 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                        <x-buttons.primary href="#">
+                        <x-buttons.primary href="https://github.com/blade-ui-kit/blade-icons">
                             <x-heroicon-s-book-open class="-ml-1 mr-3 h-5 w-5" />
                             Get started
                         </x-buttons.primary>

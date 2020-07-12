@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Muli:wght@400;500;600;700;800;900&display=swap');
 
+@import "~highlight.js/styles/tomorrow-night.css";
+
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+pre code.hljs {
+    @apply p-5;
+}

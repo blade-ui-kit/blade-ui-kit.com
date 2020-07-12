@@ -10,7 +10,7 @@
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body class="font-sans">
     @yield('body')
 
     @include('layouts.footer')

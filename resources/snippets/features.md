@@ -1,0 +1,13 @@
+```html
+// Render a countdown timer...
+<x-countdown :expires="now()->addDays(1)" />
+
+// Render a rich text editor...
+<x-trix name="about" />
+
+// Or a Markdown editor...
+<x-easy-mde name="about" />
+
+// Render a map with markers...
+<x-mapbox :markers="[[13.4105300, 52.5243700]]" />
+```

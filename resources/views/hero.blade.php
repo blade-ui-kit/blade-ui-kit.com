@@ -5,9 +5,9 @@
                 Pre-release out now
             </a>
 
-            <x-h2 class="mt-3 sm:mt-5">
-                Blade UI Kit
-            </x-h2>
+            <x-p>
+                <img class="inline-block h-28 md:h-32 lg:h-36 w-auto" src="{{ asset('/images/logo.svg') }}" alt="" />
+            </x-p>
 
             <x-p>
                 A set of renderless components to utilise in your <strong>Laravel Blade</strong> views. Built for the <strong>TALL</strong> stack.
