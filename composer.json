@@ -15,6 +15,8 @@
     ],
     "require": {
         "php": "^7.4",
+        "blade-ui-kit/blade-heroicons": "^0.1.2",
+        "blade-ui-kit/blade-icons": "^0.4.3",
         "blade-ui-kit/blade-ui-kit": "dev-master",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",

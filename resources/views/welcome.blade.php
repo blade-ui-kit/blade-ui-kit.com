@@ -1,13 +1,21 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.base')
 
-    <title>Laravel</title>
-</head>
-<body>
-    <div style="width: 600px; margin: 0 auto;">
+@section('body')
+    <div class="relative bg-white overflow-hidden">
+        <div class="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
+            @include('layouts.navigation')
+
+            @include('hero')
+        </div>
     </div>
-</body>
-</html>
+
+    @include('stats')
+
+    @include('features')
+
+    @include('tall')
+
+    @include('blade-icons')
+
+    @include('built-by')
+@endsection
