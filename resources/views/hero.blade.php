@@ -10,7 +10,7 @@
             </x-p>
 
             <x-p>
-                A set of renderless components to utilise in your <strong>Laravel Blade</strong> views. Built for the <strong>TALL</strong> stack.
+                A set of renderless components to utilise in your <strong>Laravel Blade</strong> views. Built for the <strong>TALL</strong> stack. Completely open-source.
             </x-p>
 
             <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
