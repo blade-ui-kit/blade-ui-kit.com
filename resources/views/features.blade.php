@@ -102,7 +102,7 @@
             <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
                 <div class="lg:col-start-2">
                     <x-h4>
-                        Aiming for the best possible DX
+                        You're in full control
                     </x-h4>
 
                     <x-p>
