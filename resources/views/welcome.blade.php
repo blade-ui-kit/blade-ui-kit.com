@@ -15,6 +15,8 @@
 
     @include('tall')
 
+    @include('testimonials')
+
     @include('blade-icons')
 
     @include('quote')
