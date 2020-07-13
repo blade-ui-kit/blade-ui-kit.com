@@ -1,7 +1,7 @@
 <div id="blade-icons" class="mt-10 md:mt-16 relative bg-gray-50 overflow-hidden">
     <div class="max-w-screen-xl mx-auto">
         <div class="relative z-10 pb-8 bg-gray-50 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-36">
-            <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-32 text-scarlet-100 transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-32 text-gray-50 transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
 
@@ -38,6 +38,8 @@
             </main>
         </div>
     </div>
-    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2" style="background: url('/images/heroicons-pattern.svg') 0 12px repeat">
+    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-scarlet-300 h-full w-full">
+        <div class="h-full" style="background: url('/images/heroicons-pattern.svg') 0 12px repeat">
+        </div>
     </div>
 </div>
