@@ -38,6 +38,6 @@
             </main>
         </div>
     </div>
-    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2" style="background: url('/images/heroicons-pattern.svg') repeat">
+    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2" style="background: url('/images/heroicons-pattern.svg') 0 12px repeat">
     </div>
 </div>
