@@ -16,9 +16,8 @@
                 </a>
             </div>
             <div class="flex justify-center">
-                <a href="https://github.com/alpinejs/alpine" class="text-base sm:text-2xl lg:text-3xl  font-semibold">
+                <a href="https://github.com/alpinejs/alpine" class="text-base sm:text-2xl lg:text-3xl font-semibold">
                     <img class="h-12 inline mr-2" src="{{ asset('/images/alpine.svg') }}" alt="Alpine.js" />
-
                     Alpine.js
                 </a>
             </div>
