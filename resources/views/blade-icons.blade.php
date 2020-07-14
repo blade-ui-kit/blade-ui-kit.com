@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-scarlet-300 h-full w-full">
-        <div class="h-full" style="background: url('/images/heroicons-pattern.svg') 0 12px repeat">
+        <div class="h-full" style="background: url('/images/heroicons-pattern.svg') 0 13px repeat">
         </div>
     </div>
 </div>
