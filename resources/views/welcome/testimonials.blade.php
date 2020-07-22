@@ -13,6 +13,7 @@
                         Finally, Blade gets a comprehensive UI Kit that works with all the things we’re already using!
                     </p>
                 </div>
+
                 <footer class="mt-8">
                     <div class="flex">
                         <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
@@ -51,7 +52,7 @@
                     <div class="flex">
                         <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                             <a href="https://twitter.com/freekmurze">
-                                <x-avatar search="freekmurze" class="h-12 w-12 rounded-full" />
+                                <x-avatar search="freekmurze" provider="twitter" class="h-12 w-12 rounded-full" />
                             </a>
                         </div>
                         <div class="ml-4">

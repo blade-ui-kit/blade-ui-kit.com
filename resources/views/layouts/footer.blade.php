@@ -1,11 +1,11 @@
 <div class="bg-white">
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div class="flex justify-center md:order-2">
-            <x-a href="#">
+            <x-a href="https://github.com/blade-ui-kit/blade-ui-kit">
                 <span class="sr-only">GitHub</span>
                 <x-icon-github class="h-6 w-6" />
             </x-a>
-            <x-a href="#" class="ml-6">
+            <x-a href="https://discord.gg/Vev5CyE" class="ml-6">
                 <span class="sr-only">Discord</span>
                 <x-icon-discord class="h-6 w-6" />
             </x-a>

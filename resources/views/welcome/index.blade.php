@@ -5,19 +5,19 @@
         <div class="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
             @include('layouts.navigation')
 
-            @include('hero')
+            @include('welcome.hero')
         </div>
     </div>
 
-    @include('stats')
+    @include('welcome.stats')
 
-    @include('features')
+    @include('welcome.features')
 
-    @include('tall')
+    @include('welcome.tall')
 
-    @include('testimonials')
+    @include('welcome.testimonials')
 
-    @include('blade-icons')
+    @include('welcome.blade-icons')
 
-    @include('quote')
+    @include('welcome.quote')
 @endsection

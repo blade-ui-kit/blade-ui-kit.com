@@ -6,6 +6,8 @@
 
 @import "tailwindcss/components";
 
+@import "toc.css";
+
 @import "tailwindcss/utilities";
 
 pre code.hljs {
