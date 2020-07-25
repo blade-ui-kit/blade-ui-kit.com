@@ -20,6 +20,6 @@
 <body class="font-sans border-t-8 border-scarlet-500">
     @yield('body')
 
-    @include('layouts.footer')
+    <x-footer />
 </body>
 </html>

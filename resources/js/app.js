@@ -1,5 +1,6 @@
-require('./bootstrap');
-require('./clipboard');
+import 'alpinejs';
+import './bootstrap';
+import './clipboard';
 
 // Highlight code blocks
 import hljs from 'highlight.js';
@@ -10,7 +11,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
+// Navigation scroll
 import SmoothScroll from 'smooth-scroll';
 
-// Navigation scroll
 new SmoothScroll('a[href*="#"]');
