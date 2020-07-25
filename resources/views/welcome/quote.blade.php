@@ -24,7 +24,7 @@
                     <div class="md:flex md:items-center md:justify-center">
                         <div class="md:flex-shrink-0">
                             <a href="https://twitter.com/driesvints">
-                                <x-avatar search="driesvints" class="mx-auto h-10 w-10 rounded-full" />
+                                <x-avatar search="driesvints" provider="github" class="mx-auto h-10 w-10 rounded-full" />
                             </a>
                         </div>
                         <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">

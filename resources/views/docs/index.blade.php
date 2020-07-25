@@ -67,7 +67,7 @@
                 </div>
             </nav>
 
-            <x-markdown class="lg:col-span-3 px-3 lg:px-0 mt-6 lg:mt-0" html-input="allow">
+            <x-markdown class="lg:col-span-3 px-3 lg:px-0 mt-6 lg:mt-0 prose lg:prose-lg" html-input="allow">
                 {!! $markdown !!}
             </x-markdown>
 
