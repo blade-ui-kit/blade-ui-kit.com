@@ -147,7 +147,7 @@
                     </ul>
                 </div>
 
-                <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+                <div class="mt-10 -mx-4 relative lg:mt-0 px-4 lg:col-start-1">
                     <x-snippet name="extend" />
                 </div>
             </div>
