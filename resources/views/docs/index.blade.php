@@ -13,7 +13,7 @@
 
             <div class="mt-8">
                 <x-docs.h3>
-                    On this page
+                    A component for everyone
                 </x-docs.h3>
 
                 <x-toc class="mt-1 toc">

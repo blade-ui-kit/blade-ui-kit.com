@@ -1,4 +1,4 @@
-<div id="features" class="py-16 bg-gray-50 overflow-hidden lg:py-24">
+<div id="features" class="pt-8 pb-16 bg-gray-50 overflow-hidden lg:pb-36">
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
         <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784">
             <defs>
@@ -8,16 +8,6 @@
             </defs>
             <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
         </svg>
-
-        <div class="relative text-center">
-            <x-h3>
-                A component for everyone
-            </x-h3>
-
-            <x-p>
-                With {{ count(config('blade-ui-kit.components')) }} different components, we probably have something for you.
-            </x-p>
-        </div>
 
         <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div class="relative">
