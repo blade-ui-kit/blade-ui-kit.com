@@ -12,9 +12,9 @@
             </x-markdown>
 
             <div class="mt-8">
-                <h3 class="px-3 text-xs leading-4 font-semibold text-gray-500 uppercase tracking-wider">
+                <x-docs.h3>
                     On this page
-                </h3>
+                </x-docs.h3>
 
                 <x-toc class="mt-1 toc" :url="route('docs', [$version, $page])">
                     {!! $markdown !!}

@@ -8,9 +8,9 @@
     @foreach ($sections as $section)
         <div {!! $loop->first ? '' : 'class="mt-8"' !!} >
             @isset($section['title'])
-                <h3 class="px-3 text-xs leading-4 font-semibold text-gray-500 uppercase tracking-wider">
+                <x-docs.h3>
                     {{ $section['title'] }}
-                </h3>
+                </x-docs.h3>
             @endisset
 
             @foreach ($section['pages'] as $page)
