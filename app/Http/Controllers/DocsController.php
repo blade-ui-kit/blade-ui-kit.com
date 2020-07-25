@@ -21,8 +21,9 @@ final class DocsController
             abort(404);
         }
 
+        $navigation = $docs->navigation(resource_path("docs/{$version}/toc.json"));
         $markdown = $docs->get($path);
 
-        return view('docs.index', compact('version', 'page', 'markdown'));
+        return view('docs.index', compact('version', 'page', 'navigation', 'markdown'));
     }
 }

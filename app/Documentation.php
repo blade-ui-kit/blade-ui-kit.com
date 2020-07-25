@@ -24,4 +24,9 @@ final class Documentation
     {
         return $this->filesystem->get($path);
     }
+
+    public function navigation(string $path): array
+    {
+        return json_decode($this->filesystem->get($path), true);
+    }
 }

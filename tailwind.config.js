@@ -22,7 +22,7 @@ module.exports = {
                 },
             },
             fontFamily: {
-                sans: ['Muli', ...defaultTheme.fontFamily.sans],
+                sans: ['Mulish', ...defaultTheme.fontFamily.sans],
                 hind: ['Hind', ...defaultTheme.fontFamily.sans],
             },
         },

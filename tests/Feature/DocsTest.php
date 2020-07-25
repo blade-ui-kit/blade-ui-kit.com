@@ -14,7 +14,8 @@ class DocsTest extends TestCase
     {
         $this->partialMock(Filesystem::class, function ($mock) {
             $mock->shouldReceive('exists')->andReturn(true);
-            $mock->shouldReceive('get')->andReturn('## Foo title');
+            $mock->shouldReceive('get')->with(resource_path('docs/master/foo.md'))->andReturn('## Foo title');
+            $mock->shouldReceive('get')->with(resource_path('docs/master/toc.json'))->andReturn($this->toc());
         });
 
         $this->get('/docs/master/foo')
@@ -33,5 +34,21 @@ class DocsTest extends TestCase
     {
         $this->get('/docs/foo')
             ->assertStatus(404);
+    }
+
+    private function toc()
+    {
+        return  <<<JSON
+            [
+                {
+                    "title": "Getting Started",
+                    "pages": [
+                        "installation",
+                        "release-notes",
+                        "upgrade-guide"
+                    ]
+                }
+            ]
+        JSON;
     }
 }
