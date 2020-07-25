@@ -43,9 +43,9 @@ class DocsTest extends TestCase
             ->assertStatus(404);
     }
 
-    private function toc()
+    private function toc(): string
     {
-        return  <<<JSON
+        return <<<JSON
             [
                 {
                     "title": "Getting Started",
