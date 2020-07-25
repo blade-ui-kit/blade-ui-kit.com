@@ -5,6 +5,4 @@ use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', WelcomeController::class)->name('home');
-Route::get('/docs/{version?}/{page?}', DocsController::class)
-    ->name('docs')
-    ->where('version', 'master');
+Route::get('/docs/{version?}/{page?}', DocsController::class)->name('docs');

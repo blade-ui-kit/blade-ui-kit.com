@@ -30,9 +30,16 @@ class DocsTest extends TestCase
     }
 
     /** @test */
+    public function pages_without_version_redirect_to_default_version()
+    {
+        $this->get('/docs/introduction')
+            ->assertRedirect('/docs/master/introduction');
+    }
+
+    /** @test */
     public function non_existing_versions_throw_a_404()
     {
-        $this->get('/docs/foo')
+        $this->get('/docs/foo/bar')
             ->assertStatus(404);
     }
 
