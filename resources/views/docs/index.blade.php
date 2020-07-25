@@ -16,7 +16,7 @@
                     On this page
                 </x-docs.h3>
 
-                <x-toc class="mt-1 toc" :url="route('docs', [$version, $page])">
+                <x-toc class="mt-1 toc">
                     {!! $markdown !!}
                 </x-toc>
             </div>
