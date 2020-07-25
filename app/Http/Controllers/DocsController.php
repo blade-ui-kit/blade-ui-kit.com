@@ -17,13 +17,13 @@ final class DocsController
             return redirect()->route('docs', [$version, $page]);
         }
 
-        if (! $docs->exists($path = resource_path("docs/{$version}/{$page}.md"))) {
+        if (! $docs->exists($version, $page)) {
             abort(404);
         }
 
-        $navigation = $docs->navigation(resource_path("docs/{$version}/toc.json"));
-        $markdown = $docs->get($path);
+        $sections = $docs->toc($version);
+        $markdown = $docs->get($version, $page);
 
-        return view('docs.index', compact('version', 'page', 'navigation', 'markdown'));
+        return view('docs.index', compact('version', 'page', 'sections', 'markdown'));
     }
 }

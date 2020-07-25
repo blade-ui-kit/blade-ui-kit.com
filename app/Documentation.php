@@ -15,18 +15,23 @@ final class Documentation
         $this->filesystem = $filesystem;
     }
 
-    public function exists(string $path): bool
+    public function exists(string $version, string $page): bool
     {
-        return $this->filesystem->exists($path);
+        return $this->filesystem->exists(resource_path("docs/{$version}/{$page}.md"));
     }
 
-    public function get(string $path): string
+    public function get(string $version, string $page): string
     {
-        return $this->filesystem->get($path);
+        return $this->filesystem->get(resource_path("docs/{$version}/{$page}.md"));
     }
 
-    public function navigation(string $path): array
+    public function toc(string $version): array
     {
-        return json_decode($this->filesystem->get($path), true);
+        return json_decode($this->filesystem->get($this->path($version, 'toc.json')), true);
+    }
+
+    private function path(string $version, string $file): string
+    {
+        return resource_path("docs/{$version}/{$file}");
     }
 }
