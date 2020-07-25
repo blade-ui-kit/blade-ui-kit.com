@@ -1,0 +1,10 @@
+@screen md {
+    .enlarge {
+        transition: all .2s ease-in-out;
+    }
+
+    .enlarge:hover {
+        transform: scale(1.1);
+        z-index: 10;
+    }
+}

@@ -12,23 +12,23 @@
         <div class="mt-10 grid grid-cols-2 gap-8 md:grid-cols-4">
             <div class="flex justify-center">
                 <a href="https://tailwindcss.com">
-                    <img class="h-12" src="{{ asset('/images/tailwindcss.svg') }}" alt="Tailwind CSS" />
+                    <img class="h-12 enlarge" src="{{ asset('/images/tailwindcss.svg') }}" alt="Tailwind CSS" />
                 </a>
             </div>
             <div class="flex justify-center">
-                <a href="https://github.com/alpinejs/alpine" class="text-base sm:text-2xl lg:text-3xl font-semibold">
+                <a href="https://github.com/alpinejs/alpine" class="text-base sm:text-2xl lg:text-3xl font-semibold enlarge">
                     <img class="h-12 inline mr-2" src="{{ asset('/images/alpine.svg') }}" alt="Alpine.js" />
                     Alpine.js
                 </a>
             </div>
             <div class="flex justify-center">
                 <a href="https://laravel.com">
-                    <img class="h-12" src="{{ asset('/images/laravel.svg') }}" alt="Laravel" />
+                    <img class="h-12 enlarge" src="{{ asset('/images/laravel.svg') }}" alt="Laravel" />
                 </a>
             </div>
             <div class="flex justify-center">
                 <a href="https://laravel-livewire.com">
-                    <img class="h-12" src="{{ asset('/images/livewire.svg') }}" alt="Livewire" />
+                    <img class="h-12 enlarge" src="{{ asset('/images/livewire.svg') }}" alt="Livewire" />
                 </a>
             </div>
         </div>

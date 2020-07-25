@@ -2,7 +2,9 @@
     <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
         <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-scarlet-300 lg:pr-16">
             <div class="md:flex-shrink-0">
-                <img class="h-10" src="{{ asset('/images/livewire.svg') }}" alt="Livewire"/>
+                <a href="https://laravel-livewire.com">
+                    <img class="h-10 enlarge" src="{{ asset('/images/livewire.svg') }}" alt="Livewire"/>
+                </a>
             </div>
             <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
                 <div class="relative text-lg leading-7 font-medium md:flex-grow">
@@ -18,7 +20,7 @@
                     <div class="flex">
                         <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                             <a href="https://twitter.com/calebporzio">
-                                <x-avatar search="calebporzio" class="h-12 w-12 rounded-full" />
+                                <x-avatar search="calebporzio" class="h-12 w-12 rounded-full enlarge" />
                             </a>
                         </div>
                         <div class="ml-4">
@@ -37,7 +39,9 @@
         </div>
         <div class="py-12 px-4 border-t-2 border-scarlet-300 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
             <div class="md:flex-shrink-0">
-                <img class="h-10" src="{{ asset('/images/spatie.svg') }}" alt="Spatie"/>
+                <a href="https://spatie.be">
+                    <img class="h-10 enlarge" src="{{ asset('/images/spatie.svg') }}" alt="Spatie"/>
+                </a>
             </div>
             <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
                 <div class="relative text-lg leading-7 font-medium text-gray-500 md:flex-grow">
@@ -52,7 +56,7 @@
                     <div class="flex">
                         <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                             <a href="https://twitter.com/freekmurze">
-                                <x-avatar search="freekmurze" provider="twitter" class="h-12 w-12 rounded-full" />
+                                <x-avatar search="freekmurze" provider="twitter" class="h-12 w-12 rounded-full enlarge" />
                             </a>
                         </div>
                         <div class="ml-4">
