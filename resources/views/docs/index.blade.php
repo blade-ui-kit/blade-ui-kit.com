@@ -12,7 +12,7 @@
             </x-markdown>
 
             <div class="mt-8">
-                <h3 class="px-3 text-xs leading-4 font-semibold text-gray-500 uppercase tracking-wider" id="projects-headline">
+                <h3 class="px-3 text-xs leading-4 font-semibold text-gray-500 uppercase tracking-wider">
                     On this page
                 </h3>
 
