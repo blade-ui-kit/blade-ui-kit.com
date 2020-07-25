@@ -8,7 +8,8 @@ use App\Documentation;
 
 final class DocsController
 {
-    private const DEFAULT_VERSION = 'master';
+    private const DEFAULT_VERSION = 'main';
+    private const DEFAULT_PAGE = 'introduction';
 
     public function __invoke(Documentation $docs, string $version = null, string $page = null)
     {
@@ -17,10 +18,7 @@ final class DocsController
                 return redirect()->route('docs', [self::DEFAULT_VERSION, $version]);
             }
 
-            $version = self::DEFAULT_VERSION;
-            $page = 'introduction';
-
-            return redirect()->route('docs', [$version, $page]);
+            return redirect()->route('docs', [self::DEFAULT_VERSION, self::DEFAULT_PAGE]);
         }
 
         if (! $docs->exists($version, $page)) {

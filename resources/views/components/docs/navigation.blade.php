@@ -1,7 +1,7 @@
 @props([
     'sections' => [],
     'current' => '',
-    'version' => 'master',
+    'version' => 'main',
 ])
 
 <nav>

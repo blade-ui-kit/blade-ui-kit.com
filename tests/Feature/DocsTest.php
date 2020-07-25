@@ -14,26 +14,26 @@ class DocsTest extends TestCase
     {
         $this->partialMock(Filesystem::class, function ($mock) {
             $mock->shouldReceive('exists')->andReturn(true);
-            $mock->shouldReceive('get')->with(resource_path('docs/master/foo.md'))->andReturn('## Foo title');
-            $mock->shouldReceive('get')->with(resource_path('docs/master/toc.json'))->andReturn($this->toc());
+            $mock->shouldReceive('get')->with(resource_path('docs/main/foo.md'))->andReturn('## Foo title');
+            $mock->shouldReceive('get')->with(resource_path('docs/main/toc.json'))->andReturn($this->toc());
         });
 
-        $this->get('/docs/master/foo')
+        $this->get('/docs/main/foo')
             ->assertSee('<h2>Foo title</h2>', false);
     }
 
     /** @test */
-    public function default_page_redirects_to_master()
+    public function default_page_redirects_to_main()
     {
         $this->get('/docs')
-            ->assertRedirect('/docs/master/introduction');
+            ->assertRedirect('/docs/main/introduction');
     }
 
     /** @test */
     public function pages_without_version_redirect_to_default_version()
     {
         $this->get('/docs/introduction')
-            ->assertRedirect('/docs/master/introduction');
+            ->assertRedirect('/docs/main/introduction');
     }
 
     /** @test */
