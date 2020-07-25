@@ -14,6 +14,6 @@ final class WelcomeController
             return Http::get('https://packagist.org/packages/blade-ui-kit/blade-icons.json')['package']['downloads']['total'];
         });
 
-        return view('welcome.index', compact('downloads'));
+        return view('welcome', compact('downloads'));
     }
 }

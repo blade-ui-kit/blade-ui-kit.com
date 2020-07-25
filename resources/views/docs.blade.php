@@ -1,6 +1,4 @@
-@extends('layouts.base')
-
-@section('body')
+<x-layout>
     <x-navigation />
 
     <div class="max-w-screen-xl mx-auto px-4 lg:px-6 py-6">
@@ -13,7 +11,7 @@
 
             <div class="mt-8">
                 <x-docs.h3>
-                    A component for everyone
+                    On this page
                 </x-docs.h3>
 
                 <x-toc class="mt-1 toc">
@@ -22,4 +20,6 @@
             </div>
         </div>
     </div>
-@endsection
+
+    <x-footer />
+</x-layout>
