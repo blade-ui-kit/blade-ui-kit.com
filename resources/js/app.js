@@ -1,4 +1,5 @@
 require('./bootstrap');
+require('./clipboard');
 
 import hljs from 'highlight.js';
 

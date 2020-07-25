@@ -14,7 +14,7 @@
             </x-p>
 
             <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-                <x-buttons.primary href="#">
+                <x-buttons.primary href="{{ route('docs') }}">
                     <x-heroicon-s-book-open class="-ml-1 mr-3 h-5 w-5" />
                     Get started
                 </x-buttons.primary>

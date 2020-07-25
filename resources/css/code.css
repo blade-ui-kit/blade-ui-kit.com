@@ -1,0 +1,31 @@
+/**
+ * Thanks to Nuno Maduro and pestphp.com
+ *
+ * @see https://github.com/pestphp/website/blob/master/package.json
+ */
+
+pre {
+    @apply .flex relative;
+}
+pre code {
+    @apply .flex;
+    @apply .flex-1;
+}
+pre .copyBtn {
+    @apply absolute;
+    @apply right-0;
+    @apply h-6 w-6;
+    @apply outline-none;
+    @apply text-gray-600;
+}
+pre .copyBtn:hover,
+pre .copyBtn:focus,
+pre .copyBtn:active {
+   @apply text-white;
+}
+pre .copyBtn svg {
+    @apply absolute;
+    @apply top-0;
+    @apply right-0;
+    @apply mr-4 mt-1;
+}

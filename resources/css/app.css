@@ -6,6 +6,7 @@
 
 @import "tailwindcss/components";
 
+@import "code.css";
 @import "toc.css";
 
 @import "tailwindcss/utilities";

@@ -7,7 +7,7 @@
         <div class="lg:grid lg:grid-cols-5 lg:gap-10">
             <x-docs.navigation :sections="$sections" :current="$page" :version="$version" />
 
-            <x-markdown anchors class="lg:col-span-3 px-3 lg:px-0 mt-6 lg:mt-0 prose lg:prose-lg">
+            <x-markdown anchors class="docs lg:col-span-3 px-3 lg:px-0 mt-6 lg:mt-0 prose lg:prose-lg">
                 {!! $markdown !!}
             </x-markdown>
 
