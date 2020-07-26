@@ -22,7 +22,7 @@
                     @endisset
 
                     <span class="truncate">
-                        {{ $page['name'] ?? Illuminate\Support\Str::title($slug) }}
+                        {{ $page['name'] ?? str_replace('-', ' ', Illuminate\Support\Str::title($slug)) }}
                     </span>
                 </a>
             @endforeach
