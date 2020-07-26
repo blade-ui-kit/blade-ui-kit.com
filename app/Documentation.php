@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App;
 
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Str;
 
 final class Documentation
 {
@@ -23,6 +24,11 @@ final class Documentation
     public function get(string $version, string $page): string
     {
         return $this->filesystem->get(resource_path("docs/{$version}/{$page}.md"));
+    }
+
+    public function title(string $markdown): string
+    {
+        return Str::after(collect(explode(PHP_EOL, $markdown))->first(), '# ');
     }
 
     public function toc(string $version): array

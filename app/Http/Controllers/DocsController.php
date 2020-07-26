@@ -28,7 +28,8 @@ final class DocsController
 
         $sections = $docs->toc($version);
         $markdown = $docs->get($version, $page);
+        $title = $docs->title($markdown);
 
-        return view('docs', compact('version', 'page', 'sections', 'markdown'));
+        return view('docs', compact('version', 'page', 'sections', 'title', 'markdown'));
     }
 }

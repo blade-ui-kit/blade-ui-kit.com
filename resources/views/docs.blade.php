@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout :title="$title">
     <x-navigation />
 
     <div class="max-w-screen-xl mx-auto px-4 lg:px-6 py-6 lg:grid lg:grid-cols-5 lg:gap-10">
