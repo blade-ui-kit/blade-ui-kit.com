@@ -10,7 +10,11 @@
         <script src="{{ mix('js/app.js') }}" defer></script>
 
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+
+        @bukStyles
     </x-slot>
 
     {{ $slot }}
+
+    @bukScripts
 </x-html>
