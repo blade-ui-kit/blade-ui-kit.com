@@ -18,7 +18,7 @@
         "ext-json": "*",
         "blade-ui-kit/blade-heroicons": "^0.1.2",
         "blade-ui-kit/blade-icons": "^0.4.3",
-        "blade-ui-kit/blade-ui-kit": "dev-master",
+        "blade-ui-kit/blade-ui-kit": "dev-main",
         "caseyamcl/toc": "^2.3",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
