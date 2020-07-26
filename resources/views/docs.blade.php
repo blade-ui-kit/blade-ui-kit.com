@@ -10,9 +10,9 @@
             </x-markdown>
 
             <div class="mt-8">
-                <x-docs.h3>
+                <x-h6>
                     On this page
-                </x-docs.h3>
+                </x-h6>
 
                 <x-toc class="mt-1 toc">
                     {!! $markdown !!}
