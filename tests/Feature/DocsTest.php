@@ -43,6 +43,13 @@ class DocsTest extends TestCase
             ->assertStatus(404);
     }
 
+    /** @test */
+    public function excluded_pages_throw_a_404()
+    {
+        $this->get('/docs/main/readme')
+            ->assertStatus(404);
+    }
+
     private function toc(): string
     {
         return <<<JSON
