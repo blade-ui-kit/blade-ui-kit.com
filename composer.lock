@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6bfea2eb5ed20a9f492923474cc0195",
+    "content-hash": "2b6ddb065dc992f89bdfe86708efc081",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -518,6 +518,60 @@
                 "source": "https://github.com/brunocfalcao/blade-feather-icons/tree/master"
             },
             "time": "2020-07-11T23:50:34+00:00"
+        },
+        {
+            "name": "calebporzio/sushi",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calebporzio/sushi.git",
+                "reference": "df69a1af1fbbc0aed96f6563770f8d79fe0eb6a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calebporzio/sushi/zipball/df69a1af1fbbc0aed96f6563770f8d79fe0eb6a5",
+                "reference": "df69a1af1fbbc0aed96f6563770f8d79fe0eb6a5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^5.8 || ^6.0 || ^7.0",
+                "illuminate/support": "^5.8 || ^6.0 || ^7.0",
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^2.10",
+                "orchestra/database": "3.8.* || 3.9.* || ^4.0",
+                "orchestra/testbench": "3.8.* || 3.9.* || ^4.0",
+                "phpunit/phpunit": "^7.5 || ^8.4 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sushi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "Eloquent's missing \"array\" driver.",
+            "support": {
+                "issues": "https://github.com/calebporzio/sushi/issues",
+                "source": "https://github.com/calebporzio/sushi/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/calebporzio",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-03-04T02:49:53+00:00"
         },
         {
             "name": "caseyamcl/toc",
@@ -2136,6 +2190,73 @@
                 }
             ],
             "time": "2020-08-09T10:34:01+00:00"
+        },
+        {
+            "name": "livewire/livewire",
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/livewire/livewire.git",
+                "reference": "07f0b2d41a7837b4d6199da7b591169a84fbaabe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/07f0b2d41a7837b4d6199da7b591169a84fbaabe",
+                "reference": "07f0b2d41a7837b4d6199da7b591169a84fbaabe",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
+                "illuminate/support": "~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
+                "illuminate/validation": "~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
+                "php": "^7.1.3",
+                "symfony/http-kernel": "^4.0|^5.0"
+            },
+            "require-dev": {
+                "laravel/framework": "~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0",
+                "mockery/mockery": "^1.3.1",
+                "orchestra/testbench": "~3.6.0|~3.7.0|~3.8.0|^4.0|^5.0",
+                "phpunit/phpunit": "^7.5.15|^8.4|^9.0",
+                "psy/psysh": "@stable"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Livewire\\LivewireServiceProvider"
+                    ],
+                    "aliases": {
+                        "Livewire": "Livewire\\Livewire"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Livewire\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "A front-end framework for Laravel.",
+            "support": {
+                "issues": "https://github.com/livewire/livewire/issues",
+                "source": "https://github.com/livewire/livewire/tree/1.x"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/calebporzio",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-07-16T14:43:11+00:00"
         },
         {
             "name": "masterminds/html5",
