@@ -25,7 +25,7 @@
                         Blade Icons
                     </a>
                 </div>
-                <div class="relative flex items-center ml-4 md:ml-8 lg:ml-12">
+                <div class="relative flex items-center hidden ml-4 md:ml-8 lg:ml-12 md:block">
                     <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                         <div class="flex items-center text-gray-500">
                             <x-icon-search class="inline w-4 h-4 fill-current"/>
@@ -33,7 +33,7 @@
                     </div>
                     <input 
                         type="text" 
-                        class="pl-10 border border-gray-500 rounded-l-full rounded-r-full focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+                        class="pl-10 border border-gray-500 rounded-l-full rounded-r-full focus:outline-none focus:border-gray-900 focus:text-gray-900 focus:text-gray-500"
                     >
                 </div>
             </div>
@@ -53,7 +53,7 @@
             </div>
         </nav>
 
-        <div class="fixed inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden top-2" x-show="open" @click.away="open = false">
+        <div class="fixed inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden top-2" x-show="open" @click.away="open = false">
             <div class="rounded-lg shadow-md">
                 <div class="overflow-hidden bg-white rounded-lg shadow-xs" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
                     <div class="flex items-center justify-between px-5 pt-4">
