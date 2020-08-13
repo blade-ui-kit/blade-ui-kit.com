@@ -8,4 +8,9 @@ class Icon extends BaseModel
     {
         return $this->hasMany(IconKeywords::class);
     }
+
+    public function set()
+    {
+        return $this->belongsTo(IconSet::class, 'icon_set_id');
+    }
 }

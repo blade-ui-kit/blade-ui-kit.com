@@ -12,12 +12,6 @@ class IconSearch extends Component
 
     public function render()
     {
-        /**
-         * Rendering styles
-         * <x-ICONNAME />
-         * @svg('ICONNAME')
-         * {{ svg('ICONNAME') }}
-         */
         return view('livewire.icon-search', [
             'icons' => Icon::query()->when($this->search !== '', function ($query) {
                 $query->whereHas('keywords', function($keywords) {

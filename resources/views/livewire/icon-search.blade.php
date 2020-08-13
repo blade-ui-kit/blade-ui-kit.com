@@ -6,11 +6,19 @@
         </label>
     </div>
 
-    <div class="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+    @if($search)
+        <div>
+            Found: {{ count($icons) }}
+        </div>
+    @endif
+
+    <div class="grid grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
         @foreach($icons as $icon)
             <div class="flex flex-col items-center">
-                {{ svg($icon->name, 'w-16 h-16') }}
-                <pre>&lt;x-{{ $icon->name }} /&gt;</pre>
+                <a href="{{ route('blade-icon', $icon) }}">
+                    {{ svg($icon->name, 'w-8 h-8') }}
+                </a>
+                <span>{{ $icon->name }}</span>
             </div>
         @endforeach
     </div>
