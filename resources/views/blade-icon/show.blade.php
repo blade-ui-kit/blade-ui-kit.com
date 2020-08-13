@@ -14,7 +14,7 @@
             </div>
 
             <div class="flex flex-col w-full">
-                <div class="flex flex-col items-start">
+                <div class="flex flex-col items-center lg:items-start">
                     <x-code>
                         {!! $code !!}
                     </x-code>
@@ -25,7 +25,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col items-start">
+                <div class="flex flex-col items-center lg:items-start">
                     <x-code class="">```bash 
 $ composer require {{ $icon->set->composer }}
 ```
