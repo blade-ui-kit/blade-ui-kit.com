@@ -8,7 +8,14 @@ use Livewire\Component;
 
 class IconSearch extends Component
 {
-    public $search = 'arrow';
+    public $search = '';
+
+    protected $updatesQueryString = ['search'];
+
+    public function mount()
+    {
+        $this->search = request()->query('search', $this->search);
+    }
 
     public function render()
     {
@@ -19,7 +26,7 @@ class IconSearch extends Component
                 });
             }, function ($query) {
                 $query->inRandomOrder();
-            })->limit(500)->get()
+            })->limit(500)->get(),
         ]);
     }
 }

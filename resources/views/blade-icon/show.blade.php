@@ -2,15 +2,17 @@
     <x-navigation/>
 
     <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6">
-        <x-h2 class="text-center">{{ $icon->name }}</x-h2>
+        <x-h2>
+            <span class="text-gray-300">{{ $icon->set->name }} / </span>{{ $icon->name }}
+        </x-h2>
 
         <div class="flex flex-col items-center justify-around w-full lg:flex-row">
             <div class="flex items-center justify-around lg:items-start">
-                {{ svg($icon->name, 'w-4') }}
-                {{ svg($icon->name, 'w-8') }}
-                {{ svg($icon->name, 'w-16') }}
-                {{ svg($icon->name, 'w-32') }}
-                {{ svg($icon->name, 'w-64') }}
+                {{ svg($icon->name, 'w-4 h-4') }}
+                {{ svg($icon->name, 'w-8 h-8') }}
+                {{ svg($icon->name, 'w-16 h-16') }}
+                {{ svg($icon->name, 'w-32 h-32') }}
+                {{ svg($icon->name, 'w-64 h-64') }}
             </div>
 
             <div class="flex flex-col w-full">
@@ -26,7 +28,7 @@
                 </div>
 
                 <div class="flex flex-col items-center lg:items-start">
-                    <x-code class="">```bash 
+                    <x-code class="">```bash
 $ composer require {{ $icon->set->composer }}
 ```
                     </x-code>
