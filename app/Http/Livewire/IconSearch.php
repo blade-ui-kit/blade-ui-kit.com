@@ -17,6 +17,11 @@ class IconSearch extends Component
         $this->search = request()->query('search', $this->search);
     }
 
+    public function resetSearch()
+    {
+        $this->search = '';
+    }
+
     public function render()
     {
         return view('livewire.icon-search', [
