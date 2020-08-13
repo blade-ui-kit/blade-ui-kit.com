@@ -17,6 +17,7 @@ class CreateIconsTable extends Migration
             $table->id();
             $table->unsignedInteger('icon_set_id');
             $table->string('name');
+            $table->string('keywords');
             $table->boolean('outlined');
         });
     }

@@ -6,6 +6,8 @@
         </label>
     </div>
 
+    <pre>{{ $search }}</pre>
+
     @if($search)
         <div>
             Found: {{ count($icons) }}
@@ -14,9 +16,9 @@
 
     <div class="grid grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
         @foreach($icons as $icon)
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center" wire:key="result_{{$icon->id}}">
                 <a href="{{ route('blade-icon', $icon) }}">
-                    {{ svg($icon->name, 'w-8 h-8') }}
+                    {{ svg($icon->name, 'w-8 h-8', ['wire:key="svg_'.$icon->id.'"']) }}
                 </a>
                 <span>{{ $icon->name }}</span>
             </div>

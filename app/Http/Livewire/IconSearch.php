@@ -14,14 +14,12 @@ class IconSearch extends Component
     {
         return view('livewire.icon-search', [
             'icons' => Icon::query()->when($this->search !== '', function ($query) {
-                $query->whereHas('keywords', function($keywords) {
-                    Str::of($this->search)->lower()->explode(' ')->filter()->each(function (string $term) use ($keywords) {
-                        $keywords->where('name', 'like', "%{$term}%");
-                    });
+                Str::of($this->search)->lower()->explode(' ')->filter()->each(function (string $term) use ($query) {
+                    $query->where('keywords', 'like', "-%{$term}%-");
                 });
             }, function ($query) {
-                $query->limit(500);
-            })->get()
+                $query->inRandomOrder();
+            })->limit(500)->get()
         ]);
     }
 }

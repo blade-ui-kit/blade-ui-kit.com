@@ -43,25 +43,20 @@ class ParseIcons extends Command
             $path = array_filter(explode('/', Str::after($file->getPath(), $set['path'])));
             $filename = implode('.', array_filter($path + [$file->getFilenameWithoutExtension()]));
 
-            $icon = Icon::create([
+            Icon::create([
                 'icon_set_id' => $iconSet->id,
                 'name' => $set['prefix'].'-'.$filename,
                 'outlined' => $this->isOutlined($filename, $iconSet->outline_rule),
+                'keywords' => $this->keywords($filename, $iconSet->ignore_rule),
             ]);
-
-            if($keywords = $this->keywords($filename, $iconSet->ignore_rule)) {
-                $icon->keywords()->createMany($keywords->map(function (string $keyword) {
-                    return compact('keyword');
-                }));
-            }
         }
     }
 
-    protected function keywords(string $string, ?string $rule): Collection
+    protected function keywords(string $string, ?string $rule): string
     {
-        return Str::of($string)->when($rule, function (Stringable $string) use ($rule) {
+        return '-'.Str::of($string)->when($rule, function (Stringable $string) use ($rule) {
             return $string->replaceMatches($rule, '');
-        })->explode('-');
+        }).'-';
     }
 
     protected function isOutlined(string $string, ?string $rule): bool
