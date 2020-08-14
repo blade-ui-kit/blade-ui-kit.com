@@ -38,6 +38,24 @@ $ composer require {{ $icon->set->composer }}
                 </div>
             </div>
         </div>
+        <hr>
+        <x-h3>Similar icons</x-h3>
+        <div class="grid gap-3 row-gap-3 grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+            @foreach($icons as $icon)
+                <div
+                    class="flex flex-col items-center"
+                    wire:key="result_{{$icon->id}}"
+                >
+                    <a
+                        href="{{ route('blade-icon', $icon) }}"
+                        class="flex flex-col items-center justify-between w-full h-full p-2 transition duration-300 ease-in-out border border-gray-100 rounded-lg lg:h-24 hover:border-gray-500"
+                    >
+                        {{ svg($icon->name, 'w-12 h-12') }}
+                        <span class="text-center">{{ $icon->name }}</span>
+                    </a>
+                </div>
+            @endforeach
+        </div>
     </div>
 
     <x-footer/>
