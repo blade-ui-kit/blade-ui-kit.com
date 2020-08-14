@@ -19,7 +19,7 @@
                     </button>
                 </div>
                 <div class="relative w-full px-4 py-2 mr-3 font-mono text-red-600 border border-red-600 rounded-lg">
-                    &#64;svg('{{ $icon->name }}', '')
+                    &#64;svg('{{ $icon->name }}')
                     <button class="absolute right-0 p-4 mt-2 -mr-6 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
                         <x-icon-clipboard class="w-4 h-4 fill-current"></x-icon-clipboard>
                     </button>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="mt-10">
             <x-h3>Similar icons</x-h3>
             <div class="grid gap-3 row-gap-3 mt-5 grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
