@@ -25,17 +25,6 @@
                         Blade Icons
                     </a>
                 </div>
-                <div class="relative flex items-center hidden ml-4 md:ml-8 lg:ml-12 md:block">
-                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                        <div class="flex items-center text-gray-500">
-                            <x-icon-search class="inline w-4 h-4 fill-current"/>
-                        </div>
-                    </div>
-                    <input 
-                        type="text" 
-                        class="pl-10 border border-gray-500 rounded-l-full rounded-r-full focus:outline-none focus:border-gray-900 focus:text-gray-900 focus:text-gray-500"
-                    >
-                </div>
             </div>
             <div class="hidden text-right md:block text-gray">
                 <x-a
