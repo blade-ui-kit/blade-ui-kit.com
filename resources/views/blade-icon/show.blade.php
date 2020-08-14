@@ -6,16 +6,12 @@
             <span class="text-gray-300">{{ $icon->set->name }} / </span>{{ $icon->name }}
         </x-h2>
 
-        <div class="flex flex-col items-center justify-around w-full lg:flex-row">
-            <div class="flex items-center justify-around lg:items-start">
-                {{ svg($icon->name, 'w-4 h-4') }}
-                {{ svg($icon->name, 'w-8 h-8') }}
-                {{ svg($icon->name, 'w-16 h-16') }}
-                {{ svg($icon->name, 'w-32 h-32') }}
+        <div class="flex flex-col items-stretch justify-around w-full lg:flex-row">
+            <div class="w-2/3 bg-gray-100 flex items-center justify-center">
                 {{ svg($icon->name, 'w-64 h-64') }}
             </div>
 
-            <div class="flex flex-col w-full">
+            <div class="w-1/3 flex flex-col">
                 <div class="flex flex-col items-center lg:items-start">
                     <x-code>
                         {!! $code !!}
