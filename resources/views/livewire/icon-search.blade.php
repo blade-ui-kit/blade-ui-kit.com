@@ -9,7 +9,7 @@
                 spellcheck="false"
                 type="text"
                 placeholder="Search icons for&hellip;"
-                wire:model="search"
+                wire:model.debounce.400ms="search"
             >
             <div class="absolute inset-y-0 right-0 flex items-center justify-center mr-5">
                 <button wire:click="resetSearch">
