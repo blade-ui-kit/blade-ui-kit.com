@@ -20,7 +20,7 @@
                     <div class="flex">
                         <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                             <a href="https://twitter.com/calebporzio">
-                                <x-avatar search="calebporzio" class="h-12 w-12 rounded-full enlarge" />
+                                <x-avatar search="calebporzio" provider="twitter" class="h-12 w-12 rounded-full enlarge" />
                             </a>
                         </div>
                         <div class="ml-4">
