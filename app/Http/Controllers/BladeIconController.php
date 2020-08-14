@@ -13,11 +13,6 @@ final class BladeIconController
     {
         return view('blade-icon.show', [
             'icon' => $icon,
-            'code' => "```html
-<x-{$icon->name} />
-@svg('{$icon->name}')
-{{ svg('{$icon->name}') }}
-```",
             'icons' => Icon::where(function ($query) use ($icon) {
                 Str::of($icon->keywords)->explode('-')->filter()->each(function (string $term) use ($query) {
                     $query->orWhere('keywords', 'like', "-%{$term}%-");
