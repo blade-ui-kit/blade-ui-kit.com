@@ -40,12 +40,12 @@
                             href="{{ route('blade-icon', $icon) }}" 
                             class="flex flex-col items-center justify-between w-full h-full p-2 transition duration-300 ease-in-out border border-gray-100 rounded-lg lg:h-24 hover:border-gray-500"
                         >
-                            {{ svg($icon->name, 'w-12 h-12', ['wire:key="svg_'.$icon->id.'"']) }}
                             <span class="text-center">{{ $icon->name }}</span>
                         </a>
                     </div>
                 @endforeach
             </div>
+                        {{ svg($icon->name, 'w-12 h-12') }}
         </div>
     </div>
 </div>
