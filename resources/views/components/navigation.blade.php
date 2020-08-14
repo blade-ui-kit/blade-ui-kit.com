@@ -21,7 +21,7 @@
                     <a href="{{ route('home') }}#features" class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900">
                         Features
                     </a>
-                    <a href="{{ route('home') }}#blade-icons" class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900">
+                    <a href="{{ route('blade-icons') }}" class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900">
                         Blade Icons
                     </a>
                 </div>
