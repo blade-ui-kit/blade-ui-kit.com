@@ -10,7 +10,9 @@ class IconSearch extends Component
 {
     public $search = '';
 
-    protected $updatesQueryString = ['search'];
+    protected $updatesQueryString = [
+        'search' => ['except' => ''],
+    ];
 
     public function mount()
     {
