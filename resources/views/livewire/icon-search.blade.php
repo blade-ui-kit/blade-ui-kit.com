@@ -17,7 +17,11 @@
                 </div>
                 <div wire:loading.remove>
                     <button wire:click="resetSearch">
-                        <x-icon-close class="inline w-6 h-6 text-gray-500 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"></x-icon-close>
+                        @if($search)
+                            <x-icon-close class="inline w-6 h-6 text-gray-500 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"></x-icon-close>
+                        @else
+                            <x-icon-refresh class="inline w-6 h-6 text-gray-500 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"></x-icon-refresh>
+                        @endif
                     </button>
                 </div>
             </div>
