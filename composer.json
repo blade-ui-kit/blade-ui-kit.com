@@ -18,7 +18,7 @@
         "ext-json": "*",
         "actb/blade-github-octicons": "^1.1",
         "blade-ui-kit/blade-heroicons": "^0.2.1",
-        "blade-ui-kit/blade-icons": "^0.4.3",
+        "blade-ui-kit/blade-icons": "^0.4.4",
         "blade-ui-kit/blade-ui-kit": "dev-main",
         "blade-ui-kit/blade-zondicons": "^0.1.3",
         "brunocfalcao/blade-feather-icons": "^0.1.4",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b6ddb065dc992f89bdfe86708efc081",
+    "content-hash": "35d28e2a763781e857f258a127c5f8c9",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -179,16 +179,16 @@
         },
         {
             "name": "blade-ui-kit/blade-icons",
-            "version": "0.4.3",
+            "version": "0.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blade-ui-kit/blade-icons.git",
-                "reference": "709cc25c732f0e88c103af2ee423e7220e53c5bd"
+                "reference": "53bbc70dcd93a35cd3b6f328778f0666bdcba1e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/709cc25c732f0e88c103af2ee423e7220e53c5bd",
-                "reference": "709cc25c732f0e88c103af2ee423e7220e53c5bd",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/53bbc70dcd93a35cd3b6f328778f0666bdcba1e0",
+                "reference": "53bbc70dcd93a35cd3b6f328778f0666bdcba1e0",
                 "shasum": ""
             },
             "require": {
@@ -254,7 +254,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-07-09T20:12:04+00:00"
+            "time": "2020-08-14T09:15:55+00:00"
         },
         {
             "name": "blade-ui-kit/blade-ui-kit",
