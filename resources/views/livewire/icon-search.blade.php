@@ -1,6 +1,6 @@
 <div class="w-full">
-    <div class="relative z-0 flex items-center w-full mt-12">
-        <div class="absolute flex items-center w-full mb-4 rounded-lg shadow-lg">
+    <div class="relative flex items-center w-full mb-6">
+        <div class="flex items-center w-full rounded-lg shadow-lg">
             <input
                 class="block w-full p-4 text-xl border border-gray-500 rounded-lg"
                 autocapitalize="off"
@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="mt-10">
+    <div>
         @if($search)
             <div class="mb-5">
                 <span class="text-gray-500">Found:</span> {{ trans_choice('app.icons-result', count($icons)) }}
