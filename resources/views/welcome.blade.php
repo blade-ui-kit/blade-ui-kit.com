@@ -7,7 +7,7 @@
 
     @include('welcome.features')
 
-    @include('welcome.tall')
+    @include('welcome.tall-stack')
 
     @include('welcome.testimonials')
 
