@@ -12,27 +12,35 @@
             </div>
 
             <div class="flex flex-col w-full pr-5 mt-2 mr-5 space-y-10 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0 lg:w-1/3">
-                <div class="relative w-full px-4 py-2 mr-3 font-mono text-red-600 border border-red-600 rounded-lg">
-                    &lt;x-icon-{{ $icon->name }} /&gt;
-                    <button class="absolute right-0 p-4 mt-2 -mr-6 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
+                <div class="relative w-full px-4 py-2 mr-3 font-mono">
+                    <x-markdown>```
+<x-{{ $icon->name }} />
+```</x-markdown>
+                    <button class="absolute right-0 p-4 mt-0 -mr-3 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
                         <x-icon-clipboard class="w-4 h-4 fill-current"></x-icon-clipboard>
                     </button>
                 </div>
-                <div class="relative w-full px-4 py-2 mr-3 font-mono text-red-600 border border-red-600 rounded-lg">
-                    &#64;svg('{{ $icon->name }}')
-                    <button class="absolute right-0 p-4 mt-2 -mr-6 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
+                <div class="relative w-full px-4 py-2 mr-3 font-mono">
+                    <x-markdown>```html
+@verbatim @svg('{{ $icon->name }}') @endverbatim
+```</x-markdown>
+                    <button class="absolute right-0 p-4 mt-0 -mr-3 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
                         <x-icon-clipboard class="w-4 h-4 fill-current"></x-icon-clipboard>
                     </button>
                 </div>
-                <div class="relative w-full px-4 py-2 mr-3 font-mono text-red-600 border border-red-600 rounded-lg">
-                    &#123;&#123; svg('{{ $icon->name }}') &#125;&#125;
-                    <button class="absolute right-0 p-4 mt-2 -mr-6 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
+                <div class="relative w-full px-4 py-2 mr-3 font-mono">
+                    <x-markdown>```html
+@verbatim {{ svg('@endverbatim {{ $icon->name }}@verbatim') }} @endverbatim
+```</x-markdown>
+                    <button class="absolute right-0 p-4 mt-0 -mr-3 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
                         <x-icon-clipboard class="w-4 h-4 fill-current"></x-icon-clipboard>
                     </button>
                 </div>
-                <div class="relative w-full px-4 py-2 mr-3 font-mono text-red-600 border border-red-600 rounded-lg">
-                    composer require {{ $icon->set->composer }}
-                    <button class="absolute right-0 p-4 mt-2 -mr-6 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
+                <div class="relative w-full px-4 py-2 mr-3 font-mono">
+                    <x-markdown>```bash
+composer require {{ $icon->set->composer }}                        
+```</x-markdown>
+                    <button class="absolute right-0 p-4 mt-0 -mr-3 text-white bg-red-600 rounded-full hover:bg-scarlet-500">
                         <x-icon-clipboard class="w-4 h-4 fill-current"></x-icon-clipboard>
                     </button>
                 </div>
