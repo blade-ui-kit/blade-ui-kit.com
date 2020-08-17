@@ -10,28 +10,28 @@
             <div class="flex flex-col w-full mt-2 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0">
                 <div>
                     <div>Install through composer</div>
-                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 composer require {{ $icon->set->composer }}
 ```</x-markdown>
                 </div>                  
 
                 <div>
                     <div>Use as component</div>
-                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 <x-{{ $icon->name }} />
 ```</x-markdown>
                 </div>
 
                 <div>
                     <div>Use as helper</div>
-                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 @verbatim @svg(@endverbatim'{{ $icon->name }}@verbatim')@endverbatim
 ```</x-markdown>
                 </div>
                 
                 <div>
                     <div>Use as function</div>
-                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 @verbatim {{ svg(@endverbatim' {{ $icon->name }}@verbatim') }} @endverbatim
 ```</x-markdown>
                 </div>
