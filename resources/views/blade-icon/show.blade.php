@@ -7,31 +7,31 @@
         </x-h2>
 
         <div class="flex flex-col items-stretch justify-around w-full lg:flex-row">
-            <div class="flex flex-col w-full pr-5 mt-2 mr-10 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0 lg:w-1/3">
+            <div class="flex flex-col w-full mt-2 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0">
                 <div>
-                    <x-h5>Install through composer</x-h5>
-                    <x-markdown class="block max-w-full mt-3 overflow-scroll text-xs font-medium prose bg-gray-700 rounded sm:inline-block sm:mt-6 text-gray-50 sm:text-base lg:prose-lg">```
+                    <div>Install through composer</div>
+                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 composer require {{ $icon->set->composer }}
 ```</x-markdown>
                 </div>                  
 
                 <div>
-                    <x-h5>Use as component</x-h5>
-                    <x-markdown class="block max-w-full mt-3 overflow-scroll text-xs font-medium prose bg-gray-700 rounded sm:inline-block sm:mt-6 text-gray-50 sm:text-base lg:prose-lg">```
+                    <div>Use as component</div>
+                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 <x-{{ $icon->name }} />
 ```</x-markdown>
                 </div>
 
                 <div>
-                    <x-h5>Use as helper</x-h5>
-                    <x-markdown class="block max-w-full mt-3 overflow-scroll text-xs font-medium prose bg-gray-700 rounded sm:inline-block sm:mt-6 text-gray-50 sm:text-base lg:prose-lg">```
+                    <div>Use as helper</div>
+                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 @verbatim @svg(@endverbatim'{{ $icon->name }}@verbatim')@endverbatim
 ```</x-markdown>
                 </div>
                 
                 <div>
-                    <x-h5>Use as function</x-h5>
-                    <x-markdown class="block max-w-full mt-3 overflow-scroll text-xs font-medium prose bg-gray-700 rounded sm:inline-block sm:mt-6 text-gray-50 sm:text-base lg:prose-lg">```
+                    <div>Use as function</div>
+                    <x-markdown class="overflow-scroll font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 @verbatim {{ svg(@endverbatim' {{ $icon->name }}@verbatim') }} @endverbatim
 ```</x-markdown>
                 </div>
@@ -44,7 +44,7 @@ composer require {{ $icon->set->composer }}
 
         <div class="mt-10">
             <x-h3>Similar icons</x-h3>
-            <div class="grid gap-3 row-gap-3 mt-5 grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+            <div class="grid gap-3 row-gap-3 mt-5 text-sm grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8">
                 @foreach($icons as $icon)
                     <div
                         class="flex flex-col items-center"

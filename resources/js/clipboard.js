@@ -19,7 +19,7 @@ const clipboardCopiedIcon = `
     </path></svg>`;
 
 // Copy to Clipboard
-let codeBlocks = document.querySelectorAll('.docs pre');
+let codeBlocks = document.querySelectorAll('.docs pre,pre');
 codeBlocks.forEach((element, key) => {
     // Copy to clipboard button
     let copyToClipboardBtn = document.createElement('button');
