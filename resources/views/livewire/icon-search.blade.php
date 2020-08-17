@@ -34,7 +34,7 @@
                 <span class="text-gray-500">Found:</span> {{ trans_choice('app.icons-result', count($icons)) }}
             </div>
         @endif
-        <div class="grid gap-3 row-gap-3 grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div class="grid gap-3 row-gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 text-sm">
             @foreach($icons as $icon)
                 <div
                     class="flex flex-col items-center"
@@ -44,8 +44,8 @@
                         href="{{ route('blade-icon', $icon) }}"
                         class="flex flex-col items-center justify-between w-full h-full p-2 transition duration-300 ease-in-out border border-gray-100 rounded-lg lg:h-24 hover:border-gray-500"
                     >
-                        {{ svg($icon->name, 'w-12 h-12') }}
-                        <span class="text-center">{{ $icon->name }}</span>
+                        {{ svg($icon->name, 'w-8 h-8') }}
+                        <span class="text-center truncate max-w-full">{{ $icon->name }}</span>
                     </a>
                 </div>
             @endforeach
