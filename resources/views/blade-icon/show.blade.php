@@ -32,7 +32,7 @@ composer require {{ $icon->set->composer }}
                 <div>
                     <div>Use as function</div>
                     <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
-@verbatim {{ svg(@endverbatim' {{ $icon->name }}@verbatim') }} @endverbatim
+@verbatim {{ svg(@endverbatim'{{ $icon->name }}@verbatim') }} @endverbatim
 ```</x-markdown>
                 </div>
             </div>
