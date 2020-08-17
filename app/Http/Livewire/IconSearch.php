@@ -33,7 +33,7 @@ class IconSearch extends Component
                 });
             }, function ($query) {
                 $query->inRandomOrder();
-            })->limit(500)->get(),
+            })->limit(50)->get(),
         ]);
     }
 }
