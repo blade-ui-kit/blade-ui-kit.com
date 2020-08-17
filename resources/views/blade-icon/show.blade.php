@@ -7,6 +7,9 @@
         </x-h2>
 
         <div class="flex flex-col items-stretch justify-around w-full lg:flex-row">
+            <div class="flex items-center justify-center w-full py-12 bg-gray-100 lg:w-2/3">
+                {{ svg($icon->name, 'w-64 h-64') }}
+            </div>
             <div class="flex flex-col w-full mt-2 mr-2 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0">
                 <div class="w-full">
                     <div>Install through composer</div>
@@ -35,10 +38,6 @@ composer require {{ $icon->set->composer }}
 {{ svg(@endverbatim'{{ $icon->name }}@verbatim') }}@endverbatim
 ```</x-markdown>
                 </div>
-            </div>
-
-            <div class="flex items-center justify-center w-full py-12 bg-gray-100 lg:w-2/3">
-                {{ svg($icon->name, 'w-64 h-64') }}
             </div>
         </div>
 
