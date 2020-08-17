@@ -107,5 +107,12 @@ class IconSet extends BaseModel
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 15,
+            'name' => 'entypo',
+            'composer' => 'owenvoke/blade-entypo',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 }
