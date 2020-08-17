@@ -7,29 +7,29 @@
         </x-h2>
 
         <div class="flex flex-col items-stretch justify-around w-full lg:flex-row">
-            <div class="flex flex-col w-full mt-2 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0">
-                <div>
+            <div class="flex flex-col w-full mt-2 mr-2 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0">
+                <div class="w-full">
                     <div>Install through composer</div>
                     <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 composer require {{ $icon->set->composer }}
 ```</x-markdown>
                 </div>                  
 
-                <div>
+                <div class="w-full">
                     <div>Use as component</div>
                     <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 <x-{{ $icon->name }} />
 ```</x-markdown>
                 </div>
 
-                <div>
+                <div class="w-full">
                     <div>Use as helper</div>
                     <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 @verbatim @svg(@endverbatim'{{ $icon->name }}@verbatim')@endverbatim
 ```</x-markdown>
                 </div>
                 
-                <div>
+                <div class="w-full">
                     <div>Use as function</div>
                     <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 @verbatim {{ svg(@endverbatim'{{ $icon->name }}@verbatim') }} @endverbatim
