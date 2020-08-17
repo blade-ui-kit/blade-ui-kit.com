@@ -31,9 +31,10 @@ class IconSearch extends Component
                 Str::of($this->search)->lower()->explode(' ')->filter()->each(function (string $term) use ($query) {
                     $query->where('keywords', 'like', "-%{$term}%-");
                 });
+                $query->limit(500);
             }, function ($query) {
-                $query->inRandomOrder();
-            })->limit(50)->get(),
+                $query->inRandomOrder()->limit(72);
+            })->get(),
         ]);
     }
 }
