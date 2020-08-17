@@ -8,4 +8,9 @@ class Icon extends BaseModel
     {
         return $this->belongsTo(IconSet::class, 'icon_set_id');
     }
+
+    public function getRouteKeyName()
+    {
+        return 'name';
+    }
 }
