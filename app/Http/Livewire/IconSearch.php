@@ -21,7 +21,7 @@ class IconSearch extends Component
 
     public function resetSearch()
     {
-        $this->search = '';
+        $this->reset('search');
     }
 
     public function render()
