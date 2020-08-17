@@ -13,7 +13,7 @@
                     <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 composer require {{ $icon->set->composer }}
 ```</x-markdown>
-                </div>                  
+                </div>
 
                 <div class="w-full">
                     <div>Use as component</div>
@@ -24,15 +24,15 @@ composer require {{ $icon->set->composer }}
 
                 <div class="w-full">
                     <div>Use as helper</div>
-                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
-@verbatim @svg(@endverbatim'{{ $icon->name }}@verbatim')@endverbatim
+                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```@verbatim
+@svg(@endverbatim'{{ $icon->name }}@verbatim')@endverbatim
 ```</x-markdown>
                 </div>
-                
+
                 <div class="w-full">
                     <div>Use as function</div>
-                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
-@verbatim {{ svg(@endverbatim'{{ $icon->name }}@verbatim') }} @endverbatim
+                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```@verbatim
+{{ svg(@endverbatim'{{ $icon->name }}@verbatim') }}@endverbatim
 ```</x-markdown>
                 </div>
             </div>
