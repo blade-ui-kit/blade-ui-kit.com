@@ -29,6 +29,7 @@ final class IconSet extends Model
         [
             'id' => 1,
             'name' => 'heroicons',
+            'repository' => 'https://github.com/blade-ui-kit/blade-heroicons',
             'composer' => 'blade-ui-kit/blade-heroicons',
             'ignore_rule' => '/^(?:o|s)-/',
             'outline_rule' => '/^o-/',
@@ -36,6 +37,7 @@ final class IconSet extends Model
         [
             'id' => 2,
             'name' => 'zondicons',
+            'repository' => 'https://github.com/blade-ui-kit/blade-zondicons',
             'composer' => 'blade-ui-kit/blade-zondicons',
             'ignore_rule' => null,
             'outline_rule' => null,
@@ -43,6 +45,7 @@ final class IconSet extends Model
         [
             'id' => 3,
             'name' => 'bootstrap-icons',
+            'repository' => 'https://github.com/davidhsianturi/blade-bootstrap-icons',
             'composer' => 'davidhsianturi/blade-bootstrap-icons',
             'ignore_rule' => '/-fill$/',
             'outline_rule' => '/.*(?<!-fill)$/',
@@ -50,6 +53,7 @@ final class IconSet extends Model
         [
             'id' => 4,
             'name' => 'css-icons',
+            'repository' => 'https://github.com/khatabwedaa/blade-css-icons',
             'composer' => 'khatabwedaa/blade-css-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
@@ -57,6 +61,7 @@ final class IconSet extends Model
         [
             'id' => 5,
             'name' => 'evaicons',
+            'repository' => 'https://github.com/hasnayeen/blade-eva-icons',
             'composer' => 'hasnayeen/blade-eva-icons',
             'ignore_rule' => '/-outline$/',
             'outline_rule' => '/-outline$/',
@@ -64,6 +69,7 @@ final class IconSet extends Model
         [
             'id' => 6,
             'name' => 'feather-icons',
+            'repository' => 'https://github.com/brunocfalcao/blade-feather-icons',
             'composer' => 'brunocfalcao/blade-feather-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
@@ -71,6 +77,7 @@ final class IconSet extends Model
         [
             'id' => 7,
             'name' => 'fontawesome-brands',
+            'repository' => 'https://github.com/owenvoke/blade-fontawesome',
             'composer' => 'owenvoke/blade-fontawesome',
             'ignore_rule' => null, //fab
             'outline_rule' => null,
@@ -78,6 +85,7 @@ final class IconSet extends Model
         [
             'id' => 8,
             'name' => 'fontawesome-regular',
+            'repository' => 'https://github.com/owenvoke/blade-fontawesome',
             'composer' => 'owenvoke/blade-fontawesome',
             'ignore_rule' => null, //far
             'outline_rule' => null,
@@ -85,6 +93,7 @@ final class IconSet extends Model
         [
             'id' => 9,
             'name' => 'fontawesome-solid',
+            'repository' => 'https://github.com/owenvoke/blade-fontawesome',
             'composer' => 'owenvoke/blade-fontawesome',
             'ignore_rule' => null, //fas
             'outline_rule' => null,
@@ -92,6 +101,7 @@ final class IconSet extends Model
         // [
         //     'id' => 10,
         //     'name' => 'github-octicons',
+        //     'repository' => 'https://github.com/Activisme-be/Blade-github-octicons',
         //     'composer' => 'actb/blade-github-octicons',
         //     'ignore_rule' => '/-\d{2}$/', // 16|24
         //     'outline_rule' => null,
@@ -99,6 +109,7 @@ final class IconSet extends Model
         // [
         //     'id' => 11,
         //     'name' => 'ionicons',
+        //     'repository' => 'https://github.com/faisal50x/blade-ionicons',
         //     'composer' => 'faisal50x/blade-ionicons',
         //     'ignore_rule' => '/-(?:outline|sharp)$/',
         //     'outline_rule' => '/-outline$/',
@@ -106,6 +117,7 @@ final class IconSet extends Model
         // [
         //     'id' => 12,
         //     'name' => 'blade-mdi',
+        //     'repository' => 'https://github.com/renoki-co/blade-mdi',
         //     'composer' => 'renoki-co/blade-mdi',
         //     'ignore_rule' => '/-outline$/',
         //     'outline_rule' => '/-outline$/',
@@ -113,6 +125,7 @@ final class IconSet extends Model
         // [
         //     'id' => 13,
         //     'name' => 'remix',
+        //     'repository' => 'https://github.com/skydiver/blade-icons-remix',
         //     'composer' => 'skydiver/blade-icons-remix',
         //     'ignore_rule' => '/-(?:line|fill)$/',
         //     'outline_rule' => '/-line$/',
@@ -120,6 +133,7 @@ final class IconSet extends Model
         [
             'id' => 14,
             'name' => 'tabler',
+            'repository' => 'https://github.com/ryangjchandler/blade-tabler-icons',
             'composer' => 'ryangjchandler/blade-tabler-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
@@ -127,6 +141,7 @@ final class IconSet extends Model
         [
             'id' => 15,
             'name' => 'entypo',
+            'repository' => 'https://github.com/owenvoke/blade-entypo',
             'composer' => 'owenvoke/blade-entypo',
             'ignore_rule' => null,
             'outline_rule' => null,

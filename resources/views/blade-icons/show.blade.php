@@ -1,67 +1,69 @@
 <x-layout :title="$icon->name">
     <x-navigation/>
 
-    <div id="icon-detail" class="relative max-w-screen-xl px-4 mx-auto sm:px-6">
-        <x-h2>
-            <span class="text-gray-300">{{ $icon->set->name }} / </span>{{ $icon->name }}
-        </x-h2>
+    <div id="icon-detail" class="mt-6 relative max-w-screen-xl px-4 mx-auto sm:px-6">
+        <x-h3>
+            <x-a :href="$icon->set->repository">
+                {{ $icon->set->name }}
+            </x-a>
 
-        <div class="flex flex-col items-stretch justify-around w-full lg:flex-row">
-            <div class="flex items-center justify-center w-full py-12 bg-gray-100 lg:w-2/3">
+            <br class="sm:hidden"> / {{ $icon->name }}
+        </x-h3>
+
+        <div class="mt-6 sm:grid sm:grid-cols-5 sm:gap-10 w-full">
+            <div class="sm:col-span-3 flex items-center justify-center w-full py-12 bg-gray-100 text-gray-700">
                 {{ svg($icon->name, 'w-64 h-64') }}
             </div>
 
-            <div class="flex flex-col w-full mt-2 mr-2 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0">
+            <div class="mt-10 sm:mt-0 sm:col-span-2 mt-2 mr-2lg:ml-2lg:mt-0">
                 <div class="w-full">
-                    <div>Install through composer</div>
-                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+                    <x-h5>Install through composer</x-h5>
+                    <x-markdown class="mt-2 font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 composer require {{ $icon->set->composer }}
 ```</x-markdown>
                 </div>
 
-                <div class="w-full">
-                    <div>Use as component</div>
-                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+                <div class="w-full mt-6">
+                    <x-h5>Use it as a component</x-h5>
+                    <x-markdown class="mt-2 font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
 <x-{{ $icon->name }} />
 ```</x-markdown>
                 </div>
 
-                <div class="w-full">
-                    <div>Use as helper</div>
-                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```@verbatim
-@svg(@endverbatim'{{ $icon->name }}@verbatim')@endverbatim
+                <div class="w-full mt-6">
+                    <x-h5>Use it as a directive</x-h5>
+                    <x-markdown class="mt-2 font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+@@svg('<?php echo $icon->name ?>')
 ```</x-markdown>
                 </div>
 
-                <div class="w-full">
-                    <div>Use as function</div>
-                    <x-markdown class="font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```@verbatim
-{{ svg(@endverbatim'{{ $icon->name }}@verbatim') }}@endverbatim
+                <div class="w-full mt-6">
+                    <x-h5>Use it with a helper</x-h5>
+                    <x-markdown class="mt-2 font-medium prose-sm prose bg-gray-700 rounded text-gray-50 sm:text-base">```
+{{ svg('<?php echo $icon->name ?>') }}
 ```</x-markdown>
                 </div>
             </div>
         </div>
 
-        <div class="mt-10">
-            <x-h3>Similar icons</x-h3>
+        @if (count($icons))
+            <div class="mt-10">
+                <x-h4>
+                    Similar icons
+                </x-h4>
 
-            <div class="grid gap-3 row-gap-3 mt-5 text-sm grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8">
-                @foreach ($icons as $icon)
-                    <div
-                        class="flex flex-col items-center"
-                        wire:key="result_{{$icon->id}}"
-                    >
-                        <a
-                            href="{{ route('blade-icon', $icon) }}"
-                            class="flex flex-col items-center justify-between w-full h-full p-2 transition duration-300 ease-in-out border border-gray-100 rounded-lg lg:h-24 hover:border-gray-500"
+                <div class="mt-5 grid gap-3 row-gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 text-sm">
+                    @foreach ($icons as $icon)
+                        <div
+                            class="flex flex-col items-center"
+                            wire:key="result_{{$icon->id}}"
                         >
-                            {{ svg($icon->name, 'w-12 h-12') }}
-                            <span class="text-center">{{ $icon->name }}</span>
-                        </a>
-                    </div>
-                @endforeach
+                            <x-icon-link :icon="$icon" />
+                        </div>
+                    @endforeach
+                </div>
             </div>
-        </div>
+        @endif
     </div>
 
     <x-footer/>

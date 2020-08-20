@@ -28,7 +28,7 @@
                         </x-buttons.primary>
 
                         <div class="mt-3 sm:mt-0 sm:ml-3">
-                            <x-buttons.secondary :href="route('blade-icons')">
+                            <x-buttons.secondary :href="route('blade-icons').'#search'">
                                 <x-heroicon-s-search class="-ml-1 mr-3 h-5 w-5" />
                                 Search Icons
                             </x-buttons.secondary>

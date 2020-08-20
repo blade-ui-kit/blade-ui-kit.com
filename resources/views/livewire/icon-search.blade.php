@@ -1,6 +1,6 @@
 <div class="w-full">
     <div class="relative flex items-center w-full mb-6">
-        <div class="flex items-center w-full rounded-lg shadow-lg">
+        <div class="flex items-center w-full rounded-lg shadow-md">
             <input
                 class="block w-full p-4 text-xl border border-gray-200 rounded-lg"
                 autocapitalize="off"
@@ -8,7 +8,7 @@
                 autocorrect="off"
                 spellcheck="false"
                 type="text"
-                placeholder="Search icons ..."
+                placeholder="Search Blade icons ..."
                 wire:model.debounce.400ms="search"
             >
 
@@ -32,27 +32,18 @@
 
     <div>
         @if ($search)
-            <div class="mb-5">
+            <x-p>
                 <span class="text-gray-500">Found:</span> {{ trans_choice('app.icons-result', count($icons)) }}
-            </div>
+            </x-p>
         @endif
 
-        <div class="grid gap-3 row-gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 text-sm">
+        <div class="mt-5 grid gap-3 row-gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 text-sm">
             @foreach ($icons as $icon)
                 <div
                     class="flex flex-col items-center"
-                    wire:key="result_{{$icon->id}}"
+                    wire:key="result_{{ $icon->id }}"
                 >
-                    <a
-                        href="{{ route('blade-icon', $icon) }}"
-                        class="flex flex-col items-center justify-between w-full h-full p-3 transition duration-300 ease-in-out border border-gray-200 text-gray-500 rounded-lg hover:text-scarlet-500 hover:shadow-md"
-                    >
-                        {{ svg($icon->name, 'w-8 h-8') }}
-
-                        <span class="text-center truncate max-w-full mt-3">
-                            {{ $icon->name }}
-                        </span>
-                    </a>
+                    <x-icon-link :icon="$icon" />
                 </div>
             @endforeach
         </div>
