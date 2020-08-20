@@ -28,9 +28,9 @@
                         </x-buttons.primary>
 
                         <div class="mt-3 sm:mt-0 sm:ml-3">
-                            <x-buttons.secondary href="https://github.com/blade-ui-kit/blade-icons#icon-packages">
-                                <x-heroicon-s-collection class="-ml-1 mr-3 h-5 w-5" />
-                                Icon Packages
+                            <x-buttons.secondary :href="route('blade-icons')">
+                                <x-heroicon-s-search class="-ml-1 mr-3 h-5 w-5" />
+                                Search Icons
                             </x-buttons.secondary>
                         </div>
                     </div>
@@ -38,8 +38,8 @@
             </main>
         </div>
     </div>
+
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-scarlet-300 h-full w-full">
-        <div class="h-full" style="background: url('/images/heroicons-pattern.svg') 0 13px repeat">
-        </div>
+        <div class="h-full" style="background: url('/images/heroicons-pattern.svg') 0 13px repeat"></div>
     </div>
 </div>

@@ -1,28 +1,33 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Console\Commands;
 
 use App\Models\Icon;
 use App\Models\IconSet;
 use BladeUI\Icons\Factory;
 use Illuminate\Console\Command;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Stringable;
 
-class ParseIcons extends Command
+final class ImportIcons extends Command
 {
-    protected $signature = 'parse:icons';
+    protected $signature = 'icons:import';
 
     protected $description = 'Command description';
 
-    protected array $sets;
+    private array $sets;
 
-    public function handle(): int
+    public function handle(Factory $factory): int
     {
-        $this->sets = app(Factory::class)->all();
+        $this->sets = $factory->all();
+
+        unset($this->sets['default']);
+
+        $this->info('Starting to import icon sets...');
 
         DB::transaction(function () {
             Icon::query()->delete();
@@ -32,10 +37,12 @@ class ParseIcons extends Command
             });
         });
 
+        $this->info('Successfully imported ' . count($this->sets) . ' icon sets!');
+
         return 0;
     }
 
-    protected function parseIcons(IconSet $iconSet)
+    private function parseIcons(IconSet $iconSet): void
     {
         $set = $this->sets[$iconSet->name];
 
@@ -52,14 +59,14 @@ class ParseIcons extends Command
         }
     }
 
-    protected function keywords(string $string, ?string $rule): string
+    private function keywords(string $string, ?string $rule): string
     {
-        return '-'.Str::of($string)->when($rule, function (Stringable $string) use ($rule) {
+        return '-'.Str::of($string)->when($rule !== null, function (Stringable $string) use ($rule) {
             return $string->replaceMatches($rule, '');
         }).'-';
     }
 
-    protected function isOutlined(string $string, ?string $rule): bool
+    private function isOutlined(string $string, ?string $rule): bool
     {
         if ($rule === null) {
             return false;

@@ -1,40 +1,35 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Livewire;
 
 use App\Models\Icon;
-use Illuminate\Support\Str;
+use Illuminate\Contracts\View\View;
 use Livewire\Component;
 
-class IconSearch extends Component
+final class IconSearch extends Component
 {
-    public $search = '';
+    public string $search = '';
 
     protected $updatesQueryString = [
         'search' => ['except' => ''],
     ];
 
-    public function mount()
+    public function mount(): void
     {
-        $this->search = request()->query('search', $this->search);
+        $this->search = (string) request()->query('search', $this->search);
     }
 
-    public function resetSearch()
+    public function resetSearch(): void
     {
         $this->reset('search');
     }
 
-    public function render()
+    public function render(): View
     {
         return view('livewire.icon-search', [
-            'icons' => Icon::query()->when($this->search !== '', function ($query) {
-                Str::of($this->search)->lower()->explode(' ')->filter()->each(function (string $term) use ($query) {
-                    $query->where('keywords', 'like', "-%{$term}%-");
-                });
-                $query->limit(500);
-            }, function ($query) {
-                $query->inRandomOrder()->limit(72);
-            })->get(),
+            'icons' => Icon::search($this->search),
         ]);
     }
 }

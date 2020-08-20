@@ -6,11 +6,6 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateIconsTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         Schema::create('icons', function (Blueprint $table) {
@@ -20,15 +15,5 @@ class CreateIconsTable extends Migration
             $table->string('keywords');
             $table->boolean('outlined');
         });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('icons');
     }
 }

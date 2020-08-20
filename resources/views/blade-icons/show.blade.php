@@ -1,7 +1,7 @@
-<x-layout>
+<x-layout :title="$icon->name">
     <x-navigation/>
 
-    <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6">
+    <div id="icon-detail" class="relative max-w-screen-xl px-4 mx-auto sm:px-6">
         <x-h2>
             <span class="text-gray-300">{{ $icon->set->name }} / </span>{{ $icon->name }}
         </x-h2>
@@ -10,6 +10,7 @@
             <div class="flex items-center justify-center w-full py-12 bg-gray-100 lg:w-2/3">
                 {{ svg($icon->name, 'w-64 h-64') }}
             </div>
+
             <div class="flex flex-col w-full mt-2 mr-2 space-y-1 md:w-1/2 lg:items-start lg:ml-2 lg:flex-col lg:mt-0">
                 <div class="w-full">
                     <div>Install through composer</div>
@@ -43,8 +44,9 @@ composer require {{ $icon->set->composer }}
 
         <div class="mt-10">
             <x-h3>Similar icons</x-h3>
+
             <div class="grid gap-3 row-gap-3 mt-5 text-sm grid-col-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8">
-                @foreach($icons as $icon)
+                @foreach ($icons as $icon)
                     <div
                         class="flex flex-col items-center"
                         wire:key="result_{{$icon->id}}"

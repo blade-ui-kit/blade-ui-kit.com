@@ -1,14 +1,31 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Model;
 use Sushi\Sushi;
 
-class IconSet extends BaseModel
+final class IconSet extends Model
 {
     use Sushi;
 
-    protected $rows = [
+    /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+
+    /**
+     * The attributes that aren't mass assignable.
+     *
+     * @var array
+     */
+    protected $guarded = [];
+
+    protected array $rows = [
         [
             'id' => 1,
             'name' => 'heroicons',
@@ -72,34 +89,34 @@ class IconSet extends BaseModel
             'ignore_rule' => null, //fas
             'outline_rule' => null,
         ],
-        [
-            'id' => 10,
-            'name' => 'github-octicons',
-            'composer' => 'actb/blade-github-octicons',
-            'ignore_rule' => '/-\d{2}$/', // 16|24
-            'outline_rule' => null,
-        ],
-        [
-            'id' => 11,
-            'name' => 'ionicons',
-            'composer' => 'faisal50x/blade-ionicons',
-            'ignore_rule' => '/-(?:outline|sharp)$/',
-            'outline_rule' => '/-outline$/',
-        ],
-        [
-            'id' => 12,
-            'name' => 'blade-mdi',
-            'composer' => 'renoki-co/blade-mdi',
-            'ignore_rule' => '/-outline$/',
-            'outline_rule' => '/-outline$/',
-        ],
-        [
-            'id' => 13,
-            'name' => 'remix',
-            'composer' => 'skydiver/blade-icons-remix',
-            'ignore_rule' => '/-(?:line|fill)$/',
-            'outline_rule' => '/-line$/',
-        ],
+        // [
+        //     'id' => 10,
+        //     'name' => 'github-octicons',
+        //     'composer' => 'actb/blade-github-octicons',
+        //     'ignore_rule' => '/-\d{2}$/', // 16|24
+        //     'outline_rule' => null,
+        // ],
+        // [
+        //     'id' => 11,
+        //     'name' => 'ionicons',
+        //     'composer' => 'faisal50x/blade-ionicons',
+        //     'ignore_rule' => '/-(?:outline|sharp)$/',
+        //     'outline_rule' => '/-outline$/',
+        // ],
+        // [
+        //     'id' => 12,
+        //     'name' => 'blade-mdi',
+        //     'composer' => 'renoki-co/blade-mdi',
+        //     'ignore_rule' => '/-outline$/',
+        //     'outline_rule' => '/-outline$/',
+        // ],
+        // [
+        //     'id' => 13,
+        //     'name' => 'remix',
+        //     'composer' => 'skydiver/blade-icons-remix',
+        //     'ignore_rule' => '/-(?:line|fill)$/',
+        //     'outline_rule' => '/-line$/',
+        // ],
         [
             'id' => 14,
             'name' => 'tabler',
