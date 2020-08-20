@@ -12,7 +12,7 @@
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
             <p class="text-center text-base leading-6 text-gray-400">
-                &copy; {{ date('Y') }} Dries Vints. Site built with <x-a href="https://laravel.com">Laravel</x-a> and <x-a href="https://tailwindcss.com">Tailwind CSS.</x-a> <x-a href="https://github.com/blade-ui-kit/art">Artwork</x-a> by <x-a href="https://caneco.dev/">Caneco.</x-a>
+                &copy; {{ date('Y') }} <x-a href="https://driesvints.com">Dries Vints</x-a>. Site built with <x-a href="https://laravel.com">Laravel</x-a> and <x-a href="https://tailwindcss.com">Tailwind CSS.</x-a> <x-a href="https://github.com/blade-ui-kit/art">Artwork</x-a> by <x-a href="https://caneco.dev/">Caneco.</x-a>
             </p>
         </div>
     </div>
