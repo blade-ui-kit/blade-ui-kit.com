@@ -9,7 +9,7 @@
                 Search for an icon
             </x-h3>
             <x-p>
-                With {{ App\Models\IconSet::count() }} sets, we probably can find the right one for you.
+                With {{ App\Models\IconSet::count() }} different sets, we probably can find the right one for you.
             </x-p>
         </div>
     </div>
