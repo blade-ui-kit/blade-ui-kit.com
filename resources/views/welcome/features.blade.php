@@ -72,6 +72,13 @@
                         </div>
                     </li>
                 </ul>
+
+                <div class="mt-6 sm:mt-12 text-center">
+                    <x-buttons.secondary :href="route('docs')">
+                        And many more
+                        <x-heroicon-s-arrow-right class="ml-2 h-4 w-4" />
+                    </x-buttons.secondary>
+                </div>
             </div>
 
             <div class="mt-10 -mx-4 relative lg:mt-0 px-4">
