@@ -38,9 +38,35 @@ final class Icon extends Model
     public static function search(string $search): Collection
     {
         $matchesKeywords = function ($query) use ($search) {
-            Str::of($search)->lower()->explode(' ')->filter()->each(function (string $keyword) use ($query) {
+            $keywords = Str::of($search)->lower()->explode(' ')->filter();
+
+            $keywords->each(function (string $keyword) use ($query) {
                 $query->where('keywords', 'like', "-%{$keyword}%-");
             });
+
+            $aliases = $keywords->map(function (string $keyword) use ($query) {
+                if ($aliases = static::getAliases($keyword)) {
+                    return collect($aliases);
+                }
+
+                return $keyword;
+            });
+
+            if ($aliases->diff($keywords)) {
+                $query->orWhere(function ($query) use ($aliases) {
+                    $aliases->each(function ($keyword) use ($query) {
+                        if (is_string($keyword)) {
+                            return $query->where('keywords', 'like', "-%{$keyword}%-");
+                        }
+
+                        $query->where(function ($query) use ($keyword) {
+                            $keyword->each(function (string $keyword) use ($query) {
+                                $query->orWhere('keywords', 'like', "-{$keyword}-");
+                            });
+                        });
+                    });
+                });
+            }
 
             $query->limit(500);
         };
@@ -63,5 +89,12 @@ final class Icon extends Model
             ->inRandomOrder()
             ->limit(20)
             ->get();
+    }
+
+    public static function getAliases(string $keyword): array
+    {
+        return [
+            'time' => ['hourglass', 'clock'],
+        ][$keyword] ?? [];
     }
 }
