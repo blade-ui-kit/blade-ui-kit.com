@@ -15,5 +15,5 @@
 
     @include('welcome.quote')
 
-    <x-footer />
+    <x-footer/>
 </x-layout>

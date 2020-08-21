@@ -1,5 +1,5 @@
 <div class="relative bg-white overflow-hidden">
-    <div class="relative pt-6 sm:pb-10" x-data="{ open: false }">
+    <div class="relative pt-6 pb-4 sm:pb-10" x-data="{ open: false }">
         <nav class="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
             <div class="flex items-center flex-1">
                 <div class="flex items-center justify-between w-full md:w-auto">
@@ -21,7 +21,7 @@
                     <a href="{{ route('home') }}#features" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                         Features
                     </a>
-                    <a href="{{ route('home') }}#blade-icons" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                    <a href="{{ route('blade-icons') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                         Blade Icons
                     </a>
                 </div>
@@ -42,7 +42,7 @@
             </div>
         </nav>
 
-        <div class="top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden fixed top-2" x-show="open" @click.away="open = false">
+        <div class="top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden fixed top-2 z-50" x-show="open" @click.away="open = false">
             <div class="rounded-lg shadow-md">
                 <div class="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
                     <div class="px-5 pt-4 flex items-center justify-between">
@@ -66,7 +66,7 @@
                         <a href="{{ route('home') }}#features" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
                             Features
                         </a>
-                        <a href="{{ route('home') }}#blade-icons" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
+                        <a href="{{ route('blade-icons') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
                             Blade Icons
                         </a>
                     </div>

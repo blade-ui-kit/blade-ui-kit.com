@@ -17,10 +17,14 @@
 
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
+        {{ $head ?? '' }}
+
+        <livewire:styles/>
         @bukStyles
     </x-slot>
 
     {{ $slot }}
 
+    <livewire:scripts/>
     @bukScripts
 </x-html>
