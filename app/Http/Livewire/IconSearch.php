@@ -29,6 +29,7 @@ final class IconSearch extends Component
     public function render(): View
     {
         return view('livewire.icon-search', [
+            'total' => Icon::count(),
             'icons' => Icon::search($this->search),
         ]);
     }
