@@ -16,6 +16,7 @@
     "require": {
         "php": "^7.4",
         "ext-json": "*",
+        "actb/blade-github-octicons": "^1.2",
         "blade-ui-kit/blade-heroicons": "^0.2.1",
         "blade-ui-kit/blade-icons": "^0.4.4",
         "blade-ui-kit/blade-ui-kit": "dev-main",

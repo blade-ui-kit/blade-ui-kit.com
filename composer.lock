@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56688b21f9a8804606da72ff3de5932b",
+    "content-hash": "6b7ed0d64b187cb0e37a5c498703a133",
     "packages": [
+        {
+            "name": "actb/blade-github-octicons",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Activisme-be/Blade-github-octicons.git",
+                "reference": "67ff6ffcb48e69294aff898d017e0912cde1ffce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Activisme-be/Blade-github-octicons/zipball/67ff6ffcb48e69294aff898d017e0912cde1ffce",
+                "reference": "67ff6ffcb48e69294aff898d017e0912cde1ffce",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^0.4.3",
+                "illuminate/support": "^7.14",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0",
+                "phpunir/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Actb\\BladeGithubOcticons\\GithubOcticonsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Actb\\BladeGithubOcticons\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A package to easily make use of Github octicons in your Laravel blade views.",
+            "time": "2020-08-22T00:17:51+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "1.3.0",
@@ -114,10 +157,6 @@
                 "blade",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/blade-ui-kit/blade-heroicons/issues",
-                "source": "https://github.com/blade-ui-kit/blade-heroicons/tree/0.2.1"
-            },
             "funding": [
                 {
                     "url": "https://github.com/driesvints",
@@ -193,10 +232,6 @@
                 "laravel",
                 "svg"
             ],
-            "support": {
-                "issues": "https://github.com/blade-ui-kit/blade-icons/issues",
-                "source": "https://github.com/blade-ui-kit/blade-icons"
-            },
             "funding": [
                 {
                     "url": "https://github.com/driesvints",
@@ -339,10 +374,6 @@
                 "blade",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/blade-ui-kit/blade-zondicons/issues",
-                "source": "https://github.com/blade-ui-kit/blade-zondicons"
-            },
             "funding": [
                 {
                     "url": "https://github.com/driesvints",
@@ -458,10 +489,6 @@
                 "blade",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/blade-feather-icons/issues",
-                "source": "https://github.com/brunocfalcao/blade-feather-icons/tree/master"
-            },
             "time": "2020-07-11T23:50:34+00:00"
         },
         {
@@ -506,10 +533,6 @@
                 }
             ],
             "description": "Eloquent's missing \"array\" driver.",
-            "support": {
-                "issues": "https://github.com/calebporzio/sushi/issues",
-                "source": "https://github.com/calebporzio/sushi/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://github.com/calebporzio",
@@ -698,10 +721,6 @@
                 "blade",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/davidhsianturi/blade-bootstrap-icons/issues",
-                "source": "https://github.com/davidhsianturi/blade-bootstrap-icons/tree/v0.2.1"
-            },
             "time": "2020-07-10T09:14:34+00:00"
         },
         {
@@ -1014,10 +1033,6 @@
                 "validation",
                 "validator"
             ],
-            "support": {
-                "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/master"
-            },
             "time": "2020-08-08T21:28:19+00:00"
         },
         {
@@ -1407,10 +1422,6 @@
                 "blade",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/Hasnayeen/blade-eva-icons/issues",
-                "source": "https://github.com/Hasnayeen/blade-eva-icons/tree/master"
-            },
             "time": "2020-07-10T02:03:52+00:00"
         },
         {
@@ -1469,10 +1480,6 @@
                 "blade",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/khatabwedaa/blade-css-icons/issues",
-                "source": "https://github.com/khatabwedaa/blade-css-icons/tree/0.1.2"
-            },
             "time": "2020-07-18T19:38:23+00:00"
         },
         {
@@ -1698,10 +1705,6 @@
                 "framework",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2020-08-11T13:43:10+00:00"
         },
         {
@@ -1766,10 +1769,6 @@
                 "laravel",
                 "psysh"
             ],
-            "support": {
-                "issues": "https://github.com/laravel/tinker/issues",
-                "source": "https://github.com/laravel/tinker/tree/2.x"
-            },
             "time": "2020-08-11T19:28:08+00:00"
         },
         {
@@ -1950,10 +1949,6 @@
                 "sftp",
                 "storage"
             ],
-            "support": {
-                "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/1.x"
-            },
             "funding": [
                 {
                     "url": "https://offset.earth/frankdejonge",
@@ -2001,10 +1996,6 @@
                 }
             ],
             "description": "Mime-type detection for Flysystem",
-            "support": {
-                "issues": "https://github.com/thephpleague/mime-type-detection/issues",
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/main"
-            },
             "funding": [
                 {
                     "url": "https://github.com/frankdejonge",
@@ -2072,10 +2063,6 @@
                 }
             ],
             "description": "A front-end framework for Laravel.",
-            "support": {
-                "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/1.x"
-            },
             "funding": [
                 {
                     "url": "https://github.com/calebporzio",
@@ -2319,10 +2306,6 @@
                 "datetime",
                 "time"
             ],
-            "support": {
-                "issues": "https://github.com/briannesbitt/Carbon/issues",
-                "source": "https://github.com/briannesbitt/Carbon"
-            },
             "funding": [
                 {
                     "url": "https://opencollective.com/Carbon",
@@ -2385,10 +2368,6 @@
                 "parser",
                 "php"
             ],
-            "support": {
-                "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/master"
-            },
             "time": "2020-08-09T10:23:20+00:00"
         },
         {
@@ -2450,10 +2429,6 @@
                 "serialization",
                 "serialize"
             ],
-            "support": {
-                "issues": "https://github.com/opis/closure/issues",
-                "source": "https://github.com/opis/closure/tree/3.5.6"
-            },
             "time": "2020-08-11T08:46:50+00:00"
         },
         {
@@ -2501,10 +2476,6 @@
                 "MIT"
             ],
             "description": "A package to easily make use of Entypo in your Laravel Blade views",
-            "support": {
-                "issues": "https://github.com/owenvoke/blade-entypo/issues",
-                "source": "https://github.com/owenvoke/blade-entypo/tree/main"
-            },
             "funding": [
                 {
                     "url": "https://ecologi.com/owenvoke?gift-trees",
@@ -2559,10 +2530,6 @@
                 "MIT"
             ],
             "description": "A package to easily make use of Font Awesome in your Laravel Blade views",
-            "support": {
-                "issues": "https://github.com/owenvoke/blade-fontawesome/issues",
-                "source": "https://github.com/owenvoke/blade-fontawesome/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://ecologi.com/owenvoke?gift-trees",
@@ -3147,10 +3114,6 @@
                 "queue",
                 "set"
             ],
-            "support": {
-                "issues": "https://github.com/ramsey/collection/issues",
-                "source": "https://github.com/ramsey/collection/tree/1.1.0"
-            },
             "funding": [
                 {
                     "url": "https://github.com/ramsey",
@@ -3238,11 +3201,6 @@
                 "identifier",
                 "uuid"
             ],
-            "support": {
-                "issues": "https://github.com/ramsey/uuid/issues",
-                "rss": "https://github.com/ramsey/uuid/releases.atom",
-                "source": "https://github.com/ramsey/uuid"
-            },
             "funding": [
                 {
                     "url": "https://github.com/ramsey",
@@ -3307,10 +3265,6 @@
                 "laravel",
                 "tabler"
             ],
-            "support": {
-                "issues": "https://github.com/ryangjchandler/blade-tabler-icons/issues",
-                "source": "https://github.com/ryangjchandler/blade-tabler-icons/tree/master"
-            },
             "time": "2020-07-09T21:00:14+00:00"
         },
         {
@@ -4291,9 +4245,6 @@
                 "polyfill",
                 "portable"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.18.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4371,9 +4322,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-iconv/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4452,9 +4400,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.18.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4540,9 +4485,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.18.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4624,9 +4566,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.18.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4704,9 +4643,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.18.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4784,9 +4720,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php70/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4860,9 +4793,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4939,9 +4869,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -5022,9 +4949,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -6012,12 +5936,6 @@
                 "laravel",
                 "page"
             ],
-            "support": {
-                "docs": "https://flareapp.io/docs/ignition-for-laravel/introduction",
-                "forum": "https://twitter.com/flareappio",
-                "issues": "https://github.com/facade/ignition/issues",
-                "source": "https://github.com/facade/ignition"
-            },
             "time": "2020-08-10T13:50:38+00:00"
         },
         {
@@ -6293,10 +6211,6 @@
                 "test double",
                 "testing"
             ],
-            "support": {
-                "issues": "https://github.com/mockery/mockery/issues",
-                "source": "https://github.com/mockery/mockery/tree/master"
-            },
             "time": "2020-08-11T18:10:13+00:00"
         },
         {
