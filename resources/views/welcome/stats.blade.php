@@ -45,7 +45,7 @@
         </div>
 
         <div class="mt-12 text-center">
-            <x-buttons.primary href="https://github.com/blade-ui-kit/blade-ui-kit">
+            <x-buttons.primary href="{{ route('docs', ['main', 'contribution-guide']) }}">
                 <x-heroicon-s-plus-circle class="-ml-0.5 mr-2 h-4 w-4" />
                 Contribute your own
             </x-buttons.primary>

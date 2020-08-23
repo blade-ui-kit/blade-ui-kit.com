@@ -10,7 +10,7 @@ final class DocsController
 {
     private const DEFAULT_VERSION = 'main';
     private const DEFAULT_PAGE = 'introduction';
-    private const EXCLUDED = ['readme'];
+    private const EXCLUDED = ['readme', 'license'];
 
     public function __invoke(Documentation $docs, string $version = null, string $page = null)
     {
