@@ -10,7 +10,7 @@ final class WelcomeController
 {
     public function __invoke()
     {
-        $downloads = cache()->remember('downloads', 14400, function () {
+        $downloads = cache()->remember('downloads', 1800, function () {
             return Http::get('https://packagist.org/packages/blade-ui-kit/blade-ui-kit.json')['package']['downloads']['total'];
         });
 
