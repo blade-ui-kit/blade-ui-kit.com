@@ -8,7 +8,7 @@ use App\Documentation;
 
 final class DocsController
 {
-    private const DEFAULT_VERSION = 'main';
+    private const DEFAULT_VERSION = '0.x';
     private const DEFAULT_PAGE = 'introduction';
     private const EXCLUDED = ['readme', 'license'];
 
@@ -28,6 +28,7 @@ final class DocsController
 
         $sections = $docs->toc($version);
         $markdown = $docs->get($version, $page);
+        $markdown = str_replace('{{version}}', $version, $markdown);
         $title = $docs->title($markdown);
 
         return view('docs', compact('version', 'page', 'sections', 'title', 'markdown'));
