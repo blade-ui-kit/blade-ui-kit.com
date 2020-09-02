@@ -22,13 +22,13 @@
                 </a>
             </div>
             <div class="flex justify-center">
-                <a href="https://laravel.com">
-                    <img class="h-12 enlarge" src="{{ asset('/images/laravel.svg') }}" alt="Laravel" />
+                <a href="https://laravel-livewire.com">
+                    <img class="h-12 enlarge" src="{{ asset('/images/livewire.svg') }}" alt="Livewire" />
                 </a>
             </div>
             <div class="flex justify-center">
-                <a href="https://laravel-livewire.com">
-                    <img class="h-12 enlarge" src="{{ asset('/images/livewire.svg') }}" alt="Livewire" />
+                <a href="https://laravel.com">
+                    <img class="h-12 enlarge" src="{{ asset('/images/laravel.svg') }}" alt="Laravel" />
                 </a>
             </div>
         </div>
