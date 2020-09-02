@@ -60,13 +60,13 @@
                 <footer class="mt-8">
                     <div class="flex">
                         <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                            <a href="https://twitter.com/freekmurze">
+                            <a href="https://twitter.com/michaeldyrynda">
                                 <x-avatar search="michaeldyrynda" provider="twitter" class="h-12 w-12 rounded-full enlarge" />
                             </a>
                         </div>
                         <div class="ml-4">
                             <div class="text-base leading-6 font-medium">
-                                <x-a href="https://twitter.com/freekmurze">
+                                <x-a href="https://twitter.com/michaeldyrynda">
                                     Michael Dyrynda
                                 </x-a>
                             </div>
