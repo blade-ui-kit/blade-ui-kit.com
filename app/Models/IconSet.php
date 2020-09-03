@@ -146,5 +146,29 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 16,
+            'name' => 'boxicons-regular',
+            'repository' => 'https://github.com/jfvoliveira/blade-boxicons',
+            'composer' => 'jfvoliveira/blade-boxicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 17,
+            'name' => 'boxicons-solid',
+            'repository' => 'https://github.com/jfvoliveira/blade-boxicons',
+            'composer' => 'jfvoliveira/blade-boxicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 18,
+            'name' => 'boxicons-logos',
+            'repository' => 'https://github.com/jfvoliveira/blade-boxicons',
+            'composer' => 'jfvoliveira/blade-boxicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 }

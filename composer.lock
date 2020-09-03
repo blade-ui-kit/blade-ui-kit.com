@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7084b0750a93de1450162afdde226011",
+    "content-hash": "5243e3ff929d4a0e617d5294e79e2bdf",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1665,6 +1665,67 @@
                 "laravel"
             ],
             "time": "2020-07-10T02:03:52+00:00"
+        },
+        {
+            "name": "jfvoliveira/blade-boxicons",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jfvoliveira/blade-boxicons.git",
+                "reference": "c8304f61b3be7d75bf2c87a7beac54956c5854c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jfvoliveira/blade-boxicons/zipball/c8304f61b3be7d75bf2c87a7beac54956c5854c7",
+                "reference": "c8304f61b3be7d75bf2c87a7beac54956c5854c7",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^0.4.0",
+                "illuminate/support": "^7.14",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "jfvoliveira\\BladeBoxicons\\BladeBoxiconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "jfvoliveira\\BladeBoxicons\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "João Oliveira",
+                    "email": "joao@joliveira.pt",
+                    "homepage": "https://joliveira.pt",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to easily make use of Boxicons in your Laravel Blade views.",
+            "homepage": "https://github.com/jfvoliveira/blade-boxicons",
+            "keywords": [
+                "Blade UI Kit",
+                "Boxicons",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/jfvoliveira/blade-boxicons/issues",
+                "source": "https://github.com/jfvoliveira/blade-boxicons/tree/v1.0.0"
+            },
+            "time": "2020-09-03T12:29:33+00:00"
         },
         {
             "name": "khatabwedaa/blade-css-icons",
