@@ -1,10 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "blade-ui-kit/blade-ui-kit.com",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Blade UI Kit website.",
     "keywords": [
-        "framework",
-        "laravel"
+        "blade",
+        "ui",
+        "kit"
     ],
     "license": "MIT",
     "require": {
