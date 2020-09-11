@@ -49,7 +49,7 @@
                                     Wysiwyg
                                 </x-h5>
                                 <x-p-sm>
-                                    Whether you want a rich text editor or a Markdown editor. We got you covered. Blade UI Kit ships with components for the Trix and EasyMDE editors.
+                                    Want a rich text editor or a Markdown editor? We've got you covered. Blade UI Kit ships with components for the Trix and EasyMDE editors.
                                 </x-p-sm>
                             </div>
                         </div>
