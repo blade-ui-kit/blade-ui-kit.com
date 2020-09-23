@@ -24,7 +24,9 @@
                         <div class="flex">
                             <div class="flex-shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                    <x-heroicon-o-clock class="h-6 w-6" />
+                                    <a href="{{ route('docs', 'countdown') }}">
+                                        <x-heroicon-o-clock class="h-6 w-6" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="ml-4">
@@ -41,7 +43,9 @@
                         <div class="flex">
                             <div class="flex-shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                    <x-heroicon-o-pencil-alt class="h-6 w-6" />
+                                    <a href="{{ route('docs', 'easy-mde') }}">
+                                        <x-heroicon-o-pencil-alt class="h-6 w-6" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="ml-4">
@@ -58,7 +62,9 @@
                         <div class="flex">
                             <div class="flex-shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                    <x-heroicon-o-location-marker class="h-6 w-6" />
+                                    <a href="{{ route('docs', 'mapbox') }}">
+                                        <x-heroicon-o-location-marker class="h-6 w-6" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="ml-4">

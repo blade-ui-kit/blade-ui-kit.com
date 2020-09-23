@@ -28,6 +28,12 @@
             </div>
             <div class="hidden md:block text-right text-gray">
                 <x-a
+                    href="https://twitter.com/bladeuikit"
+                    class="ml-4 font-medium transition duration-150 ease-in-out"
+                >
+                    <x-entypo-twitter class="h-6 w-6 inline" />
+                </x-a>
+                <x-a
                     href="https://github.com/blade-ui-kit/blade-ui-kit"
                     class="ml-4 font-medium transition duration-150 ease-in-out"
                 >
@@ -71,6 +77,12 @@
                         </a>
                     </div>
                     <div class="bg-gray-50 text-center">
+                        <x-a
+                            href="https://twitter.com/bladeuikit"
+                            class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
+                        >
+                            <x-entypo-twitter class="h-6 w-6 inline"/>
+                        </x-a>
                         <x-a
                             href="https://github.com/blade-ui-kit/blade-ui-kit"
                             class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
