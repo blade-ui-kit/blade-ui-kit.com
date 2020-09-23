@@ -24,7 +24,6 @@
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^7.0",
         "hasnayeen/blade-eva-icons": "^0.2.1",
-        "jfvoliveira/blade-boxicons": "^1.0",
         "khatabwedaa/blade-css-icons": "^0.1.2",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
@@ -33,6 +32,7 @@
         "owenvoke/blade-entypo": "^1.0",
         "owenvoke/blade-fontawesome": "^1.2",
         "ryangjchandler/blade-tabler-icons": "^0.0.3",
+        "skydiver/blade-icons-remix": "^1.3",
         "spatie/laravel-responsecache": "^6.6"
     },
     "require-dev": {
