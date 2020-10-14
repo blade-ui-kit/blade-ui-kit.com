@@ -12,7 +12,7 @@ The following tools are required in order to start the installation.
 
 ## Installation
 
-1. Clone this repository locally with `git clone git@github.com:blade-uit-kit/blade-ui-kit.com.git blade-ui-kit.com`
+1. Clone this repository locally with `git clone git@github.com:blade-ui-kit/blade-ui-kit.com.git blade-ui-kit.com`
 2. Copy the `.env.example` file to `.env`
 3. Install the PHP dependencies with `composer install` 
 4. Generate a new app key with `php artisan key:generate`
