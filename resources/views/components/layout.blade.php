@@ -19,7 +19,7 @@
 
         {{ $head ?? '' }}
 
-        <livewire:styles/>
+        @livewireStyles
         @bukStyles
 
         @production
@@ -31,6 +31,6 @@
 
     {{ $slot }}
 
-    <livewire:scripts/>
+    @livewireScripts
     @bukScripts
 </x-html>
