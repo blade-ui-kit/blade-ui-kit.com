@@ -1,5 +1,4 @@
-<h1>
-blade-ui-kit.com
+# blade-ui-kit.com
 
 <a href="https://github.com/blade-ui-kit/blade-ui-kit.com/actions?query=workflow%3ATests">
     <img src="https://github.com/blade-ui-kit/blade-ui-kit.com/workflows/Tests/badge.svg" alt="Tests">
@@ -7,7 +6,6 @@ blade-ui-kit.com
 <a href="https://github.styleci.io/repos/279074209">
     <img src="https://github.styleci.io/repos/279074209/shield?style=flat" alt="Code Style">
 </a>
-</h1>
 
 The source code for [blade-ui-kit.com](https://blade-ui-kit.com)
 
