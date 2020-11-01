@@ -52,17 +52,17 @@ class DocsTest extends TestCase
 
     private function toc(): string
     {
-        return <<<JSON
-            [
-                {
-                    "title": "Getting Started",
-                    "pages": [
-                        "installation",
-                        "release-notes",
-                        "upgrade-guide"
-                    ]
-                }
-            ]
-        JSON;
+        return <<<'JSON'
+                [
+                    {
+                        "title": "Getting Started",
+                        "pages": [
+                            "installation",
+                            "release-notes",
+                            "upgrade-guide"
+                        ]
+                    }
+                ]
+            JSON;
     }
 }

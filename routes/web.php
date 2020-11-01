@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\ShowIconController;
 use App\Http\Controllers\DocsController;
+use App\Http\Controllers\ShowIconController;
 use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 

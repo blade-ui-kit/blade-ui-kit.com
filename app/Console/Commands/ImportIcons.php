@@ -37,7 +37,7 @@ final class ImportIcons extends Command
             });
         });
 
-        $this->info('Successfully imported ' . count($this->sets) . ' icon sets!');
+        $this->info('Successfully imported '.count($this->sets).' icon sets!');
 
         return 0;
     }
