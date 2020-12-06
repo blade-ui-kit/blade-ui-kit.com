@@ -50,7 +50,7 @@ final class Icon extends Model
         })->get();
     }
 
-    public static function relatedIcons(Icon $icon): Collection
+    public static function relatedIcons(self $icon): Collection
     {
         $hasRelatedKeywords = function ($query) use ($icon) {
             Str::of($icon->keywords)->lower()->explode('-')->filter()->each(function (string $keyword) use ($query) {
