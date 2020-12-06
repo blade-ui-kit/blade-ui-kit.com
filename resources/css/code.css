@@ -21,8 +21,8 @@ pre .copyBtn {
 pre .copyBtn:hover,
 pre .copyBtn:focus,
 pre .copyBtn:active {
-   @apply text-white;
-   @apply outline-none;
+    @apply text-white;
+    @apply outline-none;
 }
 pre .copyBtn svg {
     @apply absolute;

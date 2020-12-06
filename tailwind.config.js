@@ -1,15 +1,11 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    purge: [
-        './resources/**/*.css',
-        './resources/**/*.js',
-        './resources/**/*.php',
-    ],
+    purge: ['./resources/**/*.css', './resources/**/*.js', './resources/**/*.php'],
     theme: {
         extend: {
             colors: {
-                'scarlet': {
+                scarlet: {
                     100: '#FFEAE9',
                     200: '#FFCBC7',
                     300: '#FFABA5',
@@ -28,8 +24,5 @@ module.exports = {
         },
     },
     variants: {},
-    plugins: [
-        require('@tailwindcss/typography'),
-        require('@tailwindcss/ui'),
-    ],
-}
+    plugins: [require('@tailwindcss/typography'), require('@tailwindcss/ui')],
+};
