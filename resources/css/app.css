@@ -1,16 +1,16 @@
-@import "tailwindcss/base";
+@import 'tailwindcss/base';
 
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Mulish:wght@400;500;600;700;800;900&display=swap');
 
-@import "~highlight.js/styles/tomorrow-night.css";
+@import '~highlight.js/styles/tomorrow-night.css';
 
-@import "tailwindcss/components";
+@import 'tailwindcss/components';
 
-@import "animations.css";
-@import "code.css";
-@import "toc.css";
+@import 'animations.css';
+@import 'code.css';
+@import 'toc.css';
 
-@import "tailwindcss/utilities";
+@import 'tailwindcss/utilities';
 
 pre code.hljs {
     @apply p-5;
