@@ -66,14 +66,14 @@ final class IconSet extends Model
             'ignore_rule' => '/-outline$/',
             'outline_rule' => '/-outline$/',
         ],
-        [
-            'id' => 6,
-            'name' => 'feather-icons',
-            'repository' => 'https://github.com/brunocfalcao/blade-feather-icons',
-            'composer' => 'brunocfalcao/blade-feather-icons',
-            'ignore_rule' => null,
-            'outline_rule' => null,
-        ],
+        // [
+        //     'id' => 6,
+        //     'name' => 'feather-icons',
+        //     'repository' => 'https://github.com/brunocfalcao/blade-feather-icons',
+        //     'composer' => 'brunocfalcao/blade-feather-icons',
+        //     'ignore_rule' => null,
+        //     'outline_rule' => null,
+        // ],
         [
             'id' => 7,
             'name' => 'fontawesome-brands',
@@ -98,14 +98,14 @@ final class IconSet extends Model
             'ignore_rule' => null, //fas
             'outline_rule' => null,
         ],
-        [
-            'id' => 10,
-            'name' => 'github-octicons',
-            'repository' => 'https://github.com/Activisme-be/Blade-github-octicons',
-            'composer' => 'actb/blade-github-octicons',
-            'ignore_rule' => '/-\d{2}$/', // 16|24
-            'outline_rule' => null,
-        ],
+        // [
+        //     'id' => 10,
+        //     'name' => 'github-octicons',
+        //     'repository' => 'https://github.com/Activisme-be/Blade-github-octicons',
+        //     'composer' => 'actb/blade-github-octicons',
+        //     'ignore_rule' => '/-\d{2}$/', // 16|24
+        //     'outline_rule' => null,
+        // ],
         // [
         //     'id' => 11,
         //     'name' => 'ionicons',
@@ -122,14 +122,14 @@ final class IconSet extends Model
         //     'ignore_rule' => '/-outline$/',
         //     'outline_rule' => '/-outline$/',
         // ],
-        [
-            'id' => 13,
-            'name' => 'remix',
-            'repository' => 'https://github.com/skydiver/blade-icons-remix',
-            'composer' => 'skydiver/blade-icons-remix',
-            'ignore_rule' => '/-(?:line|fill)$/',
-            'outline_rule' => '/-line$/',
-        ],
+        // [
+        //     'id' => 13,
+        //     'name' => 'remix',
+        //     'repository' => 'https://github.com/skydiver/blade-icons-remix',
+        //     'composer' => 'skydiver/blade-icons-remix',
+        //     'ignore_rule' => '/-(?:line|fill)$/',
+        //     'outline_rule' => '/-line$/',
+        // ],
         [
             'id' => 14,
             'name' => 'tabler',
