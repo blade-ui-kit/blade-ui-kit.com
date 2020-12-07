@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc8dac755f986bbad977b083551d9da4",
+    "content-hash": "b030af90bc55638c0a31641fdc9a0ac1",
     "packages": [
+        {
+            "name": "actb/blade-github-octicons",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Activisme-be/Blade-github-octicons.git",
+                "reference": "ec50e04b16e4228d9b455e211e1f4033e1ba4988"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Activisme-be/Blade-github-octicons/zipball/ec50e04b16e4228d9b455e211e1f4033e1ba4988",
+                "reference": "ec50e04b16e4228d9b455e211e1f4033e1ba4988",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^0.5",
+                "illuminate/support": "^7.14|^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0|^6.0",
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Actb\\BladeGithubOcticons\\GithubOcticonsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Actb\\BladeGithubOcticons\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A package to easily make use of Github octicons in your Laravel blade views.",
+            "support": {
+                "issues": "https://github.com/Activisme-be/Blade-github-octicons/issues",
+                "source": "https://github.com/Activisme-be/Blade-github-octicons/tree/2.2.1"
+            },
+            "time": "2020-12-07T00:10:34+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.0.2",

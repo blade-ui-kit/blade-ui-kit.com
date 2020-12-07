@@ -98,14 +98,14 @@ final class IconSet extends Model
             'ignore_rule' => null, //fas
             'outline_rule' => null,
         ],
-        // [
-        //     'id' => 10,
-        //     'name' => 'github-octicons',
-        //     'repository' => 'https://github.com/Activisme-be/Blade-github-octicons',
-        //     'composer' => 'actb/blade-github-octicons',
-        //     'ignore_rule' => '/-\d{2}$/', // 16|24
-        //     'outline_rule' => null,
-        // ],
+        [
+            'id' => 10,
+            'name' => 'github-octicons',
+            'repository' => 'https://github.com/Activisme-be/Blade-github-octicons',
+            'composer' => 'actb/blade-github-octicons',
+            'ignore_rule' => '/-\d{2}$/', // 16|24
+            'outline_rule' => null,
+        ],
         // [
         //     'id' => 11,
         //     'name' => 'ionicons',
