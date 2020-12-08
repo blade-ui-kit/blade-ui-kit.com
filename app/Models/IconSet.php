@@ -66,14 +66,14 @@ final class IconSet extends Model
             'ignore_rule' => '/-outline$/',
             'outline_rule' => '/-outline$/',
         ],
-        // [
-        //     'id' => 6,
-        //     'name' => 'feather-icons',
-        //     'repository' => 'https://github.com/brunocfalcao/blade-feather-icons',
-        //     'composer' => 'brunocfalcao/blade-feather-icons',
-        //     'ignore_rule' => null,
-        //     'outline_rule' => null,
-        // ],
+        [
+            'id' => 6,
+            'name' => 'feather-icons',
+            'repository' => 'https://github.com/brunocfalcao/blade-feather-icons',
+            'composer' => 'brunocfalcao/blade-feather-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
         [
             'id' => 7,
             'name' => 'fontawesome-brands',
