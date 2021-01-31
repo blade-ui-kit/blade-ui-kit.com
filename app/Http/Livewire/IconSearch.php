@@ -12,7 +12,7 @@ final class IconSearch extends Component
 {
     public string $search = '';
 
-    protected $updatesQueryString = [
+    protected $queryString = [
         'search' => ['except' => ''],
     ];
 
