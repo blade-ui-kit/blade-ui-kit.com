@@ -33,4 +33,5 @@ You can now visit the app in your browser by visiting [http://127.0.0.1:8000](ht
 Command | Description
 --- | ---
 **`php artisan test`** | Run the tests
+`php artisan migrate:fresh --seed` | Reset the database
 `npm run watch` | Watch for changes in CSS and JS files
