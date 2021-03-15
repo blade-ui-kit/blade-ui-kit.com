@@ -178,5 +178,13 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 20,
+            'name' => 'google-material-design-icons',
+            'repository' => 'https://github.com/codeat3/blade-google-material-design-icons',
+            'composer' => 'codeat3/blade-google-material-design-icons',
+            'ignore_rule' => null,
+            'outline_rule' => '/-o$/',
+        ],
     ];
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78aff361857e307bff9a8cdc603ddfa3",
+    "content-hash": "e237f751019af2e3dc757095da9f1592",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -699,6 +699,72 @@
                 "source": "https://github.com/cocur/slugify/tree/master"
             },
             "time": "2019-12-14T13:04:14+00:00"
+        },
+        {
+            "name": "codeat3/blade-google-material-design-icons",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-google-material-design-icons.git",
+                "reference": "e09af08bf72fb67e915ea78f7db94abecd9c125f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/e09af08bf72fb67e915ea78f7db94abecd9c125f",
+                "reference": "e09af08bf72fb67e915ea78f7db94abecd9c125f",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^0.5.0",
+                "illuminate/support": "^7.14|^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0|^6.0",
+                "phpunit/phpunit": "^8.0|^9.0",
+                "symfony/finder": "^5.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeGoogleMaterialDesignIcons\\BladeGoogleMaterialDesignIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeGoogleMaterialDesignIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of Google Material Design Fonts in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-google-material-design-icons",
+            "keywords": [
+                "blade",
+                "fonts",
+                "google",
+                "laravel",
+                "material"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-google-material-design-icons/issues",
+                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/0.2.0"
+            },
+            "time": "2021-03-08T17:30:04+00:00"
         },
         {
             "name": "codeat3/blade-simple-icons",
