@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e237f751019af2e3dc757095da9f1592",
+    "content-hash": "123f193e28ca47c5613d8c20802b3fbe",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -702,16 +702,16 @@
         },
         {
             "name": "codeat3/blade-google-material-design-icons",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-google-material-design-icons.git",
-                "reference": "e09af08bf72fb67e915ea78f7db94abecd9c125f"
+                "reference": "043ec24dfbfbbd5de3df5be169baaca219f62d97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/e09af08bf72fb67e915ea78f7db94abecd9c125f",
-                "reference": "e09af08bf72fb67e915ea78f7db94abecd9c125f",
+                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/043ec24dfbfbbd5de3df5be169baaca219f62d97",
+                "reference": "043ec24dfbfbbd5de3df5be169baaca219f62d97",
                 "shasum": ""
             },
             "require": {
@@ -762,9 +762,9 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-google-material-design-icons/issues",
-                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/0.2.0"
+                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/0.3.0"
             },
-            "time": "2021-03-08T17:30:04+00:00"
+            "time": "2021-03-16T14:27:38+00:00"
         },
         {
             "name": "codeat3/blade-simple-icons",
