@@ -186,5 +186,13 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => '/-o$/',
         ],
+        [
+            'id' => 21,
+            'name' => 'system-uicons',
+            'repository' => 'https://github.com/codeat3/blade-system-uicons',
+            'composer' => 'codeat3/blade-system-uicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 }

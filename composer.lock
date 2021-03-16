@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "123f193e28ca47c5613d8c20802b3fbe",
+    "content-hash": "a1a5afe6b83553d011b63888184b68d0",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -829,6 +829,70 @@
                 "source": "https://github.com/codeat3/blade-simple-icons/tree/0.1.0"
             },
             "time": "2021-03-08T16:25:48+00:00"
+        },
+        {
+            "name": "codeat3/blade-system-uicons",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-system-uicons.git",
+                "reference": "0988843570e9255af8e84510d23c495a5a0d0f66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-system-uicons/zipball/0988843570e9255af8e84510d23c495a5a0d0f66",
+                "reference": "0988843570e9255af8e84510d23c495a5a0d0f66",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^0.5.0",
+                "illuminate/support": "^7.14|^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0|^6.0",
+                "phpunit/phpunit": "^8.0|^9.0",
+                "symfony/finder": "^5.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeSystemUIcons\\BladeSystemUIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeSystemUIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of Simple Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-system-uicons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "simpleicons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-system-uicons/issues",
+                "source": "https://github.com/codeat3/blade-system-uicons/tree/0.1.0"
+            },
+            "time": "2021-03-16T17:29:14+00:00"
         },
         {
             "name": "davidhsianturi/blade-bootstrap-icons",
