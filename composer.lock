@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e237f751019af2e3dc757095da9f1592",
+    "content-hash": "123f193e28ca47c5613d8c20802b3fbe",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -702,16 +702,16 @@
         },
         {
             "name": "codeat3/blade-google-material-design-icons",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-google-material-design-icons.git",
-                "reference": "e09af08bf72fb67e915ea78f7db94abecd9c125f"
+                "reference": "043ec24dfbfbbd5de3df5be169baaca219f62d97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/e09af08bf72fb67e915ea78f7db94abecd9c125f",
-                "reference": "e09af08bf72fb67e915ea78f7db94abecd9c125f",
+                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/043ec24dfbfbbd5de3df5be169baaca219f62d97",
+                "reference": "043ec24dfbfbbd5de3df5be169baaca219f62d97",
                 "shasum": ""
             },
             "require": {
@@ -762,9 +762,9 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-google-material-design-icons/issues",
-                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/0.2.0"
+                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/0.3.0"
             },
-            "time": "2021-03-08T17:30:04+00:00"
+            "time": "2021-03-16T14:27:38+00:00"
         },
         {
             "name": "codeat3/blade-simple-icons",
@@ -1487,16 +1487,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.9.2",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "df7933820090489623ce0be5e85c7e693638e536"
+                "reference": "6ecda5217bf048088b891f7403b262906be5a957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/df7933820090489623ce0be5e85c7e693638e536",
-                "reference": "df7933820090489623ce0be5e85c7e693638e536",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/6ecda5217bf048088b891f7403b262906be5a957",
+                "reference": "6ecda5217bf048088b891f7403b262906be5a957",
                 "shasum": ""
             },
             "require": {
@@ -1546,7 +1546,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.9.2"
+                "source": "https://github.com/filp/whoops/tree/2.10.0"
             },
             "funding": [
                 {
@@ -1554,7 +1554,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-24T12:00:00+00:00"
+            "time": "2021-03-16T12:00:00+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
@@ -2179,16 +2179,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.32.1",
+            "version": "v8.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7c37b64f8153c16b6406f5c28cf37828ebbe8846"
+                "reference": "03efea900247ed7b9fe0056311ad555033c6e854"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7c37b64f8153c16b6406f5c28cf37828ebbe8846",
-                "reference": "7c37b64f8153c16b6406f5c28cf37828ebbe8846",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/03efea900247ed7b9fe0056311ad555033c6e854",
+                "reference": "03efea900247ed7b9fe0056311ad555033c6e854",
                 "shasum": ""
             },
             "require": {
@@ -2343,7 +2343,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-03-09T15:37:45+00:00"
+            "time": "2021-03-16T14:21:03+00:00"
         },
         {
             "name": "laravel/tinker",
