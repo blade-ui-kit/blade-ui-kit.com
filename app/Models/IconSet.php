@@ -194,5 +194,13 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 22,
+            'name' => 'ikonate',
+            'repository' => 'https://github.com/codeat3/blade-ikonate',
+            'composer' => 'codeat3/blade-ikonate',
+            'ignore_rule' => null,
+            'outline_rule' => '/*$/',
+        ],
     ];
 }
