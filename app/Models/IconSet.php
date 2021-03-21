@@ -115,14 +115,6 @@ final class IconSet extends Model
         //     'outline_rule' => '/-outline$/',
         // ],
         // [
-        //     'id' => 12,
-        //     'name' => 'blade-mdi',
-        //     'repository' => 'https://github.com/renoki-co/blade-mdi',
-        //     'composer' => 'renoki-co/blade-mdi',
-        //     'ignore_rule' => '/-outline$/',
-        //     'outline_rule' => '/-outline$/',
-        // ],
-        // [
         //     'id' => 13,
         //     'name' => 'remix',
         //     'repository' => 'https://github.com/skydiver/blade-icons-remix',
