@@ -53,7 +53,7 @@ final class ImportIcons extends Command
 
                 Icon::create([
                     'icon_set_id' => $iconSet->id,
-                    'name' => $set['prefix'] . '-' . $filename,
+                    'name' => $set['prefix'].'-'.$filename,
                     'outlined' => $this->isOutlined($filename, $iconSet->outline_rule),
                     'keywords' => $this->keywords($filename, $iconSet->ignore_rule),
                 ]);
