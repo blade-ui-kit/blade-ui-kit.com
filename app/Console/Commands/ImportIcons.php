@@ -46,16 +46,18 @@ final class ImportIcons extends Command
     {
         $set = $this->sets[$iconSet->name];
 
-        foreach (File::allFiles($set['path']) as $file) {
-            $path = array_filter(explode('/', Str::after($file->getPath(), $set['path'])));
-            $filename = implode('.', array_filter($path + [$file->getFilenameWithoutExtension()]));
+        foreach ($set['paths'] as $path) {
+            foreach (File::allFiles($path) as $file) {
+                $pathParts = array_filter(explode('/', Str::after($file->getPath(), $path)));
+                $filename = implode('.', array_filter($pathParts + [$file->getFilenameWithoutExtension()]));
 
-            Icon::create([
-                'icon_set_id' => $iconSet->id,
-                'name' => $set['prefix'].'-'.$filename,
-                'outlined' => $this->isOutlined($filename, $iconSet->outline_rule),
-                'keywords' => $this->keywords($filename, $iconSet->ignore_rule),
-            ]);
+                Icon::create([
+                    'icon_set_id' => $iconSet->id,
+                    'name' => $set['prefix'] . '-' . $filename,
+                    'outlined' => $this->isOutlined($filename, $iconSet->outline_rule),
+                    'keywords' => $this->keywords($filename, $iconSet->ignore_rule),
+                ]);
+            }
         }
     }
 
