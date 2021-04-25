@@ -30,7 +30,9 @@ final class IconSearch extends Component
     {
         return view('livewire.icon-search', [
             'total' => Icon::count(),
-            'icons' => Icon::search($this->search),
+            'icons' => Icon::search($this->search)
+                ->take($this->search ? 500 : 72)
+                ->get(),
         ]);
     }
 }
