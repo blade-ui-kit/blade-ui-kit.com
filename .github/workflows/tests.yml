@@ -10,6 +10,9 @@ jobs:
 
     env:
       DB_CONNECTION: sqlite
+      SCOUT_DRIVER: meilisearch
+      MEILISEARCH_HOST: "http://127.0.0.1:7700"
+      MEILISEARCH_KEY: masterKey
 
     services:
       meilisearch:
