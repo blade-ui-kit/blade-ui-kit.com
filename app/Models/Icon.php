@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Support\LazyCollection;
 use Laravel\Scout\Searchable;
 
 final class Icon extends Model
@@ -32,7 +32,7 @@ final class Icon extends Model
         return $this->belongsTo(IconSet::class, 'icon_set_id');
     }
 
-    public static function relatedIcons(self $icon): LazyCollection
+    public static function relatedIcons(self $icon): Collection
     {
         return static::search($icon->keywords)->get();
     }
