@@ -30,7 +30,9 @@ jobs:
         run: composer install --prefer-dist --no-interaction --no-suggest
 
       - name: Import icon sets
-        run: php artisan icons:import
+        run: |
+          touch database/database.sqlite
+          php artisan icons:import
 
       - name: Index icons
         run: |
