@@ -7,6 +7,19 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+
+    env:
+      DB_CONNECTION: sqlite
+      SCOUT_DRIVER: meilisearch
+      MEILISEARCH_HOST: "http://127.0.0.1:7700"
+      MEILISEARCH_KEY: masterKey
+
+    services:
+      meilisearch:
+        image: getmeili/meilisearch:latest
+        ports:
+          - 7700:7700
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -21,6 +34,19 @@ jobs:
 
       - name: Install Composer dependencies
         run: composer install --prefer-dist --no-interaction --no-suggest
+
+      - name: Run migrations
+        run: |
+          touch database/database.sqlite
+          php artisan migrate --force
+
+      - name: Import icon sets
+        run: php artisan icons:import
+
+      - name: Index icons
+        run: |
+          php artisan scout:index icons
+          php artisan scout:import "App\\Models\\Icon"
 
       - name: Install NPM dependencies
         run: npm install
