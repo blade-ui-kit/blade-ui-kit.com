@@ -29,10 +29,13 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --prefer-dist --no-interaction --no-suggest
 
-      - name: Import icon sets
+      - name: Run migrations
         run: |
           touch database/database.sqlite
-          php artisan icons:import
+          php artisan migrate
+
+      - name: Import icon sets
+        run: php artisan icons:import
 
       - name: Index icons
         run: |
