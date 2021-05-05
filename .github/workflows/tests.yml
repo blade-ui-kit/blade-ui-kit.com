@@ -32,7 +32,7 @@ jobs:
       - name: Run migrations
         run: |
           touch database/database.sqlite
-          php artisan migrate
+          php artisan migrate --force
 
       - name: Import icon sets
         run: php artisan icons:import
