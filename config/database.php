@@ -35,11 +35,6 @@ return [
 
     'connections' => [
 
-        'icons' => [
-            'driver' => 'sqlite',
-            'database' => database_path('database.sqlite'),
-        ],
-
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
