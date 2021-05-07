@@ -8,7 +8,7 @@
                 autocorrect="off"
                 spellcheck="false"
                 type="text"
-                placeholder="Search all {{ $total }} Blade icons ..."
+                placeholder="Search all {{ number_format($total) }} Blade icons ..."
                 wire:model.debounce.400ms="search"
             >
 
