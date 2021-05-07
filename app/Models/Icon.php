@@ -34,7 +34,9 @@ final class Icon extends Model
 
     public static function relatedIcons(self $icon): Collection
     {
-        return static::search($icon->keywords)->get();
+        return static::search($icon->keywords)
+            ->get()
+            ->where('id', '!=', $icon->id);
     }
 
     public function getRouteKeyName(): string
