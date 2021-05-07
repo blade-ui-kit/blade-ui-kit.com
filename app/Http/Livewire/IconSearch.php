@@ -6,6 +6,7 @@ namespace App\Http\Livewire;
 
 use App\Models\Icon;
 use Illuminate\Contracts\View\View;
+use Illuminate\Database\Eloquent\Collection;
 use Livewire\Component;
 
 final class IconSearch extends Component
@@ -30,9 +31,26 @@ final class IconSearch extends Component
     {
         return view('livewire.icon-search', [
             'total' => Icon::count(),
-            'icons' => Icon::search($this->search)
-                ->take($this->search ? 500 : 72)
-                ->get(),
+            'icons' => $this->icons(),
         ]);
+    }
+
+    protected function icons(): Collection
+    {
+        if ($this->shouldShowRandomIcons()) {
+            return Icon::query()
+                ->inRandomOrder()
+                ->take(72)
+                ->get();
+        }
+
+        return Icon::search($this->search)
+            ->take(500)
+            ->get();
+    }
+
+    protected function shouldShowRandomIcons(): bool
+    {
+        return empty(trim($this->search));
     }
 }
