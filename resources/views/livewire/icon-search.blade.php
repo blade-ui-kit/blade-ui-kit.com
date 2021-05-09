@@ -1,10 +1,10 @@
 <div class="w-full">
     <div class="relative flex items-center w-full mb-6">
         <div class="flex flex-col md:flex-row items-center border border-gray-200 rounded-lg shadow-md w-full">
-            <label class="flex-shrink block h-full w-full md:w-auto border-b md:border-b-0 md:border-r">
+            <label class="flex-shrink block h-full w-full md:w-auto pr-2 border-b md:border-b-0 md:border-r">
                 <select
                     wire:model="setId"
-                    class="bg-transparent block h-full p-4 mr-4 text-xl focus:outline-none"
+                    class="bg-transparent block h-full w-full p-4 mr-4 text-xl focus:outline-none"
                 >
                     <option value="">All set</option>
                     @foreach($sets as $set)
