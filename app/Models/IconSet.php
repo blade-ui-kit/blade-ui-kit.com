@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 use Sushi\Sushi;
 
 final class IconSet extends Model
@@ -339,4 +340,9 @@ final class IconSet extends Model
             'outline_rule' => null,
         ],
     ];
+
+    public function display(): string
+    {
+        return (string) Str::of($this->name)->replace('-', ' ')->title();
+    }
 }

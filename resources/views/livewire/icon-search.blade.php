@@ -1,30 +1,42 @@
 <div class="w-full">
     <div class="relative flex items-center w-full mb-6">
-        <div class="flex items-center w-full rounded-lg shadow-md">
-            <input
-                class="block w-full p-4 text-xl border border-gray-200 rounded-lg"
-                autocapitalize="off"
-                autocomplete="off"
-                autocorrect="off"
-                spellcheck="false"
-                type="text"
-                placeholder="Search all {{ number_format($total) }} Blade icons ..."
-                wire:model.debounce.400ms="search"
-            >
+        <div class="flex flex-col md:flex-row items-center border border-gray-200 rounded-lg shadow-md w-full">
+            <label class="flex-shrink block h-full w-full md:w-auto border-b md:border-b-0 md:border-r">
+                <select
+                    wire:model="setId"
+                    class="bg-transparent block h-full p-4 mr-4 text-xl focus:outline-none"
+                >
+                    <option value="">All set</option>
+                    @foreach($sets as $set)
+                        <option wire:key="set_{{ $set->id }}" value="{{ $set->id }}">{{ $set->display() }}</option>
+                    @endforeach
+                </select>
+            </label>
+            <div class="relative w-full">
+                <input
+                    class="block w-full p-4 text-xl border-0 rounded-lg"
+                    autocapitalize="off"
+                    autocomplete="off"
+                    autocorrect="off"
+                    spellcheck="false"
+                    type="text"
+                    placeholder="Search all {{ number_format($total) }} Blade icons ..."
+                    wire:model.debounce.400ms="search"
+                >
+                <div class="absolute inset-y-0 right-0 flex items-center justify-center mr-5">
+                    <div wire:loading>
+                        <x-icon-refresh class="inline w-6 h-6 text-scarlet-600 fill-current animate-spin"/>
+                    </div>
 
-            <div class="absolute inset-y-0 right-0 flex items-center justify-center mr-5">
-                <div wire:loading>
-                    <x-icon-refresh class="inline w-6 h-6 text-scarlet-600 fill-current animate-spin"/>
-                </div>
-
-                <div wire:loading.remove>
-                    <button wire:click="resetSearch">
-                        @if ($search)
-                            <x-icon-close class="inline w-6 h-6 text-gray-500 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
-                        @else
-                            <x-icon-refresh class="inline w-6 h-6 text-scarlet-600 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
-                        @endif
-                    </button>
+                    <div wire:loading.remove>
+                        <button wire:click="resetSearch">
+                            @if ($search)
+                                <x-icon-close class="inline w-6 h-6 text-gray-500 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
+                            @else
+                                <x-icon-refresh class="inline w-6 h-6 text-scarlet-600 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
+                            @endif
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
