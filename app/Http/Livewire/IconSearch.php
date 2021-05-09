@@ -34,7 +34,9 @@ final class IconSearch extends Component
     public function render(): View
     {
         return view('livewire.icon-search', [
-            'total' => Icon::count(),
+            'total' => Icon::query()
+                ->when(! empty($this->setId), fn($query) => $query->where('icon_set_id', $this->setId))
+                ->count(),
             'icons' => $this->icons(),
             'sets' => IconSet::orderBy('name')->get(),
         ]);
