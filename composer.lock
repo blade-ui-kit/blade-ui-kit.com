@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df783096403decd4cd1da97c18c9c8d2",
+    "content-hash": "c30482d53774e601760b2c7e5eb7e9fe",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -52,6 +52,69 @@
                 "source": "https://github.com/Activisme-be/Blade-github-octicons/tree/3.0.0"
             },
             "time": "2021-03-31T09:03:20+00:00"
+        },
+        {
+            "name": "andreiio/blade-remix-icon",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andreiio/blade-remix-icon.git",
+                "reference": "1bc60a1b8807f88c08879cafd81d04c441ccaccf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/1bc60a1b8807f88c08879cafd81d04c441ccaccf",
+                "reference": "1bc60a1b8807f88c08879cafd81d04c441ccaccf",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AndreiIonita\\BladeRemixIcon\\BladeRemixIconServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AndreiIonita\\BladeRemixIcon\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martín M.",
+                    "email": "skydiver@users.noreply.github.com"
+                },
+                {
+                    "name": "Andrei Ioniță",
+                    "homepage": "https://andrei.io"
+                }
+            ],
+            "description": "A package to easily make use of Remix Icon in your Laravel Blade views.",
+            "support": {
+                "issues": "https://github.com/andreiio/blade-remix-icon/issues",
+                "source": "https://github.com/andreiio/blade-remix-icon/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/andreiio",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-05-10T11:25:29+00:00"
         },
         {
             "name": "asm89/stack-cors",
