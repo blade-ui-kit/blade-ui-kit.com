@@ -35,7 +35,7 @@ final class IconSearch extends Component
     {
         return view('livewire.icon-search', [
             'total' => Icon::query()
-                ->when(! empty($this->setId), fn($query) => $query->where('icon_set_id', $this->setId))
+                ->when(! empty($this->setId), fn ($query) => $query->where('icon_set_id', $this->setId))
                 ->count(),
             'icons' => $this->icons(),
             'sets' => IconSet::orderBy('name')->get(),
@@ -46,14 +46,14 @@ final class IconSearch extends Component
     {
         if ($this->shouldShowRandomIcons()) {
             return Icon::query()
-                ->when(! empty($this->setId), fn($query) => $query->where('icon_set_id', $this->setId))
+                ->when(! empty($this->setId), fn ($query) => $query->where('icon_set_id', $this->setId))
                 ->inRandomOrder()
                 ->take(72)
                 ->get();
         }
 
         return Icon::search($this->search)
-            ->when(! empty($this->setId), fn($query) => $query->where('icon_set_id', $this->setId))
+            ->when(! empty($this->setId), fn ($query) => $query->where('icon_set_id', $this->setId))
             ->take(500)
             ->get();
     }
