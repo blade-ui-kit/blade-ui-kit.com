@@ -114,14 +114,14 @@ final class IconSet extends Model
         //     'ignore_rule' => '/-(?:outline|sharp)$/',
         //     'outline_rule' => '/-outline$/',
         // ],
-        // [
-        //     'id' => 13,
-        //     'name' => 'remix',
-        //     'repository' => 'https://github.com/skydiver/blade-icons-remix',
-        //     'composer' => 'skydiver/blade-icons-remix',
-        //     'ignore_rule' => '/-(?:line|fill)$/',
-        //     'outline_rule' => '/-line$/',
-        // ],
+        [
+            'id' => 13,
+            'name' => 'remix',
+            'repository' => 'https://github.com/andreiio/blade-remix-icon',
+            'composer' => 'andreiio/blade-remix-icon',
+            'ignore_rule' => '/-(?:line|fill)$/',
+            'outline_rule' => '/-line$/',
+        ],
         [
             'id' => 14,
             'name' => 'tabler',
