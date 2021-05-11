@@ -33,6 +33,7 @@
         "laravel/tinker": "^2.5",
         "league/commonmark": "^1.5",
         "livewire/livewire": "^2.0",
+        "mallardduck/blade-boxicons": "^2.1",
         "meilisearch/meilisearch-php": "^0.17.0",
         "owenvoke/blade-entypo": "^1.0",
         "owenvoke/blade-fontawesome": "^1.2",
