@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b44644725620967c42b3be20cf4f010",
+    "content-hash": "ad3f4d228df1e2d17487745adcdf2227",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1287,6 +1287,70 @@
                 "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/1.1.2"
             },
             "time": "2021-05-13T15:36:51+00:00"
+        },
+        {
+            "name": "codeat3/blade-rpg-awesome-icons",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-rpg-awesome-icons.git",
+                "reference": "5affcb8a1115f66fe2e4ec7590d63b04a17bf676"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-rpg-awesome-icons/zipball/5affcb8a1115f66fe2e4ec7590d63b04a17bf676",
+                "reference": "5affcb8a1115f66fe2e4ec7590d63b04a17bf676",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeRPGAwesomeIcons\\BladeRPGAwesomeIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeRPGAwesomeIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"RPG Awesome Icons\" in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-rpg-awesome-icons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "rpg-awesome-icons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-rpg-awesome-icons/issues",
+                "source": "https://github.com/codeat3/blade-rpg-awesome-icons/tree/1.1.2"
+            },
+            "time": "2021-05-13T20:24:10+00:00"
         },
         {
             "name": "codeat3/blade-simple-icons",

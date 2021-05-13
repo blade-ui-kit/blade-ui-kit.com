@@ -274,5 +274,13 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 33,
+            'name' => 'rpg-awesome-icons',
+            'repository' => 'https://github.com/codeat3/blade-rpg-awesome-icons',
+            'composer' => 'codeat3/blade-rpg-awesome-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 }
