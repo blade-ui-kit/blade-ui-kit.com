@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b61b8951a6b6df77ee0d47d96e69b05e",
+    "content-hash": "ab121cff8537cf7abe826343f313c00e",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1352,6 +1352,134 @@
                 "source": "https://github.com/codeat3/blade-simple-icons/tree/1.6.1"
             },
             "time": "2021-05-13T16:01:23+00:00"
+        },
+        {
+            "name": "codeat3/blade-vaadin-icons",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-vaadin-icons.git",
+                "reference": "25367bfd6cf301bad409185477d73814f55c4968"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-vaadin-icons/zipball/25367bfd6cf301bad409185477d73814f55c4968",
+                "reference": "25367bfd6cf301bad409185477d73814f55c4968",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeVaadinIcons\\BladeVaadinIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeVaadinIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"Vaadin Icons\" in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-vaadin-icons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "vaadin-icons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-vaadin-icons/issues",
+                "source": "https://github.com/codeat3/blade-vaadin-icons/tree/1.1.1"
+            },
+            "time": "2021-05-13T19:29:16+00:00"
+        },
+        {
+            "name": "codeat3/blade-weather-icons",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-weather-icons.git",
+                "reference": "dca155a1c4689e1ec9e9c6e274006bbd737b3a96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-weather-icons/zipball/dca155a1c4689e1ec9e9c6e274006bbd737b3a96",
+                "reference": "dca155a1c4689e1ec9e9c6e274006bbd737b3a96",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeWeatherIcons\\BladeWeatherIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeWeatherIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"Weather Icons\" in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-weather-icons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "weather-icons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-weather-icons/issues",
+                "source": "https://github.com/codeat3/blade-weather-icons/tree/1.2.1"
+            },
+            "time": "2021-05-13T19:14:26+00:00"
         },
         {
             "name": "davidhsianturi/blade-bootstrap-icons",

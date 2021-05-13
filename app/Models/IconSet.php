@@ -226,5 +226,21 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 27,
+            'name' => 'weather-icons',
+            'repository' => 'https://github.com/codeat3/blade-weather-icons',
+            'composer' => 'codeat3/blade-weather-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 28,
+            'name' => 'vaadin-icons',
+            'repository' => 'https://github.com/codeat3/blade-vaadin-icons',
+            'composer' => 'codeat3/blade-vaadin-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 }

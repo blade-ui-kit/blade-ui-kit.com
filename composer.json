@@ -27,6 +27,8 @@
         "codeat3/blade-fontaudio": "^1.1",
         "codeat3/blade-google-material-design-icons": "^1.0",
         "codeat3/blade-simple-icons": "^1.2",
+        "codeat3/blade-vaadin-icons": "^1.1",
+        "codeat3/blade-weather-icons": "^1.2",
         "davidhsianturi/blade-bootstrap-icons": "^1.0",
         "facade/ignition": "^2.5",
         "fideloper/proxy": "^4.4",
