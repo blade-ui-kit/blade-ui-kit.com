@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab121cff8537cf7abe826343f313c00e",
+    "content-hash": "5b44644725620967c42b3be20cf4f010",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1352,6 +1352,264 @@
                 "source": "https://github.com/codeat3/blade-simple-icons/tree/1.6.1"
             },
             "time": "2021-05-13T16:01:23+00:00"
+        },
+        {
+            "name": "codeat3/blade-system-uicons",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-system-uicons.git",
+                "reference": "aa2985003bf65136ffc3d0a39e1c3b0bd5594bf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-system-uicons/zipball/aa2985003bf65136ffc3d0a39e1c3b0bd5594bf0",
+                "reference": "aa2985003bf65136ffc3d0a39e1c3b0bd5594bf0",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeSystemUIcons\\BladeSystemUIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeSystemUIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"System UIcons\" in your Laravel Blade views. ",
+            "homepage": "https://github.com/codeat3/blade-system-uicons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "system",
+                "uicons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-system-uicons/issues",
+                "source": "https://github.com/codeat3/blade-system-uicons/tree/1.1.2"
+            },
+            "time": "2021-05-13T20:13:29+00:00"
+        },
+        {
+            "name": "codeat3/blade-teeny-icons",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-teeny-icons.git",
+                "reference": "29217ec6b3e4a48bc5357b48d2212d06a2126833"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-teeny-icons/zipball/29217ec6b3e4a48bc5357b48d2212d06a2126833",
+                "reference": "29217ec6b3e4a48bc5357b48d2212d06a2126833",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeTeenyIcons\\BladeTeenyIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeTeenyIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"Teeny Icons\" in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-teeny-icons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "teeny-icons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-teeny-icons/issues",
+                "source": "https://github.com/codeat3/blade-teeny-icons/tree/1.2.1"
+            },
+            "time": "2021-05-13T20:08:42+00:00"
+        },
+        {
+            "name": "codeat3/blade-typicons",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-typicons.git",
+                "reference": "b7a0f5b4b39b6e310b824705ba2751cf10f2e5ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-typicons/zipball/b7a0f5b4b39b6e310b824705ba2751cf10f2e5ad",
+                "reference": "b7a0f5b4b39b6e310b824705ba2751cf10f2e5ad",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0",
+                "symfony/finder": "^5.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeTypicons\\BladeTypiconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeTypicons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"Typicons\" in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-typicons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "typicons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-typicons/issues",
+                "source": "https://github.com/codeat3/blade-typicons/tree/1.3.2"
+            },
+            "time": "2021-05-13T19:59:34+00:00"
+        },
+        {
+            "name": "codeat3/blade-unicons",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-unicons.git",
+                "reference": "5145d3c85bb76d62d9d4f33f7d20dffa8e2392a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-unicons/zipball/5145d3c85bb76d62d9d4f33f7d20dffa8e2392a3",
+                "reference": "5145d3c85bb76d62d9d4f33f7d20dffa8e2392a3",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeUnicons\\BladeUniconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeUnicons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"Unicons\" in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-unicons",
+            "keywords": [
+                "blade",
+                "laravel",
+                "unicons"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-unicons/issues",
+                "source": "https://github.com/codeat3/blade-unicons/tree/1.1.1"
+            },
+            "time": "2021-05-13T19:36:11+00:00"
         },
         {
             "name": "codeat3/blade-vaadin-icons",

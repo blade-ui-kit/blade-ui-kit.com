@@ -242,5 +242,37 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 29,
+            'name' => 'unicons',
+            'repository' => 'https://github.com/codeat3/blade-unicons',
+            'composer' => 'codeat3/blade-unicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 30,
+            'name' => 'typicons',
+            'repository' => 'https://github.com/codeat3/blade-typicons',
+            'composer' => 'codeat3/blade-typicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 31,
+            'name' => 'teeny-icons',
+            'repository' => 'https://github.com/codeat3/blade-teeny-icons',
+            'composer' => 'codeat3/blade-teeny-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 32,
+            'name' => 'system-uicons',
+            'repository' => 'https://github.com/codeat3/blade-system-uicons',
+            'composer' => 'codeat3/blade-system-uicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 }
