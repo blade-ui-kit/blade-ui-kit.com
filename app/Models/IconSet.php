@@ -185,6 +185,6 @@ final class IconSet extends Model
             'composer' => 'itsmalikjones/blade-iconic',
             'ignore_rule' => null,
             'outline_rule' => null,
-        ]
+        ],
     ];
 }
