@@ -178,5 +178,13 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => '/-o$/',
         ],
+        [
+            'id' => 21,
+            'name' => 'iconic',
+            'repository' => 'https://github.com/ItsMalikJones/blade-iconic',
+            'composer' => 'itsmalikjones/blade-iconic',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ]
     ];
 }
