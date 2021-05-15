@@ -3,15 +3,19 @@
         <div class="flex flex-col md:flex-row items-center border border-gray-200 rounded-lg shadow-md w-full">
             <label class="flex-shrink block h-full w-full md:w-auto pr-2 border-b md:border-b-0 md:border-r">
                 <select
-                    wire:model="setId"
+                    wire:model="set"
                     class="bg-transparent block h-full w-full p-4 mr-4 text-xl focus:outline-none"
                 >
-                    <option value="">All set</option>
-                    @foreach($sets as $set)
-                        <option wire:key="set_{{ $set->id }}" value="{{ $set->id }}">{{ $set->display() }}</option>
+                    <option value="">All icons</option>
+
+                    @foreach ($sets as $set)
+                        <option wire:key="set_{{ $set->id }}" value="{{ $set->id }}">
+                            {{ $set->name() }}
+                        </option>
                     @endforeach
                 </select>
             </label>
+
             <div class="relative w-full">
                 <input
                     class="block w-full p-4 text-xl border-0 rounded-lg"

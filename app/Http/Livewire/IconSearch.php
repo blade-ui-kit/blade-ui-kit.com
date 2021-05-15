@@ -13,17 +13,18 @@ use Livewire\Component;
 final class IconSearch extends Component
 {
     public string $search = '';
-    public string $setId = '';
+
+    public string $set = '';
 
     protected $queryString = [
         'search' => ['except' => ''],
-        'setId' => ['except' => ''],
+        'set' => ['except' => ''],
     ];
 
     public function mount(): void
     {
         $this->search = (string) request()->query('search', $this->search);
-        $this->setId = (string) request()->query('setId', $this->setId);
+        $this->set = (string) request()->query('set', $this->set);
     }
 
     public function resetSearch(): void
@@ -34,9 +35,7 @@ final class IconSearch extends Component
     public function render(): View
     {
         return view('livewire.icon-search', [
-            'total' => Icon::query()
-                ->when(! empty($this->setId), fn ($query) => $query->where('icon_set_id', $this->setId))
-                ->count(),
+            'total' => Icon::query()->withSet($this->set)->count(),
             'icons' => $this->icons(),
             'sets' => IconSet::orderBy('name')->get(),
         ]);
@@ -46,14 +45,14 @@ final class IconSearch extends Component
     {
         if ($this->shouldShowRandomIcons()) {
             return Icon::query()
-                ->when(! empty($this->setId), fn ($query) => $query->where('icon_set_id', $this->setId))
+                ->withSet($this->set)
                 ->inRandomOrder()
                 ->take(72)
                 ->get();
         }
 
         return Icon::search($this->search)
-            ->when(! empty($this->setId), fn ($query) => $query->where('icon_set_id', $this->setId))
+            ->when(! empty($this->set), fn ($query) => $query->where('icon_set_id', $this->set))
             ->take(500)
             ->get();
     }

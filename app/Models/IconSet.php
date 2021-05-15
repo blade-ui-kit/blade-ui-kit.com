@@ -12,18 +12,8 @@ final class IconSet extends Model
 {
     use Sushi;
 
-    /**
-     * Indicates if the model should be timestamped.
-     *
-     * @var bool
-     */
     public $timestamps = false;
 
-    /**
-     * The attributes that aren't mass assignable.
-     *
-     * @var array
-     */
     protected $guarded = [];
 
     protected array $rows = [
@@ -341,7 +331,7 @@ final class IconSet extends Model
         ],
     ];
 
-    public function display(): string
+    public function name(): string
     {
         return (string) Str::of($this->name)->replace('-', ' ')->title();
     }
