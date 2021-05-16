@@ -837,16 +837,16 @@
         },
         {
             "name": "codeat3/blade-codicons",
-            "version": "1.2.2",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-codicons.git",
-                "reference": "30f6c98965729d96206fc061d018532c98c44072"
+                "reference": "a050e686e95fbd982890247347b33ba81bdb0321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-codicons/zipball/30f6c98965729d96206fc061d018532c98c44072",
-                "reference": "30f6c98965729d96206fc061d018532c98c44072",
+                "url": "https://api.github.com/repos/codeat3/blade-codicons/zipball/a050e686e95fbd982890247347b33ba81bdb0321",
+                "reference": "a050e686e95fbd982890247347b33ba81bdb0321",
                 "shasum": ""
             },
             "require": {
@@ -895,22 +895,22 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-codicons/issues",
-                "source": "https://github.com/codeat3/blade-codicons/tree/1.2.2"
+                "source": "https://github.com/codeat3/blade-codicons/tree/1.3.2"
             },
-            "time": "2021-05-11T19:35:50+00:00"
+            "time": "2021-05-14T15:35:48+00:00"
         },
         {
             "name": "codeat3/blade-cryptocurrency-icons",
-            "version": "1.2.3",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-cryptocurrency-icons.git",
-                "reference": "b1bd853c84b6c3aae42b586fafd164d1c68c4a84"
+                "reference": "b70f20593118ce94e7fdb1a14f55e10f5db8954b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-cryptocurrency-icons/zipball/b1bd853c84b6c3aae42b586fafd164d1c68c4a84",
-                "reference": "b1bd853c84b6c3aae42b586fafd164d1c68c4a84",
+                "url": "https://api.github.com/repos/codeat3/blade-cryptocurrency-icons/zipball/b70f20593118ce94e7fdb1a14f55e10f5db8954b",
+                "reference": "b70f20593118ce94e7fdb1a14f55e10f5db8954b",
                 "shasum": ""
             },
             "require": {
@@ -959,22 +959,22 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-cryptocurrency-icons/issues",
-                "source": "https://github.com/codeat3/blade-cryptocurrency-icons/tree/1.2.3"
+                "source": "https://github.com/codeat3/blade-cryptocurrency-icons/tree/1.3.3"
             },
-            "time": "2021-05-13T16:24:03+00:00"
+            "time": "2021-05-14T16:54:41+00:00"
         },
         {
             "name": "codeat3/blade-eos-icons",
-            "version": "1.2.3",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-eos-icons.git",
-                "reference": "49ac002a0d0bc619cd47ec6d2ffdd0c80bdde8a6"
+                "reference": "1d4fb4bc177e51d34c286097b550eb3200bada55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-eos-icons/zipball/49ac002a0d0bc619cd47ec6d2ffdd0c80bdde8a6",
-                "reference": "49ac002a0d0bc619cd47ec6d2ffdd0c80bdde8a6",
+                "url": "https://api.github.com/repos/codeat3/blade-eos-icons/zipball/1d4fb4bc177e51d34c286097b550eb3200bada55",
+                "reference": "1d4fb4bc177e51d34c286097b550eb3200bada55",
                 "shasum": ""
             },
             "require": {
@@ -1023,9 +1023,9 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-eos-icons/issues",
-                "source": "https://github.com/codeat3/blade-eos-icons/tree/1.2.3"
+                "source": "https://github.com/codeat3/blade-eos-icons/tree/1.3.2"
             },
-            "time": "2021-05-11T18:56:32+00:00"
+            "time": "2021-05-14T17:05:02+00:00"
         },
         {
             "name": "codeat3/blade-evil-icons",
