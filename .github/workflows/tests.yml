@@ -40,6 +40,9 @@ jobs:
           touch database/database.sqlite
           php artisan migrate --force
 
+      - name: Cache icons
+        run: php artisan icons:cache
+
       - name: Import icon sets
         run: php artisan icons:import
 
