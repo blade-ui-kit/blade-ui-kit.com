@@ -7,6 +7,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
 use Laravel\Scout\Searchable;
 
 final class Icon extends Model
@@ -27,6 +29,15 @@ final class Icon extends Model
      */
     protected $guarded = [];
 
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'keywords' => 'array',
+    ];
+
     public function set(): BelongsTo
     {
         return $this->belongsTo(IconSet::class, 'icon_set_id');
@@ -34,9 +45,14 @@ final class Icon extends Model
 
     public static function relatedIcons(self $icon): Collection
     {
-        return static::search($icon->keywords)
+        return static::search(implode('-', $icon->keywords))
             ->get()
             ->where('id', '!=', $icon->id);
+    }
+
+    public function toSearchableArray()
+    {
+        return $this->only('id', 'icon_set_id', 'keywords');
     }
 
     public function getRouteKeyName(): string

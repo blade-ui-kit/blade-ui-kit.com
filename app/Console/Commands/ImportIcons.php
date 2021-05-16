@@ -7,6 +7,7 @@ namespace App\Console\Commands;
 use App\Models\Icon;
 use App\Models\IconSet;
 use BladeUI\Icons\Factory;
+use BladeUI\Icons\IconsManifest;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
@@ -17,13 +18,22 @@ final class ImportIcons extends Command
 {
     protected $signature = 'icons:import';
 
-    protected $description = 'Command description';
+    protected $description = 'Import all icons from every icon set into the database.';
 
     private array $sets;
 
-    public function handle(Factory $factory): int
+    private array $icons;
+
+    public function handle(Factory $factory, IconsManifest $manifest): int
     {
+        if (File::missing($this->getLaravel()->bootstrapPath('cache/blade-icons.php'))) {
+            $this->error('Please cache the icons first by running `php artisan icon:cache`.');
+
+            return 1;
+        }
+
         $this->sets = $factory->all();
+        $this->icons = $manifest->getManifest($this->sets);
 
         unset($this->sets['default']);
 
@@ -39,7 +49,7 @@ final class ImportIcons extends Command
             });
         });
 
-        $this->info('Successfully imported '.count($this->sets).' icon sets!');
+        $this->info('Successfully imported '.IconSet::count().' icon sets!');
 
         return 0;
     }
@@ -49,27 +59,24 @@ final class ImportIcons extends Command
         Icon::withoutSyncingToSearch(function () use ($iconSet) {
             $set = $this->sets[$iconSet->name];
 
-            foreach ($set['paths'] as $path) {
-                foreach (File::allFiles($path) as $file) {
-                    $pathParts = array_filter(explode('/', Str::after($file->getPath(), $path)));
-                    $filename = implode('.', array_filter($pathParts + [$file->getFilenameWithoutExtension()]));
-
+            foreach ($this->icons[$iconSet->name] ?? [] as $icons) {
+                foreach ($icons as $icon) {
                     Icon::create([
                         'icon_set_id' => $iconSet->id,
-                        'name' => $set['prefix'].'-'.$filename,
-                        'outlined' => $this->isOutlined($filename, $iconSet->outline_rule),
-                        'keywords' => $this->keywords($filename, $iconSet->ignore_rule),
+                        'name' => $set['prefix'].'-'.$icon,
+                        'outlined' => $this->isOutlined($icon, $iconSet->outline_rule),
+                        'keywords' => $this->keywords($icon, $iconSet->ignore_rule),
                     ]);
                 }
             }
         });
     }
 
-    private function keywords(string $string, ?string $rule): string
+    private function keywords(string $string, ?string $rule): array
     {
-        return '-'.Str::of($string)->when($rule !== null, function (Stringable $string) use ($rule) {
+        return Str::of($string)->when($rule !== null, function (Stringable $string) use ($rule) {
             return $string->replaceMatches($rule, '');
-        }).'-';
+        })->explode('-')->filter()->toArray();
     }
 
     private function isOutlined(string $string, ?string $rule): bool
