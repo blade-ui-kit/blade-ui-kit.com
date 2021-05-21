@@ -5,24 +5,15 @@ declare(strict_types=1);
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 use Sushi\Sushi;
 
 final class IconSet extends Model
 {
     use Sushi;
 
-    /**
-     * Indicates if the model should be timestamped.
-     *
-     * @var bool
-     */
     public $timestamps = false;
 
-    /**
-     * The attributes that aren't mass assignable.
-     *
-     * @var array
-     */
     protected $guarded = [];
 
     protected array $rows = [
@@ -339,4 +330,9 @@ final class IconSet extends Model
             'outline_rule' => null,
         ],
     ];
+
+    public function name(): string
+    {
+        return (string) Str::of($this->name)->replace('-', ' ')->title();
+    }
 }

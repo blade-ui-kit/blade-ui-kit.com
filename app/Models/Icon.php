@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -13,25 +14,10 @@ final class Icon extends Model
 {
     use Searchable;
 
-    /**
-     * Indicates if the model should be timestamped.
-     *
-     * @var bool
-     */
     public $timestamps = false;
 
-    /**
-     * The attributes that aren't mass assignable.
-     *
-     * @var array
-     */
     protected $guarded = [];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array
-     */
     protected $casts = [
         'keywords' => 'array',
     ];
@@ -51,6 +37,11 @@ final class Icon extends Model
     public function toSearchableArray()
     {
         return $this->only('id', 'icon_set_id', 'keywords');
+    }
+
+    public function scopeWithSet(Builder $query, string $set): Builder
+    {
+        return $query->when(! empty($set), fn ($query) => $query->where('icon_set_id', $set));
     }
 
     public function getRouteKeyName(): string
