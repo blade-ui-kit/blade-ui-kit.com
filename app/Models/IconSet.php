@@ -330,5 +330,13 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 40,
+            'name' => 'iconoir',
+            'repository' => 'https://github.com/andreiio/blade-iconoir',
+            'composer' => 'andreiio/blade-iconoir',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 }
