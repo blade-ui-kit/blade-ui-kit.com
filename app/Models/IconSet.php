@@ -329,6 +329,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 41,
+            'name' => 'iconic',
+            'repository' => 'https://github.com/itsmalikjones/blade-iconic',
+            'composer' => 'itsmalikjones/blade-iconic',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
