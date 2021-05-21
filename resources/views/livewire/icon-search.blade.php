@@ -1,10 +1,10 @@
 <div class="w-full">
     <div class="relative flex items-center w-full mb-6">
         <div class="flex flex-col md:flex-row items-center border border-gray-200 rounded-lg shadow-md w-full">
-            <label class="flex-shrink block h-full w-full md:w-auto pr-2 border-b md:border-b-0 md:border-r">
+            <div class="inline-block relative flex-shrink block h-full w-full md:w-auto pr-2 border-b md:border-b-0 md:border-r">
                 <select
                     wire:model="set"
-                    class="bg-transparent block h-full w-full p-4 mr-4 text-xl focus:outline-none"
+                    class="appearance-none bg-transparent block h-full w-full p-4 mr-4 text-xl focus:outline-none"
                 >
                     <option value="">All icons</option>
 
@@ -14,7 +14,10 @@
                         </option>
                     @endforeach
                 </select>
-            </label>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <x-heroicon-s-chevron-down class="fill-current h-4 w-4" />
+                </div>
+            </div>
 
             <div class="relative w-full">
                 <input
