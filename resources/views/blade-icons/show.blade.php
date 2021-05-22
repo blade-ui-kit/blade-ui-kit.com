@@ -52,7 +52,7 @@ composer require {{ $icon->set->composer }}
                     Similar icons
                 </x-h4>
 
-                <div class="mt-5 grid gap-3 row-gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 text-sm">
+                <div class="mt-5 grid gap-3 gap-y-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 text-sm">
                     @foreach ($icons as $icon)
                         <div
                             class="flex flex-col items-center"

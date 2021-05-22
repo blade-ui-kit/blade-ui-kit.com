@@ -50,7 +50,7 @@
 
         <div class="top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden fixed top-2 z-50" x-show="open" @click.away="open = false">
             <div class="rounded-lg shadow-md">
-                <div class="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+                <div class="rounded-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
                     <div class="px-5 pt-4 flex items-center justify-between">
                         <div>
                             <a href="{{ route('home') }}">

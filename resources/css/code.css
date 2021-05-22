@@ -5,11 +5,11 @@
  */
 
 pre {
-    @apply .flex relative;
+    @apply flex relative;
 }
 pre code {
-    @apply .flex;
-    @apply .flex-1;
+    @apply flex;
+    @apply flex-1;
 }
 pre .copyBtn {
     @apply absolute;

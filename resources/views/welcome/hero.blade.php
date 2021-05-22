@@ -41,7 +41,7 @@
 {{--                <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />--}}
 {{--            </svg>--}}
 {{--            <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">--}}
-{{--                <button type="button" class="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline">--}}
+{{--                <button type="button" class="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:ring">--}}
 {{--                    <img class="w-full" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Woman making a sale" />--}}
 {{--                    <div class="absolute inset-0 w-full h-full flex items-center justify-center">--}}
 {{--                        <svg class="h-20 w-20 text-scarlet-600" fill="currentColor" viewBox="0 0 84 84">--}}
