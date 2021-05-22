@@ -3,7 +3,7 @@
 
     @include('welcome.blade-icons')
 
-    <div class="mt-16 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mt-16 max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto text-center">
             <x-h3>
                 Search for an icon
@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div id="search" class="relative flex items-center justify-between max-w-screen-xl px-4 mt-6 p-8 sm:mt-0 mx-auto sm:px-6">
+    <div id="search" class="relative flex items-center justify-between max-w-screen-2xl px-4 mt-6 p-8 sm:mt-0 mx-auto sm:px-6">
         <livewire:icon-search/>
     </div>
 

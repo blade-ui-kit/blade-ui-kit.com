@@ -47,7 +47,7 @@ final class IconSearch extends Component
             return Icon::query()
                 ->withSet($this->set)
                 ->inRandomOrder()
-                ->take(72)
+                ->take(80)
                 ->get();
         }
 
