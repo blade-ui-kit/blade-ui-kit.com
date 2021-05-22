@@ -18,9 +18,6 @@
                     <a href="{{ route('docs') }}" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                         Documentation
                     </a>
-                    <a href="{{ route('home') }}#features" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-                        Features
-                    </a>
                     <a href="{{ route('blade-icons') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                         Blade Icons
                     </a>
@@ -68,9 +65,6 @@
                     <div class="px-2 pt-2 pb-3">
                         <a href="{{ route('docs') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
                             Documentation
-                        </a>
-                        <a href="{{ route('home') }}#features" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
-                            Features
                         </a>
                         <a href="{{ route('blade-icons') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
                             Blade Icons
