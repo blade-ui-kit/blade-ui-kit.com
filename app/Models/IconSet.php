@@ -337,6 +337,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 42,
+            'name' => 'icomoon',
+            'repository' => 'https://github.com/nerdroid23/blade-icomoon',
+            'composer' => 'nerdroid23/blade-icomoon',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
