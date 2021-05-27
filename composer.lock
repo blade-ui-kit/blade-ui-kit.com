@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfd1c096982b67b16053ab029c37c3f0",
+    "content-hash": "d8ac5592d1a4b918c997272e8a10011f",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -4616,16 +4616,16 @@
         },
         {
             "name": "nerdroid23/blade-icomoon",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nerdroid23/blade-icomoon.git",
-                "reference": "69183ae2841bb821e9646435b3ae1eea1c1b7812"
+                "reference": "46c651a370797a025b033105b5c2e97914d81916"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nerdroid23/blade-icomoon/zipball/69183ae2841bb821e9646435b3ae1eea1c1b7812",
-                "reference": "69183ae2841bb821e9646435b3ae1eea1c1b7812",
+                "url": "https://api.github.com/repos/nerdroid23/blade-icomoon/zipball/46c651a370797a025b033105b5c2e97914d81916",
+                "reference": "46c651a370797a025b033105b5c2e97914d81916",
                 "shasum": ""
             },
             "require": {
@@ -4674,7 +4674,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nerdroid23/blade-icomoon/issues",
-                "source": "https://github.com/nerdroid23/blade-icomoon/tree/v1.0.2"
+                "source": "https://github.com/nerdroid23/blade-icomoon/tree/v1.0.3"
             },
             "funding": [
                 {
@@ -4682,7 +4682,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-22T21:48:52+00:00"
+            "time": "2021-05-27T13:11:28+00:00"
         },
         {
             "name": "nesbot/carbon",
