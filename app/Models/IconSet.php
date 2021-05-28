@@ -361,6 +361,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 45,
+            'name' => 'line-awesome-icons',
+            'repository' => 'https://github.com/codeat3/blade-line-awesome-icons',
+            'composer' => 'codeat3/blade-line-awesome-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
