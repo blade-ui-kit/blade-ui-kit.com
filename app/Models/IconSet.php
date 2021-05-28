@@ -369,6 +369,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 46,
+            'name' => 'clarity',
+            'repository' => 'https://github.com/codeat3/blade-clarity-icons',
+            'composer' => 'codeat3/blade-clarity-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
