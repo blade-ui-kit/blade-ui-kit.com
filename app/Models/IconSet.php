@@ -377,6 +377,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 47,
+            'name' => 'iconpark',
+            'repository' => 'https://github.com/codeat3/blade-iconpark',
+            'composer' => 'codeat3/blade-iconpark',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a556dce618bb48f13bf1a5ede13e287d",
+    "content-hash": "2b7a4c659bd45b395208614f64b8b656",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1543,6 +1543,70 @@
             "time": "2021-05-13T15:36:51+00:00"
         },
         {
+            "name": "codeat3/blade-iconpark",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-iconpark.git",
+                "reference": "89422399909710ec0d6da93a07774a044844fcf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-iconpark/zipball/89422399909710ec0d6da93a07774a044844fcf3",
+                "reference": "89422399909710ec0d6da93a07774a044844fcf3",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeIconpark\\BladeIconparkServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeIconpark\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"Icon Park Icons\" in your Laravel Blade views. ",
+            "homepage": "https://github.com/codeat3/blade-iconpark",
+            "keywords": [
+                "blade",
+                "iconpark",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-iconpark/issues",
+                "source": "https://github.com/codeat3/blade-iconpark/tree/1.2.1"
+            },
+            "time": "2021-05-28T14:25:35+00:00"
+        },
+        {
             "name": "codeat3/blade-ikonate",
             "version": "1.1.2",
             "source": {
@@ -1676,12 +1740,12 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codeat3/blade-line-awesome.git",
+                "url": "https://github.com/codeat3/blade-line-awesome-icons.git",
                 "reference": "b5b06a38566758f98e2f9aece5c8a26810d2449c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-line-awesome/zipball/b5b06a38566758f98e2f9aece5c8a26810d2449c",
+                "url": "https://api.github.com/repos/codeat3/blade-line-awesome-icons/zipball/b5b06a38566758f98e2f9aece5c8a26810d2449c",
                 "reference": "b5b06a38566758f98e2f9aece5c8a26810d2449c",
                 "shasum": ""
             },
@@ -1731,8 +1795,8 @@
                 "line-awesome"
             ],
             "support": {
-                "issues": "https://github.com/codeat3/blade-line-awesome/issues",
-                "source": "https://github.com/codeat3/blade-line-awesome/tree/1.0.0"
+                "issues": "https://github.com/codeat3/blade-line-awesome-icons/issues",
+                "source": "https://github.com/codeat3/blade-line-awesome-icons/tree/1.0.0"
             },
             "time": "2021-05-28T10:11:55+00:00"
         },
@@ -3803,16 +3867,16 @@
         },
         {
             "name": "knplabs/knp-menu",
-            "version": "v3.1.3",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "bee33a4cb6b698447cd61c6b593589a82993f8c9"
+                "reference": "9e7f174862c9a91f1249d18b5c2fa039eef81b8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/bee33a4cb6b698447cd61c6b593589a82993f8c9",
-                "reference": "bee33a4cb6b698447cd61c6b593589a82993f8c9",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/9e7f174862c9a91f1249d18b5c2fa039eef81b8f",
+                "reference": "9e7f174862c9a91f1249d18b5c2fa039eef81b8f",
                 "shasum": ""
             },
             "require": {
@@ -3869,9 +3933,9 @@
             ],
             "support": {
                 "issues": "https://github.com/KnpLabs/KnpMenu/issues",
-                "source": "https://github.com/KnpLabs/KnpMenu/tree/v3.1.3"
+                "source": "https://github.com/KnpLabs/KnpMenu/tree/v3.2.0"
             },
-            "time": "2021-02-19T07:49:30+00:00"
+            "time": "2021-05-28T09:10:39+00:00"
         },
         {
             "name": "laravel/framework",
