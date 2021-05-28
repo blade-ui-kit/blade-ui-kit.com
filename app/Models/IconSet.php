@@ -345,6 +345,22 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 43,
+            'name' => 'fluentui-system-icons',
+            'repository' => 'https://github.com/codeat3/blade-fluentui-system-icons',
+            'composer' => 'codeat3/blade-fluentui-system-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 44,
+            'name' => 'forkawesome',
+            'repository' => 'https://github.com/codeat3/blade-forkawesome',
+            'composer' => 'codeat3/blade-forkawesome',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
