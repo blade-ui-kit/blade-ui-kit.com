@@ -385,6 +385,38 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 48,
+            'name' => 'ant-design-icons',
+            'repository' => 'https://github.com/codeat3/blade-ant-design-icons',
+            'composer' => 'codeat3/blade-ant-design-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 49,
+            'name' => 'majestic-icons',
+            'repository' => 'https://github.com/codeat3/blade-majestic-icons',
+            'composer' => 'codeat3/blade-majestic-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 50,
+            'name' => 'akar-icons',
+            'repository' => 'https://github.com/codeat3/blade-akar-icons',
+            'composer' => 'codeat3/blade-akar-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 51,
+            'name' => 'fontisto-icons',
+            'repository' => 'https://github.com/codeat3/blade-fontisto-icons',
+            'composer' => 'codeat3/blade-fontisto-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
