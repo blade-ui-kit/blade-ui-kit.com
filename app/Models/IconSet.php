@@ -417,6 +417,22 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 52,
+            'name' => 'bytesize-icons',
+            'repository' => 'https://github.com/codeat3/blade-bytesize-icons',
+            'composer' => 'codeat3/blade-bytesize-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 53,
+            'name' => 'coolicons',
+            'repository' => 'https://github.com/codeat3/blade-coolicons',
+            'composer' => 'codeat3/blade-coolicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
