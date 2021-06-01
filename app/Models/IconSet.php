@@ -473,6 +473,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 59,
+            'name' => 'game-icons',
+            'repository' => 'https://github.com/codeat3/blade-game-icons',
+            'composer' => 'codeat3/blade-game-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string

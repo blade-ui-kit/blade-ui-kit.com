@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "177bc4039c4c40faf743c3e85b69bdd8",
+    "content-hash": "5f7fda462321dd04934e55d350a38888",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1799,6 +1799,71 @@
                 "source": "https://github.com/codeat3/blade-forkawesome/tree/1.1.1"
             },
             "time": "2021-05-14T18:01:45+00:00"
+        },
+        {
+            "name": "codeat3/blade-game-icons",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-game-icons.git",
+                "reference": "c5e7f1e2465a0f35783e1b23e5c4ff19f8e937b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-game-icons/zipball/c5e7f1e2465a0f35783e1b23e5c4ff19f8e937b3",
+                "reference": "c5e7f1e2465a0f35783e1b23e5c4ff19f8e937b3",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeGameIcons\\BladeGameIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeGameIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of Game Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-game-icons",
+            "keywords": [
+                "Game Icons",
+                "blade",
+                "icons",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-game-icons/issues",
+                "source": "https://github.com/codeat3/blade-game-icons/tree/1.0.0"
+            },
+            "time": "2021-06-01T20:05:26+00:00"
         },
         {
             "name": "codeat3/blade-google-material-design-icons",
