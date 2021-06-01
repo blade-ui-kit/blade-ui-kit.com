@@ -433,6 +433,22 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 54,
+            'name' => 'simple-line-icons',
+            'repository' => 'https://github.com/codeat3/blade-simple-line-icons',
+            'composer' => 'codeat3/blade-simple-line-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 55,
+            'name' => 'mono-icons',
+            'repository' => 'https://github.com/codeat3/blade-mono-icons',
+            'composer' => 'codeat3/blade-mono-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string

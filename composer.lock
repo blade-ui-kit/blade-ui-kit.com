@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3381cc6334c371d68f6a7a0736eb7d4",
+    "content-hash": "7e9870baa441e004b3b52b337e4499bb",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -2255,6 +2255,71 @@
             "time": "2021-05-12T18:56:08+00:00"
         },
         {
+            "name": "codeat3/blade-mono-icons",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-mono-icons.git",
+                "reference": "f79d14c01ee92304ad0de38c3663fb525654c6ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-mono-icons/zipball/f79d14c01ee92304ad0de38c3663fb525654c6ff",
+                "reference": "f79d14c01ee92304ad0de38c3663fb525654c6ff",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeMonoIcons\\BladeMonoIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeMonoIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of Mono Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-mono-icons",
+            "keywords": [
+                "blade",
+                "icons",
+                "laravel",
+                "mono"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-mono-icons/issues",
+                "source": "https://github.com/codeat3/blade-mono-icons/tree/1.0.0"
+            },
+            "time": "2021-06-01T15:07:21+00:00"
+        },
+        {
             "name": "codeat3/blade-phosphor-icons",
             "version": "1.1.1",
             "source": {
@@ -2573,6 +2638,71 @@
                 "source": "https://github.com/codeat3/blade-simple-icons/tree/1.7.1"
             },
             "time": "2021-05-27T14:08:06+00:00"
+        },
+        {
+            "name": "codeat3/blade-simple-line-icons",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-simple-line-icons.git",
+                "reference": "c1a15d8849a2c6cdeabf8034b173c5ce53165320"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-line-icons/zipball/c1a15d8849a2c6cdeabf8034b173c5ce53165320",
+                "reference": "c1a15d8849a2c6cdeabf8034b173c5ce53165320",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeSimpleLineIcons\\BladeSimpleLineIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeSimpleLineIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of Simple Line Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-simple-line-icons",
+            "keywords": [
+                "blade",
+                "icons",
+                "laravel",
+                "simple-line"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-simple-line-icons/issues",
+                "source": "https://github.com/codeat3/blade-simple-line-icons/tree/1.0.0"
+            },
+            "time": "2021-06-01T08:28:56+00:00"
         },
         {
             "name": "codeat3/blade-system-uicons",
