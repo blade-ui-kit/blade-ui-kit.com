@@ -449,6 +449,30 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 56,
+            'name' => 'gov-icons',
+            'repository' => 'https://github.com/codeat3/blade-govicons',
+            'composer' => 'codeat3/blade-govicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 57,
+            'name' => 'uiw-icons',
+            'repository' => 'https://github.com/codeat3/blade-uiw-icons',
+            'composer' => 'codeat3/blade-uiw-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 58,
+            'name' => 'pepicons',
+            'repository' => 'https://github.com/codeat3/blade-pepicons',
+            'composer' => 'codeat3/blade-pepicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
