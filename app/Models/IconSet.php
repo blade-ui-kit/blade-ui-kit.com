@@ -481,6 +481,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 60,
+            'name' => 'country-flags',
+            'repository' => 'https://github.com/stijnvanouplines/blade-country-flags',
+            'composer' => 'stijnvanouplines/blade-country-flags',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string

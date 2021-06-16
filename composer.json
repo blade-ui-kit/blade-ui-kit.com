@@ -77,7 +77,8 @@
         "owenvoke/blade-entypo": "^1.0",
         "owenvoke/blade-fontawesome": "^1.2",
         "ryangjchandler/blade-tabler-icons": "^1.0",
-        "spatie/laravel-responsecache": "^6.6"
+        "spatie/laravel-responsecache": "^6.6",
+        "stijnvanouplines/blade-country-flags": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
