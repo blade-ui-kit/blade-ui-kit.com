@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Str;
 use Laravel\Scout\Searchable;
 
 final class Icon extends Model
@@ -34,14 +35,14 @@ final class Icon extends Model
             ->where('id', '!=', $icon->id);
     }
 
+    public function cssClasses($classes = ''): string
+    {
+        return $classes.' '.$this->set->custom_css;
+    }
+
     public function toSearchableArray()
     {
         return $this->only('id', 'icon_set_id', 'keywords');
-    }
-
-    public function scopeWithSet(Builder $query, string $set): Builder
-    {
-        return $query->when(! empty($set), fn ($query) => $query->where('icon_set_id', $set));
     }
 
     public function getRouteKeyName(): string

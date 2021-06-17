@@ -24,6 +24,7 @@ final class IconSet extends Model
             'composer' => 'blade-ui-kit/blade-heroicons',
             'ignore_rule' => '/^(?:o|s)-/',
             'outline_rule' => '/^o-/',
+            'custom_css' => '',
         ],
         [
             'id' => 2,
@@ -32,6 +33,7 @@ final class IconSet extends Model
             'composer' => 'blade-ui-kit/blade-zondicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 3,
@@ -40,6 +42,7 @@ final class IconSet extends Model
             'composer' => 'davidhsianturi/blade-bootstrap-icons',
             'ignore_rule' => '/-fill$/',
             'outline_rule' => '/.*(?<!-fill)$/',
+            'custom_css' => '',
         ],
         [
             'id' => 4,
@@ -48,6 +51,7 @@ final class IconSet extends Model
             'composer' => 'khatabwedaa/blade-css-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         // [
         //     'id' => 5,
@@ -56,6 +60,7 @@ final class IconSet extends Model
         //     'composer' => 'hasnayeen/blade-eva-icons',
         //     'ignore_rule' => '/-outline$/',
         //     'outline_rule' => '/-outline$/',
+        //     'custom_css' => '',
         // ],
         [
             'id' => 6,
@@ -64,6 +69,7 @@ final class IconSet extends Model
             'composer' => 'brunocfalcao/blade-feather-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 7,
@@ -72,6 +78,7 @@ final class IconSet extends Model
             'composer' => 'owenvoke/blade-fontawesome',
             'ignore_rule' => null, //fab
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 8,
@@ -80,6 +87,7 @@ final class IconSet extends Model
             'composer' => 'owenvoke/blade-fontawesome',
             'ignore_rule' => null, //far
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 9,
@@ -88,6 +96,7 @@ final class IconSet extends Model
             'composer' => 'owenvoke/blade-fontawesome',
             'ignore_rule' => null, //fas
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 10,
@@ -96,6 +105,7 @@ final class IconSet extends Model
             'composer' => 'actb/blade-github-octicons',
             'ignore_rule' => '/-\d{2}$/', // 16|24
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         // [
         //     'id' => 11,
@@ -104,6 +114,7 @@ final class IconSet extends Model
         //     'composer' => 'faisal50x/blade-ionicons',
         //     'ignore_rule' => '/-(?:outline|sharp)$/',
         //     'outline_rule' => '/-outline$/',
+        //     'custom_css' => '',
         // ],
         [
             'id' => 13,
@@ -112,6 +123,7 @@ final class IconSet extends Model
             'composer' => 'andreiio/blade-remix-icon',
             'ignore_rule' => '/-(?:line|fill)$/',
             'outline_rule' => '/-line$/',
+            'custom_css' => '',
         ],
         [
             'id' => 14,
@@ -120,6 +132,7 @@ final class IconSet extends Model
             'composer' => 'ryangjchandler/blade-tabler-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 15,
@@ -128,6 +141,7 @@ final class IconSet extends Model
             'composer' => 'owenvoke/blade-entypo',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 16,
@@ -136,6 +150,7 @@ final class IconSet extends Model
             'composer' => 'mallardduck/blade-boxicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 17,
@@ -144,6 +159,7 @@ final class IconSet extends Model
             'composer' => 'mallardduck/blade-boxicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 18,
@@ -152,6 +168,7 @@ final class IconSet extends Model
             'composer' => 'mallardduck/blade-boxicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 19,
@@ -160,6 +177,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-simple-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 20,
@@ -168,6 +186,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-google-material-design-icons',
             'ignore_rule' => null,
             'outline_rule' => '/-o$/',
+            'custom_css' => '',
         ],
         [
             'id' => 21,
@@ -176,6 +195,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-codicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 22,
@@ -184,6 +204,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-cryptocurrency-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 23,
@@ -192,6 +213,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-eos-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 24,
@@ -200,6 +222,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-evil-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 25,
@@ -208,6 +231,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-file-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 26,
@@ -216,6 +240,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-fontaudio',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 27,
@@ -224,6 +249,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-weather-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 28,
@@ -232,6 +258,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-vaadin-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 29,
@@ -240,6 +267,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-unicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 30,
@@ -248,6 +276,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-typicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 31,
@@ -256,6 +285,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-teeny-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 32,
@@ -264,6 +294,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-system-uicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 33,
@@ -272,6 +303,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-rpg-awesome-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 34,
@@ -280,6 +312,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-radix-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 35,
@@ -288,6 +321,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-pixelarticons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 36,
@@ -296,6 +330,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-phosphor-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 37,
@@ -304,6 +339,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-microns',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 38,
@@ -312,6 +348,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-jam-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 39,
@@ -320,6 +357,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-ikonate',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 40,
@@ -328,6 +366,7 @@ final class IconSet extends Model
             'composer' => 'andreiio/blade-iconoir',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 41,
@@ -336,6 +375,7 @@ final class IconSet extends Model
             'composer' => 'itsmalikjones/blade-iconic',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 42,
@@ -344,6 +384,7 @@ final class IconSet extends Model
             'composer' => 'nerdroid23/blade-icomoon',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 43,
@@ -352,6 +393,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-fluentui-system-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 44,
@@ -360,6 +402,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-forkawesome',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 45,
@@ -368,6 +411,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-line-awesome-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 46,
@@ -376,6 +420,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-clarity-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 47,
@@ -384,6 +429,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-iconpark',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 48,
@@ -392,6 +438,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-ant-design-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 49,
@@ -400,6 +447,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-majestic-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 50,
@@ -408,6 +456,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-akar-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 51,
@@ -416,6 +465,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-fontisto-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 52,
@@ -424,6 +474,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-bytesize-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 53,
@@ -432,6 +483,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-coolicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 54,
@@ -440,6 +492,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-simple-line-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 55,
@@ -448,6 +501,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-mono-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 56,
@@ -456,6 +510,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-govicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 57,
@@ -464,6 +519,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-uiw-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 58,
@@ -472,6 +528,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-pepicons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 59,
@@ -480,6 +537,7 @@ final class IconSet extends Model
             'composer' => 'codeat3/blade-game-icons',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => '',
         ],
         [
             'id' => 60,
@@ -488,6 +546,7 @@ final class IconSet extends Model
             'composer' => 'stijnvanouplines/blade-country-flags',
             'ignore_rule' => null,
             'outline_rule' => null,
+            'custom_css' => 'shadow border',
         ],
     ];
 
