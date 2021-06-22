@@ -489,6 +489,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 61,
+            'name' => 'carbon-icons',
+            'repository' => 'https://github.com/codeat3/blade-carbon-icons',
+            'composer' => 'codeat3/blade-carbon-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
