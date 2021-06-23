@@ -482,14 +482,6 @@ final class IconSet extends Model
             'outline_rule' => null,
         ],
         [
-            'id' => 60,
-            'name' => 'country-flags',
-            'repository' => 'https://github.com/stijnvanouplines/blade-country-flags',
-            'composer' => 'stijnvanouplines/blade-country-flags',
-            'ignore_rule' => null,
-            'outline_rule' => null,
-        ],
-        [
             'id' => 61,
             'name' => 'carbon-icons',
             'repository' => 'https://github.com/codeat3/blade-carbon-icons',
