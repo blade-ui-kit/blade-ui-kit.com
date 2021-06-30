@@ -489,6 +489,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 62,
+            'name' => 'health-icons',
+            'repository' => 'https://github.com/troccoli/blade-health-icons',
+            'composer' => 'troccoli/blade-health-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string

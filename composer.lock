@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca796043f78f596c2a8b34a2030ecc97",
+    "content-hash": "a8348e1b27177c0fc09bc63be12d1860",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -9861,6 +9861,64 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.3"
             },
             "time": "2020-07-13T06:12:54+00:00"
+        },
+        {
+            "name": "troccoli/blade-health-icons",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/troccoli/blade-health-icons.git",
+                "reference": "e61bc63601f8f7cfab79727d6a1a6b4698b3d657"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/e61bc63601f8f7cfab79727d6a1a6b4698b3d657",
+                "reference": "e61bc63601f8f7cfab79727d6a1a6b4698b3d657",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Troccoli\\BladeHealthIcons\\BladeHealthIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Troccoli\\BladeHealthIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giulio Troccoli-Allard",
+                    "email": "giulio@troccoli.it"
+                }
+            ],
+            "description": "A package to easily make use of Health Icons in your Laravel Blade views.",
+            "keywords": [
+                "Healthicons",
+                "blade",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/troccoli/blade-health-icons/issues",
+                "source": "https://github.com/troccoli/blade-health-icons/tree/v0.2.0"
+            },
+            "time": "2021-06-30T15:20:56+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
