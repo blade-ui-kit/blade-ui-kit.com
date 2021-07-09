@@ -73,6 +73,7 @@
         "league/commonmark": "^1.5",
         "livewire/livewire": "^2.0",
         "mallardduck/blade-boxicons": "^2.1",
+        "mallardduck/blade-lucide-icons": "^1.0",
         "meilisearch/meilisearch-php": "^0.17.0",
         "nerdroid23/blade-icomoon": "^1.0",
         "owenvoke/blade-entypo": "^1.0",
