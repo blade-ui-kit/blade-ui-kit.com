@@ -497,6 +497,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 63,
+            'name' => 'lucide',
+            'repository' => 'https://github.com/mallardduck/blade-lucide-icons',
+            'composer' => 'mallardduck/blade-lucide-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
