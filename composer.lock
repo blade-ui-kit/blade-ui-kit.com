@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2764b045bf6d98f42e03bbecf706cd8a",
+    "content-hash": "434bf2dd1b3832828f31482b99356ab7",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1418,6 +1418,65 @@
             "time": "2021-05-14T16:54:41+00:00"
         },
         {
+            "name": "codeat3/blade-elusive-icons",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-elusive-icons.git",
+                "reference": "816c5589370c6705a6f3a6f7fe27cf1dd4d7f221"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-elusive-icons/zipball/816c5589370c6705a6f3a6f7fe27cf1dd4d7f221",
+                "reference": "816c5589370c6705a6f3a6f7fe27cf1dd4d7f221",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeElusiveIcons\\BladeElusiveIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeElusiveIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe"
+                }
+            ],
+            "description": "A package to easily make use of Elusive Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-elusive-icons",
+            "keywords": [
+                "blade",
+                "elusive",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-elusive-icons/issues",
+                "source": "https://github.com/codeat3/blade-elusive-icons/tree/1.1.1"
+            },
+            "time": "2021-07-19T17:29:25+00:00"
+        },
+        {
             "name": "codeat3/blade-eos-icons",
             "version": "1.7.2",
             "source": {
@@ -2064,6 +2123,65 @@
                 "source": "https://github.com/codeat3/blade-govicons/tree/1.0.0"
             },
             "time": "2021-06-01T17:19:34+00:00"
+        },
+        {
+            "name": "codeat3/blade-grommet-icons",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-grommet-icons.git",
+                "reference": "28ceb92db14bf6a658e576cbd7371b7d0e9939b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-grommet-icons/zipball/28ceb92db14bf6a658e576cbd7371b7d0e9939b0",
+                "reference": "28ceb92db14bf6a658e576cbd7371b7d0e9939b0",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.1",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/phpcs-styles": "dev-main",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeGrommetIcons\\BladeGrommetIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeGrommetIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe"
+                }
+            ],
+            "description": "A package to easily make use of Grommet in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-grommet-icons",
+            "keywords": [
+                "Grommet",
+                "blade",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-grommet-icons/issues",
+                "source": "https://github.com/codeat3/blade-grommet-icons/tree/1.1.1"
+            },
+            "time": "2021-07-19T17:29:43+00:00"
         },
         {
             "name": "codeat3/blade-iconpark",

@@ -505,6 +505,22 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 64,
+            'name' => 'grommet-icons',
+            'repository' => 'https://github.com/codeat/blade-grommet-icons',
+            'composer' => 'codeat/blade-grommet-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 65,
+            'name' => 'elusive-icons',
+            'repository' => 'https://github.com/codeat/blade-elusive-icons',
+            'composer' => 'codeat/blade-elusive-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
