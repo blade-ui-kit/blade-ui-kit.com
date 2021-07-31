@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "434bf2dd1b3832828f31482b99356ab7",
+    "content-hash": "93c817a9d4ad0569df1d0df52424bbd5",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -383,16 +383,16 @@
         },
         {
             "name": "blade-ui-kit/blade-ui-kit",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blade-ui-kit/blade-ui-kit.git",
-                "reference": "28f4a43a817f381b1590e30c877655e3bcdd190a"
+                "reference": "96e8bf0bc1ff24bcfc0fe2777ccea2756dba634e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blade-ui-kit/blade-ui-kit/zipball/28f4a43a817f381b1590e30c877655e3bcdd190a",
-                "reference": "28f4a43a817f381b1590e30c877655e3bcdd190a",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-ui-kit/zipball/96e8bf0bc1ff24bcfc0fe2777ccea2756dba634e",
+                "reference": "96e8bf0bc1ff24bcfc0fe2777ccea2756dba634e",
                 "shasum": ""
             },
             "require": {
@@ -406,7 +406,7 @@
             "require-dev": {
                 "gajus/dindent": "^2.0",
                 "guzzlehttp/guzzle": "^6.5",
-                "league/commonmark": "^1.4",
+                "league/commonmark": "^1.4|^2.0",
                 "lorisleiva/cron-translator": "^0.1.1",
                 "orchestra/testbench": "^5.0|^6.0",
                 "phpunit/phpunit": "^9.0"
@@ -435,9 +435,7 @@
             "authors": [
                 {
                     "name": "Dries Vints",
-                    "email": "dries@vints.io",
-                    "homepage": "https://driesvints.com",
-                    "role": "Developer"
+                    "homepage": "https://driesvints.com"
                 }
             ],
             "description": "A set of renderless components to utilise in your Laravel Blade views.",
@@ -453,11 +451,15 @@
             },
             "funding": [
                 {
+                    "url": "https://github.com/caneco",
+                    "type": "github"
+                },
+                {
                     "url": "https://github.com/driesvints",
                     "type": "github"
                 }
             ],
-            "time": "2020-10-31T20:40:44+00:00"
+            "time": "2021-07-31T12:25:44+00:00"
         },
         {
             "name": "blade-ui-kit/blade-zondicons",
