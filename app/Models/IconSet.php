@@ -521,6 +521,22 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 66,
+            'name' => 'maki-icons',
+            'repository' => 'https://github.com/codeat/blade-maki-icons',
+            'composer' => 'codeat/blade-maki-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 67,
+            'name' => 'academicons',
+            'repository' => 'https://github.com/codeat/blade-academicons',
+            'composer' => 'codeat/blade-academicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
