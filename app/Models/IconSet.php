@@ -537,6 +537,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 68,
+            'name' => 'devicons',
+            'repository' => 'https://github.com/codeat3/blade-devicons',
+            'composer' => 'codeat3/blade-devicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
