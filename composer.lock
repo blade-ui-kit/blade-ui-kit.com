@@ -1750,16 +1750,16 @@
         },
         {
             "name": "codeat3/blade-file-icons",
-            "version": "1.4.1",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-file-icons.git",
-                "reference": "9a275c478eeb9a356f56d896569320f52f5cbd42"
+                "reference": "71b4785c9adc87cbfd1b0d254d00ee56e031a860"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-file-icons/zipball/9a275c478eeb9a356f56d896569320f52f5cbd42",
-                "reference": "9a275c478eeb9a356f56d896569320f52f5cbd42",
+                "url": "https://api.github.com/repos/codeat3/blade-file-icons/zipball/71b4785c9adc87cbfd1b0d254d00ee56e031a860",
+                "reference": "71b4785c9adc87cbfd1b0d254d00ee56e031a860",
                 "shasum": ""
             },
             "require": {
@@ -1768,6 +1768,7 @@
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
+                "codeat3/blade-icon-generation-helpers": "dev-poc",
                 "codeat3/phpcs-styles": "dev-main",
                 "orchestra/testbench": "^6.0",
                 "phpunit/phpunit": "^9.0"
@@ -1808,9 +1809,9 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-file-icons/issues",
-                "source": "https://github.com/codeat3/blade-file-icons/tree/1.4.1"
+                "source": "https://github.com/codeat3/blade-file-icons/tree/1.5.1"
             },
-            "time": "2021-06-07T05:38:55+00:00"
+            "time": "2021-08-27T07:42:23+00:00"
         },
         {
             "name": "codeat3/blade-fluentui-system-icons",
@@ -5682,16 +5683,16 @@
         },
         {
             "name": "mallardduck/blade-boxicons",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mallardduck/blade-boxicons.git",
-                "reference": "23213aab95753e08823fd216739a74545624780a"
+                "reference": "db2fbb78aecc0a2e4d80d76158231e85dd179283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mallardduck/blade-boxicons/zipball/23213aab95753e08823fd216739a74545624780a",
-                "reference": "23213aab95753e08823fd216739a74545624780a",
+                "url": "https://api.github.com/repos/mallardduck/blade-boxicons/zipball/db2fbb78aecc0a2e4d80d76158231e85dd179283",
+                "reference": "db2fbb78aecc0a2e4d80d76158231e85dd179283",
                 "shasum": ""
             },
             "require": {
@@ -5747,9 +5748,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mallardduck/blade-boxicons/issues",
-                "source": "https://github.com/mallardduck/blade-boxicons/tree/2.1.1"
+                "source": "https://github.com/mallardduck/blade-boxicons/tree/2.1.2"
             },
-            "time": "2021-06-25T22:33:12+00:00"
+            "time": "2021-09-03T23:17:21+00:00"
         },
         {
             "name": "mallardduck/blade-lucide-icons",
