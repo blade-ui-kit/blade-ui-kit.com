@@ -1815,16 +1815,16 @@
         },
         {
             "name": "codeat3/blade-fluentui-system-icons",
-            "version": "1.6.1",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-fluentui-system-icons.git",
-                "reference": "905ca79fb773069c755cc66544e8b9e15c825fa6"
+                "reference": "9a9dbce7555f2dfd21f469e6210def2b7a2f2786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-fluentui-system-icons/zipball/905ca79fb773069c755cc66544e8b9e15c825fa6",
-                "reference": "905ca79fb773069c755cc66544e8b9e15c825fa6",
+                "url": "https://api.github.com/repos/codeat3/blade-fluentui-system-icons/zipball/9a9dbce7555f2dfd21f469e6210def2b7a2f2786",
+                "reference": "9a9dbce7555f2dfd21f469e6210def2b7a2f2786",
                 "shasum": ""
             },
             "require": {
@@ -1875,9 +1875,9 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-fluentui-system-icons/issues",
-                "source": "https://github.com/codeat3/blade-fluentui-system-icons/tree/1.6.1"
+                "source": "https://github.com/codeat3/blade-fluentui-system-icons/tree/1.7.1"
             },
-            "time": "2021-08-14T03:54:13+00:00"
+            "time": "2021-09-05T12:12:31+00:00"
         },
         {
             "name": "codeat3/blade-fontaudio",
@@ -2011,16 +2011,16 @@
         },
         {
             "name": "codeat3/blade-forkawesome",
-            "version": "1.3.1",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-forkawesome.git",
-                "reference": "0476af4f6799cdb2b1108c71b660dfca0884d40c"
+                "reference": "a477479c1e0a22b36d859b4c028bbb209649849a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-forkawesome/zipball/0476af4f6799cdb2b1108c71b660dfca0884d40c",
-                "reference": "0476af4f6799cdb2b1108c71b660dfca0884d40c",
+                "url": "https://api.github.com/repos/codeat3/blade-forkawesome/zipball/a477479c1e0a22b36d859b4c028bbb209649849a",
+                "reference": "a477479c1e0a22b36d859b4c028bbb209649849a",
                 "shasum": ""
             },
             "require": {
@@ -2071,9 +2071,9 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-forkawesome/issues",
-                "source": "https://github.com/codeat3/blade-forkawesome/tree/1.3.1"
+                "source": "https://github.com/codeat3/blade-forkawesome/tree/1.5.1"
             },
-            "time": "2021-08-30T09:39:25+00:00"
+            "time": "2021-09-06T05:49:49+00:00"
         },
         {
             "name": "codeat3/blade-game-icons",
@@ -3171,16 +3171,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "1.14.1",
+            "version": "1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "7be0a664776225cf7599b5de26f27b3b31c84dbc"
+                "reference": "2eaa9183dc35b9e8cb975610f42af4dbb5108d1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/7be0a664776225cf7599b5de26f27b3b31c84dbc",
-                "reference": "7be0a664776225cf7599b5de26f27b3b31c84dbc",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/2eaa9183dc35b9e8cb975610f42af4dbb5108d1a",
+                "reference": "2eaa9183dc35b9e8cb975610f42af4dbb5108d1a",
                 "shasum": ""
             },
             "require": {
@@ -3230,9 +3230,9 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/1.14.1"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/1.15.1"
             },
-            "time": "2021-08-30T09:36:30+00:00"
+            "time": "2021-09-06T05:51:40+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
