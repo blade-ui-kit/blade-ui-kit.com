@@ -4,10 +4,15 @@
     @include('welcome.blade-icons')
 
     <div class="mt-16 max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
+        <div class="text-center w-full">
+            <img class="h-20 inline-block" src="{{ asset('images/showcase/cloudways-long.png') }}" alt="">
+        </div>
+
+        <div class="mt-16 max-w-4xl mx-auto text-center">
             <x-h3>
                 Search for an icon
             </x-h3>
+
             <x-p>
                 With {{ App\Models\IconSet::count() }} different icon sets, we probably can find the right one for you.
             </x-p>

@@ -8,8 +8,10 @@
             {!! $markdown !!}
         </x-markdown>
 
-        <div class="mt-8">
-            <x-h6>
+        <div>
+            <img class="w-full" src="{{ asset('images/showcase/cloudways-small.png') }}" alt="">
+
+            <x-h6 class="mt-8">
                 On this page
             </x-h6>
 
