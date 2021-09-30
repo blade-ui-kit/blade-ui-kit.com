@@ -4,8 +4,67 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31165ab0e0b19cbf41bd34c712592d08",
+    "content-hash": "0271461f952c8f381ce10aeeaa5b006e",
     "packages": [
+        {
+            "name": "2zt/blade-cssgg",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2zt/blade-cssgg.git",
+                "reference": "f98bd2abce7b6ae45746c873024ac2928c0a14b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2zt/blade-cssgg/zipball/f98bd2abce7b6ae45746c873024ac2928c0a14b8",
+                "reference": "f98bd2abce7b6ae45746c873024ac2928c0a14b8",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.1",
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BladeUI\\CssggIcons\\BladeCssggIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BladeUI\\CssggIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "2zt"
+                }
+            ],
+            "description": "A package to easily make use of css.gg icons in your Laravel Blade views.",
+            "homepage": "https://github.com/2zt/blade-cssgg",
+            "keywords": [
+                "Css.gg",
+                "blade",
+                "icons",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/2zt/blade-cssgg/issues",
+                "source": "https://github.com/2zt/blade-cssgg/tree/1.0.1"
+            },
+            "time": "2021-09-30T09:12:13+00:00"
+        },
         {
             "name": "actb/blade-github-octicons",
             "version": "4.0.0",
