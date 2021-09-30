@@ -10,6 +10,7 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
+        "2zt/blade-cssgg": "^1.0",
         "actb/blade-github-octicons": "^4.0",
         "andreiio/blade-iconoir": "^1.0",
         "andreiio/blade-remix-icon": "^1.0",

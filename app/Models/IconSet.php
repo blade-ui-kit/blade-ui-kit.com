@@ -537,6 +537,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 68,
+            'name' => 'css-gg-icons',
+            'repository' => 'https://github.com/2zt/blade-cssgg',
+            'composer' => '2zt/blade-cssgg',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
