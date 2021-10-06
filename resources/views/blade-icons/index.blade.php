@@ -5,7 +5,10 @@
 
     <div class="mt-16 max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center w-full">
-            <img class="h-20 inline-block" src="{{ asset('images/showcase/cloudways-long.png') }}" alt="">
+            <a href="https://www.cloudways.com/en/laravel-hosting?id=994072&data1=bladeUIkit&data2=banner" target="_blank" rel="noopener noreferrer">
+                <img class="w-full max-w-4xl hidden sm:inline-block" src="{{ asset('images/showcase/cloudways-long.jpg') }}" alt="">
+                <img class="inline-block sm:hidden w-full max-w-xs" src="{{ asset('images/showcase/cloudways-small.jpg') }}" alt="">
+            </a>
         </div>
 
         <div class="mt-16 max-w-4xl mx-auto text-center">
