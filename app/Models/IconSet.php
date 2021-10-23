@@ -537,6 +537,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 68,
+            'name' => 'emblem-icons',
+            'repository' => 'https://github.com/codeat3/blade-emblemicons',
+            'composer' => 'codeat3/blade-emblemicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
