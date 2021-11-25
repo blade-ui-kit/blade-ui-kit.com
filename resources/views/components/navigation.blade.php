@@ -40,13 +40,6 @@
                 >
                     <x-icon-github class="h-6 w-6 inline"/>
                 </x-a>
-
-                <x-a
-                    href="https://discord.gg/Vev5CyE"
-                    class="ml-4 font-medium transition duration-150 ease-in-out"
-                >
-                    <x-icon-discord class="h-6 w-6 inline"/>
-                </x-a>
             </div>
         </nav>
 
@@ -92,13 +85,6 @@
                             class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                         >
                             <x-icon-github class="h-6 w-6 inline"/>
-                        </x-a>
-
-                        <x-a
-                            href="https://discord.gg/Vev5CyE"
-                            class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-                        >
-                            <x-icon-discord class="h-6 w-6 inline"/>
                         </x-a>
                     </div>
                 </div>
