@@ -9,10 +9,6 @@
                 <span class="sr-only">GitHub</span>
                 <x-icon-github class="h-6 w-6" />
             </x-a>
-            <x-a href="https://discord.gg/Vev5CyE" class="ml-6">
-                <span class="sr-only">Discord</span>
-                <x-icon-discord class="h-6 w-6" />
-            </x-a>
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
             <p class="text-center text-base leading-6 text-gray-400">
