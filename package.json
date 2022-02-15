@@ -13,7 +13,7 @@
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.21",
-        "resolve-url-loader": "^4.0",
+        "resolve-url-loader": "^5.0",
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
