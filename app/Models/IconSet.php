@@ -545,6 +545,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 69,
+            'name' => 'shopify-icons',
+            'repository' => 'https://github.com/Eduard9969/blade-shopify-icons',
+            'composer' => 'eduard9969/blade-shopify-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
