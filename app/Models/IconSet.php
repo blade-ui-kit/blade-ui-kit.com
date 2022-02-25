@@ -545,6 +545,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 69,
+            'name' => 'polaris-icons',
+            'repository' => 'https://github.com/eduard9969/blade-polaris-icons',
+            'composer' => 'eduard9969/blade-polaris-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
