@@ -4296,16 +4296,16 @@
         },
         {
             "name": "eduard9969/blade-polaris-icons",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Eduard9969/blade-polaris-icons.git",
-                "reference": "0cd11fa71304edbec41486c72dd8e9ef30cc9f61"
+                "reference": "67224a03c55aa943a659f6e9e698f90fb5589d55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Eduard9969/blade-polaris-icons/zipball/0cd11fa71304edbec41486c72dd8e9ef30cc9f61",
-                "reference": "0cd11fa71304edbec41486c72dd8e9ef30cc9f61",
+                "url": "https://api.github.com/repos/Eduard9969/blade-polaris-icons/zipball/67224a03c55aa943a659f6e9e698f90fb5589d55",
+                "reference": "67224a03c55aa943a659f6e9e698f90fb5589d55",
                 "shasum": ""
             },
             "require": {
@@ -4354,7 +4354,7 @@
                 "issues": "https://github.com/Eduard9969/blade-polaris-icons/issues",
                 "source": "https://github.com/Eduard9969/blade-polaris-icons/tree/1.0.1"
             },
-            "time": "2022-02-25T14:05:55+00:00"
+            "time": "2022-02-26T17:18:27+00:00"
         },
         {
             "name": "egulias/email-validator",
