@@ -555,7 +555,7 @@ final class IconSet extends Model
         ],
         [
             'id' => 70,
-            'name' => 'iconsax-icons',
+            'name' => 'iconsax',
             'repository' => 'https://github.com/saade/blade-iconsax',
             'composer' => 'saade/blade-iconsax',
             'ignore_rule' => null,
