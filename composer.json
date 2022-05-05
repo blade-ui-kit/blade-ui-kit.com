@@ -85,6 +85,7 @@
         "owenvoke/blade-entypo": "^1.0",
         "owenvoke/blade-fontawesome": "^1.2",
         "ryangjchandler/blade-tabler-icons": "^1.0",
+        "saade/blade-iconsax": "^1.0",
         "spatie/laravel-responsecache": "^6.6",
         "troccoli/blade-health-icons": "^0.3.0"
     },

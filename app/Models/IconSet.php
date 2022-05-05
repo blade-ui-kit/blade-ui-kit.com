@@ -553,6 +553,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 70,
+            'name' => 'iconsax',
+            'repository' => 'https://github.com/saade/blade-iconsax',
+            'composer' => 'saade/blade-iconsax',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
