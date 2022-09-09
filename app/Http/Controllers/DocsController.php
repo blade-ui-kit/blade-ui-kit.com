@@ -9,7 +9,9 @@ use App\Documentation;
 final class DocsController
 {
     private const DEFAULT_VERSION = '0.x';
+
     private const DEFAULT_PAGE = 'introduction';
+
     private const EXCLUDED = ['readme', 'license'];
 
     public function __invoke(Documentation $docs, string $version = null, string $page = null)

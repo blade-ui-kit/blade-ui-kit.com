@@ -24,7 +24,7 @@
 
                 <div class="mt-3 sm:mt-0 sm:ml-3">
                     <x-buttons.secondary href="https://github.com/blade-ui-kit/blade-ui-kit-example">
-                        <x-heroicon-s-collection class="-ml-1 mr-3 h-5 w-5" />
+                        <x-heroicon-s-folder class="-ml-1 mr-3 h-5 w-5" />
                         Example Project
                     </x-buttons.secondary>
                 </div>
