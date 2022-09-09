@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "~8.1.0",
         "ext-json": "*",
         "actb/blade-github-octicons": "^4.0",
         "andreiio/blade-iconoir": "^1.0",
@@ -83,9 +83,9 @@
         "owenvoke/blade-fontawesome": "^2.0",
         "ryangjchandler/blade-tabler-icons": "^1.4",
         "saade/blade-iconsax": "^1.0",
+        "spatie/laravel-ignition": "^1.4",
         "spatie/laravel-responsecache": "^7.4",
-        "troccoli/blade-health-icons": "^0.3.0",
-        "spatie/laravel-ignition": "^1.4"
+        "troccoli/blade-health-icons": "^0.3.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
