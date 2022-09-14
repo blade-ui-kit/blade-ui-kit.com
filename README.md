@@ -36,13 +36,13 @@ To get up and running with Meilisearch for the website locally, first make sure 
 
 After that, create an `icons` index using:
 
-```bash
+```zsh
 php artisan scout:index icons
 ```
 
 After creating the index, you'll need to configure a filterable attribute for the icon sets:
 
-```
+```zsh
 curl \
   -X PUT 'http://localhost:7700/indexes/icons/settings/filterable-attributes' \
   -H 'Content-Type: application/json' \
@@ -54,7 +54,7 @@ curl \
 
 Then, import all icons into the search using:
 
-```bash
+```zsh
 php artisan scout:import "App\\Models\\Icon"
 ```
 
@@ -62,7 +62,7 @@ Now all icons from all icon sets are indexed and searchable at [http://127.0.0.1
 
 You can clear all icons again by running:
 
-```bash
+```zsh
 php artisan scout:flush "App\\Models\\Icon"
 ```
 
