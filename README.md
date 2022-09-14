@@ -40,6 +40,18 @@ After that, create an `icons` index using:
 php artisan scout:index icons
 ```
 
+After creating the index, you'll need to configure a filterable attribute for the icon sets:
+
+```
+curl \
+  -X PUT 'http://localhost:7700/indexes/icons/settings/filterable-attributes' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer masterKey' \
+  --data-binary '[
+    "icon_set_id"
+  ]'
+```
+
 Then, import all icons into the search using:
 
 ```bash
