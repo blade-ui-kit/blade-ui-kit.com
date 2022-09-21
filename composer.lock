@@ -1126,16 +1126,16 @@
         },
         {
             "name": "codeat3/blade-carbon-icons",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-carbon-icons.git",
-                "reference": "e5f26902010ba475f256423c94581a04375af229"
+                "reference": "c22b70f5c55782078d36d1721135683a612729fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/e5f26902010ba475f256423c94581a04375af229",
-                "reference": "e5f26902010ba475f256423c94581a04375af229",
+                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/c22b70f5c55782078d36d1721135683a612729fb",
+                "reference": "c22b70f5c55782078d36d1721135683a612729fb",
                 "shasum": ""
             },
             "require": {
@@ -1186,9 +1186,15 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-carbon-icons/issues",
-                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.7.0"
+                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.8.0"
             },
-            "time": "2022-07-25T13:03:17+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/swapnilsarwe",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-09-19T17:32:41+00:00"
         },
         {
             "name": "codeat3/blade-clarity-icons",
@@ -3320,16 +3326,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "1.50.0",
+            "version": "1.52.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "2d09dd447c73b443a9399c0f65a27c42f9cd6cb6"
+                "reference": "0665dedf9c52587a5001c104925adf2792c4c246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/2d09dd447c73b443a9399c0f65a27c42f9cd6cb6",
-                "reference": "2d09dd447c73b443a9399c0f65a27c42f9cd6cb6",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/0665dedf9c52587a5001c104925adf2792c4c246",
+                "reference": "0665dedf9c52587a5001c104925adf2792c4c246",
                 "shasum": ""
             },
             "require": {
@@ -3379,7 +3385,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/1.50.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/1.52.0"
             },
             "funding": [
                 {
@@ -3387,7 +3393,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-05T14:41:02+00:00"
+            "time": "2022-09-19T17:29:39+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
