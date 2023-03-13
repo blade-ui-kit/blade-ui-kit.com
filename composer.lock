@@ -4,8 +4,64 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8c8e02fad916e08561ecae5e00bdbb9",
+    "content-hash": "4b665193d1d19303b108ead831a47fe4",
     "packages": [
+        {
+            "name": "actb/blade-github-octicons",
+            "version": "dev-l10-compatibility",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swapnilsarwe/Blade-github-octicons.git",
+                "reference": "f39495ba8c499a4603b46b303b8135542c815d14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swapnilsarwe/Blade-github-octicons/zipball/f39495ba8c499a4603b46b303b8135542c815d14",
+                "reference": "f39495ba8c499a4603b46b303b8135542c815d14",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.1",
+                "illuminate/support": "^8.0|^9.0|^10.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "orchestra/testbench": "^6.0|^7.0|^8.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Actb\\BladeGithubOcticons\\GithubOcticonsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Actb\\BladeGithubOcticons\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Actb\\BladeGithubOcticons\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A package to easily make use of Github octicons in your Laravel blade views.",
+            "support": {
+                "source": "https://github.com/swapnilsarwe/Blade-github-octicons/tree/l10-compatibility"
+            },
+            "time": "2023-03-13T17:11:37+00:00"
+        },
         {
             "name": "andreiio/blade-iconoir",
             "version": "1.10.0",
@@ -13315,6 +13371,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "actb/blade-github-octicons": 20,
         "davidhsianturi/blade-bootstrap-icons": 20,
         "laravel/framework": 20,
         "nerdroid23/blade-icomoon": 20

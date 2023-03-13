@@ -15,11 +15,16 @@
         {
             "type": "vcs",
             "url": "https://github.com/swapnilsarwe/blade-icomoon.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/swapnilsarwe/Blade-github-octicons.git"
         }
     ],
     "require": {
         "php": "^8.2",
         "ext-json": "*",
+        "actb/blade-github-octicons": "dev-l10-compatibility",
         "andreiio/blade-iconoir": "^1.0",
         "andreiio/blade-remix-icon": "^1.1",
         "blade-ui-kit/blade-heroicons": "^2.1",
