@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d382b057297844f1b5e569b02f61a49",
+    "content-hash": "0cbd42c2975ab896b9b4c6b4d121230d",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1339,16 +1339,16 @@
         },
         {
             "name": "codeat3/blade-coolicons",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-coolicons.git",
-                "reference": "b7498138a5e308ec391eb9b0368ca4a7e8772dfc"
+                "reference": "2f485971aa724977cde7cd0977c6681f8ba4d930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-coolicons/zipball/b7498138a5e308ec391eb9b0368ca4a7e8772dfc",
-                "reference": "b7498138a5e308ec391eb9b0368ca4a7e8772dfc",
+                "url": "https://api.github.com/repos/codeat3/blade-coolicons/zipball/2f485971aa724977cde7cd0977c6681f8ba4d930",
+                "reference": "2f485971aa724977cde7cd0977c6681f8ba4d930",
                 "shasum": ""
             },
             "require": {
@@ -1399,7 +1399,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-coolicons/issues",
-                "source": "https://github.com/codeat3/blade-coolicons/tree/1.3.0"
+                "source": "https://github.com/codeat3/blade-coolicons/tree/1.4.0"
             },
             "funding": [
                 {
@@ -1407,7 +1407,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-18T07:44:07+00:00"
+            "time": "2023-03-13T14:34:30+00:00"
         },
         {
             "name": "codeat3/blade-cryptocurrency-icons",
@@ -3333,16 +3333,16 @@
         },
         {
             "name": "codeat3/blade-prime-icons",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-prime-icons.git",
-                "reference": "28b78ae95961dfee7afad9f80c17a48e719ab2be"
+                "reference": "238d0c8c08359b5a9ac2b0e2ae92abfd96f0f0d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-prime-icons/zipball/28b78ae95961dfee7afad9f80c17a48e719ab2be",
-                "reference": "28b78ae95961dfee7afad9f80c17a48e719ab2be",
+                "url": "https://api.github.com/repos/codeat3/blade-prime-icons/zipball/238d0c8c08359b5a9ac2b0e2ae92abfd96f0f0d5",
+                "reference": "238d0c8c08359b5a9ac2b0e2ae92abfd96f0f0d5",
                 "shasum": ""
             },
             "require": {
@@ -3393,7 +3393,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-prime-icons/issues",
-                "source": "https://github.com/codeat3/blade-prime-icons/tree/1.4.0"
+                "source": "https://github.com/codeat3/blade-prime-icons/tree/1.5.0"
             },
             "funding": [
                 {
@@ -3401,7 +3401,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-18T15:01:26+00:00"
+            "time": "2023-03-13T14:20:20+00:00"
         },
         {
             "name": "codeat3/blade-radix-icons",
@@ -4554,16 +4554,16 @@
         },
         {
             "name": "eduard9969/blade-polaris-icons",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Eduard9969/blade-polaris-icons.git",
-                "reference": "65b087795c28b8b4fd72c9aa0ef3ffd25f161c8e"
+                "reference": "f91d0f88e4bed388c00b519846ba6ba684b2d0c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Eduard9969/blade-polaris-icons/zipball/65b087795c28b8b4fd72c9aa0ef3ffd25f161c8e",
-                "reference": "65b087795c28b8b4fd72c9aa0ef3ffd25f161c8e",
+                "url": "https://api.github.com/repos/Eduard9969/blade-polaris-icons/zipball/f91d0f88e4bed388c00b519846ba6ba684b2d0c0",
+                "reference": "f91d0f88e4bed388c00b519846ba6ba684b2d0c0",
                 "shasum": ""
             },
             "require": {
@@ -4610,9 +4610,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Eduard9969/blade-polaris-icons/issues",
-                "source": "https://github.com/Eduard9969/blade-polaris-icons/tree/1.3.1"
+                "source": "https://github.com/Eduard9969/blade-polaris-icons/tree/1.3.2"
             },
-            "time": "2023-03-03T02:13:56+00:00"
+            "time": "2023-03-13T12:37:33+00:00"
         },
         {
             "name": "egulias/email-validator",
