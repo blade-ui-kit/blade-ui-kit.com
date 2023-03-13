@@ -7,6 +7,16 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/blade-bootstrap-icons.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/swapnilsarwe/blade-icomoon.git"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "ext-json": "*",
@@ -63,6 +73,7 @@
         "codeat3/blade-unicons": "^1.4",
         "codeat3/blade-vaadin-icons": "^1.3",
         "codeat3/blade-weather-icons": "^1.3",
+        "davidhsianturi/blade-bootstrap-icons": "dev-l10-compatibility",
         "eduard9969/blade-polaris-icons": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "http-interop/http-factory-guzzle": "^1.2",
@@ -76,6 +87,7 @@
         "mallardduck/blade-boxicons": "^2.3",
         "mallardduck/blade-lucide-icons": "^1.5",
         "meilisearch/meilisearch-php": "^0.24",
+        "nerdroid23/blade-icomoon": "dev-l10-compatibility",
         "owenvoke/blade-entypo": "^2.0",
         "owenvoke/blade-fontawesome": "^2.0",
         "ryangjchandler/blade-tabler-icons": "^2.0",

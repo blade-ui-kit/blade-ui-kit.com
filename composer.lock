@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b9521e48f4abea538d2838197e09ae4",
+    "content-hash": "b8c8e02fad916e08561ecae5e00bdbb9",
     "packages": [
         {
             "name": "andreiio/blade-iconoir",
@@ -3925,6 +3925,70 @@
             "time": "2023-02-18T14:53:03+00:00"
         },
         {
+            "name": "davidhsianturi/blade-bootstrap-icons",
+            "version": "dev-l10-compatibility",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-shift/blade-bootstrap-icons.git",
+                "reference": "4ccda03615a879afe274dc5e0cf47184b477205b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-shift/blade-bootstrap-icons/zipball/4ccda03615a879afe274dc5e0cf47184b477205b",
+                "reference": "4ccda03615a879afe274dc5e0cf47184b477205b",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0|^9.0|^10.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0|^7.0|^8.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Davidhsianturi\\BladeBootstrapIcons\\BladeBootstrapIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Davidhsianturi\\BladeBootstrapIcons\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David H. Sianturi",
+                    "email": "davidhsianturi@gmail.com",
+                    "homepage": "https://davidhsianturi.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to easily make use of Bootstrap Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/davidhsianturi/blade-bootstrap-icons",
+            "keywords": [
+                "Blade",
+                "Bootstrap Icons",
+                "Laravel"
+            ],
+            "support": {
+                "source": "https://github.com/laravel-shift/blade-bootstrap-icons/tree/l10-compatibility"
+            },
+            "time": "2023-02-03T23:30:02+00:00"
+        },
+        {
             "name": "dflydev/dot-access-data",
             "version": "v3.0.2",
             "source": {
@@ -6342,6 +6406,87 @@
                 }
             ],
             "time": "2023-02-06T13:46:10+00:00"
+        },
+        {
+            "name": "nerdroid23/blade-icomoon",
+            "version": "dev-l10-compatibility",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swapnilsarwe/blade-icomoon.git",
+                "reference": "d726609114138e749703d56d60348c951a39de8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swapnilsarwe/blade-icomoon/zipball/d726609114138e749703d56d60348c951a39de8d",
+                "reference": "d726609114138e749703d56d60348c951a39de8d",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.1",
+                "illuminate/support": "^8.0|^9.0|^10.0",
+                "php": "^7.4|^8.0",
+                "spatie/laravel-package-tools": "^1.4.3"
+            },
+            "require-dev": {
+                "brianium/paratest": "^6.2",
+                "liip/rmt": "^1.6",
+                "nunomaduro/collision": "^5.3",
+                "orchestra/testbench": "^6.0|^7.0|^8.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Nerdroid23\\BladeIcomoon\\BladeIcomoonServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nerdroid23\\BladeIcomoon\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Nerdroid23\\BladeIcomoon\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "./vendor/bin/testbench package:test --parallel --no-coverage"
+                ],
+                "test-coverage": [
+                    "vendor/bin/phpunit --coverage-html coverage"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Sylnice",
+                    "email": "nerdroid23@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to easily make use of \"IcoMoon\" in your Laravel Blade views.",
+            "homepage": "https://github.com/nerdroid23/blade-icomoon",
+            "keywords": [
+                "blade",
+                "icomoon",
+                "laravel"
+            ],
+            "support": {
+                "source": "https://github.com/swapnilsarwe/blade-icomoon/tree/l10-compatibility"
+            },
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/nerdroid23"
+                }
+            ],
+            "time": "2023-03-13T17:00:04+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -13170,7 +13315,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "laravel/framework": 20
+        "davidhsianturi/blade-bootstrap-icons": 20,
+        "laravel/framework": 20,
+        "nerdroid23/blade-icomoon": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
