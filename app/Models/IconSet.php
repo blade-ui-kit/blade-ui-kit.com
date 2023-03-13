@@ -561,6 +561,30 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 71,
+            'name' => 'devicons',
+            'repository' => 'https://github.com/codeat3/blade-devicons',
+            'composer' => 'codeat3/blade-devicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 72,
+            'name' => 'prime-icons',
+            'repository' => 'https://github.com/codeat3/prime-icons',
+            'composer' => 'codeat3/prime-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 73,
+            'name' => 'gala-icons',
+            'repository' => 'https://github.com/codeat3/gala-icons',
+            'composer' => 'codeat3/gala-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
