@@ -48,7 +48,7 @@
         "codeat3/blade-ikonate": "^1.2",
         "codeat3/blade-jam-icons": "^1.3",
         "codeat3/blade-line-awesome-icons": "^1.2",
-        "codeat3/blade-majestic-icons": "^1.0",
+        "codeat3/blade-majestic-icons": "^2.0",
         "codeat3/blade-maki-icons": "^1.3",
         "codeat3/blade-microns": "^1.4",
         "codeat3/blade-mono-icons": "^1.1",
@@ -99,10 +99,7 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true,
-        "allow-plugins": {
-            "php-http/discovery": true
-        }
+        "sort-packages": true
     },
     "extra": {
         "laravel": {

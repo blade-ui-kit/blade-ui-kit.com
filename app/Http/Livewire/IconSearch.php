@@ -47,11 +47,12 @@ final class IconSearch extends Component
             return Icon::query()
                 ->withSet($this->set)
                 ->inRandomOrder()
-                ->take(500)->get();
+                ->take(80)
+                ->get();
         }
 
         return Icon::search($this->search)
-            ->when(!empty($this->set), fn ($query) => $query->where('icon_set_id', $this->set))
+            ->when(! empty($this->set), fn ($query) => $query->where('icon_set_id', $this->set))
             ->take(500)
             ->get();
     }

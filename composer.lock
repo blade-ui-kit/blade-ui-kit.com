@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c149c0f6e809c814c56d4453a8af7b6",
+    "content-hash": "0d382b057297844f1b5e569b02f61a49",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -2832,16 +2832,16 @@
         },
         {
             "name": "codeat3/blade-majestic-icons",
-            "version": "1.2.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-majesticons.git",
-                "reference": "0db3a805aac57df01c0c5fe41594e37f4bc0d838"
+                "reference": "481dd5d187decfa7d3127e659fe37e9e518c5fd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-majesticons/zipball/0db3a805aac57df01c0c5fe41594e37f4bc0d838",
-                "reference": "0db3a805aac57df01c0c5fe41594e37f4bc0d838",
+                "url": "https://api.github.com/repos/codeat3/blade-majesticons/zipball/481dd5d187decfa7d3127e659fe37e9e518c5fd3",
+                "reference": "481dd5d187decfa7d3127e659fe37e9e518c5fd3",
                 "shasum": ""
             },
             "require": {
@@ -2892,7 +2892,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-majesticons/issues",
-                "source": "https://github.com/codeat3/blade-majesticons/tree/1.2.0"
+                "source": "https://github.com/codeat3/blade-majesticons/tree/2.0.0"
             },
             "funding": [
                 {
@@ -2900,7 +2900,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-18T14:50:21+00:00"
+            "time": "2023-03-13T07:44:32+00:00"
         },
         {
             "name": "codeat3/blade-maki-icons",
