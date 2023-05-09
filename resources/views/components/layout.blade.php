@@ -24,7 +24,7 @@
 
         @production
             <!-- Fathom - beautiful, simple website analytics -->
-            <script src="https://boom.laravel.io/script.js" site="SVSHYYIX" defer></script>
+            <script src="https://cdn.usefathom.com/script.js" site="SVSHYYIX" defer></script>
             <!-- / Fathom -->
         @endproduction
     </x-slot>
