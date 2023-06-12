@@ -10,21 +10,13 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/laravel-shift/blade-bootstrap-icons.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/swapnilsarwe/blade-icomoon.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/swapnilsarwe/Blade-github-octicons.git"
         }
     ],
     "require": {
         "php": "^8.2",
         "ext-json": "*",
-        "actb/blade-github-octicons": "dev-l10-compatibility",
+        "actb/blade-github-octicons": "^4.2",
         "andreiio/blade-iconoir": "^1.0",
         "andreiio/blade-remix-icon": "^1.1",
         "blade-ui-kit/blade-heroicons": "^2.1",
@@ -78,7 +70,7 @@
         "codeat3/blade-unicons": "^1.4",
         "codeat3/blade-vaadin-icons": "^1.3",
         "codeat3/blade-weather-icons": "^1.3",
-        "davidhsianturi/blade-bootstrap-icons": "dev-l10-compatibility",
+        "davidhsianturi/blade-bootstrap-icons": "^1.4",
         "eduard9969/blade-polaris-icons": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "http-interop/http-factory-guzzle": "^1.2",
