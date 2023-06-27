@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "514407f9a2a85c87686889f7ec93aaf0",
+    "content-hash": "991ffb4adcae2f154e7b98a27cca8d81",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -6499,21 +6499,21 @@
         },
         {
             "name": "nerdroid23/blade-icomoon",
-            "version": "dev-l10-compatibility",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/swapnilsarwe/blade-icomoon.git",
-                "reference": "dff898d6d41cbc02c6de638c1ccf3c0e25e930e8"
+                "url": "https://github.com/nerdroid23/blade-icomoon.git",
+                "reference": "4da1998f62de9f536d5448573e96415ffea0563b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swapnilsarwe/blade-icomoon/zipball/dff898d6d41cbc02c6de638c1ccf3c0e25e930e8",
-                "reference": "dff898d6d41cbc02c6de638c1ccf3c0e25e930e8",
+                "url": "https://api.github.com/repos/nerdroid23/blade-icomoon/zipball/4da1998f62de9f536d5448573e96415ffea0563b",
+                "reference": "4da1998f62de9f536d5448573e96415ffea0563b",
                 "shasum": ""
             },
             "require": {
-                "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0",
+                "blade-ui-kit/blade-icons": "^1.5",
+                "illuminate/support": "^8.0|^9.0||^10.0",
                 "php": "^7.4|^8.0",
                 "spatie/laravel-package-tools": "^1.4.3"
             },
@@ -6522,8 +6522,9 @@
                 "liip/rmt": "^1.6",
                 "nunomaduro/collision": "^5.3",
                 "orchestra/testbench": "^6.0|^7.0|^8.0",
-                "phpunit/phpunit": "^9.0"
+                "phpunit/phpunit": "^9.3"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -6537,19 +6538,7 @@
                     "Nerdroid23\\BladeIcomoon\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Nerdroid23\\BladeIcomoon\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/testbench package:test --parallel --no-coverage"
-                ],
-                "test-coverage": [
-                    "vendor/bin/phpunit --coverage-html coverage"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6568,15 +6557,16 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/swapnilsarwe/blade-icomoon/tree/l10-compatibility"
+                "issues": "https://github.com/nerdroid23/blade-icomoon/issues",
+                "source": "https://github.com/nerdroid23/blade-icomoon/tree/main"
             },
             "funding": [
                 {
-                    "type": "github",
-                    "url": "https://github.com/nerdroid23"
+                    "url": "https://github.com/nerdroid23",
+                    "type": "github"
                 }
             ],
-            "time": "2023-05-11T11:08:25+00:00"
+            "time": "2023-06-22T13:39:38+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -13548,8 +13538,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "laravel/framework": 20,
-        "nerdroid23/blade-icomoon": 20
+        "laravel/framework": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

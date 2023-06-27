@@ -7,12 +7,6 @@
         "laravel"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/swapnilsarwe/blade-icomoon.git"
-        }
-    ],
     "require": {
         "php": "^8.2",
         "ext-json": "*",
@@ -84,7 +78,7 @@
         "mallardduck/blade-boxicons": "^2.3",
         "mallardduck/blade-lucide-icons": "^1.5",
         "meilisearch/meilisearch-php": "^0.24",
-        "nerdroid23/blade-icomoon": "dev-l10-compatibility",
+        "nerdroid23/blade-icomoon": "dev-main",
         "owenvoke/blade-entypo": "^2.0",
         "owenvoke/blade-fontawesome": "^2.0",
         "ryangjchandler/blade-tabler-icons": "^2.0",
