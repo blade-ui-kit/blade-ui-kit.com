@@ -78,7 +78,7 @@
         "mallardduck/blade-boxicons": "^2.3",
         "mallardduck/blade-lucide-icons": "^1.5",
         "meilisearch/meilisearch-php": "^0.24",
-        "nerdroid23/blade-icomoon": "dev-main",
+        "nerdroid23/blade-icomoon": "^1.1",
         "owenvoke/blade-entypo": "^2.0",
         "owenvoke/blade-fontawesome": "^2.0",
         "ryangjchandler/blade-tabler-icons": "^2.0",
