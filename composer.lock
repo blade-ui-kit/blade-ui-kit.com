@@ -3043,16 +3043,16 @@
         },
         {
             "name": "codeat3/blade-phosphor-icons",
-            "version": "2.0.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-phosphor-icons.git",
-                "reference": "ec40733b3aac83fa8ce63bf04346f4b0e0ffe39a"
+                "reference": "5881aeb0c782c1a41283bd12739dcbf2cd57c077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-phosphor-icons/zipball/ec40733b3aac83fa8ce63bf04346f4b0e0ffe39a",
-                "reference": "ec40733b3aac83fa8ce63bf04346f4b0e0ffe39a",
+                "url": "https://api.github.com/repos/codeat3/blade-phosphor-icons/zipball/5881aeb0c782c1a41283bd12739dcbf2cd57c077",
+                "reference": "5881aeb0c782c1a41283bd12739dcbf2cd57c077",
                 "shasum": ""
             },
             "require": {
@@ -3102,7 +3102,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-phosphor-icons/issues",
-                "source": "https://github.com/codeat3/blade-phosphor-icons/tree/2.0.0"
+                "source": "https://github.com/codeat3/blade-phosphor-icons/tree/2.0.2"
             },
             "funding": [
                 {
@@ -3110,7 +3110,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-04T14:57:48+00:00"
+            "time": "2023-07-05T07:52:12+00:00"
         },
         {
             "name": "codeat3/blade-pixelarticons",
@@ -5265,12 +5265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "eb1c415f4460aaada24d91c2679fea7ba31c9483"
+                "reference": "9e56c4dc1953da0ffb08c51b2b8b187a902c6eeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/eb1c415f4460aaada24d91c2679fea7ba31c9483",
-                "reference": "eb1c415f4460aaada24d91c2679fea7ba31c9483",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9e56c4dc1953da0ffb08c51b2b8b187a902c6eeb",
+                "reference": "9e56c4dc1953da0ffb08c51b2b8b187a902c6eeb",
                 "shasum": ""
             },
             "require": {
@@ -5458,7 +5458,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-07-03T13:04:51+00:00"
+            "time": "2023-07-04T18:35:27+00:00"
         },
         {
             "name": "laravel/scout",
