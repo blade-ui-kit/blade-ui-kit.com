@@ -586,7 +586,7 @@ final class IconSet extends Model
             'outline_rule' => null,
         ],
         [
-            'id' => 73,
+            'id' => 74,
             'name' => 'untitledui-icons',
             'repository' => 'https://github.com/mckenziearts/blade-untitledui-icons',
             'composer' => 'mckenziearts/blade-untitledui-icons',
