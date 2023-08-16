@@ -20,10 +20,11 @@ The following tools are required in order to start the installation.
 2. Copy the `.env.example` file to `.env`
 3. Install the PHP dependencies with `composer install` 
 4. Generate a new app key with `php artisan key:generate`
-5. Install and compile the front-end dependencies with `npm install && npm run dev`
-6. Import all icon sets using `php artisan icons:import`
-7. [Set up Meilisearch (optionally)](#meilisearch)
-8. Serve the website locally by running `php artisan serve`
+5. Create a database and run `php artisan migrate`
+6. Install and compile the front-end dependencies with `npm install && npm run dev`
+7. Import all icon sets using `php artisan icons:import`
+8. [Set up Meilisearch (optionally)](#meilisearch)
+9. Serve the website locally by running `php artisan serve`
 
 You can now visit the app in your browser by visiting [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
