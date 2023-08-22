@@ -593,6 +593,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 75,
+            'name' => 'filetype-icons',
+            'repository' => 'https://github.com/log1x/blade-filetype-icons',
+            'composer' => 'log1x/blade-filetype-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string

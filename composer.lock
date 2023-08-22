@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a693a74059310988031a1a92cae3460",
+    "content-hash": "b4da50496b95da9221c8ba024819e24b",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -6340,6 +6340,66 @@
                 }
             ],
             "time": "2023-03-03T20:12:38+00:00"
+        },
+        {
+            "name": "log1x/blade-filetype-icons",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Log1x/blade-filetype-icons.git",
+                "reference": "2f40256acfa80739dfc3e9afe4176aef53b77b52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Log1x/blade-filetype-icons/zipball/2f40256acfa80739dfc3e9afe4176aef53b77b52",
+                "reference": "2f40256acfa80739dfc3e9afe4176aef53b77b52",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.1",
+                "illuminate/support": "^9.0|^10.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "dmhendricks/file-icon-vectors": "dev-master",
+                "laravel/pint": "^1.11"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Log1x\\BladeFileTypeIcons\\BladeFileTypeIconsProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Log1x\\BladeFileTypeIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brandon Nifong",
+                    "homepage": "https://github.com/log1x"
+                }
+            ],
+            "description": "A package to easily make use of dmhendricks/file-icon-vectors in your Laravel Blade views.",
+            "homepage": "https://github.com/log1x/blade-filetype-icons",
+            "keywords": [
+                "File Icons",
+                "File Type Icons",
+                "blade",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/Log1x/blade-filetype-icons/issues",
+                "source": "https://github.com/Log1x/blade-filetype-icons/tree/v1.0.5"
+            },
+            "time": "2023-08-22T11:28:07+00:00"
         },
         {
             "name": "mallardduck/blade-boxicons",
