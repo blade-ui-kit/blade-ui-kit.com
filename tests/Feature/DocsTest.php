@@ -10,7 +10,7 @@ use Tests\TestCase;
 class DocsTest extends TestCase
 {
     /** @test */
-    public function users_can_visit_the_docs()
+    public function users_can_visit_the_docs(): void
     {
         $this->partialMock(Filesystem::class, function ($mock) {
             $mock->shouldReceive('exists')->andReturn(true);
@@ -23,28 +23,28 @@ class DocsTest extends TestCase
     }
 
     /** @test */
-    public function default_page_redirects_to_main()
+    public function default_page_redirects_to_main(): void
     {
         $this->get('/docs')
             ->assertRedirect('/docs/0.x/introduction');
     }
 
     /** @test */
-    public function pages_without_version_redirect_to_default_version()
+    public function pages_without_version_redirect_to_default_version(): void
     {
         $this->get('/docs/introduction')
             ->assertRedirect('/docs/0.x/introduction');
     }
 
     /** @test */
-    public function non_existing_versions_throw_a_404()
+    public function non_existing_versions_throw_a_404(): void
     {
         $this->get('/docs/foo/bar')
             ->assertStatus(404);
     }
 
     /** @test */
-    public function excluded_pages_throw_a_404()
+    public function excluded_pages_throw_a_404(): void
     {
         $this->get('/docs/0.x/readme')
             ->assertStatus(404);
