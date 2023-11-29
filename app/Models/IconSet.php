@@ -601,6 +601,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 76,
+            'name' => 'material-design-icons',
+            'repository' => 'https://github.com/postare/blade-mdi',
+            'composer' => 'postare/blade-mdi',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
