@@ -86,6 +86,7 @@
         "nerdroid23/blade-icomoon": "^1.1",
         "owenvoke/blade-entypo": "^2.0",
         "owenvoke/blade-fontawesome": "^2.0",
+        "postare/blade-mdi": "^1.0",
         "ryangjchandler/blade-tabler-icons": "^2.0",
         "saade/blade-iconsax": "^1.0",
         "spatie/laravel-ignition": "^2.0",
