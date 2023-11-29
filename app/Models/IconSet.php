@@ -603,7 +603,7 @@ final class IconSet extends Model
         ],
         [
             'id' => 76,
-            'name' => 'material-design-icons',
+            'name' => 'blade-mdi',
             'repository' => 'https://github.com/postare/blade-mdi',
             'composer' => 'postare/blade-mdi',
             'ignore_rule' => null,
