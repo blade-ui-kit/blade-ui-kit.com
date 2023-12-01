@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b92139005d25268e2e74182d271ecbc9",
+    "content-hash": "cffea160af35aa724db697740b77a16f",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -11709,6 +11709,67 @@
                 "source": "https://github.com/thecodingmachine/safe/tree/v2.5.0"
             },
             "time": "2023-04-05T11:54:14+00:00"
+        },
+        {
+            "name": "themesberg/flowbite-blade-icons",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themesberg/flowbite-blade-icons.git",
+                "reference": "25613ffa497d0f3486977817e5f51e148988d46d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/themesberg/flowbite-blade-icons/zipball/25613ffa497d0f3486977817e5f51e148988d46d",
+                "reference": "25613ffa497d0f3486977817e5f51e148988d46d",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.4",
+                "illuminate/support": "^9.0|^10.0",
+                "php": "~8.1.0|~8.2.0|~8.3.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.13",
+                "orchestra/testbench": "^7.0|^8.0",
+                "pestphp/pest": "^1.23",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Themesberg\\FlowbiteBladeIcons\\FlowbiteBladeIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Themesberg\\FlowbiteBladeIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dominique Thomas",
+                    "email": "domthomas@ncoo-dev.com"
+                }
+            ],
+            "description": "A package to easily make use of Flowbite Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/themesberg/flowbite-blade-icons",
+            "keywords": [
+                "blade",
+                "flowbite",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/themesberg/flowbite-blade-icons/issues",
+                "source": "https://github.com/themesberg/flowbite-blade-icons/tree/v1.0.1"
+            },
+            "time": "2023-12-01T10:16:02+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
