@@ -11712,16 +11712,16 @@
         },
         {
             "name": "themesberg/flowbite-blade-icons",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/themesberg/flowbite-blade-icons.git",
-                "reference": "25613ffa497d0f3486977817e5f51e148988d46d"
+                "reference": "a6f5e4518332f3ecd7e3dbc23406c3b2e339a829"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/themesberg/flowbite-blade-icons/zipball/25613ffa497d0f3486977817e5f51e148988d46d",
-                "reference": "25613ffa497d0f3486977817e5f51e148988d46d",
+                "url": "https://api.github.com/repos/themesberg/flowbite-blade-icons/zipball/a6f5e4518332f3ecd7e3dbc23406c3b2e339a829",
+                "reference": "a6f5e4518332f3ecd7e3dbc23406c3b2e339a829",
                 "shasum": ""
             },
             "require": {
@@ -11767,9 +11767,9 @@
             ],
             "support": {
                 "issues": "https://github.com/themesberg/flowbite-blade-icons/issues",
-                "source": "https://github.com/themesberg/flowbite-blade-icons/tree/v1.0.1"
+                "source": "https://github.com/themesberg/flowbite-blade-icons/tree/v1.0.2"
             },
-            "time": "2023-12-01T10:16:02+00:00"
+            "time": "2023-12-01T12:09:33+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
