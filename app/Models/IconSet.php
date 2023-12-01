@@ -609,6 +609,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 77,
+            'name' => 'flowbite-icons',
+            'repository' => 'https://github.com/themesberg/flowbite-blade-icons',
+            'composer' => 'themesberg/flowbite-blade-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
