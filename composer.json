@@ -77,7 +77,7 @@
         "laravel/scout": "^9.8",
         "laravel/tinker": "^2.8",
         "league/commonmark": "^2.3",
-        "livewire/livewire": "^2.11",
+        "livewire/livewire": "^3.0",
         "log1x/blade-filetype-icons": "^1.0",
         "mallardduck/blade-boxicons": "^2.3",
         "mallardduck/blade-lucide-icons": "^1.5",
