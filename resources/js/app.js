@@ -1,4 +1,3 @@
-import 'alpinejs';
 import './bootstrap';
 import './clipboard';
 
