@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a03dd1342b2dd2b165d746ff0250090",
+    "content-hash": "3bd1ef6758f4945cc99a3560ec73f2c0",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -56,16 +56,16 @@
         },
         {
             "name": "andreiio/blade-iconoir",
-            "version": "1.10.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andreiio/blade-iconoir.git",
-                "reference": "bbf7dced158ca7f4c35d6e076dfa4752bb382afe"
+                "reference": "501ec3c78634d3aff1e09fbebeaee4762ae504ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/bbf7dced158ca7f4c35d6e076dfa4752bb382afe",
-                "reference": "bbf7dced158ca7f4c35d6e076dfa4752bb382afe",
+                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/501ec3c78634d3aff1e09fbebeaee4762ae504ce",
+                "reference": "501ec3c78634d3aff1e09fbebeaee4762ae504ce",
                 "shasum": ""
             },
             "require": {
@@ -102,28 +102,28 @@
             "description": "A package to easily make use of Iconoir in your Laravel Blade views.",
             "support": {
                 "issues": "https://github.com/andreiio/blade-iconoir/issues",
-                "source": "https://github.com/andreiio/blade-iconoir/tree/1.10.0"
+                "source": "https://github.com/andreiio/blade-iconoir/tree/3.4.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/andreiio",
+                    "url": "https://github.com/code4romania",
                     "type": "github"
                 }
             ],
-            "time": "2022-12-08T12:06:31+00:00"
+            "time": "2024-02-10T17:10:26+00:00"
         },
         {
             "name": "andreiio/blade-remix-icon",
-            "version": "1.2.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andreiio/blade-remix-icon.git",
-                "reference": "f88ed4ed15ead76d33056c97cc156d94ae53fcb3"
+                "reference": "5ad120473745857b2c5da729b8b37e2505c74c61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/f88ed4ed15ead76d33056c97cc156d94ae53fcb3",
-                "reference": "f88ed4ed15ead76d33056c97cc156d94ae53fcb3",
+                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/5ad120473745857b2c5da729b8b37e2505c74c61",
+                "reference": "5ad120473745857b2c5da729b8b37e2505c74c61",
                 "shasum": ""
             },
             "require": {
@@ -160,7 +160,7 @@
             "description": "A package to easily make use of Remix Icon in your Laravel Blade views.",
             "support": {
                 "issues": "https://github.com/andreiio/blade-remix-icon/issues",
-                "source": "https://github.com/andreiio/blade-remix-icon/tree/1.2.0"
+                "source": "https://github.com/andreiio/blade-remix-icon/tree/3.1.0"
             },
             "funding": [
                 {
@@ -168,7 +168,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-20T11:49:32+00:00"
+            "time": "2024-01-15T22:36:36+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -3617,16 +3617,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "2.4.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "4f13a050bc9838745eaf4bede844b21c0de8d27f"
+                "reference": "11cb38e472faca5cd15d9a3ea613f837cb87a146"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/4f13a050bc9838745eaf4bede844b21c0de8d27f",
-                "reference": "4f13a050bc9838745eaf4bede844b21c0de8d27f",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/11cb38e472faca5cd15d9a3ea613f837cb87a146",
+                "reference": "11cb38e472faca5cd15d9a3ea613f837cb87a146",
                 "shasum": ""
             },
             "require": {
@@ -3676,7 +3676,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/2.4.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/3.4.0"
             },
             "funding": [
                 {
@@ -3684,7 +3684,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-01T13:40:25+00:00"
+            "time": "2024-02-13T08:08:43+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -4624,16 +4624,16 @@
         },
         {
             "name": "eduard9969/blade-polaris-icons",
-            "version": "1.5.1",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Eduard9969/blade-polaris-icons.git",
-                "reference": "72ea69b403ee1f9654503220523ba4ed01f743d4"
+                "reference": "f39ad321d616154d128e747a72d0e35b04914935"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Eduard9969/blade-polaris-icons/zipball/72ea69b403ee1f9654503220523ba4ed01f743d4",
-                "reference": "72ea69b403ee1f9654503220523ba4ed01f743d4",
+                "url": "https://api.github.com/repos/Eduard9969/blade-polaris-icons/zipball/f39ad321d616154d128e747a72d0e35b04914935",
+                "reference": "f39ad321d616154d128e747a72d0e35b04914935",
                 "shasum": ""
             },
             "require": {
@@ -4680,9 +4680,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Eduard9969/blade-polaris-icons/issues",
-                "source": "https://github.com/Eduard9969/blade-polaris-icons/tree/1.5.1"
+                "source": "https://github.com/Eduard9969/blade-polaris-icons/tree/2.1.1"
             },
-            "time": "2023-12-20T08:05:36+00:00"
+            "time": "2024-02-05T12:50:42+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -11884,16 +11884,16 @@
         },
         {
             "name": "troccoli/blade-health-icons",
-            "version": "v2.0.1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/troccoli/blade-health-icons.git",
-                "reference": "54fcff9d46d0cd09dfd1f35056eca0f160313049"
+                "reference": "0cf6b722509603229c508138bdf041d870f4fa73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/54fcff9d46d0cd09dfd1f35056eca0f160313049",
-                "reference": "54fcff9d46d0cd09dfd1f35056eca0f160313049",
+                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/0cf6b722509603229c508138bdf041d870f4fa73",
+                "reference": "0cf6b722509603229c508138bdf041d870f4fa73",
                 "shasum": ""
             },
             "require": {
@@ -11936,9 +11936,9 @@
             ],
             "support": {
                 "issues": "https://github.com/troccoli/blade-health-icons/issues",
-                "source": "https://github.com/troccoli/blade-health-icons/tree/v2.0.1"
+                "source": "https://github.com/troccoli/blade-health-icons/tree/v3.0.0"
             },
-            "time": "2023-10-14T15:13:07+00:00"
+            "time": "2024-01-28T14:05:55+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
