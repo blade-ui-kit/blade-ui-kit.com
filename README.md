@@ -70,4 +70,4 @@ Command | Description
 **`php artisan test`** | Run the tests
 `php artisan migrate:fresh --seed` | Reset the database
 `php artisan icons:import` | Import all icon sets into Sqlite
-`npm run watch` | Watch for changes in CSS and JS files
+`npm run dev` | Watch for changes in CSS and JS files

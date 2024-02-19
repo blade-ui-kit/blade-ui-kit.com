@@ -22,7 +22,7 @@
                 <ul class="mt-10">
                     <li>
                         <div class="flex">
-                            <div class="flex-shrink-0">
+                            <div class="shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                     <a href="{{ route('docs', 'countdown') }}">
                                         <x-heroicon-o-clock class="h-6 w-6" />
@@ -41,7 +41,7 @@
                     </li>
                     <li class="mt-10">
                         <div class="flex">
-                            <div class="flex-shrink-0">
+                            <div class="shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                     <a href="{{ route('docs', 'easy-mde') }}">
                                         <x-heroicon-o-pencil-square class="h-6 w-6" />
@@ -60,7 +60,7 @@
                     </li>
                     <li class="mt-10">
                         <div class="flex">
-                            <div class="flex-shrink-0">
+                            <div class="shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                     <a href="{{ route('docs', 'mapbox') }}">
                                         <x-heroicon-o-map-pin class="h-6 w-6" />
@@ -115,7 +115,7 @@
                     <ul class="mt-10">
                         <li>
                             <div class="flex">
-                                <div class="flex-shrink-0">
+                                <div class="shrink-0">
                                     <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                         <x-heroicon-o-code-bracket class="h-6 w-6" />
                                     </div>
@@ -132,7 +132,7 @@
                         </li>
                         <li class="mt-10">
                             <div class="flex">
-                                <div class="flex-shrink-0">
+                                <div class="shrink-0">
                                     <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                         <x-heroicon-o-share class="h-6 w-6" />
                                     </div>
