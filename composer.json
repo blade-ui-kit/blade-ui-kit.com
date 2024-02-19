@@ -90,7 +90,6 @@
         "ryangjchandler/blade-tabler-icons": "^2.0",
         "saade/blade-iconsax": "^1.0",
         "spatie/laravel-ignition": "^2.0",
-        "spatie/laravel-responsecache": "^7.4",
         "themesberg/flowbite-blade-icons": "^1.0",
         "troccoli/blade-health-icons": "^3.0"
     },
