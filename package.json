@@ -11,10 +11,11 @@
     },
     "devDependencies": {
         "axios": "^1.6",
-        "laravel-mix": "^6.0.6",
         "lodash": "^4.17.21",
         "resolve-url-loader": "^5.0",
-        "vue-template-compiler": "^2.6.11"
+        "vue-template-compiler": "^2.6.11",
+        "vite": "^3.0.2",
+        "laravel-vite-plugin": "^0.6.0"
     },
     "dependencies": {
         "@tailwindcss/typography": "^0.4.0",
