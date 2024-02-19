@@ -22,7 +22,7 @@
                 </div>
                 <footer class="mt-8">
                     <div class="md:flex md:items-center md:justify-center">
-                        <div class="md:flex-shrink-0">
+                        <div class="md:shrink-0">
                             <a href="https://twitter.com/driesvints">
                                 <x-avatar search="driesvints" provider="github" class="mx-auto h-10 w-10 rounded-full enlarge" />
                             </a>

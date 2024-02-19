@@ -1,7 +1,7 @@
 <section class="bg-scarlet-100 text-gray-500">
     <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
         <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-scarlet-300 lg:pr-16">
-            <div class="md:flex-shrink-0">
+            <div class="md:shrink-0">
                 <a href="https://laravel-livewire.com">
                     <img class="h-10 enlarge" src="{{ asset('/images/livewire.svg') }}" alt="Livewire"/>
                 </a>
@@ -18,7 +18,7 @@
 
                 <footer class="mt-8">
                     <div class="flex">
-                        <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                        <div class="shrink-0 inline-flex rounded-full border-2 border-white">
                             <a href="https://twitter.com/calebporzio">
                                 <x-avatar search="calebporzio" provider="github" class="h-12 w-12 rounded-full enlarge" />
                             </a>
@@ -38,7 +38,7 @@
             </blockquote>
         </div>
         <div class="py-12 px-4 border-t-2 border-scarlet-300 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-            <div class="md:flex-shrink-0">
+            <div class="md:shrink-0">
                 <a href="https://laravel-news.com/category/podcast" class="text-red-500 flex items-center hover:text-red-600">
                     <svg class="inline-block h-10 enlarge rounded-sm" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 183 174" style="enable-background:new 0 0 183 174;" xml:space="preserve" fill="currentColor">
 <g>
@@ -59,7 +59,7 @@
                 </div>
                 <footer class="mt-8">
                     <div class="flex">
-                        <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                        <div class="shrink-0 inline-flex rounded-full border-2 border-white">
                             <a href="https://twitter.com/michaeldyrynda">
                                 <x-avatar search="michaeldyrynda" provider="github" class="h-12 w-12 rounded-full enlarge" />
                             </a>
@@ -80,4 +80,3 @@
         </div>
     </div>
 </section>
-

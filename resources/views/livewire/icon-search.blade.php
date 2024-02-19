@@ -1,7 +1,7 @@
 <div class="w-full">
     <div class="relative flex items-center w-full mb-6">
         <div class="flex flex-col md:flex-row items-center border border-gray-200 rounded-lg shadow-md w-full">
-            <div class="inline-block relative flex-shrink block h-full w-full md:w-auto pr-2 border-b md:border-b-0 md:border-r">
+            <div class="inline-block relative shrink h-full w-full md:w-auto pr-2 border-b md:border-b-0 md:border-r">
                 <select
                     wire:model="set"
                     class="appearance-none bg-transparent block h-full w-full p-4 mr-4 text-xl focus:outline-none"
