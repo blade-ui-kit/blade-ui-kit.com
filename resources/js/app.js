@@ -1,6 +1,11 @@
-import 'alpinejs';
+import Alpine from 'alpinejs';
 import './bootstrap';
 import './clipboard';
+
+// Alpine.js
+window.Alpine = Alpine;
+
+Alpine.start();
 
 // Highlight code blocks
 import hljs from 'highlight.js';
