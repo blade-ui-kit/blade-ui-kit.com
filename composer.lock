@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66837261ea87a61509b11d64609e5b02",
+    "content-hash": "6e9e69b55c59851f4722d90ec9149c11",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -56,16 +56,16 @@
         },
         {
             "name": "andreiio/blade-iconoir",
-            "version": "3.4.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andreiio/blade-iconoir.git",
-                "reference": "501ec3c78634d3aff1e09fbebeaee4762ae504ce"
+                "reference": "c9aa1fff6041f2e8a32e36f9105348ea8b984d96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/501ec3c78634d3aff1e09fbebeaee4762ae504ce",
-                "reference": "501ec3c78634d3aff1e09fbebeaee4762ae504ce",
+                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/c9aa1fff6041f2e8a32e36f9105348ea8b984d96",
+                "reference": "c9aa1fff6041f2e8a32e36f9105348ea8b984d96",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
             "description": "A package to easily make use of Iconoir in your Laravel Blade views.",
             "support": {
                 "issues": "https://github.com/andreiio/blade-iconoir/issues",
-                "source": "https://github.com/andreiio/blade-iconoir/tree/3.4.0"
+                "source": "https://github.com/andreiio/blade-iconoir/tree/4.0.0"
             },
             "funding": [
                 {
@@ -110,7 +110,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-10T17:10:26+00:00"
+            "time": "2024-02-26T08:15:18+00:00"
         },
         {
             "name": "andreiio/blade-remix-icon",
