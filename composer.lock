@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af53ef6355b641579df23be77845363c",
+    "content-hash": "8f487c8754c3eca1b8859a3c6bda35a0",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -1050,28 +1050,28 @@
         },
         {
             "name": "codeat3/blade-ant-design-icons",
-            "version": "1.7.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-ant-design-icons.git",
-                "reference": "fc0a288dfa068dc5377e927f5f5ff79c318bfb5e"
+                "reference": "063cdaecb15505fa3b781268499d6146b42b6d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-ant-design-icons/zipball/fc0a288dfa068dc5377e927f5f5ff79c318bfb5e",
-                "reference": "fc0a288dfa068dc5377e927f5f5ff79c318bfb5e",
+                "url": "https://api.github.com/repos/codeat3/blade-ant-design-icons/zipball/063cdaecb15505fa3b781268499d6146b42b6d7b",
+                "reference": "063cdaecb15505fa3b781268499d6146b42b6d7b",
                 "shasum": ""
             },
             "require": {
-                "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0",
-                "php": "^7.4|^8.0"
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+                "php": "^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.3",
+                "codeat3/blade-icon-generation-helpers": "^0.7",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0",
-                "phpunit/phpunit": "^9.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0"
             },
             "type": "library",
             "extra": {
@@ -1110,7 +1110,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-ant-design-icons/issues",
-                "source": "https://github.com/codeat3/blade-ant-design-icons/tree/1.7.1"
+                "source": "https://github.com/codeat3/blade-ant-design-icons/tree/2.0.0"
             },
             "funding": [
                 {
@@ -1118,7 +1118,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-01T05:58:50+00:00"
+            "time": "2024-02-27T13:55:54+00:00"
         },
         {
             "name": "codeat3/blade-bytesize-icons",
@@ -5553,16 +5553,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.48.5",
+            "version": "v10.48.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a8b682e1371338848637f638aedaef2f7607d36f"
+                "reference": "4eadc6c93f879916d7614dd5a62831d32834c639"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a8b682e1371338848637f638aedaef2f7607d36f",
-                "reference": "a8b682e1371338848637f638aedaef2f7607d36f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4eadc6c93f879916d7614dd5a62831d32834c639",
+                "reference": "4eadc6c93f879916d7614dd5a62831d32834c639",
                 "shasum": ""
             },
             "require": {
@@ -5756,7 +5756,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-04-09T14:48:50+00:00"
+            "time": "2024-04-10T14:47:03+00:00"
         },
         {
             "name": "laravel/prompts",
