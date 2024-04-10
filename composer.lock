@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "614666f776e228988bec66069e6556f2",
+    "content-hash": "af53ef6355b641579df23be77845363c",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -978,28 +978,28 @@
         },
         {
             "name": "codeat3/blade-akar-icons",
-            "version": "1.23.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-akar-icons.git",
-                "reference": "d608920db2a548b3f427f9389582199cfc438b72"
+                "reference": "1b5a192f7f696caaa463a9d05534eb3f47a5f823"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-akar-icons/zipball/d608920db2a548b3f427f9389582199cfc438b72",
-                "reference": "d608920db2a548b3f427f9389582199cfc438b72",
+                "url": "https://api.github.com/repos/codeat3/blade-akar-icons/zipball/1b5a192f7f696caaa463a9d05534eb3f47a5f823",
+                "reference": "1b5a192f7f696caaa463a9d05534eb3f47a5f823",
                 "shasum": ""
             },
             "require": {
-                "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0",
-                "php": "^7.4|^8.0"
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+                "php": "^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.3",
+                "codeat3/blade-icon-generation-helpers": "^0.7",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0",
-                "phpunit/phpunit": "^9.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0"
             },
             "type": "library",
             "extra": {
@@ -1038,7 +1038,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-akar-icons/issues",
-                "source": "https://github.com/codeat3/blade-akar-icons/tree/1.23.1"
+                "source": "https://github.com/codeat3/blade-akar-icons/tree/2.0.0"
             },
             "funding": [
                 {
@@ -1046,7 +1046,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-16T15:02:49+00:00"
+            "time": "2024-02-27T13:48:53+00:00"
         },
         {
             "name": "codeat3/blade-ant-design-icons",
