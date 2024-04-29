@@ -18,9 +18,12 @@ final class Icon extends Model
 
     protected $guarded = [];
 
-    protected $casts = [
-        'keywords' => 'array',
-    ];
+    protected function casts(): array
+    {
+        return [
+            'keywords' => 'array',
+        ];
+    }
 
     public function set(): BelongsTo
     {
