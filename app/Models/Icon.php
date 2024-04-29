@@ -29,7 +29,7 @@ final class Icon extends Model
 
     public static function relatedIcons(self $icon): Collection
     {
-        return static::search(implode('-', $icon->keywords))
+        return self::search(implode('-', $icon->keywords))
             ->get()
             ->where('id', '!=', $icon->id);
     }
