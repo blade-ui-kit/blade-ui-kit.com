@@ -625,6 +625,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 79,
+            'name' => 'lets-icons',
+            'repository' => 'https://github.com/mansoorkhan96/blade-lets-icons',
+            'composer' => 'mansoor/blade-lets-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
