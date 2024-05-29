@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "893a5c3039f3711505afe676248f815d",
+    "content-hash": "69e9c42185de1d32337256156acaf157",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -56,16 +56,16 @@
         },
         {
             "name": "andreiio/blade-iconoir",
-            "version": "4.2.0",
+            "version": "4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andreiio/blade-iconoir.git",
-                "reference": "ddeb67cc04ec91b1863aa0e06b8659262d5f239e"
+                "reference": "fe670600ce45c6115403c96874dcca1f515b992d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/ddeb67cc04ec91b1863aa0e06b8659262d5f239e",
-                "reference": "ddeb67cc04ec91b1863aa0e06b8659262d5f239e",
+                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/fe670600ce45c6115403c96874dcca1f515b992d",
+                "reference": "fe670600ce45c6115403c96874dcca1f515b992d",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
             "description": "A package to easily make use of Iconoir in your Laravel Blade views.",
             "support": {
                 "issues": "https://github.com/andreiio/blade-iconoir/issues",
-                "source": "https://github.com/andreiio/blade-iconoir/tree/4.2.0"
+                "source": "https://github.com/andreiio/blade-iconoir/tree/4.3.0"
             },
             "funding": [
                 {
@@ -110,7 +110,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-06T12:57:15+00:00"
+            "time": "2024-05-07T12:00:42+00:00"
         },
         {
             "name": "andreiio/blade-remix-icon",
@@ -1194,16 +1194,16 @@
         },
         {
             "name": "codeat3/blade-carbon-icons",
-            "version": "2.22.0",
+            "version": "2.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-carbon-icons.git",
-                "reference": "52cab6e2528932cdf0c29d75ba15a4a8bc55228b"
+                "reference": "09d7e0c113391cb6d121a567f344460d19438a6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/52cab6e2528932cdf0c29d75ba15a4a8bc55228b",
-                "reference": "52cab6e2528932cdf0c29d75ba15a4a8bc55228b",
+                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/09d7e0c113391cb6d121a567f344460d19438a6f",
+                "reference": "09d7e0c113391cb6d121a567f344460d19438a6f",
                 "shasum": ""
             },
             "require": {
@@ -1254,7 +1254,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-carbon-icons/issues",
-                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.22.0"
+                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.25.0"
             },
             "funding": [
                 {
@@ -1262,7 +1262,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-28T13:39:10+00:00"
+            "time": "2024-05-23T11:55:19+00:00"
         },
         {
             "name": "codeat3/blade-clarity-icons",
@@ -3617,16 +3617,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "3.12.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "ab83ce42813803c714313395e9ecaa18ac17ed9f"
+                "reference": "88964752f66eda41e65d7064970e32fda3c0d834"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/ab83ce42813803c714313395e9ecaa18ac17ed9f",
-                "reference": "ab83ce42813803c714313395e9ecaa18ac17ed9f",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/88964752f66eda41e65d7064970e32fda3c0d834",
+                "reference": "88964752f66eda41e65d7064970e32fda3c0d834",
                 "shasum": ""
             },
             "require": {
@@ -3676,7 +3676,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/3.12.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/4.0.0"
             },
             "funding": [
                 {
@@ -3684,7 +3684,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-08T18:58:00+00:00"
+            "time": "2024-05-28T09:30:46+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -4259,26 +4259,26 @@
         },
         {
             "name": "davidhsianturi/blade-bootstrap-icons",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidhsianturi/blade-bootstrap-icons.git",
-                "reference": "255040a0058683dd5a0fd36dfa0857a91a95137f"
+                "reference": "21de39c9708fd57bc1108b36792e8bdeebf1c67c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidhsianturi/blade-bootstrap-icons/zipball/255040a0058683dd5a0fd36dfa0857a91a95137f",
-                "reference": "255040a0058683dd5a0fd36dfa0857a91a95137f",
+                "url": "https://api.github.com/repos/davidhsianturi/blade-bootstrap-icons/zipball/21de39c9708fd57bc1108b36792e8bdeebf1c67c",
+                "reference": "21de39c9708fd57bc1108b36792e8bdeebf1c67c",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.0",
-                "illuminate/support": "^8.0|^9.0|^10.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "orchestra/testbench": "^6.0|^7.0|^8.0",
-                "phpunit/phpunit": "^9.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.0|^10.5"
             },
             "type": "library",
             "extra": {
@@ -4314,9 +4314,9 @@
             ],
             "support": {
                 "issues": "https://github.com/davidhsianturi/blade-bootstrap-icons/issues",
-                "source": "https://github.com/davidhsianturi/blade-bootstrap-icons/tree/v1.4.0"
+                "source": "https://github.com/davidhsianturi/blade-bootstrap-icons/tree/v1.5.0"
             },
-            "time": "2023-03-17T14:49:47+00:00"
+            "time": "2024-05-09T09:20:43+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -6623,16 +6623,16 @@
         },
         {
             "name": "mallardduck/blade-lucide-icons",
-            "version": "1.20.0",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mallardduck/blade-lucide-icons.git",
-                "reference": "d9be1045d645f24f190585a7713d3dbca361f1b4"
+                "reference": "c5b19544016464c4d67440ce82011f35b8a8d48c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/d9be1045d645f24f190585a7713d3dbca361f1b4",
-                "reference": "d9be1045d645f24f190585a7713d3dbca361f1b4",
+                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/c5b19544016464c4d67440ce82011f35b8a8d48c",
+                "reference": "c5b19544016464c4d67440ce82011f35b8a8d48c",
                 "shasum": ""
             },
             "require": {
@@ -6677,9 +6677,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mallardduck/blade-lucide-icons/issues",
-                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.20.0"
+                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.21.0"
             },
-            "time": "2024-04-05T14:36:20+00:00"
+            "time": "2024-04-17T15:27:31+00:00"
         },
         {
             "name": "mansoor/blade-lets-icons",
