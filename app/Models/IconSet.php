@@ -50,12 +50,12 @@ final class IconSet extends Model
             'outline_rule' => null,
         ],
         [
-             'id' => 5,
-             'name' => 'evaicons',
-             'repository' => 'https://github.com/hasnayeen/blade-eva-icons',
-             'composer' => 'hasnayeen/blade-eva-icons',
-             'ignore_rule' => '/-outline$/',
-             'outline_rule' => '/-outline$/',
+            'id' => 5,
+            'name' => 'evaicons',
+            'repository' => 'https://github.com/hasnayeen/blade-eva-icons',
+            'composer' => 'hasnayeen/blade-eva-icons',
+            'ignore_rule' => '/-outline$/',
+            'outline_rule' => '/-outline$/',
         ],
         [
             'id' => 6,
@@ -97,14 +97,14 @@ final class IconSet extends Model
             'ignore_rule' => '/-\d{2}$/', // 16|24
             'outline_rule' => null,
         ],
-        // [
-        //     'id' => 11,
-        //     'name' => 'ionicons',
-        //     'repository' => 'https://github.com/faisal50x/blade-ionicons',
-        //     'composer' => 'faisal50x/blade-ionicons',
-        //     'ignore_rule' => '/-(?:outline|sharp)$/',
-        //     'outline_rule' => '/-outline$/',
-        // ],
+        [
+            'id' => 11,
+            'name' => 'ionicons',
+            'repository' => 'https://github.com/faisal50x/blade-ionicons',
+            'composer' => 'faisal50x/blade-ionicons',
+            'ignore_rule' => '/-(?:outline|sharp)$/',
+            'outline_rule' => '/-outline$/',
+        ],
         [
             'id' => 13,
             'name' => 'remix',
