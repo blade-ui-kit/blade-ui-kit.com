@@ -49,14 +49,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
-        // [
-        //     'id' => 5,
-        //     'name' => 'evaicons',
-        //     'repository' => 'https://github.com/hasnayeen/blade-eva-icons',
-        //     'composer' => 'hasnayeen/blade-eva-icons',
-        //     'ignore_rule' => '/-outline$/',
-        //     'outline_rule' => '/-outline$/',
-        // ],
+        [
+             'id' => 5,
+             'name' => 'evaicons',
+             'repository' => 'https://github.com/hasnayeen/blade-eva-icons',
+             'composer' => 'hasnayeen/blade-eva-icons',
+             'ignore_rule' => '/-outline$/',
+             'outline_rule' => '/-outline$/',
+        ],
         [
             'id' => 6,
             'name' => 'feather-icons',
