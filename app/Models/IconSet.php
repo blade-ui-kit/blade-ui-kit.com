@@ -633,6 +633,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 80,
+            'name' => 'hugeicons',
+            'repository' => 'https://github.com/afatmustafa/blade-hugeicons',
+            'composer' => 'afatmustafa/blade-hugeicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
