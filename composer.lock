@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "7809578492e0270cdf92e048ffb1b7fd",
-=======
-    "content-hash": "2ebc655983b0415b0a225e7aa8ede031",
->>>>>>> 11d12be (added new iconsets)
+    "content-hash": "9336ed378b96923affdef87d5c4e03e3",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
