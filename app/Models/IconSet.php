@@ -641,6 +641,39 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 81,
+            'name' => 'gravity-ui-icons',
+            'repository' => 'https://github.com/codeat3/blade-gravity-ui-icons',
+            'composer' => 'codeat3/blade-gravity-ui-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 82,
+            'name' => 'memory-icons',
+            'repository' => 'https://github.com/codeat3/blade-memory-icons',
+            'composer' => 'codeat3/blade-memory-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 83,
+            'name' => 'element-plus-icons',
+            'repository' => 'https://github.com/codeat3/blade-element-plus-icons',
+            'composer' => 'codeat3/blade-element-plus-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 84,
+            'name' => 'humbleicons',
+            'repository' => 'https://github.com/codeat3/blade-humbleicons',
+            'composer' => 'codeat3/blade-humbleicons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+
+        ],
     ];
 
     public function name(): string
