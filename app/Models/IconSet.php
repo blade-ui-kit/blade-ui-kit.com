@@ -674,6 +674,15 @@ final class IconSet extends Model
             'outline_rule' => null,
 
         ],
+        [
+            'id' => 85,
+            'name' => 'solar-icons',
+            'repository' => 'https://github.com/codeat3/blade-solar-icons',
+            'composer' => 'codeat3/blade-solar-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+
+        ],
     ];
 
     public function name(): string
