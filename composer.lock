@@ -3967,16 +3967,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "5.0.0",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "e5726e93bc47650b2017630e6f0a64f5a9f92844"
+                "reference": "68f3e615b18fd2d06bd9ea98677f1f6b8d3470c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/e5726e93bc47650b2017630e6f0a64f5a9f92844",
-                "reference": "e5726e93bc47650b2017630e6f0a64f5a9f92844",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/68f3e615b18fd2d06bd9ea98677f1f6b8d3470c2",
+                "reference": "68f3e615b18fd2d06bd9ea98677f1f6b8d3470c2",
                 "shasum": ""
             },
             "require": {
@@ -4026,7 +4026,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/5.0.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/5.1.0"
             },
             "funding": [
                 {
@@ -4034,7 +4034,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-01T13:21:09+00:00"
+            "time": "2024-07-08T14:00:14+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -4743,16 +4743,16 @@
         },
         {
             "name": "dflydev/dot-access-data",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549"
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/f41715465d65213d644d3141a6a93081be5d3549",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549",
+                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/a23a2bf4f31d3518f3ecb38660c95715dfead60f",
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f",
                 "shasum": ""
             },
             "require": {
@@ -4812,9 +4812,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
-                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
+                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
-            "time": "2022-10-27T11:44:00+00:00"
+            "time": "2024-07-08T12:26:09+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -6104,16 +6104,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.48.15",
+            "version": "v10.48.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1723e038c9ec99b434e5bed9c27f044bd50a4ffb"
+                "reference": "f9a3a50fae399d75e125b0eea637dda90c99eae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1723e038c9ec99b434e5bed9c27f044bd50a4ffb",
-                "reference": "1723e038c9ec99b434e5bed9c27f044bd50a4ffb",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f9a3a50fae399d75e125b0eea637dda90c99eae7",
+                "reference": "f9a3a50fae399d75e125b0eea637dda90c99eae7",
                 "shasum": ""
             },
             "require": {
@@ -6307,7 +6307,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-07-02T18:01:24+00:00"
+            "time": "2024-07-09T15:25:22+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -7158,16 +7158,16 @@
         },
         {
             "name": "mallardduck/blade-lucide-icons",
-            "version": "1.21.0",
+            "version": "1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mallardduck/blade-lucide-icons.git",
-                "reference": "c5b19544016464c4d67440ce82011f35b8a8d48c"
+                "reference": "43f924a996dd8ae14a8c89105a98eaf051ff54f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/c5b19544016464c4d67440ce82011f35b8a8d48c",
-                "reference": "c5b19544016464c4d67440ce82011f35b8a8d48c",
+                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/43f924a996dd8ae14a8c89105a98eaf051ff54f3",
+                "reference": "43f924a996dd8ae14a8c89105a98eaf051ff54f3",
                 "shasum": ""
             },
             "require": {
@@ -7212,9 +7212,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mallardduck/blade-lucide-icons/issues",
-                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.21.0"
+                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.22.0"
             },
-            "time": "2024-04-17T15:27:31+00:00"
+            "time": "2024-07-09T13:17:19+00:00"
         },
         {
             "name": "mansoor/blade-lets-icons",
