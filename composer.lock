@@ -7904,33 +7904,32 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v1.15.1",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc"
+                "reference": "dcf1ec3dfa36137b7ce41d43866644a7ab8fc257"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
-                "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/dcf1ec3dfa36137b7ce41d43866644a7ab8fc257",
+                "reference": "dcf1ec3dfa36137b7ce41d43866644a7ab8fc257",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^8.0",
-                "symfony/console": "^5.3.0|^6.0.0"
+                "php": "^8.1",
+                "symfony/console": "^6.4.12"
             },
             "require-dev": {
-                "ergebnis/phpstan-rules": "^1.0.",
-                "illuminate/console": "^8.0|^9.0",
-                "illuminate/support": "^8.0|^9.0",
-                "laravel/pint": "^1.0.0",
-                "pestphp/pest": "^1.21.0",
-                "pestphp/pest-plugin-mock": "^1.0",
-                "phpstan/phpstan": "^1.4.6",
-                "phpstan/phpstan-strict-rules": "^1.1.0",
-                "symfony/var-dumper": "^5.2.7|^6.0.0",
+                "illuminate/console": "^10.48.22",
+                "illuminate/support": "^10.48.22",
+                "laravel/pint": "^1.18.1",
+                "pestphp/pest": "^2",
+                "pestphp/pest-plugin-mock": "2.0.0",
+                "phpstan/phpstan": "^1.12.6",
+                "phpstan/phpstan-strict-rules": "^1.6.1",
+                "symfony/var-dumper": "^6.4.11",
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -7970,7 +7969,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.16.0"
             },
             "funding": [
                 {
@@ -7986,7 +7985,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-08T01:06:31+00:00"
+            "time": "2024-10-15T15:27:12+00:00"
         },
         {
             "name": "owenvoke/blade-entypo",
@@ -8268,21 +8267,21 @@
         },
         {
             "name": "postare/blade-mdi",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/postare/blade-mdi.git",
-                "reference": "3beb49cb5445ece04c3ceaa1b1cfa0ce1d1c1ff0"
+                "reference": "1d40876b11315116157e6a82c4ed2927739ae3ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/postare/blade-mdi/zipball/3beb49cb5445ece04c3ceaa1b1cfa0ce1d1c1ff0",
-                "reference": "3beb49cb5445ece04c3ceaa1b1cfa0ce1d1c1ff0",
+                "url": "https://api.github.com/repos/postare/blade-mdi/zipball/1d40876b11315116157e6a82c4ed2927739ae3ff",
+                "reference": "1d40876b11315116157e6a82c4ed2927739ae3ff",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.5",
-                "illuminate/support": "^8.0|^9.0|^10.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
                 "php": "^8.1"
             },
             "require-dev": {
@@ -8327,7 +8326,7 @@
                 "ui"
             ],
             "support": {
-                "source": "https://github.com/postare/blade-mdi/tree/v1.1.0"
+                "source": "https://github.com/postare/blade-mdi/tree/v1.1.1"
             },
             "funding": [
                 {
@@ -8335,7 +8334,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-30T08:35:22+00:00"
+            "time": "2024-10-11T07:27:54+00:00"
         },
         {
             "name": "psr/clock",
