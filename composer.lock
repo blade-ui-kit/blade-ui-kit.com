@@ -303,16 +303,16 @@
         },
         {
             "name": "blade-ui-kit/blade-icons",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blade-ui-kit/blade-icons.git",
-                "reference": "8f787baf09d88cdfd6ec4dbaba11ebfa885f0595"
+                "reference": "75a54a3f5a2810fcf6574ab23e91b6cc229a1b53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/8f787baf09d88cdfd6ec4dbaba11ebfa885f0595",
-                "reference": "8f787baf09d88cdfd6ec4dbaba11ebfa885f0595",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/75a54a3f5a2810fcf6574ab23e91b6cc229a1b53",
+                "reference": "75a54a3f5a2810fcf6574ab23e91b6cc229a1b53",
                 "shasum": ""
             },
             "require": {
@@ -380,7 +380,7 @@
                     "type": "paypal"
                 }
             ],
-            "time": "2024-08-14T14:25:11+00:00"
+            "time": "2024-10-17T17:38:00+00:00"
         },
         {
             "name": "blade-ui-kit/blade-ui-kit",
@@ -1194,16 +1194,16 @@
         },
         {
             "name": "codeat3/blade-carbon-icons",
-            "version": "2.29.0",
+            "version": "2.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-carbon-icons.git",
-                "reference": "037d985eaa1e047107730d18fe1576a725a43be9"
+                "reference": "38a456d03a796a40c4bf6fffbf268a8443b10bc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/037d985eaa1e047107730d18fe1576a725a43be9",
-                "reference": "037d985eaa1e047107730d18fe1576a725a43be9",
+                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/38a456d03a796a40c4bf6fffbf268a8443b10bc1",
+                "reference": "38a456d03a796a40c4bf6fffbf268a8443b10bc1",
                 "shasum": ""
             },
             "require": {
@@ -1254,7 +1254,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-carbon-icons/issues",
-                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.29.0"
+                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.30.0"
             },
             "funding": [
                 {
@@ -1262,7 +1262,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-28T13:05:30+00:00"
+            "time": "2024-10-16T19:14:37+00:00"
         },
         {
             "name": "codeat3/blade-clarity-icons",
@@ -2621,16 +2621,16 @@
         },
         {
             "name": "codeat3/blade-gravity-ui-icons",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-gravity-ui-icons.git",
-                "reference": "abd25c65340c6064f79bbb1cf8568b71c04df94d"
+                "reference": "2717446fb92b9ef0e9f27d427465ea0ffce987a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-gravity-ui-icons/zipball/abd25c65340c6064f79bbb1cf8568b71c04df94d",
-                "reference": "abd25c65340c6064f79bbb1cf8568b71c04df94d",
+                "url": "https://api.github.com/repos/codeat3/blade-gravity-ui-icons/zipball/2717446fb92b9ef0e9f27d427465ea0ffce987a9",
+                "reference": "2717446fb92b9ef0e9f27d427465ea0ffce987a9",
                 "shasum": ""
             },
             "require": {
@@ -2680,7 +2680,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-gravity-ui-icons/issues",
-                "source": "https://github.com/codeat3/blade-gravity-ui-icons/tree/1.1.0"
+                "source": "https://github.com/codeat3/blade-gravity-ui-icons/tree/1.2.0"
             },
             "funding": [
                 {
@@ -2688,7 +2688,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-17T17:36:57+00:00"
+            "time": "2024-10-16T19:03:17+00:00"
         },
         {
             "name": "codeat3/blade-grommet-icons",
@@ -3901,16 +3901,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "5.10.0",
+            "version": "5.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "2e6c78bca0200b008e23c60cd481ab750267ed9a"
+                "reference": "cae8961185b53424ef154a198e9f026374c1dc4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/2e6c78bca0200b008e23c60cd481ab750267ed9a",
-                "reference": "2e6c78bca0200b008e23c60cd481ab750267ed9a",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/cae8961185b53424ef154a198e9f026374c1dc4a",
+                "reference": "cae8961185b53424ef154a198e9f026374c1dc4a",
                 "shasum": ""
             },
             "require": {
@@ -3960,7 +3960,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/5.10.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/5.14.0"
             },
             "funding": [
                 {
@@ -3968,7 +3968,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-21T14:06:07+00:00"
+            "time": "2024-10-16T19:25:21+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -7288,16 +7288,16 @@
         },
         {
             "name": "mckenziearts/blade-untitledui-icons",
-            "version": "v1.3",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mckenziearts/blade-untitledui-icons.git",
-                "reference": "46c98a2f5c8fa41960a997b2e2cb0481e431240d"
+                "reference": "31319c395bdcf2c734f24dba9277f238144b0edf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mckenziearts/blade-untitledui-icons/zipball/46c98a2f5c8fa41960a997b2e2cb0481e431240d",
-                "reference": "46c98a2f5c8fa41960a997b2e2cb0481e431240d",
+                "url": "https://api.github.com/repos/mckenziearts/blade-untitledui-icons/zipball/31319c395bdcf2c734f24dba9277f238144b0edf",
+                "reference": "31319c395bdcf2c734f24dba9277f238144b0edf",
                 "shasum": ""
             },
             "require": {
@@ -7341,7 +7341,7 @@
             ],
             "support": {
                 "issues": "https://github.com/mckenziearts/blade-untitledui-icons/issues",
-                "source": "https://github.com/mckenziearts/blade-untitledui-icons/tree/v1.3"
+                "source": "https://github.com/mckenziearts/blade-untitledui-icons/tree/v1.3.1"
             },
             "funding": [
                 {
@@ -7349,7 +7349,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-05T11:39:07+00:00"
+            "time": "2024-10-20T09:06:46+00:00"
         },
         {
             "name": "meilisearch/meilisearch-php",
