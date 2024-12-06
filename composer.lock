@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2515259a1bf4c47b28dae627739007ae",
+    "content-hash": "2d6e49824d27d7e17c8c856d132c5e69",
     "packages": [
         {
             "name": "actb/blade-github-octicons",
@@ -12029,16 +12029,16 @@
         },
         {
             "name": "troccoli/blade-health-icons",
-            "version": "v3.0.3",
+            "version": "v4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/troccoli/blade-health-icons.git",
-                "reference": "6fbdf78c874a5386d3b72c1dfdc687f2c8173626"
+                "reference": "31b5d876b156eac2e49950d579680fc149e9eae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/6fbdf78c874a5386d3b72c1dfdc687f2c8173626",
-                "reference": "6fbdf78c874a5386d3b72c1dfdc687f2c8173626",
+                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/31b5d876b156eac2e49950d579680fc149e9eae3",
+                "reference": "31b5d876b156eac2e49950d579680fc149e9eae3",
                 "shasum": ""
             },
             "require": {
@@ -12081,9 +12081,9 @@
             ],
             "support": {
                 "issues": "https://github.com/troccoli/blade-health-icons/issues",
-                "source": "https://github.com/troccoli/blade-health-icons/tree/v3.0.3"
+                "source": "https://github.com/troccoli/blade-health-icons/tree/v4.0.0"
             },
-            "time": "2024-09-18T17:57:44+00:00"
+            "time": "2024-10-22T13:59:42+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
