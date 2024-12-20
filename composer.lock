@@ -176,16 +176,16 @@
         },
         {
             "name": "andreiio/blade-remix-icon",
-            "version": "3.5.0",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andreiio/blade-remix-icon.git",
-                "reference": "5a9acf4888fbdf95f56c426fbd492ef0a2f8a1cc"
+                "reference": "c70c6f3e9b578aed9ab5901171aa2286ac1a58e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/5a9acf4888fbdf95f56c426fbd492ef0a2f8a1cc",
-                "reference": "5a9acf4888fbdf95f56c426fbd492ef0a2f8a1cc",
+                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/c70c6f3e9b578aed9ab5901171aa2286ac1a58e8",
+                "reference": "c70c6f3e9b578aed9ab5901171aa2286ac1a58e8",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +222,7 @@
             "description": "A package to easily make use of Remix Icon in your Laravel Blade views.",
             "support": {
                 "issues": "https://github.com/andreiio/blade-remix-icon/issues",
-                "source": "https://github.com/andreiio/blade-remix-icon/tree/3.5.0"
+                "source": "https://github.com/andreiio/blade-remix-icon/tree/3.6.0"
             },
             "funding": [
                 {
@@ -230,7 +230,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-29T14:31:44+00:00"
+            "time": "2024-12-17T18:28:03+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -7639,10 +7639,6 @@
             ],
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev",
-                    "dev-2.x": "2.x-dev"
-                },
                 "laravel": {
                     "providers": [
                         "Carbon\\Laravel\\ServiceProvider"
@@ -7652,6 +7648,10 @@
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev",
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
