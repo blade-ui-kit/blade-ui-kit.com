@@ -18,9 +18,12 @@ final class Icon extends Model
 
     protected $guarded = [];
 
-    protected $casts = [
-        'keywords' => 'array',
-    ];
+    protected function casts(): array
+    {
+        return [
+            'keywords' => 'array',
+        ];
+    }
 
     public function set(): BelongsTo
     {
@@ -29,7 +32,7 @@ final class Icon extends Model
 
     public static function relatedIcons(self $icon): Collection
     {
-        return static::search(implode('-', $icon->keywords))
+        return self::search(implode('-', $icon->keywords))
             ->get()
             ->where('id', '!=', $icon->id);
     }
