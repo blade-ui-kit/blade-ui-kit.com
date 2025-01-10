@@ -15,7 +15,7 @@
     </div>
 
     <div id="search" class="relative flex items-center justify-between max-w-screen-2xl px-4 mt-6 p-8 sm:mt-0 mx-auto sm:px-6">
-        <livewire:icon-search/>
+        @livewire('icon-search')
     </div>
 
     <x-footer/>
