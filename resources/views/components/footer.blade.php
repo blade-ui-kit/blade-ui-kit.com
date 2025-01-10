@@ -3,11 +3,11 @@
         <div class="flex justify-center md:order-2">
             <x-a href="https://twitter.com/bladeuikit">
                 <span class="sr-only">Twitter</span>
-                <x-entypo-twitter class="h-6 w-6" />
+                <x-si-x class="h-6 w-6" />
             </x-a>
             <x-a href="https://github.com/blade-ui-kit/blade-ui-kit" class="ml-6">
                 <span class="sr-only">GitHub</span>
-                <x-icon-github class="h-6 w-6" />
+                <x-si-github class="h-6 w-6" />
             </x-a>
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
