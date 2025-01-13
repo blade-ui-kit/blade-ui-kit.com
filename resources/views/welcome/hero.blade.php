@@ -3,10 +3,6 @@
 {{--        <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">--}}
     <div class="">
         <div class="sm:text-center md:max-w-2xl md:mx-auto">
-            <a href="https://github.com/blade-ui-kit/blade-ui-kit" class="inline-flex items-center px-3 pb-1 pt-1.5 rounded-full uppercase text-sm font-hind font-semibold leading-5 bg-scarlet-100 hover:bg-scarlet-200 text-scarlet-800">
-                Pre-release out now
-            </a>
-
             <x-p>
                 <img class="inline-block h-28 md:h-32 lg:h-36 w-auto" src="{{ asset('/images/logo.svg') }}" alt="" />
             </x-p>
