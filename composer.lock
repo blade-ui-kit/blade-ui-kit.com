@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "232ef96cbb56d3370b5e12ba495d57f8",
+    "content-hash": "ab89be16e982b5d7a60557df21a971a9",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -723,31 +723,32 @@
         },
         {
             "name": "caseyamcl/toc",
-            "version": "v3.2.0",
+            "version": "v4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caseyamcl/toc.git",
-                "reference": "5ecaad1e1c36bab5caa278e2b9dfc8bc420e6d51"
+                "reference": "63261d38616d6e53e5763a63d33535cc5d1f4c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caseyamcl/toc/zipball/5ecaad1e1c36bab5caa278e2b9dfc8bc420e6d51",
-                "reference": "5ecaad1e1c36bab5caa278e2b9dfc8bc420e6d51",
+                "url": "https://api.github.com/repos/caseyamcl/toc/zipball/63261d38616d6e53e5763a63d33535cc5d1f4c55",
+                "reference": "63261d38616d6e53e5763a63d33535cc5d1f4c55",
                 "shasum": ""
             },
             "require": {
-                "cocur/slugify": "^3.0|~4.4.0|^4.6",
                 "ext-dom": "*",
-                "knplabs/knp-menu": "^3.2",
-                "masterminds/html5": "^2.1",
-                "php": "^7.2|^8.0"
+                "knplabs/knp-menu": "^3.5",
+                "masterminds/html5": "^2.9",
+                "php": "^8.2",
+                "symfony/string": "^6.0|^7.0",
+                "symfony/translation-contracts": "^3.0"
             },
             "require-dev": {
                 "jaschilz/php-coverage-badger": "^2.0",
-                "phpstan/phpstan": "^1.4",
-                "phpunit/phpunit": "^7.5|^8.0|^9.0",
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^11.0",
                 "squizlabs/php_codesniffer": "^3.5",
-                "twig/twig": "^2.4|^3.0"
+                "twig/twig": "^3.0"
             },
             "type": "library",
             "autoload": {
@@ -778,83 +779,9 @@
             ],
             "support": {
                 "issues": "https://github.com/caseyamcl/toc/issues",
-                "source": "https://github.com/caseyamcl/toc/tree/v3.2.0"
+                "source": "https://github.com/caseyamcl/toc/tree/v4.0.0"
             },
-            "time": "2024-12-08T16:12:05+00:00"
-        },
-        {
-            "name": "cocur/slugify",
-            "version": "v4.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cocur/slugify.git",
-                "reference": "1d674022e9cbefa80b4f51aa3e2375b6e3c14fdb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cocur/slugify/zipball/1d674022e9cbefa80b4f51aa3e2375b6e3c14fdb",
-                "reference": "1d674022e9cbefa80b4f51aa3e2375b6e3c14fdb",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
-            },
-            "conflict": {
-                "symfony/config": "<3.4 || >=4,<4.3",
-                "symfony/dependency-injection": "<3.4 || >=4,<4.3",
-                "symfony/http-kernel": "<3.4 || >=4,<4.3",
-                "twig/twig": "<2.12.1"
-            },
-            "require-dev": {
-                "laravel/framework": "^5.0|^6.0|^7.0|^8.0",
-                "latte/latte": "~2.2",
-                "league/container": "^2.2.0",
-                "mikey179/vfsstream": "~1.6.8",
-                "mockery/mockery": "^1.3",
-                "nette/di": "~2.4",
-                "pimple/pimple": "~1.1",
-                "plumphp/plum": "~0.1",
-                "symfony/config": "^3.4 || ^4.3 || ^5.0 || ^6.0",
-                "symfony/dependency-injection": "^3.4 || ^4.3 || ^5.0 || ^6.0",
-                "symfony/http-kernel": "^3.4 || ^4.3 || ^5.0 || ^6.0",
-                "symfony/phpunit-bridge": "^5.4 || ^6.0",
-                "twig/twig": "^2.12.1 || ~3.0",
-                "zendframework/zend-modulemanager": "~2.2",
-                "zendframework/zend-servicemanager": "~2.2",
-                "zendframework/zend-view": "~2.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Cocur\\Slugify\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Florian Eckerstorfer",
-                    "email": "florian@eckerstorfer.co",
-                    "homepage": "https://florian.ec"
-                },
-                {
-                    "name": "Ivo Bathke",
-                    "email": "ivo.bathke@gmail.com"
-                }
-            ],
-            "description": "Converts a string into a slug.",
-            "keywords": [
-                "slug",
-                "slugify"
-            ],
-            "support": {
-                "issues": "https://github.com/cocur/slugify/issues",
-                "source": "https://github.com/cocur/slugify/tree/v4.6.0"
-            },
-            "time": "2024-09-10T14:09:25+00:00"
+            "time": "2024-12-20T23:15:12+00:00"
         },
         {
             "name": "codeat3/blade-academicons",
