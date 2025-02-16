@@ -12,18 +12,18 @@ final class WelcomeController
     public function __invoke()
     {
         $components = count(config('blade-ui-kit.components'));
-        $downloads = cache()->remember('downloads', 1800, function () {
+        $downloads = Number::abbreviate((int) cache()->remember('downloads', 1800, function () {
             $response = Http::retry(3, 100)
                 ->get('https://packagist.org/packages/blade-ui-kit/blade-ui-kit.json');
 
             return $response['package']['downloads']['total'] ?? 0;
-        });
-        $contributors = Number::abbreviate((int) cache()->remember('contributors', 1800, function () {
+        }), 2);
+        $contributors = cache()->remember('contributors', 1800, function () {
             $response = Http::retry(3, 100)
                 ->get('https://api.github.com/repos/blade-ui-kit/blade-ui-kit/contributors?anon=1');
 
             return count($response->json());
-        }), 2);
+        });
 
         return view('welcome', compact('components', 'downloads', 'contributors'));
     }
