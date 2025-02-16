@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Number;
 
 final class WelcomeController
 {
@@ -17,12 +18,12 @@ final class WelcomeController
 
             return $response['package']['downloads']['total'] ?? 0;
         });
-        $contributors = cache()->remember('contributors', 1800, function () {
+        $contributors = Number::abbreviate(cache()->remember('contributors', 1800, function () {
             $response = Http::retry(3, 100)
                 ->get('https://api.github.com/repos/blade-ui-kit/blade-ui-kit/contributors?anon=1');
 
             return count($response->json());
-        });
+        }), 2);
 
         return view('welcome', compact('components', 'downloads', 'contributors'));
     }
