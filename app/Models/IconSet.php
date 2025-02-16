@@ -115,7 +115,7 @@ final class IconSet extends Model
         ],
         [
             'id' => 14,
-            'name' => 'tabler-icons',
+            'name' => 'tabler',
             'repository' => 'https://github.com/secondnetwork/blade-tabler-icons',
             'composer' => 'secondnetwork/blade-tabler-icons',
             'ignore_rule' => null,
