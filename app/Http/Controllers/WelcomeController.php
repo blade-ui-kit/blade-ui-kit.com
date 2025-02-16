@@ -18,7 +18,7 @@ final class WelcomeController
 
             return $response['package']['downloads']['total'] ?? 0;
         });
-        $contributors = Number::abbreviate(cache()->remember('contributors', 1800, function () {
+        $contributors = Number::abbreviate((int) cache()->remember('contributors', 1800, function () {
             $response = Http::retry(3, 100)
                 ->get('https://api.github.com/repos/blade-ui-kit/blade-ui-kit/contributors?anon=1');
 
