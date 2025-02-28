@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe0764a8846202f049a418779d94d783",
+    "content-hash": "6e4b5b74be68c2f7107a4f0c5da40527",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -479,16 +479,16 @@
         },
         {
             "name": "brick/math",
-            "version": "0.12.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "901eddb1e45a8e0f689302e40af871c181ecbe40"
+                "reference": "866551da34e9a618e64a819ee1e01c20d8a588ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/901eddb1e45a8e0f689302e40af871c181ecbe40",
-                "reference": "901eddb1e45a8e0f689302e40af871c181ecbe40",
+                "url": "https://api.github.com/repos/brick/math/zipball/866551da34e9a618e64a819ee1e01c20d8a588ba",
+                "reference": "866551da34e9a618e64a819ee1e01c20d8a588ba",
                 "shasum": ""
             },
             "require": {
@@ -527,7 +527,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.12.2"
+                "source": "https://github.com/brick/math/tree/0.12.3"
             },
             "funding": [
                 {
@@ -535,7 +535,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T10:21:45+00:00"
+            "time": "2025-02-28T13:11:00+00:00"
         },
         {
             "name": "brunocfalcao/blade-feather-icons",
@@ -12100,16 +12100,16 @@
         },
         {
             "name": "troccoli/blade-health-icons",
-            "version": "v3.0.3",
+            "version": "v4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/troccoli/blade-health-icons.git",
-                "reference": "6fbdf78c874a5386d3b72c1dfdc687f2c8173626"
+                "reference": "31b5d876b156eac2e49950d579680fc149e9eae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/6fbdf78c874a5386d3b72c1dfdc687f2c8173626",
-                "reference": "6fbdf78c874a5386d3b72c1dfdc687f2c8173626",
+                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/31b5d876b156eac2e49950d579680fc149e9eae3",
+                "reference": "31b5d876b156eac2e49950d579680fc149e9eae3",
                 "shasum": ""
             },
             "require": {
@@ -12152,9 +12152,9 @@
             ],
             "support": {
                 "issues": "https://github.com/troccoli/blade-health-icons/issues",
-                "source": "https://github.com/troccoli/blade-health-icons/tree/v3.0.3"
+                "source": "https://github.com/troccoli/blade-health-icons/tree/v4.0.0"
             },
-            "time": "2024-09-18T17:57:44+00:00"
+            "time": "2024-10-22T13:59:42+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
