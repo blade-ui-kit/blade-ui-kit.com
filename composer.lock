@@ -1146,16 +1146,16 @@
         },
         {
             "name": "codeat3/blade-carbon-icons",
-            "version": "2.33.0",
+            "version": "2.34.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-carbon-icons.git",
-                "reference": "bcb01ab1ce6493f0805e25ce5ea404f79addf8ee"
+                "reference": "86df40a618b3ad0876aa63f7dd4667054b843c6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/bcb01ab1ce6493f0805e25ce5ea404f79addf8ee",
-                "reference": "bcb01ab1ce6493f0805e25ce5ea404f79addf8ee",
+                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/86df40a618b3ad0876aa63f7dd4667054b843c6c",
+                "reference": "86df40a618b3ad0876aa63f7dd4667054b843c6c",
                 "shasum": ""
             },
             "require": {
@@ -1206,7 +1206,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-carbon-icons/issues",
-                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.33.0"
+                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.34.0"
             },
             "funding": [
                 {
@@ -1214,7 +1214,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T07:41:42+00:00"
+            "time": "2025-03-03T18:05:41+00:00"
         },
         {
             "name": "codeat3/blade-clarity-icons",
@@ -3853,16 +3853,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "6.8.0",
+            "version": "6.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "ae1957f5e9c35c46bdab1c323ddf0f653fda3d87"
+                "reference": "f9b035668bec0644b9ffad5af64d8cba485a7534"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/ae1957f5e9c35c46bdab1c323ddf0f653fda3d87",
-                "reference": "ae1957f5e9c35c46bdab1c323ddf0f653fda3d87",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/f9b035668bec0644b9ffad5af64d8cba485a7534",
+                "reference": "f9b035668bec0644b9ffad5af64d8cba485a7534",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.8.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.9.0"
             },
             "funding": [
                 {
@@ -3920,7 +3920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T07:56:05+00:00"
+            "time": "2025-03-03T17:58:59+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -7027,16 +7027,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.6.0",
+            "version": "v3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "4c66b569cb729ba9b2f4a3c4e79f50fd8f2b71d1"
+                "reference": "0df0a762698176d714e42e2dfed92b6b9e24b8e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/4c66b569cb729ba9b2f4a3c4e79f50fd8f2b71d1",
-                "reference": "4c66b569cb729ba9b2f4a3c4e79f50fd8f2b71d1",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/0df0a762698176d714e42e2dfed92b6b9e24b8e4",
+                "reference": "0df0a762698176d714e42e2dfed92b6b9e24b8e4",
                 "shasum": ""
             },
             "require": {
@@ -7091,7 +7091,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.6.0"
+                "source": "https://github.com/livewire/livewire/tree/v3.6.1"
             },
             "funding": [
                 {
@@ -7099,25 +7099,25 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T00:57:32+00:00"
+            "time": "2025-03-04T21:48:52+00:00"
         },
         {
             "name": "log1x/blade-filetype-icons",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Log1x/blade-filetype-icons.git",
-                "reference": "1667de6603d2ab394cbdea3c1c3718319c3d60d4"
+                "reference": "13eb4cd0b345792333a2dcb76691cff5bcf519aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Log1x/blade-filetype-icons/zipball/1667de6603d2ab394cbdea3c1c3718319c3d60d4",
-                "reference": "1667de6603d2ab394cbdea3c1c3718319c3d60d4",
+                "url": "https://api.github.com/repos/Log1x/blade-filetype-icons/zipball/13eb4cd0b345792333a2dcb76691cff5bcf519aa",
+                "reference": "13eb4cd0b345792333a2dcb76691cff5bcf519aa",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^9.0|^10.0|^11.0",
+                "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
                 "php": "^8.0"
             },
             "require-dev": {
@@ -7157,9 +7157,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Log1x/blade-filetype-icons/issues",
-                "source": "https://github.com/Log1x/blade-filetype-icons/tree/v1.0.6"
+                "source": "https://github.com/Log1x/blade-filetype-icons/tree/v1.0.7"
             },
-            "time": "2024-03-15T10:36:37+00:00"
+            "time": "2025-02-28T18:22:34+00:00"
         },
         {
             "name": "mallardduck/blade-boxicons",
@@ -9245,16 +9245,16 @@
         },
         {
             "name": "secondnetwork/blade-tabler-icons",
-            "version": "v3.30.1",
+            "version": "v3.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/secondnetwork/blade-tabler-icons.git",
-                "reference": "660b757230dfa68c491dcc767bce71384ab8bade"
+                "reference": "bf069bbdb2a63aa8eaeb10e6fd993464e9340a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/secondnetwork/blade-tabler-icons/zipball/660b757230dfa68c491dcc767bce71384ab8bade",
-                "reference": "660b757230dfa68c491dcc767bce71384ab8bade",
+                "url": "https://api.github.com/repos/secondnetwork/blade-tabler-icons/zipball/bf069bbdb2a63aa8eaeb10e6fd993464e9340a31",
+                "reference": "bf069bbdb2a63aa8eaeb10e6fd993464e9340a31",
                 "shasum": ""
             },
             "require": {
@@ -9297,9 +9297,9 @@
             ],
             "support": {
                 "issues": "https://github.com/secondnetwork/blade-tabler-icons/issues",
-                "source": "https://github.com/secondnetwork/blade-tabler-icons/tree/v3.30.1"
+                "source": "https://github.com/secondnetwork/blade-tabler-icons/tree/v3.31.0"
             },
-            "time": "2025-02-19T10:36:52+00:00"
+            "time": "2025-03-06T09:24:43+00:00"
         },
         {
             "name": "spatie/backtrace",
