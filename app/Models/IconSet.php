@@ -683,6 +683,14 @@ final class IconSet extends Model
             'outline_rule' => null,
 
         ],
+        [
+            'id' => 86,
+            'name' => 'car-makes-icons',
+            'repository' => 'https://github.com/johan-boshoff/blade-car-makes-icons',
+            'composer' => 'johan-boshoff/blade-car-makes-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
