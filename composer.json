@@ -79,6 +79,7 @@
         "hasnayeen/blade-eva-icons": "^2.0",
         "http-interop/http-factory-guzzle": "^1.2",
         "itsmalikjones/blade-iconic": "^1.2",
+        "johan-boshoff/blade-car-makes-icons": "^1.0",
         "khatabwedaa/blade-css-icons": "^1.4",
         "laravel/framework": "^11.5",
         "laravel/scout": "^10.8",

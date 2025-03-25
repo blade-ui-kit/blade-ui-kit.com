@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e4b5b74be68c2f7107a4f0c5da40527",
+    "content-hash": "36b96e42ea6572d710da11b3d61818cf",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -5857,6 +5857,70 @@
                 }
             ],
             "time": "2023-02-21T15:07:49+00:00"
+        },
+        {
+            "name": "johan-boshoff/blade-car-makes-icons",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johan-boshoff/blade-car-makes-icons.git",
+                "reference": "411c5bc3791602a5b851f6122217aa7fca75ea4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johan-boshoff/blade-car-makes-icons/zipball/411c5bc3791602a5b851f6122217aa7fca75ea4d",
+                "reference": "411c5bc3791602a5b851f6122217aa7fca75ea4d",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "codeat3/blade-icon-generation-helpers": "^0.10.0",
+                "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JohanBoshoff\\CarMakesIcons\\BladeCarMakesIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JohanBoshoff\\CarMakesIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johan Boshoff"
+                }
+            ],
+            "description": "A package to easily make use of car-makes-icons in your Laravel Blade views.",
+            "homepage": "https://github.com/johan-boshoff/blade-car-makes-icons",
+            "keywords": [
+                "Makes",
+                "Manufacturers",
+                "blade",
+                "car",
+                "icons",
+                "laravel",
+                "logos",
+                "vehicle"
+            ],
+            "support": {
+                "issues": "https://github.com/johan-boshoff/blade-car-makes-icons/issues",
+                "source": "https://github.com/johan-boshoff/blade-car-makes-icons/tree/v1.0.0"
+            },
+            "time": "2025-03-22T23:47:28+00:00"
         },
         {
             "name": "khatabwedaa/blade-css-icons",
@@ -14370,5 +14434,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
