@@ -100,7 +100,7 @@
         "secondnetwork/blade-tabler-icons": "^3.28",
         "spatie/laravel-ignition": "^2.4",
         "themesberg/flowbite-blade-icons": "^1.0",
-        "troccoli/blade-health-icons": "^4.0"
+        "troccoli/blade-health-icons": "^5.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
