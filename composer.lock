@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36b96e42ea6572d710da11b3d61818cf",
+    "content-hash": "1dedb0c4308b650dc4bff6ef7704b74f",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -7626,16 +7626,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "3.8.1",
+            "version": "3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "aef6ee73a77a66e404dd6540934a9ef1b3c855b4"
+                "reference": "10d85740180ecba7896c87e06a166e0c95a0e3b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/aef6ee73a77a66e404dd6540934a9ef1b3c855b4",
-                "reference": "aef6ee73a77a66e404dd6540934a9ef1b3c855b4",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/10d85740180ecba7896c87e06a166e0c95a0e3b6",
+                "reference": "10d85740180ecba7896c87e06a166e0c95a0e3b6",
                 "shasum": ""
             },
             "require": {
@@ -7713,7 +7713,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/3.8.1"
+                "source": "https://github.com/Seldaek/monolog/tree/3.9.0"
             },
             "funding": [
                 {
@@ -7725,7 +7725,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-05T17:15:07+00:00"
+            "time": "2025-03-24T10:02:05+00:00"
         },
         {
             "name": "nerdroid23/blade-icomoon",
@@ -9077,16 +9077,16 @@
         },
         {
             "name": "ramsey/collection",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/collection.git",
-                "reference": "3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109"
+                "reference": "344572933ad0181accbf4ba763e85a0306a8c5e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/collection/zipball/3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109",
-                "reference": "3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/344572933ad0181accbf4ba763e85a0306a8c5e2",
+                "reference": "344572933ad0181accbf4ba763e85a0306a8c5e2",
                 "shasum": ""
             },
             "require": {
@@ -9147,9 +9147,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/collection/issues",
-                "source": "https://github.com/ramsey/collection/tree/2.1.0"
+                "source": "https://github.com/ramsey/collection/tree/2.1.1"
             },
-            "time": "2025-03-02T04:48:29+00:00"
+            "time": "2025-03-22T05:38:12+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -12151,26 +12151,26 @@
         },
         {
             "name": "troccoli/blade-health-icons",
-            "version": "v4.0.0",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/troccoli/blade-health-icons.git",
-                "reference": "31b5d876b156eac2e49950d579680fc149e9eae3"
+                "reference": "9f455c8d748fca050c46705ef7141dc54a38bf5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/31b5d876b156eac2e49950d579680fc149e9eae3",
-                "reference": "31b5d876b156eac2e49950d579680fc149e9eae3",
+                "url": "https://api.github.com/repos/troccoli/blade-health-icons/zipball/9f455c8d748fca050c46705ef7141dc54a38bf5a",
+                "reference": "9f455c8d748fca050c46705ef7141dc54a38bf5a",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.6",
-                "illuminate/support": "^10.0|^11.0",
-                "php": "^8.1|^8.2|^8.3"
+                "illuminate/support": "^11.0|^12.0",
+                "php": "^8.2|^8.3|^8.4"
             },
             "require-dev": {
-                "orchestra/testbench": "^8.0|^9.0",
-                "phpunit/phpunit": "^10.0|^11.0"
+                "orchestra/testbench": "^10.0",
+                "phpunit/phpunit": "^11.0"
             },
             "type": "library",
             "extra": {
@@ -12203,9 +12203,9 @@
             ],
             "support": {
                 "issues": "https://github.com/troccoli/blade-health-icons/issues",
-                "source": "https://github.com/troccoli/blade-health-icons/tree/v4.0.0"
+                "source": "https://github.com/troccoli/blade-health-icons"
             },
-            "time": "2024-10-22T13:59:42+00:00"
+            "time": "2025-03-01T15:42:49+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -14434,5 +14434,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
