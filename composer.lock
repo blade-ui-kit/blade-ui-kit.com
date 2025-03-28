@@ -3853,16 +3853,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "6.9.0",
+            "version": "6.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "f9b035668bec0644b9ffad5af64d8cba485a7534"
+                "reference": "be95ee63f77a5be010802fc2bcd4625132aa2a63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/f9b035668bec0644b9ffad5af64d8cba485a7534",
-                "reference": "f9b035668bec0644b9ffad5af64d8cba485a7534",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/be95ee63f77a5be010802fc2bcd4625132aa2a63",
+                "reference": "be95ee63f77a5be010802fc2bcd4625132aa2a63",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.9.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.11.0"
             },
             "funding": [
                 {
@@ -3920,7 +3920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-03T17:58:59+00:00"
+            "time": "2025-03-23T11:37:37+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -5265,16 +5265,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.9.2",
+            "version": "7.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "d281ed313b989f213357e3be1a179f02196ac99b"
+                "reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d281ed313b989f213357e3be1a179f02196ac99b",
-                "reference": "d281ed313b989f213357e3be1a179f02196ac99b",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
+                "reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
                 "shasum": ""
             },
             "require": {
@@ -5371,7 +5371,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.9.2"
+                "source": "https://github.com/guzzle/guzzle/tree/7.9.3"
             },
             "funding": [
                 {
@@ -5387,20 +5387,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-24T11:22:20+00:00"
+            "time": "2025-03-27T13:37:11+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.0.4",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
+                "reference": "7c69f28996b0a6920945dd20b3857e499d9ca96c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
-                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/7c69f28996b0a6920945dd20b3857e499d9ca96c",
+                "reference": "7c69f28996b0a6920945dd20b3857e499d9ca96c",
                 "shasum": ""
             },
             "require": {
@@ -5454,7 +5454,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.0.4"
+                "source": "https://github.com/guzzle/promises/tree/2.2.0"
             },
             "funding": [
                 {
@@ -5470,20 +5470,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-17T10:06:22+00:00"
+            "time": "2025-03-27T13:27:01+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201"
+                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
-                "reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c2270caaabe631b3b44c85f99e5a04bbb8060d16",
+                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16",
                 "shasum": ""
             },
             "require": {
@@ -5570,7 +5570,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.7.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.7.1"
             },
             "funding": [
                 {
@@ -5586,7 +5586,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T11:15:46+00:00"
+            "time": "2025-03-27T12:30:47+00:00"
         },
         {
             "name": "guzzlehttp/uri-template",
@@ -5676,21 +5676,21 @@
         },
         {
             "name": "hasnayeen/blade-eva-icons",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Hasnayeen/blade-eva-icons.git",
-                "reference": "2cf2fa6d90c789c63bc1046e857f1032fa7a5e96"
+                "reference": "e771444b908964ab47506e3e6012ff12ad4234a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Hasnayeen/blade-eva-icons/zipball/2cf2fa6d90c789c63bc1046e857f1032fa7a5e96",
-                "reference": "2cf2fa6d90c789c63bc1046e857f1032fa7a5e96",
+                "url": "https://api.github.com/repos/Hasnayeen/blade-eva-icons/zipball/e771444b908964ab47506e3e6012ff12ad4234a4",
+                "reference": "e771444b908964ab47506e3e6012ff12ad4234a4",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^10.0|^11.0",
+                "illuminate/support": "^10.0|^11.0|^12.0",
                 "php": "^8.1"
             },
             "require-dev": {
@@ -5732,9 +5732,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Hasnayeen/blade-eva-icons/issues",
-                "source": "https://github.com/Hasnayeen/blade-eva-icons/tree/v2.0.0"
+                "source": "https://github.com/Hasnayeen/blade-eva-icons/tree/v2.1.0"
             },
-            "time": "2024-05-28T13:18:32+00:00"
+            "time": "2025-03-10T05:01:50+00:00"
         },
         {
             "name": "http-interop/http-factory-guzzle",
@@ -5860,16 +5860,16 @@
         },
         {
             "name": "johan-boshoff/blade-car-makes-icons",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johan-boshoff/blade-car-makes-icons.git",
-                "reference": "411c5bc3791602a5b851f6122217aa7fca75ea4d"
+                "reference": "4b8c14d9e6dbfda53f27443130dae61a391ca295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johan-boshoff/blade-car-makes-icons/zipball/411c5bc3791602a5b851f6122217aa7fca75ea4d",
-                "reference": "411c5bc3791602a5b851f6122217aa7fca75ea4d",
+                "url": "https://api.github.com/repos/johan-boshoff/blade-car-makes-icons/zipball/4b8c14d9e6dbfda53f27443130dae61a391ca295",
+                "reference": "4b8c14d9e6dbfda53f27443130dae61a391ca295",
                 "shasum": ""
             },
             "require": {
@@ -5918,9 +5918,9 @@
             ],
             "support": {
                 "issues": "https://github.com/johan-boshoff/blade-car-makes-icons/issues",
-                "source": "https://github.com/johan-boshoff/blade-car-makes-icons/tree/v1.0.0"
+                "source": "https://github.com/johan-boshoff/blade-car-makes-icons/tree/v1.0.1"
             },
-            "time": "2025-03-22T23:47:28+00:00"
+            "time": "2025-03-25T04:06:27+00:00"
         },
         {
             "name": "khatabwedaa/blade-css-icons",
