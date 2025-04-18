@@ -20,7 +20,7 @@ final class IconSet extends Model
         [
             'id' => 1,
             'name' => 'heroicons',
-            'repository' => 'https://github.com/blade-ui-kit/blade-heroicons',
+            'repository' => 'https://github.com/driesvints/blade-heroicons',
             'composer' => 'blade-ui-kit/blade-heroicons',
             'ignore_rule' => '/^(?:o|s)-/',
             'outline_rule' => '/^o-/',
@@ -28,7 +28,7 @@ final class IconSet extends Model
         [
             'id' => 2,
             'name' => 'zondicons',
-            'repository' => 'https://github.com/blade-ui-kit/blade-zondicons',
+            'repository' => 'https://github.com/codeat3/blade-zondicons',
             'composer' => 'blade-ui-kit/blade-zondicons',
             'ignore_rule' => null,
             'outline_rule' => null,
