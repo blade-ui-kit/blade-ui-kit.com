@@ -70,16 +70,16 @@
         },
         {
             "name": "andreiio/blade-iconoir",
-            "version": "4.6.1",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andreiio/blade-iconoir.git",
-                "reference": "ea527476cefa20867add6ab5e86bbc4e070cb581"
+                "reference": "10facc5b137c8584baf7369c069d495960df5399"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/ea527476cefa20867add6ab5e86bbc4e070cb581",
-                "reference": "ea527476cefa20867add6ab5e86bbc4e070cb581",
+                "url": "https://api.github.com/repos/andreiio/blade-iconoir/zipball/10facc5b137c8584baf7369c069d495960df5399",
+                "reference": "10facc5b137c8584baf7369c069d495960df5399",
                 "shasum": ""
             },
             "require": {
@@ -116,7 +116,7 @@
             "description": "A package to easily make use of Iconoir in your Laravel Blade views.",
             "support": {
                 "issues": "https://github.com/andreiio/blade-iconoir/issues",
-                "source": "https://github.com/andreiio/blade-iconoir/tree/4.6.1"
+                "source": "https://github.com/andreiio/blade-iconoir/tree/4.7.0"
             },
             "funding": [
                 {
@@ -124,7 +124,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-29T16:31:17+00:00"
+            "time": "2025-04-23T08:59:06+00:00"
         },
         {
             "name": "andreiio/blade-remix-icon",
@@ -258,12 +258,12 @@
             "version": "1.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/blade-ui-kit/blade-icons.git",
+                "url": "https://github.com/driesvints/blade-icons.git",
                 "reference": "7b743f27476acb2ed04cb518213d78abe096e814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/7b743f27476acb2ed04cb518213d78abe096e814",
+                "url": "https://api.github.com/repos/driesvints/blade-icons/zipball/7b743f27476acb2ed04cb518213d78abe096e814",
                 "reference": "7b743f27476acb2ed04cb518213d78abe096e814",
                 "shasum": ""
             },
@@ -3853,16 +3853,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "6.11.0",
+            "version": "6.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "be95ee63f77a5be010802fc2bcd4625132aa2a63"
+                "reference": "d7e0e8dbb065b5ea7d881b206bd429b04379ce36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/be95ee63f77a5be010802fc2bcd4625132aa2a63",
-                "reference": "be95ee63f77a5be010802fc2bcd4625132aa2a63",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/d7e0e8dbb065b5ea7d881b206bd429b04379ce36",
+                "reference": "d7e0e8dbb065b5ea7d881b206bd429b04379ce36",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.11.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.12.1"
             },
             "funding": [
                 {
@@ -3920,7 +3920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-23T11:37:37+00:00"
+            "time": "2025-04-22T08:14:32+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -6058,16 +6058,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.44.2",
+            "version": "v11.44.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f85216c82cbd38b66d67ebd20ea762cb3751a4b4"
+                "reference": "9d34abe28085fa74b46382ebddd0350f780d055f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f85216c82cbd38b66d67ebd20ea762cb3751a4b4",
-                "reference": "f85216c82cbd38b66d67ebd20ea762cb3751a4b4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9d34abe28085fa74b46382ebddd0350f780d055f",
+                "reference": "9d34abe28085fa74b46382ebddd0350f780d055f",
                 "shasum": ""
             },
             "require": {
@@ -6269,7 +6269,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-03-12T14:34:30+00:00"
+            "time": "2025-04-25T08:33:55+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -6540,16 +6540,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.6.1",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad"
+                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d990688c91cedfb69753ffc2512727ec646df2ad",
-                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/06c3b0bf2540338094575612f4a1778d0d2d5e94",
+                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94",
                 "shasum": ""
             },
             "require": {
@@ -6643,7 +6643,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-29T14:10:59+00:00"
+            "time": "2025-04-18T21:09:27+00:00"
         },
         {
             "name": "league/config",
@@ -7091,16 +7091,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.6.2",
+            "version": "v3.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "8f8914731f5eb43b6bb145d87c8d5a9edfc89313"
+                "reference": "56aa1bb63a46e06181c56fa64717a7287e19115e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/8f8914731f5eb43b6bb145d87c8d5a9edfc89313",
-                "reference": "8f8914731f5eb43b6bb145d87c8d5a9edfc89313",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/56aa1bb63a46e06181c56fa64717a7287e19115e",
+                "reference": "56aa1bb63a46e06181c56fa64717a7287e19115e",
                 "shasum": ""
             },
             "require": {
@@ -7155,7 +7155,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.6.2"
+                "source": "https://github.com/livewire/livewire/tree/v3.6.3"
             },
             "funding": [
                 {
@@ -7163,7 +7163,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-12T20:24:15+00:00"
+            "time": "2025-04-12T22:26:52+00:00"
         },
         {
             "name": "log1x/blade-filetype-icons",
@@ -7559,16 +7559,16 @@
         },
         {
             "name": "meilisearch/meilisearch-php",
-            "version": "v1.13.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/meilisearch/meilisearch-php.git",
-                "reference": "16a3c31ddbe8eaec3aa1e1da3bada906d57dfc66"
+                "reference": "860c6f81e81abb5040c50031512b21ae59a26a97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/meilisearch/meilisearch-php/zipball/16a3c31ddbe8eaec3aa1e1da3bada906d57dfc66",
-                "reference": "16a3c31ddbe8eaec3aa1e1da3bada906d57dfc66",
+                "url": "https://api.github.com/repos/meilisearch/meilisearch-php/zipball/860c6f81e81abb5040c50031512b21ae59a26a97",
+                "reference": "860c6f81e81abb5040c50031512b21ae59a26a97",
                 "shasum": ""
             },
             "require": {
@@ -7620,9 +7620,9 @@
             ],
             "support": {
                 "issues": "https://github.com/meilisearch/meilisearch-php/issues",
-                "source": "https://github.com/meilisearch/meilisearch-php/tree/v1.13.0"
+                "source": "https://github.com/meilisearch/meilisearch-php/tree/v1.14.0"
             },
-            "time": "2025-02-17T12:48:45+00:00"
+            "time": "2025-04-14T12:32:57+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -8197,29 +8197,29 @@
         },
         {
             "name": "owenvoke/blade-entypo",
-            "version": "v2.2.1",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/owenvoke/blade-entypo.git",
-                "reference": "b5461e248e7dc31e9529f52f601a4593833bc121"
+                "reference": "2d4d46084d60805c2827289a76464606f4449383"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/owenvoke/blade-entypo/zipball/b5461e248e7dc31e9529f52f601a4593833bc121",
-                "reference": "b5461e248e7dc31e9529f52f601a4593833bc121",
+                "url": "https://api.github.com/repos/owenvoke/blade-entypo/zipball/2d4d46084d60805c2827289a76464606f4449383",
+                "reference": "2d4d46084d60805c2827289a76464606f4449383",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.5",
-                "illuminate/support": "^10.0|^11.0",
+                "illuminate/support": "^10.34|^11.0|^12.0",
                 "php": "^8.1"
             },
             "require-dev": {
                 "laravel/pint": "^1.15",
-                "orchestra/testbench": "^8.5|^9.0",
-                "pestphp/pest": "^2.34",
-                "phpstan/phpstan": "^1.10",
-                "symfony/var-dumper": "^6.4|^7.0"
+                "orchestra/testbench": "^8.5|^9.0|^10.0",
+                "pestphp/pest": "^2.34|^3.7",
+                "phpstan/phpstan": "^1.10|^2.1",
+                "symfony/var-dumper": "^6.4|^7.2"
             },
             "type": "library",
             "extra": {
@@ -8241,7 +8241,7 @@
             "description": "A package to easily make use of Entypo in your Laravel Blade views",
             "support": {
                 "issues": "https://github.com/owenvoke/blade-entypo/issues",
-                "source": "https://github.com/owenvoke/blade-entypo/tree/v2.2.1"
+                "source": "https://github.com/owenvoke/blade-entypo/tree/v2.3.0"
             },
             "funding": [
                 {
@@ -8253,7 +8253,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-06T14:40:33+00:00"
+            "time": "2025-04-22T08:12:14+00:00"
         },
         {
             "name": "owenvoke/blade-fontawesome",
