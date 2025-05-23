@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dedb0c4308b650dc4bff6ef7704b74f",
+    "content-hash": "b0069dea6d2d654e0d3f6281ab4035d2",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -4568,26 +4568,26 @@
         },
         {
             "name": "davidhsianturi/blade-bootstrap-icons",
-            "version": "v1.5.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidhsianturi/blade-bootstrap-icons.git",
-                "reference": "21de39c9708fd57bc1108b36792e8bdeebf1c67c"
+                "reference": "6c8ac576b9e236a729728e513180f50178e14d37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidhsianturi/blade-bootstrap-icons/zipball/21de39c9708fd57bc1108b36792e8bdeebf1c67c",
-                "reference": "21de39c9708fd57bc1108b36792e8bdeebf1c67c",
+                "url": "https://api.github.com/repos/davidhsianturi/blade-bootstrap-icons/zipball/6c8ac576b9e236a729728e513180f50178e14d37",
+                "reference": "6c8ac576b9e236a729728e513180f50178e14d37",
                 "shasum": ""
             },
             "require": {
-                "blade-ui-kit/blade-icons": "^1.0",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
-                "php": "^7.4|^8.0"
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+                "php": "^8.0"
             },
             "require-dev": {
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
-                "phpunit/phpunit": "^9.0|^10.5"
+                "orchestra/testbench": "^7.0|^8.0|^9.0|^10.1",
+                "phpunit/phpunit": "^9.0|^10.5|^11.5"
             },
             "type": "library",
             "extra": {
@@ -4623,9 +4623,9 @@
             ],
             "support": {
                 "issues": "https://github.com/davidhsianturi/blade-bootstrap-icons/issues",
-                "source": "https://github.com/davidhsianturi/blade-bootstrap-icons/tree/v1.5.0"
+                "source": "https://github.com/davidhsianturi/blade-bootstrap-icons/tree/v2.0.0"
             },
-            "time": "2024-05-09T09:20:43+00:00"
+            "time": "2025-04-22T08:35:04+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
