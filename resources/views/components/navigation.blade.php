@@ -15,23 +15,14 @@
                     </div>
                 </div>
                 <div class="hidden md:block md:ml-10">
-                    <a href="{{ route('docs') }}" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-                        Documentation
-                    </a>
-                    <a href="{{ route('blade-icons') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                    <a href="{{ route('blade-icons') }}" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                         Blade Icons
                     </a>
                 </div>
             </div>
             <div class="hidden md:block text-right text-gray">
                 <x-a
-                    href="https://twitter.com/bladeuikit"
-                    class="ml-4 font-medium transition duration-150 ease-in-out"
-                >
-                    <x-si-x class="h-6 w-6 inline" />
-                </x-a>
-                <x-a
-                    href="https://github.com/blade-ui-kit"
+                    href="https://github.com/driesvints/blade-icons"
                     class="ml-4 font-medium transition duration-150 ease-in-out"
                 >
                     <x-si-github class="h-6 w-6 inline"/>
@@ -57,22 +48,13 @@
                         </div>
                     </div>
                     <div class="px-2 pt-2 pb-3">
-                        <a href="{{ route('docs') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
-                            Documentation
-                        </a>
-                        <a href="{{ route('blade-icons') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
+                        <a href="{{ route('blade-icons') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
                             Blade Icons
                         </a>
                     </div>
                     <div class="bg-gray-50 text-center">
                         <x-a
-                            href="https://twitter.com/bladeuikit"
-                            class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-                        >
-                            <x-si-x class="h-6 w-6 inline" />
-                        </x-a>
-                        <x-a
-                            href="https://github.com/blade-ui-kit"
+                            href="https://github.com/driesvints/blade-icons"
                             class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                         >
                             <x-si-github class="h-6 w-6 inline"/>
