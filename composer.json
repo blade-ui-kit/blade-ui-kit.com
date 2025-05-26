@@ -87,6 +87,7 @@
         "league/commonmark": "^2.3",
         "livewire/livewire": "^3.3",
         "log1x/blade-filetype-icons": "^1.0",
+        "maiden-voyage-software/blade-emojis": "^0.1.5",
         "mallardduck/blade-boxicons": "^2.4",
         "mallardduck/blade-lucide-icons": "^1.5",
         "mansoor/blade-lets-icons": "^1.0",
