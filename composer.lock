@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0069dea6d2d654e0d3f6281ab4035d2",
+    "content-hash": "8e695f9b28c48c764fab47d62c0b0e0d",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -7224,6 +7224,64 @@
                 "source": "https://github.com/Log1x/blade-filetype-icons/tree/v1.0.7"
             },
             "time": "2025-02-28T18:22:34+00:00"
+        },
+        {
+            "name": "maiden-voyage-software/blade-emojis",
+            "version": "v0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MaidenVoyageSoftware/blade-emojis.git",
+                "reference": "3a1424cc2471789bc3f0aa8988a38486bb4eca0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MaidenVoyageSoftware/blade-emojis/zipball/3a1424cc2471789bc3f0aa8988a38486bb4eca0d",
+                "reference": "3a1424cc2471789bc3f0aa8988a38486bb4eca0d",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^10.0|^11.0|^12.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BladeUI\\Emojis\\BladeEmojisServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BladeUI\\Emojis\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maiden Voyage Software"
+                }
+            ],
+            "description": "A package to easily make use of Emojis in your Laravel Blade views.",
+            "homepage": "https://github.com/MaidenVoyageSoftware/blade-emojis",
+            "keywords": [
+                "blade",
+                "emojis",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/MaidenVoyageSoftware/blade-emojis/issues",
+                "source": "https://github.com/MaidenVoyageSoftware/blade-emojis/tree/v0.1.5"
+            },
+            "time": "2025-05-07T22:53:52+00:00"
         },
         {
             "name": "mallardduck/blade-boxicons",
