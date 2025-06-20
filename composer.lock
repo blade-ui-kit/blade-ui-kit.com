@@ -4568,16 +4568,16 @@
         },
         {
             "name": "davidhsianturi/blade-bootstrap-icons",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidhsianturi/blade-bootstrap-icons.git",
-                "reference": "6c8ac576b9e236a729728e513180f50178e14d37"
+                "reference": "e4480e75c4c3b0b350dd8f3acf3dfc1bd9eb560f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidhsianturi/blade-bootstrap-icons/zipball/6c8ac576b9e236a729728e513180f50178e14d37",
-                "reference": "6c8ac576b9e236a729728e513180f50178e14d37",
+                "url": "https://api.github.com/repos/davidhsianturi/blade-bootstrap-icons/zipball/e4480e75c4c3b0b350dd8f3acf3dfc1bd9eb560f",
+                "reference": "e4480e75c4c3b0b350dd8f3acf3dfc1bd9eb560f",
                 "shasum": ""
             },
             "require": {
@@ -4623,9 +4623,9 @@
             ],
             "support": {
                 "issues": "https://github.com/davidhsianturi/blade-bootstrap-icons/issues",
-                "source": "https://github.com/davidhsianturi/blade-bootstrap-icons/tree/v2.0.0"
+                "source": "https://github.com/davidhsianturi/blade-bootstrap-icons/tree/v2.1.0"
             },
-            "time": "2025-04-22T08:35:04+00:00"
+            "time": "2025-06-18T12:39:09+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
