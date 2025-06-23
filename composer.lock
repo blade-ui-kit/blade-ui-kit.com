@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e695f9b28c48c764fab47d62c0b0e0d",
+    "content-hash": "14d1fbb395790c7a0e7100bd5298e01f",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -3853,16 +3853,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "6.15.0",
+            "version": "7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "f3e4b4b86f3d53db6b0fc8ba16245d473a0c9c90"
+                "reference": "ad4337306b5372308839792f897ba26cd729cdc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/f3e4b4b86f3d53db6b0fc8ba16245d473a0c9c90",
-                "reference": "f3e4b4b86f3d53db6b0fc8ba16245d473a0c9c90",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/ad4337306b5372308839792f897ba26cd729cdc0",
+                "reference": "ad4337306b5372308839792f897ba26cd729cdc0",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.15.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/7.1.0"
             },
             "funding": [
                 {
@@ -3920,7 +3920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-27T07:31:40+00:00"
+            "time": "2025-06-09T13:54:31+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
