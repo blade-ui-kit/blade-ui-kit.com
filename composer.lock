@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e695f9b28c48c764fab47d62c0b0e0d",
+    "content-hash": "1216fb96529482f0b59456f8c3b4b8d1",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -3853,16 +3853,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "6.15.0",
+            "version": "7.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "f3e4b4b86f3d53db6b0fc8ba16245d473a0c9c90"
+                "reference": "3d0d13afb03b8e65738739eb9f7e62c73fb80a07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/f3e4b4b86f3d53db6b0fc8ba16245d473a0c9c90",
-                "reference": "f3e4b4b86f3d53db6b0fc8ba16245d473a0c9c90",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/3d0d13afb03b8e65738739eb9f7e62c73fb80a07",
+                "reference": "3d0d13afb03b8e65738739eb9f7e62c73fb80a07",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/6.15.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/7.6.0"
             },
             "funding": [
                 {
@@ -3920,7 +3920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-27T07:31:40+00:00"
+            "time": "2025-07-15T10:21:11+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -14482,6 +14482,6 @@
         "php": "~8.2.0",
         "ext-json": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
