@@ -128,16 +128,16 @@
         },
         {
             "name": "andreiio/blade-remix-icon",
-            "version": "3.6.0",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andreiio/blade-remix-icon.git",
-                "reference": "c70c6f3e9b578aed9ab5901171aa2286ac1a58e8"
+                "reference": "588ddbf4fc168cfdecc343ea59fcb40c1a24957e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/c70c6f3e9b578aed9ab5901171aa2286ac1a58e8",
-                "reference": "c70c6f3e9b578aed9ab5901171aa2286ac1a58e8",
+                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/588ddbf4fc168cfdecc343ea59fcb40c1a24957e",
+                "reference": "588ddbf4fc168cfdecc343ea59fcb40c1a24957e",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
             "description": "A package to easily make use of Remix Icon in your Laravel Blade views.",
             "support": {
                 "issues": "https://github.com/andreiio/blade-remix-icon/issues",
-                "source": "https://github.com/andreiio/blade-remix-icon/tree/3.6.0"
+                "source": "https://github.com/andreiio/blade-remix-icon/tree/3.7.0"
             },
             "funding": [
                 {
@@ -182,7 +182,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-17T18:28:03+00:00"
+            "time": "2025-10-10T12:10:27+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -3853,16 +3853,16 @@
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "7.15.0",
+            "version": "7.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "22780d678eb64758f6eed93768edb2c45f4920d0"
+                "reference": "29d269bd0e576deb7b2f026f780f3443c67b2966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/22780d678eb64758f6eed93768edb2c45f4920d0",
-                "reference": "22780d678eb64758f6eed93768edb2c45f4920d0",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/29d269bd0e576deb7b2f026f780f3443c67b2966",
+                "reference": "29d269bd0e576deb7b2f026f780f3443c67b2966",
                 "shasum": ""
             },
             "require": {
@@ -3912,7 +3912,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/7.15.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/7.16.0"
             },
             "funding": [
                 {
@@ -3920,7 +3920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-17T10:30:03+00:00"
+            "time": "2025-10-12T11:40:22+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
@@ -6331,16 +6331,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v10.19.1",
+            "version": "v10.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "bc8dbffc06472e28147ee739aec95fdf653f9d91"
+                "reference": "a04d7a8eb27b66c8b7edb7e0c6a078e9e78c4f5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/bc8dbffc06472e28147ee739aec95fdf653f9d91",
-                "reference": "bc8dbffc06472e28147ee739aec95fdf653f9d91",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/a04d7a8eb27b66c8b7edb7e0c6a078e9e78c4f5b",
+                "reference": "a04d7a8eb27b66c8b7edb7e0c6a078e9e78c4f5b",
                 "shasum": ""
             },
             "require": {
@@ -6408,20 +6408,20 @@
                 "issues": "https://github.com/laravel/scout/issues",
                 "source": "https://github.com/laravel/scout"
             },
-            "time": "2025-10-07T14:48:20+00:00"
+            "time": "2025-10-14T14:09:26+00:00"
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v2.0.5",
+            "version": "v2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "3832547db6e0e2f8bb03d4093857b378c66eceed"
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/3832547db6e0e2f8bb03d4093857b378c66eceed",
-                "reference": "3832547db6e0e2f8bb03d4093857b378c66eceed",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/038ce42edee619599a1debb7e81d7b3759492819",
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819",
                 "shasum": ""
             },
             "require": {
@@ -6469,7 +6469,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-09-22T17:29:40+00:00"
+            "time": "2025-10-09T13:42:30+00:00"
         },
         {
             "name": "laravel/tinker",
