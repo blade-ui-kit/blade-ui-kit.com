@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "~8.2.0",
+        "php": "~8.4.0",
         "ext-json": "*",
         "afatmustafa/blade-hugeicons": "dev-main",
         "andreiio/blade-iconoir": "^4.0",
@@ -22,7 +22,7 @@
         "caseyamcl/toc": "^3.0",
         "codeat3/blade-academicons": "^1.6",
         "codeat3/blade-akar-icons": "^2.0",
-        "codeat3/blade-ant-design-icons": "^2.0",
+        "codeat3/blade-ant-design-icons": "^1.9",
         "codeat3/blade-bytesize-icons": "^1.4",
         "codeat3/blade-carbon-icons": "^2.12",
         "codeat3/blade-clarity-icons": "^1.8",
