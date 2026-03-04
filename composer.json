@@ -101,7 +101,13 @@
         "secondnetwork/blade-tabler-icons": "^3.28",
         "spatie/laravel-ignition": "^2.4",
         "themesberg/flowbite-blade-icons": "^1.0",
-        "troccoli/blade-health-icons": "^5.0"
+        "troccoli/blade-health-icons": "^5.0",
+        "enso-san/blade-gms-o": "^1.0",
+        "enso-san/blade-gms-r": "^1.0",
+        "enso-san/blade-gms-s": "^1.0",
+        "enso-san/blade-gms-of": "^1.0",
+        "enso-san/blade-gms-rf": "^1.0",
+        "enso-san/blade-gms-sf": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
