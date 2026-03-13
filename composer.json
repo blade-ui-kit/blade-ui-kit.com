@@ -82,7 +82,7 @@
         "johan-boshoff/blade-car-makes-icons": "^1.0",
         "khatabwedaa/blade-css-icons": "^1.4",
         "laravel/framework": "^11.5",
-        "laravel/scout": "^10.8",
+        "laravel/scout": "^11.0",
         "laravel/tinker": "^2.9",
         "league/commonmark": "^2.3",
         "livewire/livewire": "^3.3",

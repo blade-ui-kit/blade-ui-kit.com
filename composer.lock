@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61aefa9b9d60b95bc6d038c3f1a4f895",
+    "content-hash": "880a27ac1b051252b52b01724d20082a",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -6334,16 +6334,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v10.24.0",
+            "version": "v11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "f9864d9a727a0c0d6b95e08ed92df8c301ae6d2c"
+                "reference": "7a1dbbeb01cf4653c5ce4311fdc42a866e1e5187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/f9864d9a727a0c0d6b95e08ed92df8c301ae6d2c",
-                "reference": "f9864d9a727a0c0d6b95e08ed92df8c301ae6d2c",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/7a1dbbeb01cf4653c5ce4311fdc42a866e1e5187",
+                "reference": "7a1dbbeb01cf4653c5ce4311fdc42a866e1e5187",
                 "shasum": ""
             },
             "require": {
@@ -6382,7 +6382,7 @@
                     ]
                 },
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -6410,7 +6410,7 @@
                 "issues": "https://github.com/laravel/scout/issues",
                 "source": "https://github.com/laravel/scout"
             },
-            "time": "2026-02-10T18:44:39+00:00"
+            "time": "2026-03-10T19:16:37+00:00"
         },
         {
             "name": "laravel/serializable-closure",
