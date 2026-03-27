@@ -860,28 +860,28 @@
         },
         {
             "name": "codeat3/blade-academicons",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-academicons.git",
-                "reference": "1ce6345730c7a33173d121b312847110a93d54f1"
+                "reference": "089b7cc29044d5f425336292a399fc3333c54eec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-academicons/zipball/1ce6345730c7a33173d121b312847110a93d54f1",
-                "reference": "1ce6345730c7a33173d121b312847110a93d54f1",
+                "url": "https://api.github.com/repos/codeat3/blade-academicons/zipball/089b7cc29044d5f425336292a399fc3333c54eec",
+                "reference": "089b7cc29044d5f425336292a399fc3333c54eec",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -920,7 +920,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-academicons/issues",
-                "source": "https://github.com/codeat3/blade-academicons/tree/1.8.0"
+                "source": "https://github.com/codeat3/blade-academicons/tree/1.9.0"
             },
             "funding": [
                 {
@@ -928,7 +928,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:40:47+00:00"
+            "time": "2026-03-21T11:22:12+00:00"
         },
         {
             "name": "codeat3/blade-akar-icons",
@@ -1004,28 +1004,28 @@
         },
         {
             "name": "codeat3/blade-ant-design-icons",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-ant-design-icons.git",
-                "reference": "b959eda7f0f406f3e8081ca1033e57ed2e2387df"
+                "reference": "125dd54f18d24b66fa0d4d46cbcf5602f7f901c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-ant-design-icons/zipball/b959eda7f0f406f3e8081ca1033e57ed2e2387df",
-                "reference": "b959eda7f0f406f3e8081ca1033e57ed2e2387df",
+                "url": "https://api.github.com/repos/codeat3/blade-ant-design-icons/zipball/125dd54f18d24b66fa0d4d46cbcf5602f7f901c8",
+                "reference": "125dd54f18d24b66fa0d4d46cbcf5602f7f901c8",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1064,7 +1064,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-ant-design-icons/issues",
-                "source": "https://github.com/codeat3/blade-ant-design-icons/tree/1.9.0"
+                "source": "https://github.com/codeat3/blade-ant-design-icons/tree/1.10.0"
             },
             "funding": [
                 {
@@ -1072,32 +1072,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:13:16+00:00"
+            "time": "2026-03-21T11:42:04+00:00"
         },
         {
             "name": "codeat3/blade-bytesize-icons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-bytesize-icons.git",
-                "reference": "960d237d9f6e836e06d0b7b54e2fec2e4603e2c1"
+                "reference": "4f510195d6241b03c868f7df0a3a6bf32e0c0231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-bytesize-icons/zipball/960d237d9f6e836e06d0b7b54e2fec2e4603e2c1",
-                "reference": "960d237d9f6e836e06d0b7b54e2fec2e4603e2c1",
+                "url": "https://api.github.com/repos/codeat3/blade-bytesize-icons/zipball/4f510195d6241b03c868f7df0a3a6bf32e0c0231",
+                "reference": "4f510195d6241b03c868f7df0a3a6bf32e0c0231",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1136,7 +1136,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-bytesize-icons/issues",
-                "source": "https://github.com/codeat3/blade-bytesize-icons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-bytesize-icons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -1144,32 +1144,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:44:35+00:00"
+            "time": "2026-03-21T11:48:16+00:00"
         },
         {
             "name": "codeat3/blade-carbon-icons",
-            "version": "2.38.0",
+            "version": "2.39.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-carbon-icons.git",
-                "reference": "2ad48348fffd642e59ebd8cadb5e890de71368c7"
+                "reference": "568bdf5f3d20583bc4d96c4d34bffd0ca9cb55f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/2ad48348fffd642e59ebd8cadb5e890de71368c7",
-                "reference": "2ad48348fffd642e59ebd8cadb5e890de71368c7",
+                "url": "https://api.github.com/repos/codeat3/blade-carbon-icons/zipball/568bdf5f3d20583bc4d96c4d34bffd0ca9cb55f8",
+                "reference": "568bdf5f3d20583bc4d96c4d34bffd0ca9cb55f8",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1208,7 +1208,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-carbon-icons/issues",
-                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.38.0"
+                "source": "https://github.com/codeat3/blade-carbon-icons/tree/2.39.0"
             },
             "funding": [
                 {
@@ -1216,32 +1216,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-15T06:05:51+00:00"
+            "time": "2026-03-21T11:58:55+00:00"
         },
         {
             "name": "codeat3/blade-clarity-icons",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-clarity-icons.git",
-                "reference": "4b4450200061633f4e9f5390e7095fbc30057340"
+                "reference": "3305a398f9d901c97aefd4bfde29e194728b7a1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-clarity-icons/zipball/4b4450200061633f4e9f5390e7095fbc30057340",
-                "reference": "4b4450200061633f4e9f5390e7095fbc30057340",
+                "url": "https://api.github.com/repos/codeat3/blade-clarity-icons/zipball/3305a398f9d901c97aefd4bfde29e194728b7a1a",
+                "reference": "3305a398f9d901c97aefd4bfde29e194728b7a1a",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1280,7 +1280,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-clarity-icons/issues",
-                "source": "https://github.com/codeat3/blade-clarity-icons/tree/1.10.0"
+                "source": "https://github.com/codeat3/blade-clarity-icons/tree/1.11.0"
             },
             "funding": [
                 {
@@ -1288,32 +1288,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T08:35:37+00:00"
+            "time": "2026-03-21T12:02:20+00:00"
         },
         {
             "name": "codeat3/blade-codicons",
-            "version": "1.34.0",
+            "version": "1.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-codicons.git",
-                "reference": "edda8111ac5f042d0921db531f97317ec6a8de53"
+                "reference": "cd0e150676e26a0cea80d411a39a0a3ffef30ac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-codicons/zipball/edda8111ac5f042d0921db531f97317ec6a8de53",
-                "reference": "edda8111ac5f042d0921db531f97317ec6a8de53",
+                "url": "https://api.github.com/repos/codeat3/blade-codicons/zipball/cd0e150676e26a0cea80d411a39a0a3ffef30ac1",
+                "reference": "cd0e150676e26a0cea80d411a39a0a3ffef30ac1",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1351,7 +1351,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-codicons/issues",
-                "source": "https://github.com/codeat3/blade-codicons/tree/1.34.0"
+                "source": "https://github.com/codeat3/blade-codicons/tree/1.35.0"
             },
             "funding": [
                 {
@@ -1359,32 +1359,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:37:40+00:00"
+            "time": "2026-03-21T12:14:35+00:00"
         },
         {
             "name": "codeat3/blade-coolicons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-coolicons.git",
-                "reference": "62888f5ab7571ea9c63991c5935e9986a4fc534e"
+                "reference": "356232f58fd3a0756d8ab4a8b3dbec5238376c0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-coolicons/zipball/62888f5ab7571ea9c63991c5935e9986a4fc534e",
-                "reference": "62888f5ab7571ea9c63991c5935e9986a4fc534e",
+                "url": "https://api.github.com/repos/codeat3/blade-coolicons/zipball/356232f58fd3a0756d8ab4a8b3dbec5238376c0a",
+                "reference": "356232f58fd3a0756d8ab4a8b3dbec5238376c0a",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1423,7 +1423,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-coolicons/issues",
-                "source": "https://github.com/codeat3/blade-coolicons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-coolicons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -1431,32 +1431,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:52:40+00:00"
+            "time": "2026-03-21T12:21:18+00:00"
         },
         {
             "name": "codeat3/blade-cryptocurrency-icons",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-cryptocurrency-icons.git",
-                "reference": "f184d415d4526108ca9bb3503d83e242dc41c08b"
+                "reference": "7758d3ca528d943986853350bdd2ca8c3256f1eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-cryptocurrency-icons/zipball/f184d415d4526108ca9bb3503d83e242dc41c08b",
-                "reference": "f184d415d4526108ca9bb3503d83e242dc41c08b",
+                "url": "https://api.github.com/repos/codeat3/blade-cryptocurrency-icons/zipball/7758d3ca528d943986853350bdd2ca8c3256f1eb",
+                "reference": "7758d3ca528d943986853350bdd2ca8c3256f1eb",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1494,7 +1494,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-cryptocurrency-icons/issues",
-                "source": "https://github.com/codeat3/blade-cryptocurrency-icons/tree/1.8.0"
+                "source": "https://github.com/codeat3/blade-cryptocurrency-icons/tree/1.9.0"
             },
             "funding": [
                 {
@@ -1502,32 +1502,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:47:04+00:00"
+            "time": "2026-03-21T12:18:24+00:00"
         },
         {
             "name": "codeat3/blade-devicons",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-devicons.git",
-                "reference": "04029ea7cfd12e4585fa2ca1b42f7087c34b403a"
+                "reference": "9b4870d3fb811ab1856622885dbe3e820540f1f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-devicons/zipball/04029ea7cfd12e4585fa2ca1b42f7087c34b403a",
-                "reference": "04029ea7cfd12e4585fa2ca1b42f7087c34b403a",
+                "url": "https://api.github.com/repos/codeat3/blade-devicons/zipball/9b4870d3fb811ab1856622885dbe3e820540f1f5",
+                "reference": "9b4870d3fb811ab1856622885dbe3e820540f1f5",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1566,7 +1566,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-devicons/issues",
-                "source": "https://github.com/codeat3/blade-devicons/tree/1.8.0"
+                "source": "https://github.com/codeat3/blade-devicons/tree/1.9.0"
             },
             "funding": [
                 {
@@ -1574,32 +1574,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:09:07+00:00"
+            "time": "2026-03-21T12:23:27+00:00"
         },
         {
             "name": "codeat3/blade-element-plus-icons",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-element-plus-icons.git",
-                "reference": "cfc36bfbfd4db9a5be9060ff7130005faf66da5d"
+                "reference": "70b6131e118fa989fef2cd077dedbdc53ff4aeb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-element-plus-icons/zipball/cfc36bfbfd4db9a5be9060ff7130005faf66da5d",
-                "reference": "cfc36bfbfd4db9a5be9060ff7130005faf66da5d",
+                "url": "https://api.github.com/repos/codeat3/blade-element-plus-icons/zipball/70b6131e118fa989fef2cd077dedbdc53ff4aeb8",
+                "reference": "70b6131e118fa989fef2cd077dedbdc53ff4aeb8",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1637,7 +1637,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-element-plus-icons/issues",
-                "source": "https://github.com/codeat3/blade-element-plus-icons/tree/1.1.0"
+                "source": "https://github.com/codeat3/blade-element-plus-icons/tree/1.2.0"
             },
             "funding": [
                 {
@@ -1645,32 +1645,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:30:13+00:00"
+            "time": "2026-03-21T12:25:48+00:00"
         },
         {
             "name": "codeat3/blade-elusive-icons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-elusive-icons.git",
-                "reference": "de3d01077d3999a2cfc3fd62773c33df704b30e2"
+                "reference": "a0007f7ce2238bb27953d9488a52ab35d99a0929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-elusive-icons/zipball/de3d01077d3999a2cfc3fd62773c33df704b30e2",
-                "reference": "de3d01077d3999a2cfc3fd62773c33df704b30e2",
+                "url": "https://api.github.com/repos/codeat3/blade-elusive-icons/zipball/a0007f7ce2238bb27953d9488a52ab35d99a0929",
+                "reference": "a0007f7ce2238bb27953d9488a52ab35d99a0929",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1703,7 +1703,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-elusive-icons/issues",
-                "source": "https://github.com/codeat3/blade-elusive-icons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-elusive-icons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -1711,32 +1711,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:58:29+00:00"
+            "time": "2026-03-21T12:27:50+00:00"
         },
         {
             "name": "codeat3/blade-emblemicons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-emblemicons.git",
-                "reference": "ce3da79ca90915677c5978b8ee381ee65a014faa"
+                "reference": "023658983a54ac2b1531a0a213aa58c6ea256b79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-emblemicons/zipball/ce3da79ca90915677c5978b8ee381ee65a014faa",
-                "reference": "ce3da79ca90915677c5978b8ee381ee65a014faa",
+                "url": "https://api.github.com/repos/codeat3/blade-emblemicons/zipball/023658983a54ac2b1531a0a213aa58c6ea256b79",
+                "reference": "023658983a54ac2b1531a0a213aa58c6ea256b79",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1775,7 +1775,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-emblemicons/issues",
-                "source": "https://github.com/codeat3/blade-emblemicons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-emblemicons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -1783,32 +1783,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:53:53+00:00"
+            "time": "2026-03-21T12:29:50+00:00"
         },
         {
             "name": "codeat3/blade-eos-icons",
-            "version": "1.15.0",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-eos-icons.git",
-                "reference": "e00a7f6b2a2d72f679c4ec6d9bc80293746da154"
+                "reference": "8947103d8da055ce7e13c3d3b1d8759465da5780"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-eos-icons/zipball/e00a7f6b2a2d72f679c4ec6d9bc80293746da154",
-                "reference": "e00a7f6b2a2d72f679c4ec6d9bc80293746da154",
+                "url": "https://api.github.com/repos/codeat3/blade-eos-icons/zipball/8947103d8da055ce7e13c3d3b1d8759465da5780",
+                "reference": "8947103d8da055ce7e13c3d3b1d8759465da5780",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1846,7 +1846,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-eos-icons/issues",
-                "source": "https://github.com/codeat3/blade-eos-icons/tree/1.15.0"
+                "source": "https://github.com/codeat3/blade-eos-icons/tree/1.16.0"
             },
             "funding": [
                 {
@@ -1854,32 +1854,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T08:32:48+00:00"
+            "time": "2026-03-21T12:33:50+00:00"
         },
         {
             "name": "codeat3/blade-evil-icons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-evil-icons.git",
-                "reference": "b2496b6003ef05d1d2b91dbdf6d2dc65caba92a7"
+                "reference": "596ec56f4dda3b5fda0729d7e364e88d647f8d27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-evil-icons/zipball/b2496b6003ef05d1d2b91dbdf6d2dc65caba92a7",
-                "reference": "b2496b6003ef05d1d2b91dbdf6d2dc65caba92a7",
+                "url": "https://api.github.com/repos/codeat3/blade-evil-icons/zipball/596ec56f4dda3b5fda0729d7e364e88d647f8d27",
+                "reference": "596ec56f4dda3b5fda0729d7e364e88d647f8d27",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1917,7 +1917,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-evil-icons/issues",
-                "source": "https://github.com/codeat3/blade-evil-icons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-evil-icons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -1925,32 +1925,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:51:17+00:00"
+            "time": "2026-03-21T12:33:12+00:00"
         },
         {
             "name": "codeat3/blade-file-icons",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-file-icons.git",
-                "reference": "898c296faa86046140527c7fcef307d943a75113"
+                "reference": "b28f05ad0f42ae59ff0cd5fcbefd519173820929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-file-icons/zipball/898c296faa86046140527c7fcef307d943a75113",
-                "reference": "898c296faa86046140527c7fcef307d943a75113",
+                "url": "https://api.github.com/repos/codeat3/blade-file-icons/zipball/b28f05ad0f42ae59ff0cd5fcbefd519173820929",
+                "reference": "b28f05ad0f42ae59ff0cd5fcbefd519173820929",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -1988,7 +1988,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-file-icons/issues",
-                "source": "https://github.com/codeat3/blade-file-icons/tree/1.10.0"
+                "source": "https://github.com/codeat3/blade-file-icons/tree/1.11.0"
             },
             "funding": [
                 {
@@ -1996,32 +1996,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:43:58+00:00"
+            "time": "2026-03-21T12:37:44+00:00"
         },
         {
             "name": "codeat3/blade-fluentui-system-icons",
-            "version": "1.34.0",
+            "version": "1.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-fluentui-system-icons.git",
-                "reference": "e89cb1579ad1051ebc9747f77ae6c5798aae4027"
+                "reference": "591b26185bc7a49d59888ecf9cbd183c0cffcf24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-fluentui-system-icons/zipball/e89cb1579ad1051ebc9747f77ae6c5798aae4027",
-                "reference": "e89cb1579ad1051ebc9747f77ae6c5798aae4027",
+                "url": "https://api.github.com/repos/codeat3/blade-fluentui-system-icons/zipball/591b26185bc7a49d59888ecf9cbd183c0cffcf24",
+                "reference": "591b26185bc7a49d59888ecf9cbd183c0cffcf24",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2060,7 +2060,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-fluentui-system-icons/issues",
-                "source": "https://github.com/codeat3/blade-fluentui-system-icons/tree/1.34.0"
+                "source": "https://github.com/codeat3/blade-fluentui-system-icons/tree/1.35.0"
             },
             "funding": [
                 {
@@ -2068,32 +2068,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T07:30:15+00:00"
+            "time": "2026-03-21T12:39:53+00:00"
         },
         {
             "name": "codeat3/blade-fontaudio",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-fontaudio.git",
-                "reference": "23b744d64b54dc313466a40a4abd8c2c1e92ef3e"
+                "reference": "05555bddd247d4c62918ffa499eb5e36ad158fc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-fontaudio/zipball/23b744d64b54dc313466a40a4abd8c2c1e92ef3e",
-                "reference": "23b744d64b54dc313466a40a4abd8c2c1e92ef3e",
+                "url": "https://api.github.com/repos/codeat3/blade-fontaudio/zipball/05555bddd247d4c62918ffa499eb5e36ad158fc8",
+                "reference": "05555bddd247d4c62918ffa499eb5e36ad158fc8",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2131,7 +2131,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-fontaudio/issues",
-                "source": "https://github.com/codeat3/blade-fontaudio/tree/1.7.0"
+                "source": "https://github.com/codeat3/blade-fontaudio/tree/1.8.0"
             },
             "funding": [
                 {
@@ -2139,32 +2139,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:37:54+00:00"
+            "time": "2026-03-21T12:41:58+00:00"
         },
         {
             "name": "codeat3/blade-fontisto-icons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-fontisto-icons.git",
-                "reference": "7d697d7ac8c689977141c8133797dae5986c27bf"
+                "reference": "e27ea0e71105f1b2363874263f41235c1f1111c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-fontisto-icons/zipball/7d697d7ac8c689977141c8133797dae5986c27bf",
-                "reference": "7d697d7ac8c689977141c8133797dae5986c27bf",
+                "url": "https://api.github.com/repos/codeat3/blade-fontisto-icons/zipball/e27ea0e71105f1b2363874263f41235c1f1111c4",
+                "reference": "e27ea0e71105f1b2363874263f41235c1f1111c4",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2203,7 +2203,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-fontisto-icons/issues",
-                "source": "https://github.com/codeat3/blade-fontisto-icons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-fontisto-icons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -2211,32 +2211,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T09:04:35+00:00"
+            "time": "2026-03-21T12:42:37+00:00"
         },
         {
             "name": "codeat3/blade-forkawesome",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-forkawesome.git",
-                "reference": "28b757b883f1f38a431a53d2af9c4c758d414ae0"
+                "reference": "29d65579b31c7423cd21f9e0687842564cda6d90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-forkawesome/zipball/28b757b883f1f38a431a53d2af9c4c758d414ae0",
-                "reference": "28b757b883f1f38a431a53d2af9c4c758d414ae0",
+                "url": "https://api.github.com/repos/codeat3/blade-forkawesome/zipball/29d65579b31c7423cd21f9e0687842564cda6d90",
+                "reference": "29d65579b31c7423cd21f9e0687842564cda6d90",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2274,7 +2274,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-forkawesome/issues",
-                "source": "https://github.com/codeat3/blade-forkawesome/tree/1.11.0"
+                "source": "https://github.com/codeat3/blade-forkawesome/tree/1.12.0"
             },
             "funding": [
                 {
@@ -2282,32 +2282,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:34:33+00:00"
+            "time": "2026-03-21T12:47:14+00:00"
         },
         {
             "name": "codeat3/blade-gala-icons",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-gala-icons.git",
-                "reference": "ee8e21fab6764af311856866f63860253159fbfb"
+                "reference": "6c4b3ee13335f153001a266b54665774cccd0342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-gala-icons/zipball/ee8e21fab6764af311856866f63860253159fbfb",
-                "reference": "ee8e21fab6764af311856866f63860253159fbfb",
+                "url": "https://api.github.com/repos/codeat3/blade-gala-icons/zipball/6c4b3ee13335f153001a266b54665774cccd0342",
+                "reference": "6c4b3ee13335f153001a266b54665774cccd0342",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2346,7 +2346,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-gala-icons/issues",
-                "source": "https://github.com/codeat3/blade-gala-icons/tree/1.3.0"
+                "source": "https://github.com/codeat3/blade-gala-icons/tree/1.4.0"
             },
             "funding": [
                 {
@@ -2354,32 +2354,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:10:44+00:00"
+            "time": "2026-03-21T12:50:56+00:00"
         },
         {
             "name": "codeat3/blade-game-icons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-game-icons.git",
-                "reference": "e57b1403e623f4dee22ce068f50d5ef181d70d9a"
+                "reference": "593221e1dc6e8ab4976a78c784598427db9d77d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-game-icons/zipball/e57b1403e623f4dee22ce068f50d5ef181d70d9a",
-                "reference": "e57b1403e623f4dee22ce068f50d5ef181d70d9a",
+                "url": "https://api.github.com/repos/codeat3/blade-game-icons/zipball/593221e1dc6e8ab4976a78c784598427db9d77d5",
+                "reference": "593221e1dc6e8ab4976a78c784598427db9d77d5",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2418,7 +2418,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-game-icons/issues",
-                "source": "https://github.com/codeat3/blade-game-icons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-game-icons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -2426,32 +2426,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:36:43+00:00"
+            "time": "2026-03-21T12:51:37+00:00"
         },
         {
             "name": "codeat3/blade-google-material-design-icons",
-            "version": "1.20.0",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-google-material-design-icons.git",
-                "reference": "15fe382419813293a052ffe08c646d3eadfbd195"
+                "reference": "0211e358de31bbf1bb1722d0c29b6edeab3c7fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/15fe382419813293a052ffe08c646d3eadfbd195",
-                "reference": "15fe382419813293a052ffe08c646d3eadfbd195",
+                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/0211e358de31bbf1bb1722d0c29b6edeab3c7fa3",
+                "reference": "0211e358de31bbf1bb1722d0c29b6edeab3c7fa3",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2491,7 +2491,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-google-material-design-icons/issues",
-                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/1.20.0"
+                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/1.21.0"
             },
             "funding": [
                 {
@@ -2499,32 +2499,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T06:49:30+00:00"
+            "time": "2026-03-22T15:12:28+00:00"
         },
         {
             "name": "codeat3/blade-govicons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-govicons.git",
-                "reference": "04c9af8c701afe3089a043df49044af847652910"
+                "reference": "e130d1ed90c7cf7c13c02d3f5a28c50fc9cdfb64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-govicons/zipball/04c9af8c701afe3089a043df49044af847652910",
-                "reference": "04c9af8c701afe3089a043df49044af847652910",
+                "url": "https://api.github.com/repos/codeat3/blade-govicons/zipball/e130d1ed90c7cf7c13c02d3f5a28c50fc9cdfb64",
+                "reference": "e130d1ed90c7cf7c13c02d3f5a28c50fc9cdfb64",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2563,7 +2563,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-govicons/issues",
-                "source": "https://github.com/codeat3/blade-govicons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-govicons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -2571,32 +2571,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:28:50+00:00"
+            "time": "2026-03-22T15:04:43+00:00"
         },
         {
             "name": "codeat3/blade-gravity-ui-icons",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-gravity-ui-icons.git",
-                "reference": "b736ed3eae99b25043886d5a4f7f388df75e9161"
+                "reference": "5b515e1089fdf0f3a55a7241e71bbdbb2ca1247d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-gravity-ui-icons/zipball/b736ed3eae99b25043886d5a4f7f388df75e9161",
-                "reference": "b736ed3eae99b25043886d5a4f7f388df75e9161",
+                "url": "https://api.github.com/repos/codeat3/blade-gravity-ui-icons/zipball/5b515e1089fdf0f3a55a7241e71bbdbb2ca1247d",
+                "reference": "5b515e1089fdf0f3a55a7241e71bbdbb2ca1247d",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2634,7 +2634,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-gravity-ui-icons/issues",
-                "source": "https://github.com/codeat3/blade-gravity-ui-icons/tree/1.3.0"
+                "source": "https://github.com/codeat3/blade-gravity-ui-icons/tree/1.4.0"
             },
             "funding": [
                 {
@@ -2642,32 +2642,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:23:23+00:00"
+            "time": "2026-03-22T15:02:46+00:00"
         },
         {
             "name": "codeat3/blade-grommet-icons",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-grommet-icons.git",
-                "reference": "e42d314355523d6e04c641f4de133f5a9c9dfe02"
+                "reference": "acf2e437f76c2c95333a44174a7a6125b5e0b422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-grommet-icons/zipball/e42d314355523d6e04c641f4de133f5a9c9dfe02",
-                "reference": "e42d314355523d6e04c641f4de133f5a9c9dfe02",
+                "url": "https://api.github.com/repos/codeat3/blade-grommet-icons/zipball/acf2e437f76c2c95333a44174a7a6125b5e0b422",
+                "reference": "acf2e437f76c2c95333a44174a7a6125b5e0b422",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2700,7 +2700,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-grommet-icons/issues",
-                "source": "https://github.com/codeat3/blade-grommet-icons/tree/1.10.0"
+                "source": "https://github.com/codeat3/blade-grommet-icons/tree/1.11.0"
             },
             "funding": [
                 {
@@ -2708,32 +2708,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:36:25+00:00"
+            "time": "2026-03-22T15:04:10+00:00"
         },
         {
             "name": "codeat3/blade-humbleicons",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-humbleicons.git",
-                "reference": "b4a8fd4a7ce11a63ef2ec7aa93a30cd3740aac59"
+                "reference": "f92ef93346c82758ef50c2183b67c6669ae3a889"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-humbleicons/zipball/b4a8fd4a7ce11a63ef2ec7aa93a30cd3740aac59",
-                "reference": "b4a8fd4a7ce11a63ef2ec7aa93a30cd3740aac59",
+                "url": "https://api.github.com/repos/codeat3/blade-humbleicons/zipball/f92ef93346c82758ef50c2183b67c6669ae3a889",
+                "reference": "f92ef93346c82758ef50c2183b67c6669ae3a889",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2771,7 +2771,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-humbleicons/issues",
-                "source": "https://github.com/codeat3/blade-humbleicons/tree/1.1.0"
+                "source": "https://github.com/codeat3/blade-humbleicons/tree/1.2.0"
             },
             "funding": [
                 {
@@ -2779,32 +2779,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:18:28+00:00"
+            "time": "2026-03-22T15:04:14+00:00"
         },
         {
             "name": "codeat3/blade-iconpark",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-iconpark.git",
-                "reference": "fb0265a9d36cd08e7b50cbd82df3c3b0b4eb3266"
+                "reference": "063af6f7214ac613b3ca0d999b1087290cead4f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-iconpark/zipball/fb0265a9d36cd08e7b50cbd82df3c3b0b4eb3266",
-                "reference": "fb0265a9d36cd08e7b50cbd82df3c3b0b4eb3266",
+                "url": "https://api.github.com/repos/codeat3/blade-iconpark/zipball/063af6f7214ac613b3ca0d999b1087290cead4f9",
+                "reference": "063af6f7214ac613b3ca0d999b1087290cead4f9",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2842,7 +2842,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-iconpark/issues",
-                "source": "https://github.com/codeat3/blade-iconpark/tree/1.7.0"
+                "source": "https://github.com/codeat3/blade-iconpark/tree/1.8.0"
             },
             "funding": [
                 {
@@ -2850,32 +2850,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T08:26:18+00:00"
+            "time": "2026-03-22T15:04:18+00:00"
         },
         {
             "name": "codeat3/blade-ikonate",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-ikonate.git",
-                "reference": "366446f53781d738b2da9d3320d49553decfecc9"
+                "reference": "629ba22efbc8c7366248f845757a1b1bfd8122a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-ikonate/zipball/366446f53781d738b2da9d3320d49553decfecc9",
-                "reference": "366446f53781d738b2da9d3320d49553decfecc9",
+                "url": "https://api.github.com/repos/codeat3/blade-ikonate/zipball/629ba22efbc8c7366248f845757a1b1bfd8122a6",
+                "reference": "629ba22efbc8c7366248f845757a1b1bfd8122a6",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2914,7 +2914,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-ikonate/issues",
-                "source": "https://github.com/codeat3/blade-ikonate/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-ikonate/tree/1.7.0"
             },
             "funding": [
                 {
@@ -2922,32 +2922,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:13:04+00:00"
+            "time": "2026-03-22T15:04:21+00:00"
         },
         {
             "name": "codeat3/blade-jam-icons",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-jam-icons.git",
-                "reference": "4d6db7df68c9f9a6c5794f1a6f2d00f3a46b866b"
+                "reference": "52debb70c60c6e536c544f70540a27c41803b211"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-jam-icons/zipball/4d6db7df68c9f9a6c5794f1a6f2d00f3a46b866b",
-                "reference": "4d6db7df68c9f9a6c5794f1a6f2d00f3a46b866b",
+                "url": "https://api.github.com/repos/codeat3/blade-jam-icons/zipball/52debb70c60c6e536c544f70540a27c41803b211",
+                "reference": "52debb70c60c6e536c544f70540a27c41803b211",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -2985,7 +2985,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-jam-icons/issues",
-                "source": "https://github.com/codeat3/blade-jam-icons/tree/1.7.0"
+                "source": "https://github.com/codeat3/blade-jam-icons/tree/1.8.0"
             },
             "funding": [
                 {
@@ -2993,32 +2993,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:33:28+00:00"
+            "time": "2026-03-22T15:04:24+00:00"
         },
         {
             "name": "codeat3/blade-line-awesome-icons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-line-awesome-icons.git",
-                "reference": "feab507d8b30355040d690180df72f5ddaa4c4b1"
+                "reference": "19d49a64fa0bfbd263c21fabd2820919f3957d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-line-awesome-icons/zipball/feab507d8b30355040d690180df72f5ddaa4c4b1",
-                "reference": "feab507d8b30355040d690180df72f5ddaa4c4b1",
+                "url": "https://api.github.com/repos/codeat3/blade-line-awesome-icons/zipball/19d49a64fa0bfbd263c21fabd2820919f3957d14",
+                "reference": "19d49a64fa0bfbd263c21fabd2820919f3957d14",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3057,7 +3057,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-line-awesome-icons/issues",
-                "source": "https://github.com/codeat3/blade-line-awesome-icons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-line-awesome-icons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -3065,32 +3065,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T08:29:42+00:00"
+            "time": "2026-03-22T15:04:28+00:00"
         },
         {
             "name": "codeat3/blade-majestic-icons",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-majesticons.git",
-                "reference": "8321e4e276d5b7dc4ca526ed768d88d9e55f0977"
+                "reference": "d70ad1558dace398b3c85482996e741aef0b0439"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-majesticons/zipball/8321e4e276d5b7dc4ca526ed768d88d9e55f0977",
-                "reference": "8321e4e276d5b7dc4ca526ed768d88d9e55f0977",
+                "url": "https://api.github.com/repos/codeat3/blade-majesticons/zipball/d70ad1558dace398b3c85482996e741aef0b0439",
+                "reference": "d70ad1558dace398b3c85482996e741aef0b0439",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3129,7 +3129,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-majesticons/issues",
-                "source": "https://github.com/codeat3/blade-majesticons/tree/2.2.0"
+                "source": "https://github.com/codeat3/blade-majesticons/tree/2.3.0"
             },
             "funding": [
                 {
@@ -3137,32 +3137,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:21:47+00:00"
+            "time": "2026-03-22T15:13:14+00:00"
         },
         {
             "name": "codeat3/blade-maki-icons",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-maki-icons.git",
-                "reference": "bdfc0150454bd8edb1393874bde5c5f1dd6681be"
+                "reference": "1f6a10a252974601fb4982dcbc46da8436f56c38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-maki-icons/zipball/bdfc0150454bd8edb1393874bde5c5f1dd6681be",
-                "reference": "bdfc0150454bd8edb1393874bde5c5f1dd6681be",
+                "url": "https://api.github.com/repos/codeat3/blade-maki-icons/zipball/1f6a10a252974601fb4982dcbc46da8436f56c38",
+                "reference": "1f6a10a252974601fb4982dcbc46da8436f56c38",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3201,7 +3201,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-maki-icons/issues",
-                "source": "https://github.com/codeat3/blade-maki-icons/tree/1.9.0"
+                "source": "https://github.com/codeat3/blade-maki-icons/tree/1.10.0"
             },
             "funding": [
                 {
@@ -3209,32 +3209,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T09:00:22+00:00"
+            "time": "2026-03-22T15:04:32+00:00"
         },
         {
             "name": "codeat3/blade-memory-icons",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-memory-icons.git",
-                "reference": "00c09796d4ed7d86210deaa04020809068466122"
+                "reference": "bb5ea56fb24716ba5d1fd3d7857d7a07a61bb1b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-memory-icons/zipball/00c09796d4ed7d86210deaa04020809068466122",
-                "reference": "00c09796d4ed7d86210deaa04020809068466122",
+                "url": "https://api.github.com/repos/codeat3/blade-memory-icons/zipball/bb5ea56fb24716ba5d1fd3d7857d7a07a61bb1b0",
+                "reference": "bb5ea56fb24716ba5d1fd3d7857d7a07a61bb1b0",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3272,7 +3272,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-memory-icons/issues",
-                "source": "https://github.com/codeat3/blade-memory-icons/tree/1.1.0"
+                "source": "https://github.com/codeat3/blade-memory-icons/tree/1.2.0"
             },
             "funding": [
                 {
@@ -3280,32 +3280,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T05:50:13+00:00"
+            "time": "2026-03-22T15:04:35+00:00"
         },
         {
             "name": "codeat3/blade-microns",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-microns.git",
-                "reference": "e9fac59f66bdec8cacacd0224579665722e2f3e3"
+                "reference": "ac4d4b4d7a8c3b148739137ae2e49a706da656b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-microns/zipball/e9fac59f66bdec8cacacd0224579665722e2f3e3",
-                "reference": "e9fac59f66bdec8cacacd0224579665722e2f3e3",
+                "url": "https://api.github.com/repos/codeat3/blade-microns/zipball/ac4d4b4d7a8c3b148739137ae2e49a706da656b9",
+                "reference": "ac4d4b4d7a8c3b148739137ae2e49a706da656b9",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3343,7 +3343,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-microns/issues",
-                "source": "https://github.com/codeat3/blade-microns/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-microns/tree/1.7.0"
             },
             "funding": [
                 {
@@ -3351,32 +3351,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:04:57+00:00"
+            "time": "2026-03-22T15:04:39+00:00"
         },
         {
             "name": "codeat3/blade-mono-icons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-mono-icons.git",
-                "reference": "7db7d6a6aa7e2789a0c6c687039d07b18c726ea0"
+                "reference": "9b415fe065912008c7748237fab6b44e2d66fe29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-mono-icons/zipball/7db7d6a6aa7e2789a0c6c687039d07b18c726ea0",
-                "reference": "7db7d6a6aa7e2789a0c6c687039d07b18c726ea0",
+                "url": "https://api.github.com/repos/codeat3/blade-mono-icons/zipball/9b415fe065912008c7748237fab6b44e2d66fe29",
+                "reference": "9b415fe065912008c7748237fab6b44e2d66fe29",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3415,7 +3415,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-mono-icons/issues",
-                "source": "https://github.com/codeat3/blade-mono-icons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-mono-icons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -3423,32 +3423,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T09:01:54+00:00"
+            "time": "2026-03-22T14:54:04+00:00"
         },
         {
             "name": "codeat3/blade-pepicons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-pepicons.git",
-                "reference": "733471898d6cc683661f9042dbc3247e6b88297c"
+                "reference": "ea4b622cfa5f23f026769a30450654ba4f46e037"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-pepicons/zipball/733471898d6cc683661f9042dbc3247e6b88297c",
-                "reference": "733471898d6cc683661f9042dbc3247e6b88297c",
+                "url": "https://api.github.com/repos/codeat3/blade-pepicons/zipball/ea4b622cfa5f23f026769a30450654ba4f46e037",
+                "reference": "ea4b622cfa5f23f026769a30450654ba4f46e037",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3487,7 +3487,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-pepicons/issues",
-                "source": "https://github.com/codeat3/blade-pepicons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-pepicons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -3495,32 +3495,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:33:56+00:00"
+            "time": "2026-03-22T05:44:47+00:00"
         },
         {
             "name": "codeat3/blade-phosphor-icons",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-phosphor-icons.git",
-                "reference": "2812a27ec642359344429d344c7f7bbdfad489ce"
+                "reference": "39a40c44908729d20f03f9903f4abcc165b1b02b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-phosphor-icons/zipball/2812a27ec642359344429d344c7f7bbdfad489ce",
-                "reference": "2812a27ec642359344429d344c7f7bbdfad489ce",
+                "url": "https://api.github.com/repos/codeat3/blade-phosphor-icons/zipball/39a40c44908729d20f03f9903f4abcc165b1b02b",
+                "reference": "39a40c44908729d20f03f9903f4abcc165b1b02b",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3558,7 +3558,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-phosphor-icons/issues",
-                "source": "https://github.com/codeat3/blade-phosphor-icons/tree/2.3.0"
+                "source": "https://github.com/codeat3/blade-phosphor-icons/tree/2.4.0"
             },
             "funding": [
                 {
@@ -3566,32 +3566,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T06:29:09+00:00"
+            "time": "2026-03-21T13:21:02+00:00"
         },
         {
             "name": "codeat3/blade-pixelarticons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-pixelarticons.git",
-                "reference": "fadd8e529c519bd020f196d4cb202b8f55a13552"
+                "reference": "42e6d5e2c4df2155361bcd094c092262efd0ac56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-pixelarticons/zipball/fadd8e529c519bd020f196d4cb202b8f55a13552",
-                "reference": "fadd8e529c519bd020f196d4cb202b8f55a13552",
+                "url": "https://api.github.com/repos/codeat3/blade-pixelarticons/zipball/42e6d5e2c4df2155361bcd094c092262efd0ac56",
+                "reference": "42e6d5e2c4df2155361bcd094c092262efd0ac56",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3629,7 +3629,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-pixelarticons/issues",
-                "source": "https://github.com/codeat3/blade-pixelarticons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-pixelarticons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -3637,32 +3637,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:22:36+00:00"
+            "time": "2026-03-22T05:44:18+00:00"
         },
         {
             "name": "codeat3/blade-prime-icons",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-prime-icons.git",
-                "reference": "5656d90ead2585e36f1de46fc71750fb3bfe766a"
+                "reference": "cb7868db59b02868ba27f99edf8ce65020eb9745"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-prime-icons/zipball/5656d90ead2585e36f1de46fc71750fb3bfe766a",
-                "reference": "5656d90ead2585e36f1de46fc71750fb3bfe766a",
+                "url": "https://api.github.com/repos/codeat3/blade-prime-icons/zipball/cb7868db59b02868ba27f99edf8ce65020eb9745",
+                "reference": "cb7868db59b02868ba27f99edf8ce65020eb9745",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3701,7 +3701,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-prime-icons/issues",
-                "source": "https://github.com/codeat3/blade-prime-icons/tree/1.7.0"
+                "source": "https://github.com/codeat3/blade-prime-icons/tree/1.8.0"
             },
             "funding": [
                 {
@@ -3709,32 +3709,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T07:15:13+00:00"
+            "time": "2026-03-22T05:43:34+00:00"
         },
         {
             "name": "codeat3/blade-radix-icons",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-radix-icons.git",
-                "reference": "9efd53fe7dd955704e26d026d87cd32e7798264b"
+                "reference": "96e7d55c39d4255726c9f6244f454fead6cfb886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-radix-icons/zipball/9efd53fe7dd955704e26d026d87cd32e7798264b",
-                "reference": "9efd53fe7dd955704e26d026d87cd32e7798264b",
+                "url": "https://api.github.com/repos/codeat3/blade-radix-icons/zipball/96e7d55c39d4255726c9f6244f454fead6cfb886",
+                "reference": "96e7d55c39d4255726c9f6244f454fead6cfb886",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3772,7 +3772,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-radix-icons/issues",
-                "source": "https://github.com/codeat3/blade-radix-icons/tree/1.8.0"
+                "source": "https://github.com/codeat3/blade-radix-icons/tree/1.9.0"
             },
             "funding": [
                 {
@@ -3780,32 +3780,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:56:57+00:00"
+            "time": "2026-03-22T05:40:50+00:00"
         },
         {
             "name": "codeat3/blade-rpg-awesome-icons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-rpg-awesome-icons.git",
-                "reference": "9f4860639f05f9ff207e045493009f7db40d92b5"
+                "reference": "9ba6ec964cf6c8d22190a364aaacc7ef72ccb3a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-rpg-awesome-icons/zipball/9f4860639f05f9ff207e045493009f7db40d92b5",
-                "reference": "9f4860639f05f9ff207e045493009f7db40d92b5",
+                "url": "https://api.github.com/repos/codeat3/blade-rpg-awesome-icons/zipball/9ba6ec964cf6c8d22190a364aaacc7ef72ccb3a1",
+                "reference": "9ba6ec964cf6c8d22190a364aaacc7ef72ccb3a1",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3843,7 +3843,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-rpg-awesome-icons/issues",
-                "source": "https://github.com/codeat3/blade-rpg-awesome-icons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-rpg-awesome-icons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -3851,32 +3851,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:55:07+00:00"
+            "time": "2026-03-22T05:40:47+00:00"
         },
         {
             "name": "codeat3/blade-simple-icons",
-            "version": "8.1.0",
+            "version": "8.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-icons.git",
-                "reference": "293b72338db5a2e6a4958ea190e2727bdeb462a0"
+                "reference": "e05469d42bff1e57e2d77f1a9129acb8f99b3d37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/293b72338db5a2e6a4958ea190e2727bdeb462a0",
-                "reference": "293b72338db5a2e6a4958ea190e2727bdeb462a0",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-icons/zipball/e05469d42bff1e57e2d77f1a9129acb8f99b3d37",
+                "reference": "e05469d42bff1e57e2d77f1a9129acb8f99b3d37",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3914,7 +3914,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-icons/tree/8.1.0"
+                "source": "https://github.com/codeat3/blade-simple-icons/tree/8.12.0"
             },
             "funding": [
                 {
@@ -3922,32 +3922,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-15T06:07:14+00:00"
+            "time": "2026-03-22T15:35:56+00:00"
         },
         {
             "name": "codeat3/blade-simple-line-icons",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-simple-line-icons.git",
-                "reference": "c64a937fc758136b0db58e4b6e99e2c980ffc5cf"
+                "reference": "a385b5afa07a7c5ebc5d1c9f7028601982092206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-simple-line-icons/zipball/c64a937fc758136b0db58e4b6e99e2c980ffc5cf",
-                "reference": "c64a937fc758136b0db58e4b6e99e2c980ffc5cf",
+                "url": "https://api.github.com/repos/codeat3/blade-simple-line-icons/zipball/a385b5afa07a7c5ebc5d1c9f7028601982092206",
+                "reference": "a385b5afa07a7c5ebc5d1c9f7028601982092206",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -3986,7 +3986,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-simple-line-icons/issues",
-                "source": "https://github.com/codeat3/blade-simple-line-icons/tree/1.5.0"
+                "source": "https://github.com/codeat3/blade-simple-line-icons/tree/1.6.0"
             },
             "funding": [
                 {
@@ -3994,33 +3994,33 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T09:03:49+00:00"
+            "time": "2026-03-22T05:40:08+00:00"
         },
         {
             "name": "codeat3/blade-solar-icons",
-            "version": "1.3.1",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-solar-icons.git",
-                "reference": "9909f5de2ff8e161e242f41d93c86612fb0665a3"
+                "reference": "d95194f0dc0255533cab858aa8ffd5cba6d90d1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-solar-icons/zipball/9909f5de2ff8e161e242f41d93c86612fb0665a3",
-                "reference": "9909f5de2ff8e161e242f41d93c86612fb0665a3",
+                "url": "https://api.github.com/repos/codeat3/blade-solar-icons/zipball/d95194f0dc0255533cab858aa8ffd5cba6d90d1f",
+                "reference": "d95194f0dc0255533cab858aa8ffd5cba6d90d1f",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
                 "iconify/json": "^2.2",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0",
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0",
                 "symfony/process": "^5.0|^6.0|^7.0"
             },
             "type": "library",
@@ -4059,7 +4059,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-solar-icons/issues",
-                "source": "https://github.com/codeat3/blade-solar-icons/tree/1.3.1"
+                "source": "https://github.com/codeat3/blade-solar-icons/tree/1.4.1"
             },
             "funding": [
                 {
@@ -4067,32 +4067,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-06T12:38:44+00:00"
+            "time": "2026-03-21T13:20:00+00:00"
         },
         {
             "name": "codeat3/blade-system-uicons",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-system-uicons.git",
-                "reference": "b411db13b0c45bc04bd3acefe1153380c448738f"
+                "reference": "48f60039b91fc265a38cc02ffaba3877eb289fae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-system-uicons/zipball/b411db13b0c45bc04bd3acefe1153380c448738f",
-                "reference": "b411db13b0c45bc04bd3acefe1153380c448738f",
+                "url": "https://api.github.com/repos/codeat3/blade-system-uicons/zipball/48f60039b91fc265a38cc02ffaba3877eb289fae",
+                "reference": "48f60039b91fc265a38cc02ffaba3877eb289fae",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -4131,7 +4131,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-system-uicons/issues",
-                "source": "https://github.com/codeat3/blade-system-uicons/tree/1.8.0"
+                "source": "https://github.com/codeat3/blade-system-uicons/tree/1.9.0"
             },
             "funding": [
                 {
@@ -4139,32 +4139,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:39:05+00:00"
+            "time": "2026-03-21T13:23:20+00:00"
         },
         {
             "name": "codeat3/blade-teeny-icons",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-teeny-icons.git",
-                "reference": "737377689627913583fc90f0ca217d51531289f4"
+                "reference": "156befa5c44a1ca5ad341a544b64a15f6fa1489e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-teeny-icons/zipball/737377689627913583fc90f0ca217d51531289f4",
-                "reference": "737377689627913583fc90f0ca217d51531289f4",
+                "url": "https://api.github.com/repos/codeat3/blade-teeny-icons/zipball/156befa5c44a1ca5ad341a544b64a15f6fa1489e",
+                "reference": "156befa5c44a1ca5ad341a544b64a15f6fa1489e",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -4202,7 +4202,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-teeny-icons/issues",
-                "source": "https://github.com/codeat3/blade-teeny-icons/tree/1.11.0"
+                "source": "https://github.com/codeat3/blade-teeny-icons/tree/1.12.0"
             },
             "funding": [
                 {
@@ -4210,32 +4210,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:30:15+00:00"
+            "time": "2026-03-21T13:22:41+00:00"
         },
         {
             "name": "codeat3/blade-typicons",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-typicons.git",
-                "reference": "03e36e78ba6ca42b7660e24d46900d4db8318eef"
+                "reference": "70bec8fa46d2c5e2fb10dc703b96490f6f1897c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-typicons/zipball/03e36e78ba6ca42b7660e24d46900d4db8318eef",
-                "reference": "03e36e78ba6ca42b7660e24d46900d4db8318eef",
+                "url": "https://api.github.com/repos/codeat3/blade-typicons/zipball/70bec8fa46d2c5e2fb10dc703b96490f6f1897c2",
+                "reference": "70bec8fa46d2c5e2fb10dc703b96490f6f1897c2",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -4273,7 +4273,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-typicons/issues",
-                "source": "https://github.com/codeat3/blade-typicons/tree/1.7.0"
+                "source": "https://github.com/codeat3/blade-typicons/tree/1.8.0"
             },
             "funding": [
                 {
@@ -4281,32 +4281,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:32:26+00:00"
+            "time": "2026-03-22T05:40:40+00:00"
         },
         {
             "name": "codeat3/blade-uiw-icons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-uiw-icons.git",
-                "reference": "982a90ac2e0c50752c51d130a8f4a536c22d8d97"
+                "reference": "3e299196f9bf04e9340f2fffd1432d664f14836b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-uiw-icons/zipball/982a90ac2e0c50752c51d130a8f4a536c22d8d97",
-                "reference": "982a90ac2e0c50752c51d130a8f4a536c22d8d97",
+                "url": "https://api.github.com/repos/codeat3/blade-uiw-icons/zipball/3e299196f9bf04e9340f2fffd1432d664f14836b",
+                "reference": "3e299196f9bf04e9340f2fffd1432d664f14836b",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -4345,7 +4345,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-uiw-icons/issues",
-                "source": "https://github.com/codeat3/blade-uiw-icons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-uiw-icons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -4353,32 +4353,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:38:52+00:00"
+            "time": "2026-03-21T13:00:06+00:00"
         },
         {
             "name": "codeat3/blade-unicons",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-unicons.git",
-                "reference": "091eea17b6ecfbd4f2bfcda5f79867054c5d6f51"
+                "reference": "ff717c9f4b758906b5d301529d178d1cb12e5db2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-unicons/zipball/091eea17b6ecfbd4f2bfcda5f79867054c5d6f51",
-                "reference": "091eea17b6ecfbd4f2bfcda5f79867054c5d6f51",
+                "url": "https://api.github.com/repos/codeat3/blade-unicons/zipball/ff717c9f4b758906b5d301529d178d1cb12e5db2",
+                "reference": "ff717c9f4b758906b5d301529d178d1cb12e5db2",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -4416,7 +4416,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-unicons/issues",
-                "source": "https://github.com/codeat3/blade-unicons/tree/1.9.0"
+                "source": "https://github.com/codeat3/blade-unicons/tree/1.10.0"
             },
             "funding": [
                 {
@@ -4424,32 +4424,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:23:14+00:00"
+            "time": "2026-03-21T13:00:47+00:00"
         },
         {
             "name": "codeat3/blade-vaadin-icons",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-vaadin-icons.git",
-                "reference": "eb9b6e7ddfdf1746246ae0f3d8608a7a9e4d4411"
+                "reference": "3223326726aef02775a326e4adccbcc7b9e9a032"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-vaadin-icons/zipball/eb9b6e7ddfdf1746246ae0f3d8608a7a9e4d4411",
-                "reference": "eb9b6e7ddfdf1746246ae0f3d8608a7a9e4d4411",
+                "url": "https://api.github.com/repos/codeat3/blade-vaadin-icons/zipball/3223326726aef02775a326e4adccbcc7b9e9a032",
+                "reference": "3223326726aef02775a326e4adccbcc7b9e9a032",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -4487,7 +4487,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-vaadin-icons/issues",
-                "source": "https://github.com/codeat3/blade-vaadin-icons/tree/1.6.0"
+                "source": "https://github.com/codeat3/blade-vaadin-icons/tree/1.7.0"
             },
             "funding": [
                 {
@@ -4495,32 +4495,32 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-25T09:46:58+00:00"
+            "time": "2026-03-21T13:01:19+00:00"
         },
         {
             "name": "codeat3/blade-weather-icons",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-weather-icons.git",
-                "reference": "bd7fe858a9955e7552d0d90da5d59b492979c9d2"
+                "reference": "be7737d9fcdf292d94902e5b43ce63db363863ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-weather-icons/zipball/bd7fe858a9955e7552d0d90da5d59b492979c9d2",
-                "reference": "bd7fe858a9955e7552d0d90da5d59b492979c9d2",
+                "url": "https://api.github.com/repos/codeat3/blade-weather-icons/zipball/be7737d9fcdf292d94902e5b43ce63db363863ec",
+                "reference": "be7737d9fcdf292d94902e5b43ce63db363863ec",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.1",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
-                "codeat3/blade-icon-generation-helpers": "^0.10",
+                "codeat3/blade-icon-generation-helpers": "^0.12",
                 "codeat3/phpcs-styles": "^1.0",
-                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0|^12.0"
             },
             "type": "library",
             "extra": {
@@ -4558,7 +4558,7 @@
             ],
             "support": {
                 "issues": "https://github.com/codeat3/blade-weather-icons/issues",
-                "source": "https://github.com/codeat3/blade-weather-icons/tree/1.7.0"
+                "source": "https://github.com/codeat3/blade-weather-icons/tree/1.8.0"
             },
             "funding": [
                 {
@@ -4566,7 +4566,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T08:01:26+00:00"
+            "time": "2026-03-21T13:01:51+00:00"
         },
         {
             "name": "davidhsianturi/blade-bootstrap-icons",
@@ -6060,16 +6060,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.50.0",
+            "version": "v11.51.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c761f591209b45f56c1317ecbff0b04c89cf7ba2"
+                "reference": "c8f9a04594b7044a189a3194cfb3594251eb74e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c761f591209b45f56c1317ecbff0b04c89cf7ba2",
-                "reference": "c761f591209b45f56c1317ecbff0b04c89cf7ba2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c8f9a04594b7044a189a3194cfb3594251eb74e5",
+                "reference": "c8f9a04594b7044a189a3194cfb3594251eb74e5",
                 "shasum": ""
             },
             "require": {
@@ -6271,20 +6271,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-03-17T19:35:22+00:00"
+            "time": "2026-03-26T14:54:53+00:00"
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.3.15",
+            "version": "v0.3.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "4bb8107ec97651fd3f17f897d6489dbc4d8fb999"
+                "reference": "11e7d5f93803a2190b00e145142cb00a33d17ad2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/4bb8107ec97651fd3f17f897d6489dbc4d8fb999",
-                "reference": "4bb8107ec97651fd3f17f897d6489dbc4d8fb999",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/11e7d5f93803a2190b00e145142cb00a33d17ad2",
+                "reference": "11e7d5f93803a2190b00e145142cb00a33d17ad2",
                 "shasum": ""
             },
             "require": {
@@ -6328,9 +6328,9 @@
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.3.15"
+                "source": "https://github.com/laravel/prompts/tree/v0.3.16"
             },
-            "time": "2026-03-17T13:45:17+00:00"
+            "time": "2026-03-23T14:35:33+00:00"
         },
         {
             "name": "laravel/scout",
@@ -6730,16 +6730,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.32.0",
+            "version": "3.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "254b1595b16b22dbddaaef9ed6ca9fdac4956725"
+                "reference": "570b8871e0ce693764434b29154c54b434905350"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/254b1595b16b22dbddaaef9ed6ca9fdac4956725",
-                "reference": "254b1595b16b22dbddaaef9ed6ca9fdac4956725",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/570b8871e0ce693764434b29154c54b434905350",
+                "reference": "570b8871e0ce693764434b29154c54b434905350",
                 "shasum": ""
             },
             "require": {
@@ -6807,9 +6807,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.32.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.33.0"
             },
-            "time": "2026-02-25T17:01:41+00:00"
+            "time": "2026-03-25T07:59:30+00:00"
         },
         {
             "name": "league/flysystem-local",
@@ -7370,16 +7370,16 @@
         },
         {
             "name": "mallardduck/blade-lucide-icons",
-            "version": "1.26.8",
+            "version": "1.26.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mallardduck/blade-lucide-icons.git",
-                "reference": "ebd42a72068328846cd3977ffc18b83d0ca47721"
+                "reference": "b56aac8c1c6d5701eead858b473449550ee94b75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/ebd42a72068328846cd3977ffc18b83d0ca47721",
-                "reference": "ebd42a72068328846cd3977ffc18b83d0ca47721",
+                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/b56aac8c1c6d5701eead858b473449550ee94b75",
+                "reference": "b56aac8c1c6d5701eead858b473449550ee94b75",
                 "shasum": ""
             },
             "require": {
@@ -7424,9 +7424,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mallardduck/blade-lucide-icons/issues",
-                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.26.8"
+                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.26.11"
             },
-            "time": "2026-03-05T00:22:54+00:00"
+            "time": "2026-03-26T00:26:22+00:00"
         },
         {
             "name": "mansoor/blade-lets-icons",
@@ -9388,25 +9388,25 @@
         },
         {
             "name": "secondnetwork/blade-tabler-icons",
-            "version": "v3.40.0",
+            "version": "v3.40.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/secondnetwork/blade-tabler-icons.git",
-                "reference": "035772d57e710d7569faf7917e5d3263e12dc61d"
+                "reference": "e834c9d26859596cab74a4cea56aaa39872e7adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/secondnetwork/blade-tabler-icons/zipball/035772d57e710d7569faf7917e5d3263e12dc61d",
-                "reference": "035772d57e710d7569faf7917e5d3263e12dc61d",
+                "url": "https://api.github.com/repos/secondnetwork/blade-tabler-icons/zipball/e834c9d26859596cab74a4cea56aaa39872e7adf",
+                "reference": "e834c9d26859596cab74a4cea56aaa39872e7adf",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.8",
-                "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^9.0|^10.0|^11.0|^12.0|^13.0",
                 "php": "^8.0"
             },
             "require-dev": {
-                "orchestra/testbench": "^6.0|^7.0|^9.0",
+                "orchestra/testbench": "^6.0|^7.0|^9.0|^10.0",
                 "phpunit/phpunit": "^9.0|^10.0|^11.0|^12.0"
             },
             "type": "library",
@@ -9440,9 +9440,9 @@
             ],
             "support": {
                 "issues": "https://github.com/secondnetwork/blade-tabler-icons/issues",
-                "source": "https://github.com/secondnetwork/blade-tabler-icons/tree/v3.40.0"
+                "source": "https://github.com/secondnetwork/blade-tabler-icons/tree/v3.40.1"
             },
-            "time": "2026-03-07T15:09:32+00:00"
+            "time": "2026-03-22T11:30:19+00:00"
         },
         {
             "name": "spatie/backtrace",
