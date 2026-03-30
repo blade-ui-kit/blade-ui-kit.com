@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac7068f361c50c73f71cb7394d859854",
+    "content-hash": "7c00a400f8d21a2b01f15f39a0856277",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -9382,6 +9382,65 @@
             "time": "2025-12-14T04:43:48+00:00"
         },
         {
+            "name": "robertboes/blade-selfhst-icons",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobertBoes/blade-selfhst-icons.git",
+                "reference": "066c7ec23082decede47da0a53ef62d2f10de99e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobertBoes/blade-selfhst-icons/zipball/066c7ec23082decede47da0a53ef62d2f10de99e",
+                "reference": "066c7ec23082decede47da0a53ef62d2f10de99e",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^11.0 || ^12.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^9.0 || ^10.0",
+                "phpunit/phpunit": "^10.5 || ^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BladeUI\\SelfhstIcons\\BladeSelfhstIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BladeUI\\SelfhstIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Boes"
+                }
+            ],
+            "description": "A package to easily make use of selfh.st Icons in your Laravel Blade views.",
+            "homepage": "https://github.com/RobertBoes/blade-selfhst-icons",
+            "keywords": [
+                "blade",
+                "icons",
+                "laravel",
+                "selfh.st"
+            ],
+            "support": {
+                "issues": "https://github.com/RobertBoes/blade-selfhst-icons/issues",
+                "source": "https://github.com/RobertBoes/blade-selfhst-icons/tree/v0.2.1"
+            },
+            "time": "2026-03-30T07:37:13+00:00"
+        },
+        {
             "name": "saade/blade-iconsax",
             "version": "v1.2.2",
             "source": {
@@ -14862,5 +14921,5 @@
         "ext-json": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }

@@ -98,6 +98,7 @@
         "owenvoke/blade-entypo": "^2.0",
         "owenvoke/blade-fontawesome": "^2.6",
         "postare/blade-mdi": "^1.0",
+        "robertboes/blade-selfhst-icons": "^0.2.1",
         "saade/blade-iconsax": "^1.2",
         "secondnetwork/blade-tabler-icons": "^3.28",
         "spatie/laravel-ignition": "^2.4",

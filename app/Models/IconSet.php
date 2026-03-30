@@ -707,6 +707,14 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
+        [
+            'id' => 89,
+            'name' => 'selfhst-icons',
+            'repository' => 'https://github.com/RobertBoes/blade-selfhst-icons',
+            'composer' => 'robertboes/blade-selfhst-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
