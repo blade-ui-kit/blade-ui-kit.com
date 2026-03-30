@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61aefa9b9d60b95bc6d038c3f1a4f895",
+    "content-hash": "40c115364cb55268b106a1f1e6d05165",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -4567,6 +4567,66 @@
                 }
             ],
             "time": "2026-03-21T13:01:51+00:00"
+        },
+        {
+            "name": "daljo25/blade-pixelicon-icons",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daljo25/blade-pixelicon-icons.git",
+                "reference": "5c8a4c0f3e35d3f2644a7e1be281534010f44d86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daljo25/blade-pixelicon-icons/zipball/5c8a4c0f3e35d3f2644a7e1be281534010f44d86",
+                "reference": "5c8a4c0f3e35d3f2644a7e1be281534010f44d86",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "default-branch": true,
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Daljo25\\BladePixelIconIcons\\BladePixelIconIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Daljo25\\BladePixelIconIcons\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daljomar Morillo"
+                }
+            ],
+            "description": "Blade Icons package for Pixel Icon Library.",
+            "homepage": "https://github.com/daljo25/blade-pixelicon-icons",
+            "keywords": [
+                "blade",
+                "icons",
+                "laravel",
+                "pixelicon"
+            ],
+            "support": {
+                "issues": "https://github.com/daljo25/blade-pixelicon-icons/issues",
+                "source": "https://github.com/daljo25/blade-pixelicon-icons/tree/main"
+            },
+            "time": "2026-03-30T12:28:25+00:00"
         },
         {
             "name": "davidhsianturi/blade-bootstrap-icons",
@@ -14803,5 +14863,5 @@
         "ext-json": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
