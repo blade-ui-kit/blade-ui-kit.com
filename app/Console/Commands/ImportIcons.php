@@ -66,6 +66,7 @@ final class ImportIcons extends Command
                         'name' => $set['prefix'].'-'.$icon,
                         'outlined' => $this->isOutlined($icon, $iconSet->outline_rule),
                         'keywords' => $this->keywords($icon, $iconSet->ignore_rule),
+                        'overwrite_fill' => $this->hasFillOverwritten($icon, $iconSet->overwrite_fill),
                     ]);
                 }
             }
@@ -80,6 +81,15 @@ final class ImportIcons extends Command
     }
 
     private function isOutlined(string $string, ?string $rule): bool
+    {
+        if ($rule === null) {
+            return false;
+        }
+
+        return Str::of($string)->match($rule)->isNotEmpty();
+    }
+
+    private function hasFillOverwritten(string $string, ?string $rule): bool
     {
         if ($rule === null) {
             return false;
