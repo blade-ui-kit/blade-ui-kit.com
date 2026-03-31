@@ -105,7 +105,7 @@ final class IconSet extends Model
         //     'composer' => 'actb/blade-github-octicons',
         //     'ignore_rule' => '/-\d{2}$/', // 16|24
         //     'outline_rule' => null,
-        'overwrite_fill' => null,
+        //     'overwrite_fill' => null,
         // ],
         [
             'id' => 11,
