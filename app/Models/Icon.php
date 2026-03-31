@@ -22,6 +22,7 @@ final class Icon extends Model
     {
         return [
             'keywords' => 'array',
+            'overwrite_fill' => 'boolean',
         ];
     }
 
