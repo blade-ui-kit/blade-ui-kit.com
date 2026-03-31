@@ -691,14 +691,22 @@ final class IconSet extends Model
             'ignore_rule' => null,
             'outline_rule' => null,
         ],
-	[
-	    'id' => 87,
-	    'name' => 'emojis',
-	    'repository' => 'https://github.com/MaidenVoyageSoftware/blade-emojis',
-	    'composer' => 'maiden-voyage-software/blade-emojis',
-	    'ignore_rule' => null,
-	    'outline_rule' => null,
-	],
+        [
+            'id' => 87,
+            'name' => 'emojis',
+            'repository' => 'https://github.com/MaidenVoyageSoftware/blade-emojis',
+            'composer' => 'maiden-voyage-software/blade-emojis',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
+        [
+            'id' => 88,
+            'name' => 'pixelicon',
+            'repository' => 'https://github.com/daljo25/blade-pixelicon-icons',
+            'composer' => 'daljo25/blade-pixelicon-icons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+        ],
     ];
 
     public function name(): string
