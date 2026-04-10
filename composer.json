@@ -84,7 +84,7 @@
         "khatabwedaa/blade-css-icons": "^1.4",
         "laravel/framework": "^11.5",
         "laravel/scout": "^10.8",
-        "laravel/tinker": "^2.9",
+        "laravel/tinker": "^3.0",
         "league/commonmark": "^2.3",
         "livewire/livewire": "^3.3",
         "log1x/blade-filetype-icons": "^1.0",
