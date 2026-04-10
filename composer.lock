@@ -256,16 +256,16 @@
         },
         {
             "name": "blade-ui-kit/blade-icons",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/driesvints/blade-icons.git",
-                "reference": "caa92fde675d7a651c38bf73ca582ddada56f318"
+                "reference": "377eede719f9690b03bbbfd516afef887e27634a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/driesvints/blade-icons/zipball/caa92fde675d7a651c38bf73ca582ddada56f318",
-                "reference": "caa92fde675d7a651c38bf73ca582ddada56f318",
+                "url": "https://api.github.com/repos/driesvints/blade-icons/zipball/377eede719f9690b03bbbfd516afef887e27634a",
+                "reference": "377eede719f9690b03bbbfd516afef887e27634a",
                 "shasum": ""
             },
             "require": {
@@ -333,7 +333,7 @@
                     "type": "paypal"
                 }
             ],
-            "time": "2026-02-23T10:42:23+00:00"
+            "time": "2026-04-07T17:56:48+00:00"
         },
         {
             "name": "blade-ui-kit/blade-ui-kit",
@@ -6473,16 +6473,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v2.0.10",
+            "version": "v2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "870fc81d2f879903dfc5b60bf8a0f94a1609e669"
+                "reference": "d1af40ac4a6ccc12bd062a7184f63c9995a63bdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/870fc81d2f879903dfc5b60bf8a0f94a1609e669",
-                "reference": "870fc81d2f879903dfc5b60bf8a0f94a1609e669",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/d1af40ac4a6ccc12bd062a7184f63c9995a63bdd",
+                "reference": "d1af40ac4a6ccc12bd062a7184f63c9995a63bdd",
                 "shasum": ""
             },
             "require": {
@@ -6530,7 +6530,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2026-02-20T19:59:49+00:00"
+            "time": "2026-04-07T13:32:18+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -7429,16 +7429,16 @@
         },
         {
             "name": "mallardduck/blade-lucide-icons",
-            "version": "1.26.11",
+            "version": "1.26.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mallardduck/blade-lucide-icons.git",
-                "reference": "b56aac8c1c6d5701eead858b473449550ee94b75"
+                "reference": "bd6f832ce594acbb2328cecebad236839c8cc17d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/b56aac8c1c6d5701eead858b473449550ee94b75",
-                "reference": "b56aac8c1c6d5701eead858b473449550ee94b75",
+                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/bd6f832ce594acbb2328cecebad236839c8cc17d",
+                "reference": "bd6f832ce594acbb2328cecebad236839c8cc17d",
                 "shasum": ""
             },
             "require": {
@@ -7483,9 +7483,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mallardduck/blade-lucide-icons/issues",
-                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.26.11"
+                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.26.12"
             },
-            "time": "2026-03-26T00:26:22+00:00"
+            "time": "2026-04-10T00:26:49+00:00"
         },
         {
             "name": "mansoor/blade-lets-icons",
@@ -7941,16 +7941,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.11.3",
+            "version": "3.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "6a7e652845bb018c668220c2a545aded8594fbbf"
+                "reference": "e890471a3494740f7d9326d72ce6a8c559ffee60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/6a7e652845bb018c668220c2a545aded8594fbbf",
-                "reference": "6a7e652845bb018c668220c2a545aded8594fbbf",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/e890471a3494740f7d9326d72ce6a8c559ffee60",
+                "reference": "e890471a3494740f7d9326d72ce6a8c559ffee60",
                 "shasum": ""
             },
             "require": {
@@ -8042,7 +8042,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-11T17:23:39+00:00"
+            "time": "2026-04-07T09:57:54+00:00"
         },
         {
             "name": "nette/schema",
@@ -8349,21 +8349,21 @@
         },
         {
             "name": "owenvoke/blade-entypo",
-            "version": "v2.3.0",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/owenvoke/blade-entypo.git",
-                "reference": "2d4d46084d60805c2827289a76464606f4449383"
+                "reference": "f77ca101bb93a4f93a7f00db310ecd9f0e830f6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/owenvoke/blade-entypo/zipball/2d4d46084d60805c2827289a76464606f4449383",
-                "reference": "2d4d46084d60805c2827289a76464606f4449383",
+                "url": "https://api.github.com/repos/owenvoke/blade-entypo/zipball/f77ca101bb93a4f93a7f00db310ecd9f0e830f6d",
+                "reference": "f77ca101bb93a4f93a7f00db310ecd9f0e830f6d",
                 "shasum": ""
             },
             "require": {
                 "blade-ui-kit/blade-icons": "^1.5",
-                "illuminate/support": "^10.34|^11.0|^12.0",
+                "illuminate/support": "^10.34|^11.0|^12.0|^13.0",
                 "php": "^8.1"
             },
             "require-dev": {
@@ -8393,7 +8393,7 @@
             "description": "A package to easily make use of Entypo in your Laravel Blade views",
             "support": {
                 "issues": "https://github.com/owenvoke/blade-entypo/issues",
-                "source": "https://github.com/owenvoke/blade-entypo/tree/v2.3.0"
+                "source": "https://github.com/owenvoke/blade-entypo/tree/v2.4.0"
             },
             "funding": [
                 {
@@ -8405,7 +8405,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-22T08:12:14+00:00"
+            "time": "2026-04-04T10:21:00+00:00"
         },
         {
             "name": "owenvoke/blade-fontawesome",
@@ -9383,16 +9383,16 @@
         },
         {
             "name": "robertboes/blade-selfhst-icons",
-            "version": "v0.2.1",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobertBoes/blade-selfhst-icons.git",
-                "reference": "066c7ec23082decede47da0a53ef62d2f10de99e"
+                "reference": "14a9271ff6f05aad95496766208fc6a47fcf1466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobertBoes/blade-selfhst-icons/zipball/066c7ec23082decede47da0a53ef62d2f10de99e",
-                "reference": "066c7ec23082decede47da0a53ef62d2f10de99e",
+                "url": "https://api.github.com/repos/RobertBoes/blade-selfhst-icons/zipball/14a9271ff6f05aad95496766208fc6a47fcf1466",
+                "reference": "14a9271ff6f05aad95496766208fc6a47fcf1466",
                 "shasum": ""
             },
             "require": {
@@ -9436,9 +9436,9 @@
             ],
             "support": {
                 "issues": "https://github.com/RobertBoes/blade-selfhst-icons/issues",
-                "source": "https://github.com/RobertBoes/blade-selfhst-icons/tree/v0.2.1"
+                "source": "https://github.com/RobertBoes/blade-selfhst-icons/tree/v0.2.2"
             },
-            "time": "2026-03-30T07:37:13+00:00"
+            "time": "2026-04-07T08:49:20+00:00"
         },
         {
             "name": "saade/blade-iconsax",
@@ -13164,16 +13164,16 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v8.9.2",
+            "version": "v8.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "6eb16883e74fd725ac64dbe81544c961ab448ba5"
+                "reference": "b0d8ab95b29c3189aeeb902d81215231df4c1b64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/6eb16883e74fd725ac64dbe81544c961ab448ba5",
-                "reference": "6eb16883e74fd725ac64dbe81544c961ab448ba5",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/b0d8ab95b29c3189aeeb902d81215231df4c1b64",
+                "reference": "b0d8ab95b29c3189aeeb902d81215231df4c1b64",
                 "shasum": ""
             },
             "require": {
@@ -13256,7 +13256,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-03-31T21:51:27+00:00"
+            "time": "2026-04-06T19:25:53+00:00"
         },
         {
             "name": "phar-io/manifest",
