@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec81ea86111907557f52947c9e830d3f",
+    "content-hash": "0a1d280080b1c40a6f7e2003c233b3d3",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -12512,6 +12512,66 @@
                 }
             ],
             "time": "2026-03-30T13:44:50+00:00"
+        },
+        {
+            "name": "tempi-marathon/blade-meteocons",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tempi-marathon/blade-meteocons.git",
+                "reference": "8ba06722f3219ad345fe70bde0fc75a38bcb4472"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tempi-marathon/blade-meteocons/zipball/8ba06722f3219ad345fe70bde0fc75a38bcb4472",
+                "reference": "8ba06722f3219ad345fe70bde0fc75a38bcb4472",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^10.5|^11.0|^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TempiMarathon\\BladeMeteocons\\BladeMeteoconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TempiMarathon\\BladeMeteocons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tempi-marathon"
+                }
+            ],
+            "description": "A package to easily make use of Meteocons in your Laravel Blade views.",
+            "homepage": "https://github.com/tempi-marathon/blade-meteocons",
+            "keywords": [
+                "Meteocons",
+                "blade",
+                "icons",
+                "laravel",
+                "weather"
+            ],
+            "support": {
+                "issues": "https://github.com/tempi-marathon/blade-meteocons/issues",
+                "source": "https://github.com/tempi-marathon/blade-meteocons/tree/v1.0.0"
+            },
+            "time": "2026-07-18T12:45:45+00:00"
         },
         {
             "name": "themesberg/flowbite-blade-icons",
