@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec81ea86111907557f52947c9e830d3f",
+    "content-hash": "eb24b5e69956ba3e0b816e59ad6745d4",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -7434,16 +7434,16 @@
         },
         {
             "name": "mallardduck/blade-lucide-icons",
-            "version": "1.26.12",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mallardduck/blade-lucide-icons.git",
-                "reference": "bd6f832ce594acbb2328cecebad236839c8cc17d"
+                "reference": "ee17303b0127acbd09e60ff13524a3f869d3adab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/bd6f832ce594acbb2328cecebad236839c8cc17d",
-                "reference": "bd6f832ce594acbb2328cecebad236839c8cc17d",
+                "url": "https://api.github.com/repos/mallardduck/blade-lucide-icons/zipball/ee17303b0127acbd09e60ff13524a3f869d3adab",
+                "reference": "ee17303b0127acbd09e60ff13524a3f869d3adab",
                 "shasum": ""
             },
             "require": {
@@ -7488,9 +7488,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mallardduck/blade-lucide-icons/issues",
-                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/1.26.12"
+                "source": "https://github.com/mallardduck/blade-lucide-icons/tree/2.0.1"
             },
-            "time": "2026-04-10T00:26:49+00:00"
+            "time": "2026-07-31T23:08:52+00:00"
         },
         {
             "name": "mansoor/blade-lets-icons",
@@ -14934,5 +14934,5 @@
         "ext-json": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
