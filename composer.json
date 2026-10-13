@@ -102,6 +102,7 @@
         "saade/blade-iconsax": "^1.2",
         "secondnetwork/blade-tabler-icons": "^3.28",
         "spatie/laravel-ignition": "^2.4",
+        "tempi-marathon/blade-meteocons": "^1.0",
         "themesberg/flowbite-blade-icons": "^1.0",
         "troccoli/blade-health-icons": "^5.0"
     },

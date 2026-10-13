@@ -802,6 +802,15 @@ final class IconSet extends Model
             'outline_rule' => null,
             'overwrite_fill' => '/-light$/',
         ],
+        [
+            'id' => 90,
+            'name' => 'meteocons',
+            'repository' => 'https://github.com/tempi-marathon/blade-meteocons',
+            'composer' => 'tempi-marathon/blade-meteocons',
+            'ignore_rule' => null,
+            'outline_rule' => null,
+            'overwrite_fill' => null,
+        ],
     ];
 
     public function name(): string
