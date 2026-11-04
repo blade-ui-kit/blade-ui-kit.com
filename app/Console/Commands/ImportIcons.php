@@ -9,6 +9,7 @@ use App\Models\IconSet;
 use BladeUI\Icons\Factory;
 use BladeUI\Icons\IconsManifest;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -48,6 +49,9 @@ final class ImportIcons extends Command
                 $this->parseIcons($iconSet);
             });
         });
+
+        // IDs are replaced by the import. Invalidate only after its transaction succeeds.
+        Cache::forever('icons:cache-version', (string) Str::uuid());
 
         $this->info('Successfully imported '.IconSet::count().' icon sets!');
 

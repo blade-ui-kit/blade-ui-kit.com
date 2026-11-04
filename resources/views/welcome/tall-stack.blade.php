@@ -35,13 +35,13 @@
 
         <div class="mt-6 sm:mt-16 sm:flex sm:justify-center">
             <x-buttons.primary href="https://tallstack.dev">
-                <x-heroicon-s-book-open class="-ml-1 mr-3 h-5 w-5" />
+                <x-icon name="heroicon-s-book-open" class="-ml-1 mr-3 h-5 w-5" />
                 The TALL stack
             </x-buttons.primary>
 
             <div class="mt-3 sm:mt-0 sm:ml-3">
                 <x-buttons.secondary href="https://github.com/blade-ui-kit/awesome-tall-stack">
-                    <x-heroicon-s-star class="-ml-1 mr-3 h-5 w-5" />
+                    <x-icon name="heroicon-s-star" class="-ml-1 mr-3 h-5 w-5" />
                     Awesome TALL Stack
                 </x-buttons.secondary>
             </div>

@@ -25,7 +25,7 @@
                             <div class="shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                     <a href="{{ route('docs', 'countdown') }}">
-                                        <x-heroicon-o-clock class="h-6 w-6" />
+                                        <x-icon name="heroicon-o-clock" class="h-6 w-6" />
                                     </a>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
                             <div class="shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                     <a href="{{ route('docs', 'easy-mde') }}">
-                                        <x-heroicon-o-pencil-square class="h-6 w-6" />
+                                        <x-icon name="heroicon-o-pencil-square" class="h-6 w-6" />
                                     </a>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                             <div class="shrink-0">
                                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
                                     <a href="{{ route('docs', 'mapbox') }}">
-                                        <x-heroicon-o-map-pin class="h-6 w-6" />
+                                        <x-icon name="heroicon-o-map-pin" class="h-6 w-6" />
                                     </a>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                 <div class="mt-6 sm:mt-12 text-center">
                     <x-buttons.secondary :href="route('docs')">
                         And many more
-                        <x-heroicon-s-arrow-right class="ml-2 h-4 w-4" />
+                        <x-icon name="heroicon-s-arrow-right" class="ml-2 h-4 w-4" />
                     </x-buttons.secondary>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                             <div class="flex">
                                 <div class="shrink-0">
                                     <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                        <x-heroicon-o-code-bracket class="h-6 w-6" />
+                                        <x-icon name="heroicon-o-code-bracket" class="h-6 w-6" />
                                     </div>
                                 </div>
                                 <div class="ml-4">
@@ -134,7 +134,7 @@
                             <div class="flex">
                                 <div class="shrink-0">
                                     <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                        <x-heroicon-o-share class="h-6 w-6" />
+                                        <x-icon name="heroicon-o-share" class="h-6 w-6" />
                                     </div>
                                 </div>
                                 <div class="ml-4">

@@ -25,7 +25,7 @@
                     href="https://github.com/driesvints/blade-icons"
                     class="ml-4 font-medium transition duration-150 ease-in-out"
                 >
-                    <x-si-github class="h-6 w-6 inline"/>
+                    <x-icon name="si-github" class="h-6 w-6 inline"/>
                 </x-a>
             </div>
         </nav>
@@ -57,7 +57,7 @@
                             href="https://github.com/driesvints/blade-icons"
                             class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                         >
-                            <x-si-github class="h-6 w-6 inline"/>
+                            <x-icon name="si-github" class="h-6 w-6 inline"/>
                         </x-a>
                     </div>
                 </div>
