@@ -27,6 +27,22 @@ The following tools are required in order to start the installation.
 
 You can now visit the app in your browser by visiting [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
+### Amp orbs
+
+Run `.agents/setup` to install PHP 8.4 and Composer, install dependencies from the lockfiles,
+prepare SQLite, cache and import the icon sets, and build the frontend assets. Node.js and npm
+are provided by the orb. Re-running setup preserves an existing `.env` and app key, applies pending
+migrations to the local `database/database.sqlite`, and refreshes the imported icon catalogue.
+
+For a fresh `.env`, setup selects SQLite, log-only mail, and Scout's collection driver so local
+search works without Meilisearch. Collection search is intended for development, not performance
+or Meilisearch-specific search testing. Follow the Meilisearch instructions below when needed.
+
+Run `php artisan test` to run the tests. Run `amp orb services ensure` to start the supervised
+web server and print its portal URL. Assets are prebuilt; use `npm run build` after frontend edits
+or run `npm run dev` as a supervised orb service for watch mode. No resume hook is needed because
+SQLite and the built assets persist without a database daemon.
+
 ### Meilisearch
 
 To get up and running with Meilisearch for the website locally, first make sure you [download and launch Meilisearch](https://docs.meilisearch.com/learn/getting_started/installation.html#download-and-launch).
