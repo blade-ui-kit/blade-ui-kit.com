@@ -1,0 +1,73 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+SECONDS=0
+
+echo 'Installing PHP 8.4 and required extensions...'
+packages=(ca-certificates curl unzip php8.4-cli php8.4-curl php8.4-mbstring php8.4-xml php8.4-zip php8.4-sqlite3)
+missing=()
+for package in "${packages[@]}"; do
+    if ! dpkg-query -W -f='${Status}' "$package" 2>/dev/null | grep -q 'install ok installed'; then
+        missing+=("$package")
+    fi
+done
+
+if ((${#missing[@]})); then
+    if [[ ! -f /etc/apt/sources.list.d/php.list ]]; then
+        curl -fsSL https://packages.sury.org/php/apt.gpg | sudo tee /usr/share/keyrings/deb.sury.org-php.gpg >/dev/null
+        echo 'deb [signed-by=/usr/share/keyrings/deb.sury.org-php.gpg] https://packages.sury.org/php/ bookworm main' | sudo tee /etc/apt/sources.list.d/php.list >/dev/null
+    fi
+    sudo apt-get update -qq
+    sudo env DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends "${missing[@]}"
+fi
+if ! php -r 'exit(PHP_MAJOR_VERSION === 8 && PHP_MINOR_VERSION === 4 ? 0 : 1);'; then
+    sudo update-alternatives --set php /usr/bin/php8.4
+fi
+
+if ! command -v composer >/dev/null; then
+    installer=$(mktemp)
+    trap 'rm -f "$installer"' EXIT
+    curl -fsSL https://getcomposer.org/installer -o "$installer"
+    expected=$(curl -fsSL https://composer.github.io/installer.sig)
+    actual=$(php -r 'echo hash_file("sha384", $argv[1]);' "$installer")
+    [[ "$actual" == "$expected" ]] || { echo 'Composer installer checksum mismatch' >&2; exit 1; }
+    sudo php "$installer" --2 --install-dir=/usr/local/bin --filename=composer
+    rm -f "$installer"
+    trap - EXIT
+fi
+
+echo "Preparing local configuration (${SECONDS}s)..."
+if [[ ! -f .env ]]; then
+    cp .env.example .env
+    sed -i \
+        -e 's/^DB_CONNECTION=.*/DB_CONNECTION=sqlite/' \
+        -e "s|^DB_DATABASE=.*|DB_DATABASE=${PWD}/database/database.sqlite|" \
+        -e 's/^SCOUT_DRIVER=.*/SCOUT_DRIVER=collection/' \
+        -e 's/^MAIL_MAILER=.*/MAIL_MAILER=log/' .env
+fi
+mkdir -p bootstrap/cache storage/framework/{cache/data,sessions,views} storage/logs
+
+# Never let setup migrate a database supplied through project secrets or an existing .env.
+export DB_CONNECTION=sqlite
+export DB_DATABASE="${PWD}/database/database.sqlite"
+export DB_URL=
+export SCOUT_DRIVER=collection
+
+echo "Installing locked dependencies (${SECONDS}s)..."
+composer install --prefer-dist --no-interaction --no-progress
+npm ci --no-audit --no-fund
+
+echo "Preparing SQLite and icons (${SECONDS}s)..."
+php artisan config:clear
+if ! grep -qE '^APP_KEY=.+$' .env; then
+    php artisan key:generate --no-interaction
+fi
+touch "$DB_DATABASE"
+php artisan migrate --force --no-interaction
+php artisan icons:cache
+php artisan icons:import
+
+echo "Building frontend assets (${SECONDS}s)..."
+npm run build
+echo "Orb setup finished in ${SECONDS}s. Run php artisan test, or amp orb services ensure to serve the site."

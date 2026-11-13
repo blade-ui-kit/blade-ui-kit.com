@@ -6,6 +6,9 @@ on:
       - main
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -24,10 +27,18 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
+        with:
+          persist-credentials: false
+
+      # Ruby and its YAML parser are included in the Ubuntu runner image.
+      - name: Require pinned actions
+        run: |
+          ruby .github/scripts/test-pinned-actions.rb
+          ruby .github/scripts/check-pinned-actions.rb
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@v2
+        uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # 2.40.0
         with:
           php-version: 8.4
           extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite
@@ -64,17 +75,34 @@ jobs:
 
   dependabot:
     needs: [tests]
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'
     permissions:
       pull-requests: write
       contents: write
-    uses: driesvints/github-workflows/.github/workflows/dependabot.yml@main
-    secrets:
-      gh_token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Fetch Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98 # v3.1.0
+        with:
+          github-token: ${{ github.token }}
+
+      - name: Approve and merge the pull request
+        if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
+        run: |
+          gh pr review --approve "$PR_URL"
+          gh pr merge --squash --auto "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ github.token }}
 
   deploy:
     needs: [tests]
     runs-on: ubuntu-latest
+    permissions: {}
     steps:
       - name: Deploy
         if: github.ref == 'refs/heads/main'
-        run: curl ${{ secrets.DEPLOY_HOOK }}&sha=${{ github.sha }}
+        env:
+          DEPLOY_HOOK: ${{ secrets.DEPLOY_HOOK }}
+        run: curl "${DEPLOY_HOOK}&sha=${GITHUB_SHA}"

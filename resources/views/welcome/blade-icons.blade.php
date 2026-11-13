@@ -16,20 +16,20 @@
                     </x-p>
 
                     <x-p>
-                        <x-heroicon-s-heart class="inline-block pb-1 h-6 w-6 text-red-600" /> Makes using SVG icons as simple as...
+                        <x-icon name="heroicon-s-heart" class="inline-block pb-1 h-6 w-6 text-red-600" /> Makes using SVG icons as simple as...
                     </x-p>
 
                     <x-snippet name="blade-icons" />
 
                     <div class="mt-6 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <x-buttons.primary href="https://github.com/driesvints/blade-icons">
-                            <x-heroicon-s-book-open class="-ml-1 mr-3 h-5 w-5" />
+                            <x-icon name="heroicon-s-book-open" class="-ml-1 mr-3 h-5 w-5" />
                             Get started
                         </x-buttons.primary>
 
                         <div class="mt-3 sm:mt-0 sm:ml-3">
                             <x-buttons.secondary :href="route('blade-icons').'#search'">
-                                <x-heroicon-s-magnifying-glass class="-ml-1 mr-3 h-5 w-5" />
+                                <x-icon name="heroicon-s-magnifying-glass" class="-ml-1 mr-3 h-5 w-5" />
                                 Search Icons
                             </x-buttons.secondary>
                         </div>

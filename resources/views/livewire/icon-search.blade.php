@@ -15,7 +15,7 @@
                     @endforeach
                 </select>
                 <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <x-heroicon-s-chevron-down class="fill-current h-4 w-4" />
+                    <x-icon name="heroicon-s-chevron-down" class="fill-current h-4 w-4" />
                 </div>
             </div>
 
@@ -32,15 +32,15 @@
                 >
                 <div class="absolute inset-y-0 right-0 flex items-center justify-center mr-5">
                     <div wire:loading>
-                        <x-icon-refresh class="inline w-6 h-6 text-scarlet-600 fill-current animate-spin"/>
+                        <x-icon name="icon-refresh" class="inline w-6 h-6 text-scarlet-600 fill-current animate-spin"/>
                     </div>
 
                     <div wire:loading.remove>
                         <button wire:click="resetSearch">
                             @if ($search)
-                                <x-icon-close class="inline w-6 h-6 text-gray-500 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
+                                <x-icon name="icon-close" class="inline w-6 h-6 text-gray-500 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
                             @else
-                                <x-icon-refresh class="inline w-6 h-6 text-scarlet-600 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
+                                <x-icon name="icon-refresh" class="inline w-6 h-6 text-scarlet-600 transition duration-300 ease-in-out fill-current hover:text-scarlet-500"/>
                             @endif
                         </button>
                     </div>

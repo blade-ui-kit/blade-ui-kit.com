@@ -1,0 +1,5 @@
+services:
+  web:
+    command: php artisan serve --host=0.0.0.0 --port=$PORT
+    port: 8000
+    portal: true

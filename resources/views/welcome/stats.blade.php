@@ -52,7 +52,7 @@
 
         <div class="mt-12 text-center">
             <x-buttons.primary href="/docs/contribution-guide">
-                <x-heroicon-s-plus-circle class="-ml-0.5 mr-2 h-4 w-4" />
+                <x-icon name="heroicon-s-plus-circle" class="-ml-0.5 mr-2 h-4 w-4" />
                 Contribute your own
             </x-buttons.primary>
         </div>

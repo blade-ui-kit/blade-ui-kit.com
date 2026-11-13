@@ -2,6 +2,12 @@
 
 return [
 
+    // Use <x-icon name="..." /> and svg() instead of registering the entire catalogue.
+    'components' => [
+        'disabled' => true,
+        'default' => 'icon',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Icons Sets

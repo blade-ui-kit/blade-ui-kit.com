@@ -14,13 +14,13 @@
 {{--            <div class="mt-10 sm:flex sm:justify-center lg:justify-start">--}}
             <div class="mt-10 sm:flex sm:justify-center">
                 <x-buttons.primary href="{{ route('docs') }}">
-                    <x-heroicon-s-book-open class="-ml-1 mr-3 h-5 w-5" />
+                    <x-icon name="heroicon-s-book-open" class="-ml-1 mr-3 h-5 w-5" />
                     Get started
                 </x-buttons.primary>
 
                 <div class="mt-3 sm:mt-0 sm:ml-3">
                     <x-buttons.secondary href="https://github.com/blade-ui-kit/blade-ui-kit-example">
-                        <x-heroicon-s-folder class="-ml-1 mr-3 h-5 w-5" />
+                        <x-icon name="heroicon-s-folder" class="-ml-1 mr-3 h-5 w-5" />
                         Example Project
                     </x-buttons.secondary>
                 </div>

@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Facades\Cache;
 use Laravel\Scout\Searchable;
 
 final class Icon extends Model
@@ -33,9 +34,27 @@ final class Icon extends Model
 
     public static function relatedIcons(self $icon): Collection
     {
-        return self::search(implode('-', $icon->keywords))
-            ->get()
-            ->where('id', '!=', $icon->id);
+        $search = implode('-', $icon->keywords);
+        $version = Cache::get('icons:cache-version', '1');
+        $key = 'icons:related:'.hash('sha256', config('scout.driver').':'.$search);
+
+        // Share results between icon variants, but never cache HTML, sessions or arbitrary searches.
+        // Keep keys stable across imports so file caches do not accumulate obsolete generations.
+        $cached = Cache::get($key);
+        if (($cached['version'] ?? null) !== $version) {
+            $cached = [
+                'version' => $version,
+                'ids' => self::search($search)->take(21)->get()->modelKeys(),
+            ];
+            Cache::put($key, $cached, now()->addHour());
+        }
+        $ids = $cached['ids'];
+
+        return self::query()->findMany($ids)
+            ->sortBy(fn (self $related) => array_search($related->id, $ids))
+            ->where('id', '!=', $icon->id)
+            ->take(20)
+            ->values();
     }
 
     public function toSearchableArray()

@@ -3,7 +3,7 @@
         <div class="flex justify-center md:order-2">
             <x-a href="https://github.com/driesvints/blade-icons">
                 <span class="sr-only">GitHub</span>
-                <x-si-github class="h-6 w-6" />
+                <x-icon name="si-github" class="h-6 w-6" />
             </x-a>
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
