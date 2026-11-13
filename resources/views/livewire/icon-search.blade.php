@@ -4,7 +4,7 @@
             <div class="inline-block relative shrink h-full w-full md:w-auto pr-2 border-b md:border-b-0 md:border-r">
                 <select
                     wire:model.live="selectedSet"
-                    class="appearance-none bg-transparent block h-full w-full p-4 mr-4 text-xl focus:outline-none"
+                    class="appearance-none bg-transparent block h-full w-full p-4 mr-4 text-xl focus:outline-hidden"
                 >
                     <option value="">All icons</option>
 

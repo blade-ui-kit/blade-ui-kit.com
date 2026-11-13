@@ -1,4 +1,4 @@
-@screen md {
+@media (width >= theme(--breakpoint-md)) {
     .enlarge {
         transition: all 0.2s ease-in-out;
     }

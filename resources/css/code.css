@@ -14,12 +14,12 @@ pre code.hljs {
     background-color: rgb(31, 41, 55);
 }
 pre .copyBtn {
-    @apply absolute right-0 h-6 w-6 outline-none text-gray-600;
+    @apply absolute right-0 h-6 w-6 outline-hidden text-gray-600;
 }
 pre .copyBtn:hover,
 pre .copyBtn:focus,
 pre .copyBtn:active {
-    @apply text-white outline-none;
+    @apply text-white outline-hidden;
 }
 pre .copyBtn svg {
     @apply absolute top-0 right-0 mr-4 mt-1;

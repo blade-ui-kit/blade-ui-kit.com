@@ -4,8 +4,8 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 SECONDS=0
 
-echo 'Installing PHP 8.4 and required extensions...'
-packages=(ca-certificates curl unzip php8.4-cli php8.4-curl php8.4-mbstring php8.4-xml php8.4-zip php8.4-sqlite3)
+echo 'Installing PHP 8.5 and required extensions...'
+packages=(ca-certificates curl unzip php8.5-cli php8.5-curl php8.5-mbstring php8.5-xml php8.5-zip php8.5-sqlite3)
 missing=()
 for package in "${packages[@]}"; do
     if ! dpkg-query -W -f='${Status}' "$package" 2>/dev/null | grep -q 'install ok installed'; then
@@ -13,16 +13,19 @@ for package in "${packages[@]}"; do
     fi
 done
 
+# Refresh the source even on warm orbs that already have every PHP package.
+. /etc/os-release
+if [[ ! -f /usr/share/keyrings/deb.sury.org-php.gpg ]]; then
+    curl -fsSL https://packages.sury.org/php/apt.gpg | sudo tee /usr/share/keyrings/deb.sury.org-php.gpg >/dev/null
+fi
+printf 'deb [signed-by=/usr/share/keyrings/deb.sury.org-php.gpg] https://packages.sury.org/php/ %s main\n' "$VERSION_CODENAME" | sudo tee /etc/apt/sources.list.d/php.list >/dev/null
+
 if ((${#missing[@]})); then
-    if [[ ! -f /etc/apt/sources.list.d/php.list ]]; then
-        curl -fsSL https://packages.sury.org/php/apt.gpg | sudo tee /usr/share/keyrings/deb.sury.org-php.gpg >/dev/null
-        echo 'deb [signed-by=/usr/share/keyrings/deb.sury.org-php.gpg] https://packages.sury.org/php/ bookworm main' | sudo tee /etc/apt/sources.list.d/php.list >/dev/null
-    fi
     sudo apt-get update -qq
     sudo env DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends "${missing[@]}"
 fi
-if ! php -r 'exit(PHP_MAJOR_VERSION === 8 && PHP_MINOR_VERSION === 4 ? 0 : 1);'; then
-    sudo update-alternatives --set php /usr/bin/php8.4
+if ! php -r 'exit(PHP_MAJOR_VERSION === 8 && PHP_MINOR_VERSION === 5 ? 0 : 1);'; then
+    sudo update-alternatives --set php /usr/bin/php8.5
 fi
 
 if ! command -v composer >/dev/null; then

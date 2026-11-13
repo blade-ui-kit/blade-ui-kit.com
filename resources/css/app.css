@@ -1,14 +1,36 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Mulish:wght@400;500;600;700;800;900&display=swap');
 
+@import 'tailwindcss';
 @import 'highlight.js/styles/base16/tomorrow-night.css';
 
 @import 'animations.css';
 @import 'code.css';
 @import 'toc.css';
+
+@config '../../tailwind.config.js';
+
+/* Preserve the v3 hover and Preflight defaults. */
+@custom-variant hover (&:hover);
+
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: theme('colors.gray.200');
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: theme('colors.gray.400');
+    }
+
+    button:not(:disabled),
+    [role='button']:not(:disabled) {
+        cursor: pointer;
+    }
+}
 
 pre code.hljs {
     @apply p-5;

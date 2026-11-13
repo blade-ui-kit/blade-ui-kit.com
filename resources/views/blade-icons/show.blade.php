@@ -18,28 +18,28 @@
             <div class="mt-10 sm:mt-0 sm:col-span-2 mr-2 lg:ml-2 lg:mt-0">
                 <div class="w-full">
                     <x-h5>Install through composer</x-h5>
-                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded text-gray-50 text-sm sm:text-md sm:leading-8">```
+                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded-sm text-gray-50 text-sm sm:text-md sm:leading-8">```
 composer require {{ $icon->set->composer }}
 ```</x-markdown>
                 </div>
 
                 <div class="w-full mt-6">
                     <x-h5>Use it as a component</x-h5>
-                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded text-gray-50 text-sm sm:text-md sm:leading-8">```
+                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded-sm text-gray-50 text-sm sm:text-md sm:leading-8">```
 <x-{{ $icon->name }} />
 ```</x-markdown>
                 </div>
 
                 <div class="w-full mt-6">
                     <x-h5>Use it as a directive</x-h5>
-                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded text-gray-50 text-sm sm:text-md sm:leading-8">```
+                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded-sm text-gray-50 text-sm sm:text-md sm:leading-8">```
 @@svg('<?php echo $icon->name ?>')
 ```</x-markdown>
                 </div>
 
                 <div class="w-full mt-6">
                     <x-h5>Use it with a helper</x-h5>
-                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded text-gray-50 text-sm sm:text-md sm:leading-8">```
+                    <x-markdown class="mt-2 font-medium bg-gray-700 rounded-sm text-gray-50 text-sm sm:text-md sm:leading-8">```
 {{ svg('<?php echo $icon->name ?>') }}
 ```</x-markdown>
                 </div>

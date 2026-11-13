@@ -65,6 +65,8 @@ final class ImportIcons extends Command
 
             foreach ($this->icons[$iconSet->name] ?? [] as $icons) {
                 foreach ($icons as $icon) {
+                    $icon = (string) $icon;
+
                     Icon::create([
                         'icon_set_id' => $iconSet->id,
                         'name' => $set['prefix'].'-'.$icon,

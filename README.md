@@ -10,9 +10,9 @@ The source code for [blade-ui-kit.com](https://blade-ui-kit.com)
 
 The following tools are required in order to start the installation.
 
-- PHP 8.4
+- PHP 8.5 or later in the PHP 8.x series
 - [Composer](https://getcomposer.org/download/)
-- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Node.js and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (Node 20.19+ or 22.12+; CI uses Node 26)
 
 ## Installation
 
@@ -29,7 +29,7 @@ You can now visit the app in your browser by visiting [http://127.0.0.1:8000](ht
 
 ### Amp orbs
 
-Run `.agents/setup` to install PHP 8.4 and Composer, install dependencies from the lockfiles,
+Run `.agents/setup` to install PHP 8.5 and Composer, install dependencies from the lockfiles,
 prepare SQLite, cache and import the icon sets, and build the frontend assets. Node.js and npm
 are provided by the orb. Re-running setup preserves an existing `.env` and app key, applies pending
 migrations to the local `database/database.sqlite`, and refreshes the imported icon catalogue.

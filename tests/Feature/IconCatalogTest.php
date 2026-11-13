@@ -78,11 +78,12 @@ class IconCatalogTest extends TestCase
 
         try {
             foreach ([['o-heart', 's-heart'], ['o-heart', 's-heart', 'm-heart']] as $icons) {
-                File::put($manifest, '<?php return '.var_export(['heroicons' => ['path' => $icons]], true).';');
+                File::put($manifest, '<?php return '.var_export(['heroicons' => ['path' => [...$icons, 123]]], true).';');
                 $this->app->instance(IconsManifest::class, new IconsManifest(new Filesystem, $manifest));
 
                 $this->artisan('icons:import')->assertSuccessful();
 
+                $this->assertDatabaseHas('icons', ['name' => 'heroicon-123', 'keywords' => '["123"]', 'outlined' => false]);
                 $source = Icon::where('name', 'heroicon-o-heart')->firstOrFail();
                 $expected = array_map(fn ($name) => 'heroicon-'.$name, array_slice($icons, 1));
                 sort($expected);
